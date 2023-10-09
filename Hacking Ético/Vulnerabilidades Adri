@@ -42,10 +42,12 @@ Descripción:
 La versión del software de Amazon Alexa 8960323972 en los dispositivos Echo Dot de segunda y tercera generación permite potencialmente
 a los atacantes emitir comandos relevantes para la seguridad a través de una señal de audio entre 16 y 22 kHz (a menudo fuera del rango
 de audición de los adultos). Los comandos a estas frecuencias básicamente nunca son pronunciados por actores autorizados, pero una fracción
-sustancial de los comandos tienen éxito.
+sustancial de los comandos tienen éxito. Este tipo de ataques estan nombrados como NUIT (Near-Ultrasound Inaudible Trojan) es un novedoso ataque
+inaudible contra asistentes de voz que puede realizarsede forma remota.
+
 
 Impacto:
-Desde un rango bastante corto, puedes influir en el sistema asistente de la victima de manera totalmente inaudible.
+Puedes influir en el sistema asistente de la victima de manera totalmente inaudible.
 
 Base Score: 7.6 HIGH
 Vector 3.x: CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:H
@@ -59,4 +61,5 @@ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-33248
 https://nvd.nist.gov/vuln/detail/CVE-2023-33248
 https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2023-33248
 https://vuldb.com/?id.229890
+https://www.youtube.com/watch?v=mgoa9BoWNcQ&ab_channel=Annonymous
 
