@@ -3,9 +3,18 @@ Parte Rafa
 * CVE-2013-2267 -> Vulnerabilidad de Injeccion de Codigo PHP en FUDforum BUlletin Board 
 Software 3.0.4, que permitia ataques remotos para ejecutar codigos arbitrarios en el sistema.
 
+- ¿Que es FUDforum? -> Es un software de foro de Internet gratuito y de codigo abierto, el cual,
+es ahora mantenido por la comunidad de usuarios.
+- Consecuencias -> Se podia ganar privilegios de usuario, al punto de que se podia banear,
+modificar usuarios...
+- Remedio -> Se aplico un parche para esta vulnerabilidad, que se encontro disponible en la
+pagina web de FUDforum SVN Repository.
+
 * CVE-2009-1610 -> En el programa Job Script Job Board Software 2.0 con admin/changepassword.php
 permitia ataques remotos para cambiar la contraseña del administrador y ganar privilegios de
 administrador por un request directo.
 
 Referencia -> https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1610
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2267
+https://en.wikipedia.org/wiki/FUDforum
+https://exchange.xforce.ibmcloud.com/vulnerabilities/83229
