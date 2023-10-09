@@ -1,0 +1,62 @@
+CVE-2004-0909
+
+Descripción:
+El navegador web Mozilla y los productos Mozilla relacionados soportan la capacidad de ejecutar scripts firmados suministrados 
+en correo electrónico HTML o páginas web. Un script firmado puede solicitar privilegios ampliados que le den acceso a información
+y capacidades restringidas mediante el método "enablePrivilege". Una deficiencia en la forma en que estos productos crean los 
+cuadros de diálogo a través de enablePrivilege permite al atacante mandar un script malicioso firmado, solicitando habilidades 
+mejoradas podría construir la solicitud de una manera que posiblemente engañe al usuario haciéndole creer que el privilegio 
+solicitado es intrascendente, mientras que en realidad está otorgando permiso explícito para ejecutar e instalar software. 
+El usuario aún tendría que hacer clic explícitamente en "Aceptar" en el cuadro de diálogo de concesión para que la explotación 
+de este problema tuviera éxito.
+
+Impacto:
+Convenciendo a una víctima para que acepte un script firmado, el atacante puede ser capaz de instalar y ejecutar software con 
+los privilegios del usuario que ejecuta un programa afectado. 
+
+Base Score: 5.1 MEDIUM
+Vector:  (AV:N/AC:H/Au:N/C:P/I:P/A:P)
+
+Soluciones:
+Actualice a una versión corregida del software afectado
+El Proyecto Mozilla ha publicado nuevas versiones del software afectado que incluyen parches para esta vulnerabilidad.
+
+Soluciones alternativas:
+Se recomienda a los usuarios que no puedan actualizar a una versión parcheada del software que apliquen las siguientes soluciones:
+•	Desactive Javascript
+•	No conceder nunca capacidades mejoradas de ningún tipo a páginas web que no sean de confianza (esta solución procede del aviso del 
+  proyecto Mozilla sobre este problema).
+
+
+
+Referencias:
+
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-0909
+https://nvd.nist.gov/vuln/detail/CVE-2004-0909
+https://www.kb.cert.org/vuls/id/113192
+https://exchange.xforce.ibmcloud.com/vulnerabilities/17377
+
+CVE-2023-33248
+
+Descripción:
+La versión del software de Amazon Alexa 8960323972 en los dispositivos Echo Dot de segunda y tercera generación permite potencialmente
+a los atacantes emitir comandos relevantes para la seguridad a través de una señal de audio entre 16 y 22 kHz (a menudo fuera del rango
+de audición de los adultos). Los comandos a estas frecuencias básicamente nunca son pronunciados por actores autorizados, pero una fracción
+sustancial de los comandos tienen éxito.
+
+Impacto:
+Desde un rango bastante corto, puedes influir en el sistema asistente de la victima de manera totalmente inaudible.
+
+Base Score: 7.6 HIGH
+Vector 3.x: CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:H
+
+Solución:
+No hay información sobre posibles contramedidas conocidas. Se puede sugerir reemplazar el objeto afectado por un producto alternativo.
+
+Referencias:
+
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-33248
+https://nvd.nist.gov/vuln/detail/CVE-2023-33248
+https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2023-33248
+https://vuldb.com/?id.229890
+
