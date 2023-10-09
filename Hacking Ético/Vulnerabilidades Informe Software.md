@@ -68,15 +68,19 @@ Un atacante podría aprovechar esta vulnerabilidad para eludir mitigaciones como
 este problema requiere la interacción del usuario, ya que la víctima debe abrir un archivo PDF malicioso
 
 ### Referencias
-[MISC](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
-[URL](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
+[https://helpx.adobe.com/security/products/acrobat/apsb21-104.html](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
+[https://helpx.adobe.com/security/products/acrobat/apsb21-104.html](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
 
 ### Impacto
-
+- Vector: [ CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-40729&vector=AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)
+- Sistemas Afectados:  Acrobat DC 21.007.20096, Acrobat Reader DC 21.007.20096, Acrobat Classic 2020 20.004.30015, Acrobat Reader Classic 2020   20.004.30015, Acrobat Classic 2017 17.011.30202 y Acrobat Reader Classic 17.011.30202.
+  
 ### Explotación
-
+- Clase: Lectura fuera de limites
+El producto lee datos más allá del final, o antes del principio, del búfer previsto. Por lo general, esto puede permitir a los atacantes leer información confidencial de otras ubicaciones de memoria o provocar un bloqueo.
+- CWE: [CWE-125](https://cwe.mitre.org/data/definitions/125.html)
 ### Solución
-
+Adobe recomienda a los usuarios que actualicen sus instalaciones de software a las últimas versiones.
 
 ## CVE-2023-5357
 ### Descripción
@@ -93,7 +97,13 @@ cada vez que un usuario acceda a una página inyectada.
 [https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve](https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve)
 
 ### Impacto
-
+- Vector:   [CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-5357&vector=AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)
+- Sistemas Afectados: Wordpress 6.1, Instagram pluying para Wordpress 2.1.6
+  
 ### Explotación
-
+- Clase: Cross site scripting (XSS)
+  Consiste en enviar la URL con el payload precargado al usuario víctima con un objetivo determinado: robar datos personales del usuario, cookies de sesión, implementar técnicas de ingeniería social, entre otras.
+- CWE: [CWE-79/CWE-74/CWE-707](https://cwe.mitre.org/data/definitions/79.html)
+  
 ### Solución
+Se recomienda eliminar este plugin y instalar otro que cumpla su misma función ya que no existe parche posible para esta vulnerabilidad por ahora.
