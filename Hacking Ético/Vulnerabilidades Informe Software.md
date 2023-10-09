@@ -74,10 +74,10 @@ permisos de nivel de colaborador y superiores, inyecten scripts web arbitrarios 
 cada vez que un usuario acceda a una página inyectada.
 
 ## Referencias
-[MISC](https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12)
-[URL](https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12)
-[MISC](https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve)
-[URL](https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve)
+[https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12](https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12)
+[https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12](https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12)
+[https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve](https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve)
+[https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve](https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve)
 
 ### Impacto
 
