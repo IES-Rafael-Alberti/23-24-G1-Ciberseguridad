@@ -1,0 +1,8 @@
+Parte Rafa
+
+* CVE-2013-2267 -> Vulnerabilidad de Injeccion de Codigo PHP en FUDforum BUlletin Board 
+Software 3.0.4, que permitia ataques remotos para ejecutar codigos arbitrarios en el sistema.
+
+* CVE-2009-1610 -> En el programa Job Script Job Board Software 2.0 con admin/changepassword.php
+permitia ataques remotos para cambiar la contraseña del administrador y ganar privilegios de
+administrador por un request directo.
