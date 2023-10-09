@@ -5,6 +5,7 @@ Software 3.0.4, que permitia ataques remotos para ejecutar codigos arbitrarios e
 
 - ¿Que es FUDforum? -> Es un software de foro de Internet gratuito y de codigo abierto, el cual,
 es ahora mantenido por la comunidad de usuarios.
+
 - Consecuencias -> Se podia ganar privilegios de usuario, al punto de que se podia banear,
 modificar usuarios...
 - Remedio -> Se aplico un parche para esta vulnerabilidad, que se encontro disponible en la
