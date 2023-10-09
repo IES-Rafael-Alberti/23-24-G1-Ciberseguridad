@@ -69,6 +69,7 @@ este problema requiere la interacción del usuario, ya que la víctima debe abri
 
 ### Referencias
 [https://helpx.adobe.com/security/products/acrobat/apsb21-104.html](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
+
 [https://helpx.adobe.com/security/products/acrobat/apsb21-104.html](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
 
 ### Impacto
@@ -92,8 +93,11 @@ cada vez que un usuario acceda a una página inyectada.
 
 ## Referencias
 [https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12](https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12)
+
 [https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12](https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12)
+
 [https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve](https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve)
+
 [https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve](https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve)
 
 ### Impacto
