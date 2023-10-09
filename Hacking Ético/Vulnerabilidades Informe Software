@@ -46,3 +46,41 @@ MISC:https://github.com/nexB/scancode.io/blob/dd7769fbc97c84545579cebf1dc4838214
 URL:https://github.com/nexB/scancode.io/blob/dd7769fbc97c84545579cebf1dc4838214098a11/CHANGELOG.rst#v3252-2023-08-14
 MISC:https://github.com/nexB/scancode.io/security/advisories/GHSA-6xcx-gx7r-rccj
 URL:https://github.com/nexB/scancode.io/security/advisories/GHSA-6xcx-gx7r-rccj
+
+## CVE-2021-40729
+### Descripción
+Adobe Acrobat Reader DC versión 21.007.20095, 21.007.20096, 20.004.30015, y 17.011.30202 están afectados por 
+una vulnerabilidad de lectura fuera de límites que podría conducir a la divulgación de memoria sensible. 
+Un atacante podría aprovechar esta vulnerabilidad para eludir mitigaciones como ASLR. La explotación de 
+este problema requiere la interacción del usuario, ya que la víctima debe abrir un archivo PDF malicioso
+
+### Referencias
+[MISC](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
+[URL](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
+
+### Impacto
+
+### Explotación
+
+### Solución
+
+
+## CVE-2023-5357
+### Descripción
+El plugin Instagram for WordPress para WordPress es vulnerable a Stored Cross-Site Scripting a través de 
+shortcodes en versiones hasta, e incluyendo, 2.1.6 debido a insuficiente sanitización de entrada y escape
+de salida en atributos suministrados por el usuario. Esto hace posible que atacantes autenticados con
+permisos de nivel de colaborador y superiores, inyecten scripts web arbitrarios en páginas que se ejecutarán
+cada vez que un usuario acceda a una página inyectada.
+
+## Referencias
+[MISC](https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12)
+[URL](https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12)
+[MISC](https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve)
+[URL](https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve)
+
+### Impacto
+
+### Explotación
+
+### Solución
