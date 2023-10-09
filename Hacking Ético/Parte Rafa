@@ -14,7 +14,20 @@ pagina web de FUDforum SVN Repository.
 permitia ataques remotos para cambiar la contraseña del administrador y ganar privilegios de
 administrador por un request directo.
 
+- Explicacion -> JobScript permitia al atacante remoto,  evitar las retricciones de seguridad
+causadas por permisos inseguros del script changepassword.php. AL enviar una solicitud directa,
+un atacante podria aprovechar esta vulnerabilidad para cambiar contraseñas de usuario arbitrarias y
+posiblemnete lanzar mas ataques contra el sistema.
+
+- Consecuencias -> Evita la seguridad.
+
+-Remedio -> Por ahora, no hay solución en este error. Lo unico que recomiendan es tener flexera que
+trabaja en la gestion de actios de software y la gestion de la nube-
+
 Referencia -> https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1610
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2267
 https://en.wikipedia.org/wiki/FUDforum
 https://exchange.xforce.ibmcloud.com/vulnerabilities/83229
+https://www.flexera.com/
+https://exchange.xforce.ibmcloud.com/vulnerabilities/50380
+
