@@ -17,14 +17,22 @@ La versió 178 contiene un arreglo para este problema.
 
 ### References
 ORIGIN: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-41036
+
 MISC:https://github.com/macvim-dev/macvim/blob/d9de087dddadbfd82fcb5dc9734380a2f829bd0a/src/MacVim/MMAppController.h#L28
+
 URL:https://github.com/macvim-dev/macvim/blob/d9de087dddadbfd82fcb5dc9734380a2f829bd0a/src/MacVim/MMAppController.h#L28
+
 MISC:https://github.com/macvim-dev/macvim/commit/399b43e9e1dbf656a1780e87344f4d3c875e4cda
+
 URL:https://github.com/macvim-dev/macvim/commit/399b43e9e1dbf656a1780e87344f4d3c875e4cda
+
 MISC:https://github.com/macvim-dev/macvim/security/advisories/GHSA-9jgj-jfwg-99fv
+
 URL:https://github.com/macvim-dev/macvim/security/advisories/GHSA-9jgj-jfwg-99fv
-MISC:ttps://github.com/macvim-dev/macvim/blob/d9de087dddadbfd82fcb5dc9734380a2f829bd0a/src/MacVim/MMBackend.h
-URL:ttps://github.com/macvim-dev/macvim/blob/d9de087dddadbfd82fcb5dc9734380a2f829bd0a/src/MacVim/MMBackend.h
+
+MISC: https://github.com/macvim-dev/macvim/blob/d9de087dddadbfd82fcb5dc9734380a2f829bd0a/src/MacVim/MMBackend.h
+
+URL: https://github.com/macvim-dev/macvim/blob/d9de087dddadbfd82fcb5dc9734380a2f829bd0a/src/MacVim/MMBackend.h
 
 ## CVE-2023-40024
 
