@@ -266,3 +266,32 @@ Flux es una solución de entrega continua abierta y extensible para Kubernetes. 
 
 - Actualizar flux2 a una versión posterior a la versión afectada ya que la nueva versión parcheada tiene un nuevo fichero yaml.
 - Actualizar Kustomize-coontroller a una versión posterior a la afectada ya que la nueva versión parcheada tiene un nuevo fichero yaml.
+
+## CVE-2020-10987
+
+### Descripción
+
+El punto final goform/setUsbUnload de Tenda AC15 AC1900 versión 15.03.05.19 permite a atacantes remotos ejecutar comandos del sistema de su elección a través del parámetro POST deviceName.
+
+### Referencias
+
+[https://nvd.nist.gov/vuln/detail/CVE-2020-10987](https://nvd.nist.gov/vuln/detail/CVE-2020-10987)
+[https://blog.securityevaluators.com/tenda-ac1900-vulnerabilities-discovered-and-exploited-e8e26aa0bc68](https://blog.securityevaluators.com/tenda-ac1900-vulnerabilities-discovered-and-exploited-e8e26aa0bc68)
+[https://www.fortiguard.com/encyclopedia/ips/49352](https://www.fortiguard.com/encyclopedia/ips/49352)
+
+### Impacto
+
+- Base Score: [9.8 CRITICAL](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2020-10987&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Vector: [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2020-10987&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Sistemas Afectados: Tenda AC15 AC1900
+
+### Explotación
+
+Mientras exploramos el archivo httpd binario, descubrimos que durante la ejecución de la solicitud, el parámetro deviceNamey y lanIp se pasan directamente a la función doSystemCmd, provocando la ejecución de un comando arbitrario.
+
+El valor del parámetro deviceName se puede configurar mediante una solicitud autenticada a la interfaz web.
+
+El valor de lan.ip también se puede configurar mediante una petición a la interfaz web, o configurarlo mediante cfm en el root shell obtenido al iniciar el telnet daemon como se mencionó anteriormente.
+
+Esto se puede utilizar para ataques persistentes, ya que el valor de lan.ip no cambia a menos que el router se restablezca de fábrica, incluso después de reiniciar. Cambiar el valor de lan.ip desactiva temporalmente el WiFi y requiere un reinicio para que funcione normalmente.
+
