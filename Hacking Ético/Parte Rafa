@@ -20,7 +20,7 @@ caracteristica.
 Ejecutar o compilar el software utilizando funciones o extensiones que organizan aleatoriamente las posiciones del
 ejecutable y las bibliotecas de un programa en la memoria.
 
-* CWE-79 -> El producto no neutraliza o neutraliza incorrectamente la entrada controlable por el usuario antes de
+* CWE-79 (6.1) -> El producto no neutraliza o neutraliza incorrectamente la entrada controlable por el usuario antes de
 colocarla en la salida que se utiliza como una pagina web que se sirve a otros usuarios.
 - Descripcion -> Los datos que no son de confianza ingresan a una aplicación web.
 La aplicacion web genera dinamicamente una pagina web que contiene estos datos que no son de confianza.
