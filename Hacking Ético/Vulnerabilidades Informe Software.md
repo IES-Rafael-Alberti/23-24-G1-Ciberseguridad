@@ -169,3 +169,38 @@ extensiones de compilador como Visual Studio /GS.
 - Utilizar una CPU y un SO que ofrezca proteccion de ejecución de datos o técnicas equivalentes que simulen esta
 caracteristica.
 - Ejecutar o compilar el software utilizando funciones o extensiones que organizan aleatoriamente las posiciones del ejecutable y las bibliotecas de un programa en la memoria.
+
+## CVE-2023-38435
+### Descripción
+
+El producto no neutraliza o neutraliza incorrectamente la entrada controlable por el usuario antes de colocarla en la salida que se utiliza como una pagina web que se sirve a otros usuarios. Los datos que no son de confianza ingresan a una aplicación web. La aplicacion web genera dinamicamente una pagina web que contiene estos datos que no son de confianza. Durante la generacion de la pagina, la aplicacion no impide que los datos contengan contenido ejecutable mediante un navegador web. Una victima visita la pagina web generada a través de un navegador web, que contiene un script malicioso que se inyectó utilizando datos que no son de confianza. Dado que el script proviene de una página web enviada por el servidor web, el navegador web, el navegador web de la
+victima ejecuta el script malicioso en el contexto del dominio del servidor Esto viola efectivamente la intención de la politica del mismo origen del navegador web, que establece que los scripts en un dominio no deberian poder acceder a recursos ni ejecutar codigo en un dominio diferente.
+
+## Referencias
+https://cwe.mitre.org/data/definitions/79.html
+
+### Impacto
+- Base Score: [6.1 MEDIUM](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-38435&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)
+  
+- Vector: [CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-38435&vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)
+
+- Sistemas afectados: Basado en Web.
+
+### Explotación
+
+Confidencialidad del control de acceso, Integridad, Confidencialidad, Disponibilidad, Control de Acceso...
+
+
+### Solución
+
+- Utilizar una biblioteca o un marco examinado que no permita que se produzca esta debilidad o que proporcione estructuras que hagan que esta debilidad sea más fácil de evitar.
+- Comprender el contexto en el que se utilizarán sus datos y la codificación que se esperará.
+- Comprender todas las áreas potenciales donde las entradas que no son de confianza pueden ingresar a su software: parámetros o argumentos, cookies, cualquier cosa leída de la red, variables de entornos...
+- Para cualquier control de seguridad que se realice en el lado del cliente, asegúrense de que estos controles estén dupicados en el lado del servidor.
+- Si esta disponible, utilice mecanismos estructurados que apliquen automáticamente la separación entre datos y código.
+- Utilice y especifique una codificación de salida que pueda ser manejada por el componente descendente que esta leyendo la salida.
+- Configurar la cookie de sesión en HttpOnly.
+- Utilizar una estrategia de validación  de entradas  de aceptar bienes conocidos, es decir, utilizar una lista de entradas aceptables que se ajusten estrictamente a las especificaciones.
+- Crear una asignación a partir de un conjunto de valores de entradas fijos a los nombres de archivos o URL reales y rechace todas las demás entradas.
+- Utilizar un firewall de aplicaciones que puede detectar ataques contra esta debilidad.
+- Cuando utilice PHP, configurar la aplicación para que no utilice Register globals.
