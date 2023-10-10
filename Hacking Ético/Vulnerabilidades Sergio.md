@@ -12,3 +12,6 @@ El repositorio orchest/orchest anterior a 2022.05.0 en GitHub permite un recorri
 
 ### Impacto
 
+- Base Score:
+- Vector:
+- Sistemas Afectados:
