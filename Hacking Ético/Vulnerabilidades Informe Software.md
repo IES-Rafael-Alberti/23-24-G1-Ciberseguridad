@@ -222,7 +222,7 @@ El repositorio orchest/orchest anterior a 2022.05.0 en GitHub permite un recorri
 ### Impacto
 
 - Base Score: [9.3 Critico](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-31503&vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:L&version=3.1&source=NIST)
-- Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:L
+- Vector: [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:L](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-31503&vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:L&version=3.1&source=NIST)
 - Sistemas Afectados: Orchest/orchest anterior a la versión 2022.05.0 
 
 ### Explotación
@@ -251,7 +251,7 @@ Flux es una solución de entrega continua abierta y extensible para Kubernetes. 
 ### Impacto
 
 - Base Score: [8.8 Alto](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-24877&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
-- Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+- Vector: [CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-24877&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
 - Sistemas Afectados: Flux2 versión anterior a 0.29.0 y Kustomize-controller versión anterior a 0.24.0
 
 ### Explotación
