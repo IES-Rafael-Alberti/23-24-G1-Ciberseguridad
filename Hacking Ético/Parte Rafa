@@ -20,8 +20,23 @@ caracteristica.
 Ejecutar o compilar el software utilizando funciones o extensiones que organizan aleatoriamente las posiciones del
 ejecutable y las bibliotecas de un programa en la memoria.
 
-* CWE-79 -> El producto no neutraliza o neutraliza incorre
+* CWE-79 -> El producto no neutraliza o neutraliza incorrectamente la entrada controlable por el usuario antes de
+colocarla en la salida que se utiliza como una pagina web que se sirve a otros usuarios.
+- Descripcion -> Los datos que no son de confianza ingresan a una aplicación web.
+La aplicacion web genera dinamicamente una pagina web que contiene estos datos que no son de confianza.
+Durante la generacion de la pagina, la aplicacion no impide que los datos contengan contenido ejecutable mediante
+un navegador web.
+Una victima visita la pagina web generada a través de un navegador web, que contiene un script malicioso que se
+inyectó utilizando datos que no son de confianza.
+Dado que el script proviene de una página web enviada por el servidor web, el navegador web, el navegador web de la
+victima ejecuta el script malicioso en el contexto del dominio del servidor
+Esto viola efectivamente la intención de la politica del mismo origen del navegador web, que establece que los scripts
+en un dominio no deberian poder acceder a recursos ni ejecutar codigo en un dominio diferente.
+
+-Consecuencias -> Confidencialidad del control de acceso, INtegridad, Confidencialidad, Disponibilidad, Control de Acceso...
+
 
 Referencia -> https://cwe.mitre.org/data/definitions/787.html
+https://cwe.mitre.org/data/definitions/79.html
 
 
