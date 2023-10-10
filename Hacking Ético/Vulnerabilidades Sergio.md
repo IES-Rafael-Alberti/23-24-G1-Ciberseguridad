@@ -19,5 +19,7 @@ El repositorio orchest/orchest anterior a 2022.05.0 en GitHub permite un recorri
 ### Explotación
 
 - Clase: Recorrido de ruta absoluta
+  
   Gracias a la función Flask send_file un archivo cargado en orchest nos puede dar acceso a la ruta raiz.
+  
 - CWE: [CWE22](https://cwe.mitre.org/data/definitions/22.html)
