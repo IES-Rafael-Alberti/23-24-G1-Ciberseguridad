@@ -1,65 +1,63 @@
-CVE-2004-0909
+## CVE-2020-10987
 
-Descripción:
-El navegador web Mozilla y los productos Mozilla relacionados soportan la capacidad de ejecutar scripts firmados suministrados 
-en correo electrónico HTML o páginas web. Un script firmado puede solicitar privilegios ampliados que le den acceso a información
-y capacidades restringidas mediante el método "enablePrivilege". Una deficiencia en la forma en que estos productos crean los 
-cuadros de diálogo a través de enablePrivilege permite al atacante mandar un script malicioso firmado, solicitando habilidades 
-mejoradas podría construir la solicitud de una manera que posiblemente engañe al usuario haciéndole creer que el privilegio 
-solicitado es intrascendente, mientras que en realidad está otorgando permiso explícito para ejecutar e instalar software. 
-El usuario aún tendría que hacer clic explícitamente en "Aceptar" en el cuadro de diálogo de concesión para que la explotación 
-de este problema tuviera éxito.
+### Descripción
 
-Impacto:
-Convenciendo a una víctima para que acepte un script firmado, el atacante puede ser capaz de instalar y ejecutar software con 
-los privilegios del usuario que ejecuta un programa afectado. 
+El goform/setUsbUnload endpoint de Tenda AC15 AC1900 versión 15.03.05.19 permite a atacantes remotos ejecutar comandos del sistema de su elección a través del parámetro POST deviceName.
 
-Base Score: 5.1 MEDIUM
-Vector:  (AV:N/AC:H/Au:N/C:P/I:P/A:P)
+### Referencias
 
-Soluciones:
-Actualice a una versión corregida del software afectado
-El Proyecto Mozilla ha publicado nuevas versiones del software afectado que incluyen parches para esta vulnerabilidad.
+[https://nvd.nist.gov/vuln/detail/CVE-2020-10987](https://nvd.nist.gov/vuln/detail/CVE-2020-10987)
 
-Soluciones alternativas:
-Se recomienda a los usuarios que no puedan actualizar a una versión parcheada del software que apliquen las siguientes soluciones:
-•	Desactive Javascript
-•	No conceder nunca capacidades mejoradas de ningún tipo a páginas web que no sean de confianza (esta solución procede del aviso del 
-  proyecto Mozilla sobre este problema).
+[https://blog.securityevaluators.com/tenda-ac1900-vulnerabilities-discovered-and-exploited-e8e26aa0bc68](https://blog.securityevaluators.com/tenda-ac1900-vulnerabilities-discovered-and-exploited-e8e26aa0bc68)
 
+[https://www.fortiguard.com/encyclopedia/ips/49352](https://www.fortiguard.com/encyclopedia/ips/49352)
 
+### Impacto
 
-Referencias:
+- Base Score: [9.8 CRITICAL](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2020-10987&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Vector: [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2020-10987&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Sistemas Afectados: Tenda AC15 AC1900
 
-https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-0909
-https://nvd.nist.gov/vuln/detail/CVE-2004-0909
-https://www.kb.cert.org/vuls/id/113192
-https://exchange.xforce.ibmcloud.com/vulnerabilities/17377
+### Explotación
 
-CVE-2023-33248
+El atacante puede cambiar el parámetro deviceName de tu enrutador y ejecutar comandos arbitrarios.  
+CWE: [CWE-78](https://cwe.mitre.org/data/definitions/78.html)
 
-Descripción:
-La versión del software de Amazon Alexa 8960323972 en los dispositivos Echo Dot de segunda y tercera generación permite potencialmente
-a los atacantes emitir comandos relevantes para la seguridad a través de una señal de audio entre 16 y 22 kHz (a menudo fuera del rango
-de audición de los adultos). Los comandos a estas frecuencias básicamente nunca son pronunciados por actores autorizados, pero una fracción
-sustancial de los comandos tienen éxito. Este tipo de ataques estan nombrados como NUIT (Near-Ultrasound Inaudible Trojan) es un novedoso ataque
-inaudible contra asistentes de voz que puede realizarsede forma remota.
+### Solución
 
+Actualmente no se conoce ningún parche proporcionado por el proveedor ni actualizaciones disponibles para este problema.
 
-Impacto:
-Puedes influir en el sistema asistente de la victima de manera totalmente inaudible.
+## CVE-2021-0920
 
-Base Score: 7.6 HIGH
-Vector 3.x: CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:H
+### Descripción
 
-Solución:
-No hay información sobre posibles contramedidas conocidas. Se puede sugerir reemplazar el objeto afectado por un producto alternativo.
+Se descubrió un problema en el sistema operativo Linux que afecta a la forma en que se manejan ciertos tipos de conexiones de red llamadas "sockets de dominio Unix". Este problema puede llevar a que el sistema no limpie adecuadamente cierta información, lo que podría causar un mal uso de la memoria y, en última instancia, hacer que el sistema se bloquee o permitir que un usuario local aumente sus privilegios en el sistema.
 
-Referencias:
+### Referencias
 
-https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-33248
-https://nvd.nist.gov/vuln/detail/CVE-2023-33248
-https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2023-33248
-https://vuldb.com/?id.229890
-https://www.youtube.com/watch?v=mgoa9BoWNcQ&ab_channel=Annonymous
+[https://www.cve.org/CVERecord?id=CVE-2021-0920](https://www.cve.org/CVERecord?id=CVE-2021-0920)
+
+[https://nvd.nist.gov/vuln/detail/cve-2021-0920](https://nvd.nist.gov/vuln/detail/cve-2021-0920)
+
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-RCAs/2021/CVE-2021-0920.html](https://googleprojectzero.github.io/0days-in-the-wild//0day-RCAs/2021/CVE-2021-0920.html)
+
+[https://access.redhat.com/security/cve/cve-2021-0920](https://access.redhat.com/security/cve/cve-2021-0920)
+
+### Impacto
+
+- Base Score: [6.9 MEDIUM](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-0920&vector=AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Vector: [AV:L/AC:M/Au:N/C:C/I:C/A:C](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-0920&vector=AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Sistemas Afectados: AndroidVersions: Android kernelAndroid ID: A-196926917
+
+### Explotación
+
+En unix_scm_to_skb de af_unix.c, existe un posible error que podría conducir a una escalada local de privilegios. 
+
+La interacción del usuario no es necesaria para la explotación.
+
+CWE: [CWE-416](https://cwe.mitre.org/data/definitions/416.html)  
+
+### Solucion
+
+La mitigación para este problema no está disponible.
 
