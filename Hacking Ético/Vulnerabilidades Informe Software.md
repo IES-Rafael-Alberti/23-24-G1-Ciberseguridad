@@ -264,5 +264,5 @@ Flux es una solución de entrega continua abierta y extensible para Kubernetes. 
 
 ### Solución
 
-- Actualizar flux2 a una versión posterior a la versión afectada.
-- Actualizar Kustomize-coontroller a una versión posterior a la afectada.
+- Actualizar flux2 a una versión posterior a la versión afectada ya que la nueva versión parcheada tiene un nuevo fichero yaml.
+- Actualizar Kustomize-coontroller a una versión posterior a la afectada ya que la nueva versión parcheada tiene un nuevo fichero yaml.
