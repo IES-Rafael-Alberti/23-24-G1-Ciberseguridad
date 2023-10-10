@@ -268,7 +268,7 @@ CWE: [CWE-416](https://cwe.mitre.org/data/definitions/416.html)  y [CWE-362](htt
 
 La mitigación para este problema no está disponible.
 
-## CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+## CVE-2023-34476
 ### Descripción
 
 El producto construye todas o parte de un comando SQL usando entradas externas de un componente, pero que no neutraliza o neutraliza incorrectamente elementos especiales que pueda modificar el comando SQL intencionado.
@@ -285,10 +285,9 @@ Origen: https://cwe.mitre.org/data/definitions/89.html
 - Vector: [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-34476&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
 - Sistemas Afectados: Servidores de Bases de Datos
 
-### Explotacion
+### Explotación
 
 - Confidencialidad.
-- Control de Acceso
 - Control de Acceso
 - Integridad
 
