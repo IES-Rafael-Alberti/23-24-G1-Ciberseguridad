@@ -1,16 +1,79 @@
-## CWE-787: Out-of-bounds Write
+## CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
 ### Descripción
 
-Typically, this can result in corruption of data, a crash, or code execution. 
-The product may modify an index or perform pointer arithmetic that references a memory location that is outside of the boundaries of the buffer. 
-A subsequent write operation then produces undefined or unexpected results.
+The product constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component.
 
-### Termino Alternativo
+Without sufficient removal or quoting of SQL syntax in user-controllable inputs, the generated SQL query can cause those inputs to be interpreted as SQL instead of ordinary user data. 
+This can be used to alter query logic to bypass security checks, or to insert additional statements that modify the back-end database, possibly including execution of system commands.
 
-Corrupción de Memoria: 
-Often used to describe the consequences of writing to memory outside the bounds of a buffer, or to memory that is invalid, when the root cause is something other than a sequential copy of excessive data from a fixed starting location. 
-This may include issues such as incorrect pointer arithmetic, accessing invalid pointers due to incomplete initialization or memory release, etc.
+SQL injection has become a common issue with database-driven web sites. 
+The flaw is easily detected, and easily exploited, and as such, any site or product package with even a minimal user base is likely to be subject to an attempted attack of this kind. 
+This flaw depends on the fact that SQL makes no real distinction between the control and data planes.
+
+### Relaciones:
+
+- 
+
+### Plataformas Aplicables
+
+No hay un lenguaje específico que destaque en su uso.
+
+Tecnologías:
+
+Servidores de Bases de Datos
+
+### Consecuencias Comunes
+
+Confidencialidad: Dado que las bases de datos SQL suelen mantener datos sensitivos, la pérdida de confidencialidad es un problema frecuente con vulnerabilidades de inyección SQL
+
+Control de Acceso: Si comandos SQL pobres son usados para revisar nombres de usuario y contraseñas, puede ser posible conectarse a un sistema como otro usuario sin conocimiento previo de la contraseña.
+
+Control de Acceso: Si la información de autorización es mantenida en una base de datos SQL, es posible de obtener esta información a través de una explotación exitosa de una vulnerabilidad por inyección SQL.
+
+Integridad: A la vez que es posible leer información sensitiva, también es posible cambiar o borrar esa información con un ataque de inyección SQL.
+
+### Posibilidad de Explotación
+
+Alta
+
+### Ejemplos demostrativos
+
+The following code dynamically constructs and executes a SQL query that searches for items matching a specified name. 
+The query restricts the items displayed to those where owner matches the user name of the currently-authenticated user.
+
+Lenguaje C#
+
+...
+string userName = ctx.getAuthenticatedUserName();
+string query = "SELECT * FROM items WHERE owner = '" + userName + "' AND itemname = '" + ItemName.Text + "'";
+sda = new SqlDataAdapter(query, conn);
+DataTable dt = new DataTable();
+sda.Fill(dt);
+...
+
+The query that this code intends to execute follows:
+
+SELECT * FROM items WHERE owner = <userName> AND itemname = <itemName>;
+
+However, because the query is constructed dynamically by concatenating a constant base query string and a user input string, the query only behaves correctly if itemName does not contain a single-quote character. 
+If an attacker with the user name wiley enters the string:
+
+name' OR 'a'='a
+
+for itemName, then the query becomes the following:
+
+SELECT * FROM items WHERE owner = 'wiley' AND itemname = 'name' OR 'a'='a';
+
+The addition of the:
+
+OR 'a'='a
+
+condition causes the WHERE clause to always evaluate to true, so the query becomes logically equivalent to the much simpler query:
+
+SELECT * FROM items;
+
+This simplification of the query allows the attacker to bypass the requirement that the query only return items owned by the authenticated user; the query now returns all entries stored in the items table, regardless of their specified owner.
 
 ### Referencias
 
-Origen: https://cwe.mitre.org/data/definitions/787.html
+Origen: https://cwe.mitre.org/data/definitions/89.html
