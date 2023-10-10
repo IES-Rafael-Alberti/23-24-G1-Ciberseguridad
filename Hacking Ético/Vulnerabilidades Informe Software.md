@@ -180,7 +180,7 @@ El repositorio orchest/orchest anterior a 2022.05.0 en GitHub permite un recorri
 
 ### Descripción
 
-Flux es una solución de entrega continua abierta y extensible para Kubernetes. Path Traversal en el controlador kustomize a través de un `kustomization.yaml` malicioso permite a un atacante exponer datos confidenciales del sistema de archivos pod del controlador y posiblemente una escalada de privilegios en implementaciones de múltiples inquilinos. Las soluciones alternativas incluyen herramientas automatizadas en la canalización de CI/CD del usuario para validar que los archivos `kustomization.yaml` cumplan con políticas específicas. Esta vulnerabilidad se solucionó en kustomize-controller v0.24.0 y se incluyó en flux2 v0.29.0.
+Flux es una solución de entrega continua abierta y extensible para Kubernetes. Path Traversal en el controlador kustomize a través de un `kustomization.yaml` malicioso permite a un atacante exponer datos confidenciales del sistema de archivos pod del controlador y posiblemente una escalada de privilegios en implementaciones de múltiples inquilinos. 
 
 ### Referencias
 
