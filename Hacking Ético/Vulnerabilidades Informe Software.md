@@ -73,7 +73,8 @@ este problema requiere la interacción del usuario, ya que la víctima debe abri
 [https://helpx.adobe.com/security/products/acrobat/apsb21-104.html](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
 
 ### Impacto
-- Base Score: 
+- Base Score: [3.3](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-40729&vector=AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)
+  
 - Vector: [ CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-40729&vector=AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)
   
 - Sistemas Afectados:  Acrobat DC 21.007.20096, Acrobat Reader DC 21.007.20096, Acrobat Classic 2020 20.004.30015, Acrobat Reader Classic 2020   20.004.30015, Acrobat Classic 2017 17.011.30202 y Acrobat Reader Classic 17.011.30202.
@@ -99,7 +100,7 @@ Existe una vulnerabilidad CWE-434: carga sin restricciones de archivos peligroso
 ### Impacto
 - Base Score: [9.8 CRITICAL](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-42971&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Schneider%20Electric%20SE)
   
-- Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+- Vector: [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-42971&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Schneider%20Electric%20SE)
 
 - Sistemas Afectados: Software de monitoreo en línea Easy UPS de APC (Windows 7, 10, 11 y Windows Server 2016, 2019, 2022 - Versiones anteriores a V2.5-GA), Software de monitoreo en línea Easy UPS de APC (Windows 11, Windows Server 2019, 2022 - Versiones anteriores a V2.5-GA-01-22261), Software de monitoreo en línea Schneider Electric Easy UPS (Windows 7, 10, 11 y Windows Server 2016, 2019, 2022 - Versiones anteriores a V2.5-GS), Schneider Electric Software de monitoreo en línea Easy UPS (Windows 11, Windows Server 2019, 2022 - Versiones anteriores a V2.5-GS-01-22261)
 
