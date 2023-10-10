@@ -23,3 +23,11 @@ El repositorio orchest/orchest anterior a 2022.05.0 en GitHub permite un recorri
   Gracias a la función Flask send_file un archivo cargado en orchest nos puede dar acceso a la ruta raiz.
   
 - CWE: [CWE22](https://cwe.mitre.org/data/definitions/22.html)
+
+## Solución
+
+- Actualzar Orchest a una versión más nueva.
+- Eliminar rutas no seguras en los modulos de los proyectos.
+
+## CVE-2022-24877
+
