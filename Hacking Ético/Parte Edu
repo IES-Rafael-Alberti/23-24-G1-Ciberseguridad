@@ -1,0 +1,16 @@
+## CWE-787: Out-of-bounds Write
+### Descripción
+
+Typically, this can result in corruption of data, a crash, or code execution. 
+The product may modify an index or perform pointer arithmetic that references a memory location that is outside of the boundaries of the buffer. 
+A subsequent write operation then produces undefined or unexpected results.
+
+### Termino Alternativo
+
+Corrupción de Memoria: 
+Often used to describe the consequences of writing to memory outside the bounds of a buffer, or to memory that is invalid, when the root cause is something other than a sequential copy of excessive data from a fixed starting location. 
+This may include issues such as incorrect pointer arithmetic, accessing invalid pointers due to incomplete initialization or memory release, etc.
+
+### Referencias
+
+Origen: https://cwe.mitre.org/data/definitions/787.html
