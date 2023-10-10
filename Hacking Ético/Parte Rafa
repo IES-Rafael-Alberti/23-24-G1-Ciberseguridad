@@ -1,6 +1,6 @@
 Parte Rafa
 
-* CWE-787 -> El producto escribe datos pasados en el final o antes del comienzo del bufer
+* CWE-787 (6.7) -> El producto escribe datos pasados en el final o antes del comienzo del bufer
 previsto.
 - Descripción -> Normalmente, esto puede provocar daños en los datos, un bloqueo o la ejecuccion del codigo. El
 producto puede modificar un indice o realizar un aritmetica que haga referencia a una ubicación de memoria que este
