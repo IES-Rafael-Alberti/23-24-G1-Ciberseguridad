@@ -288,8 +288,8 @@ Origen: https://cwe.mitre.org/data/definitions/89.html
 ### Explotación
 
 - Confidencialidad.
-- Control de Acceso
-- Integridad
+- Control de Acceso.
+- Integridad.
 
 ### Soluciones
 
@@ -300,7 +300,7 @@ Origen: https://cwe.mitre.org/data/definitions/89.html
 - Los usuarios solo deberian de tener los privilegios mínimos necesarios para usar su cuenta.
 - Si los requerimientos del sistema indican que un usuario puede leer y modificar sus propios datos, entonces limitar sus privilegios para que no pueda leer o escribir los datos de los demás.
 - Usar los permisos más estrictos posibles en todos los objetos de la base de datos.
-- Cuando el set de objetos aceptables, como nombres de archivos o URLs, es limitado o conocido, crear un mapa de todos los sets de valores fijos a poner, como IDs numéricos de los nombres de archivos o URL actuales, y rechazar el resto.
+- Cuando el set de objetos aceptables, como nombres de archivos o URLs, es limitado o conocido, crear un mapa de todos los sets de valores fijos a poner, como por ejemplo IDs numéricos de los nombres de archivos o URL actuales, y rechazar el resto.
 - Por cualquier chequeo de seguridad que se haya realizado en el lado del cliente, asegurar de que esos chequeos son duplicados en el lado del servidor.
 - Aunque sea arriesgado usar lineas dinámicamente generadas, código, o comandos que mezclan control y datos, algunas veces no puede seer evitado.
 - Asumir que todo input es malicioso.
