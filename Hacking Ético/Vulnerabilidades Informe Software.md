@@ -60,24 +60,20 @@ URL:https://github.com/nexB/scancode.io/blob/dd7769fbc97c84545579cebf1dc48382140
 MISC:https://github.com/nexB/scancode.io/security/advisories/GHSA-6xcx-gx7r-rccj
 URL:https://github.com/nexB/scancode.io/security/advisories/GHSA-6xcx-gx7r-rccj
 
-## CVE-2021-40729
+## CVE-2020-11899
 ### Descripción
-Adobe Acrobat Reader DC versión 21.007.20095, 21.007.20096, 20.004.30015, y 17.011.30202 están afectados por 
-una vulnerabilidad de lectura fuera de límites que podría conducir a la divulgación de memoria sensible. 
-Un atacante podría aprovechar esta vulnerabilidad para eludir mitigaciones como ASLR. La explotación de 
-este problema requiere la interacción del usuario, ya que la víctima debe abrir un archivo PDF malicioso
+La pila Treck TCP/IP anterior a 6.0.1.66 tiene una lectura fuera de límites de IPv6.
 
 ### Referencias
-[https://helpx.adobe.com/security/products/acrobat/apsb21-104.html](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
-
-[https://helpx.adobe.com/security/products/acrobat/apsb21-104.html](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
+[https://www.kb.cert.org/vuls/id/257161](https://www.kb.cert.org/vuls/id/257161)
+[https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-treck-ip-stack-JyBQ5GyC](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-treck-ip-stack-JyBQ5GyC)
 
 ### Impacto
-- Base Score: [3.3](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-40729&vector=AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)
+- Base Score: [5.4 MEDIUM](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2020-11899&vector=AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L&version=3.1&source=NIST)
   
-- Vector: [ CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-40729&vector=AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)
+- Vector: [CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2020-11899&vector=AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L&version=3.1&source=NIST)
   
-- Sistemas Afectados:  Acrobat DC 21.007.20096, Acrobat Reader DC 21.007.20096, Acrobat Classic 2020 20.004.30015, Acrobat Reader Classic 2020   20.004.30015, Acrobat Classic 2017 17.011.30202 y Acrobat Reader Classic 17.011.30202.
+- Sistemas Afectados: Treck TCP/IP 4.7.1.27, 5.0.1.35, 6.0.1.28 y 6.0.1.41
   
 ### Explotación
 - Clase: Lectura fuera de limites
@@ -85,9 +81,15 @@ este problema requiere la interacción del usuario, ya que la víctima debe abri
 El producto lee datos más allá del final, o antes del principio, del búfer previsto. Por lo general, esto puede permitir a los atacantes leer información confidencial de otras ubicaciones de memoria o provocar un bloqueo.
 
 - CWE: [CWE-125](https://cwe.mitre.org/data/definitions/125.html)
-### Solución
-Adobe recomienda a los usuarios que actualicen sus instalaciones de software a las últimas versiones.
 
+- [Video Ejemplo de la Vulnerabilidad](https://www.jsof-tech.com/ripple20/)
+### Solución
+- Actualice a la última versión estable del software de Treck IP (6.0.1.67 o posterior).
+- Bloquear todo tráfico anómalo.
+- Deshabilite o bloquee el túnel IP, tanto IPv6-en-IPv4 como IP-en-IP si no es necesario
+- Bloquear el enrutamiento de origen IP y cualquier característica obsoleta de IPv6, como encabezados de enrutamiento
+- Proporcione seguridad DHCP/DHCPv6 con funciones como DHCP snooping
+- Deshabilite o bloquee la multidifusión IPv6 si no se usa en la infraestructura de conmutación
 ## CVE-2022-42971
 ### Descripción
 
