@@ -98,7 +98,7 @@ Existe una vulnerabilidad CWE-434: carga sin restricciones de archivos peligroso
 
 ## Referencias
 
-[https://download.schneider-electric.com/files?p_Doc_SEVD-2022-347-01&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2022-347-01_Easy_UPS_Online_Monitoring_Software_Security_Notification.pdf](https://download.schneider-electric.com/files?p_Doc_SEVD-2022-347-01&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2022-347-01_Easy_UPS_Online_Monitoring_Software_Security_Notification.pdf)
+[Easy_UPS_Online_Monitoring_Software_Security_Notification.pdf](https://download.schneider-electric.com/files?p_Doc_SEVD-2022-347-01&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2022-347-01_Easy_UPS_Online_Monitoring_Software_Security_Notification.pdf)
 
 ### Impacto
 - Base Score: [9.8 CRITICAL](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-42971&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Schneider%20Electric%20SE)
