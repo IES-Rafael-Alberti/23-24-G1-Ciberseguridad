@@ -48,11 +48,24 @@ Origen: https://cwe.mitre.org/data/definitions/89.html
 
 ### Descripción
 
-La validación de entrada es una técnica frecuentemente usada para revisar entradas potencialmente peligrosas en orden para asegurarse de que las entradas son seguras para procesar dentro del código, o cuando se está comunicando con otros componentes. 
-Cuando el software no valida la entrada adecuadamente, un atacante puede crear la entrada en una forma que no es esperada por el resto de la aplicación. Esto lleva a las partes del sistema a recibir la entrada no deseada, la cual puede alterar el control de flujo, control de recurso arbitrario o ejecución de código arbitrario.
-
-
+La validación de entrada es una técnica frecuentemente usada para revisar inputs potencialmente peligrosos en orden para asegurarse de que los inputs son seguros para procesar dentro del código, o cuando se está comunicando con otros componentes. 
+Cuando el software no valida el input adecuadamente, un atacante puede crear el input en una forma que no es esperada por el resto de la aplicación. Esto lleva a las partes del sistema a recibir el input no deseado, la cual puede alterar el control de flujo, control de recurso arbitrario o ejecución de código arbitrario.
 
 ### Referencias
 
 Origen: https://cwe.mitre.org/data/definitions/20.html
+
+### Impacto
+
+- Base Score: [7.5 High](https://nvd.nist.gov/vuln/detail/CVE-2021-32566)
+- Vector: [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H](https://nvd.nist.gov/vuln/detail/CVE-2021-32566)
+- Sistemas Afectados: Servidor de tráfico de Apache
+
+### Explotación
+
+- Disponibilidad
+- Confidencialidad
+- Integridad
+
+### Soluciones
+
