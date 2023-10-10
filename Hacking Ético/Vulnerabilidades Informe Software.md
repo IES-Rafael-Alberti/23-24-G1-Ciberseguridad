@@ -312,3 +312,37 @@ Origen: https://cwe.mitre.org/data/definitions/89.html
 - Usar una aplicación de cortafuegos puede detectar ataques contra esta debilidad.
 - Cuando se usa PHP, configura la aplicación para que no use register_globals.
 
+## CVE-2021-32566
+
+### Descripción
+
+La validación de entrada es una técnica frecuentemente usada para revisar inputs potencialmente peligrosos en orden para asegurarse de que los inputs son seguros para procesar dentro del código, o cuando se está comunicando con otros componentes. 
+Cuando el software no valida el input adecuadamente, un atacante puede crear el input en una forma que no es esperada por el resto de la aplicación. Esto lleva a las partes del sistema a recibir el input no deseado, la cual puede alterar el control de flujo, control de recurso arbitrario o ejecución de código arbitrario.
+
+### Referencias
+
+Origen: https://cwe.mitre.org/data/definitions/20.html
+
+### Impacto
+
+- Base Score: [7.5 High](https://nvd.nist.gov/vuln/detail/CVE-2021-32566)
+- Vector: [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H](https://nvd.nist.gov/vuln/detail/CVE-2021-32566)
+- Sistemas Afectados: Servidor de tráfico de Apache
+
+### Explotación
+
+- Disponibilidad
+- Confidencialidad
+- Integridad
+
+### Soluciones
+
+- Usar técnicas de seguridad lenguaje-teórico (LangSec), que caracteriza inputs usando un lenguaje formal.
+- Usar un framework de validación de inputs como Struts. 
+- Entender todas las áreas potenciales donde los inputs no confiables puedan entrar en el software.
+- Asumir que todos los inputs son maliciosos.
+- Por cada chequeo de seguridad que sea realizado en el lado de cliente, también se debe hacer duplicado en el lado del servidor.
+- Cuando tu aplicación combina datos de múltiples fuentes, hacer la validación después de que los datos se han combinado.
+- Ser especialmente cuidadoso al validar todo input cuando se invoca código que cruza los límites del lenguaje.
+- Convertir directamente el tipo de input en el tipo de dato esperado. Después de convertirlo, asegurar de que caen en el rango esperado.
+- Inputs deben ser decodificados y canonizados a la actual representación interna de la aplicación antes de ser validados. 
