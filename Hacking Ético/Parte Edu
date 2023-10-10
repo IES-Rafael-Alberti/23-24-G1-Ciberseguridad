@@ -69,3 +69,12 @@ Origen: https://cwe.mitre.org/data/definitions/20.html
 
 ### Soluciones
 
+- Usar técnicas de seguridad lenguaje-teórico (LangSec), que caracteriza inputs usando un lenguaje formal.
+- Usar un framework de validación de inputs como Struts. 
+- Entender todas las áreas potenciales donde los inputs no confiables puedan entrar en el software.
+- Asumir que todos los inputs son maliciosos.
+- Por cada chequeo de seguridad que sea realizado en el lado de cliente, también se debe hacer duplicado en el lado del servidor.
+- Cuando tu aplicación combina datos de múltiples fuentes, hacer la validación después de que los datos se han combinado.
+- Ser especialmente cuidadoso al validar todo input cuando se invoca código que cruza los límites del lenguaje.
+- Convertir directamente el tipo de input en el tipo de dato esperado. Después de convertirlo, asegurar de que caen en el rango esperado.
+- Inputs deben ser decodificados y canonizados a la actual representación interna de la aplicación antes de ser validados. 
