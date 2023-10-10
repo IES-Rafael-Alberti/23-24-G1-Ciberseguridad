@@ -1,34 +1,27 @@
 Parte Rafa
 
-* CVE-2013-2267 -> Vulnerabilidad de Injeccion de Codigo PHP en FUDforum BUlletin Board 
-Software 3.0.4, que permitia ataques remotos para ejecutar codigos arbitrarios en el sistema.
+* CWE-787 -> El producto escribe datos pasados en el final o antes del comienzo del bufer
+previsto.
+- Descripción -> Normalmente, esto puede provocar daños en los datos, un bloqueo o la ejecuccion del codigo. El
+producto puede modificar un indice o realizar un aritmetica que haga referencia a una ubicación de memoria que este
+de los limites del bufer. Una operacion de escritura posterior produce resultados indefinidos o inesperados. En
+resumen, puede ocurrir Corrupción de memoria.
+- Consecuencias -> Impacto tecnico: modificar la memoria; DoS: Bloqueo, Salir o Reiniciar; Ejecutar código o
+comandos no autorizados.
 
-- ¿Que es FUDforum? -> Es un software de foro de Internet gratuito y de codigo abierto, el cual,
-es ahora mantenido por la comunidad de usuarios.
+- Posibles Remedios -> Utilizar un lenguaje que no permite este tipo de debilidades o proporcionar estructuras que
+hagan esta debilidad sea más facil de evitar.
+Utilizar una biblioteca que no produzca esta debilidad como Safe C String (SafeSTR)
+Utlizar mecanismos automáticos de detección de desbordamiento del bufer que ofrecen determinados compiladores o
+extensiones de compilador como Visual Studio /GS
+Remplazar las funciones de copia ilimitadas con funciones análogas que admitan argumentos de longitud como strcpy.
+Utilizar una CPU y un SO que ofrezca proteccion de ejecución de datos o técnicas equivalentes que simulen esta
+caracteristica.
+Ejecutar o compilar el software utilizando funciones o extensiones que organizan aleatoriamente las posiciones del
+ejecutable y las bibliotecas de un programa en la memoria.
 
-- Consecuencias -> Se podia ganar privilegios de usuario, al punto de que se podia banear,
-modificar usuarios...
-- Remedio -> Se aplico un parche para esta vulnerabilidad, que se encontro disponible en la
-pagina web de FUDforum SVN Repository.
+* CWE-79 -> El producto no neutraliza o neutraliza incorre
 
-* CVE-2009-1610 -> En el programa Job Script Job Board Software 2.0 con admin/changepassword.php
-permitia ataques remotos para cambiar la contraseña del administrador y ganar privilegios de
-administrador por un request directo.
+Referencia -> https://cwe.mitre.org/data/definitions/787.html
 
-- Explicacion -> JobScript permitia al atacante remoto,  evitar las retricciones de seguridad
-causadas por permisos inseguros del script changepassword.php. AL enviar una solicitud directa,
-un atacante podria aprovechar esta vulnerabilidad para cambiar contraseñas de usuario arbitrarias y
-posiblemnete lanzar mas ataques contra el sistema.
-
-- Consecuencias -> Evita la seguridad.
-
--Remedio -> Por ahora, no hay solución en este error. Lo unico que recomiendan es tener flexera que
-trabaja en la gestion de actios de software y la gestion de la nube-
-
-Referencia -> https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1610
-https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2267
-https://en.wikipedia.org/wiki/FUDforum
-https://exchange.xforce.ibmcloud.com/vulnerabilities/83229
-https://www.flexera.com/
-https://exchange.xforce.ibmcloud.com/vulnerabilities/50380
 
