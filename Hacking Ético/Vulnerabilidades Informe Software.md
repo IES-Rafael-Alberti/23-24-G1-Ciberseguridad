@@ -316,3 +316,7 @@ Se descubrió un problema en el sistema operativo Linux que afecta a la forma en
 
 En unix_scm_to_skb de af_unix.c, existe un posible error que podría conducir a una escalada local de privilegios.
 La interacción del usuario no es necesaria para la explotación.
+
+### Solucion
+
+La mitigación para este problema no está disponible.
