@@ -262,7 +262,7 @@ En unix_scm_to_skb de af_unix.c, existe un posible error que podría conducir a 
 
 La interacción del usuario no es necesaria para la explotación.
 
-CWE: [CWE-416](https://cwe.mitre.org/data/definitions/416.html)  
+CWE: [CWE-416](https://cwe.mitre.org/data/definitions/416.html)  y [CWE-362](https://cwe.mitre.org/data/definitions/362.html)
 
 ### Solucion
 
