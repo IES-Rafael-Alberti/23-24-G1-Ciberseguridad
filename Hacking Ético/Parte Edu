@@ -10,10 +10,6 @@ SQL injection has become a common issue with database-driven web sites.
 The flaw is easily detected, and easily exploited, and as such, any site or product package with even a minimal user base is likely to be subject to an attempted attack of this kind. 
 This flaw depends on the fact that SQL makes no real distinction between the control and data planes.
 
-### Relaciones:
-
-- 
-
 ### Plataformas Aplicables
 
 No hay un lenguaje específico que destaque en su uso.
@@ -36,43 +32,52 @@ Integridad: A la vez que es posible leer información sensitiva, también es pos
 
 Alta
 
-### Ejemplos demostrativos
+### Mitigaciones potenciales
 
-The following code dynamically constructs and executes a SQL query that searches for items matching a specified name. 
-The query restricts the items displayed to those where owner matches the user name of the currently-authenticated user.
+Fase: Arquitectura y Diseño
+Estrategia: Librerias o Frameworks
 
-Lenguaje C#
+Usar una libreria o framework verificado que no permita que se produzca la debilidad, o provea construcciones que hagan más fácil de evadir.
 
-...
-string userName = ctx.getAuthenticatedUserName();
-string query = "SELECT * FROM items WHERE owner = '" + userName + "' AND itemname = '" + ItemName.Text + "'";
-sda = new SqlDataAdapter(query, conn);
-DataTable dt = new DataTable();
-sda.Fill(dt);
-...
+Estrategia: Parametrización
 
-The query that this code intends to execute follows:
+Si es posible, usar mecanismos estructurados para enforzar automáticamente la separación entre datos y código.
+Estos mecanismos pueden proveer la codificación, citas y validaciones automáticamente, en vez de depender del desarrollador para proveer esta capacidad en cada punto donde se genera el output.
 
-SELECT * FROM items WHERE owner = <userName> AND itemname = <itemName>;
+Estrategia: Endurecimiento de Entorno
 
-However, because the query is constructed dynamically by concatenating a constant base query string and a user input string, the query only behaves correctly if itemName does not contain a single-quote character. 
-If an attacker with the user name wiley enters the string:
+Correr el código usando los menores privilegios requeridos para cumplimentar las tareas necesarias si es posible, crear cuentas aisladas con privilegios limitados para solo usarse en tareas únicas.
+De esa forma, si hay un ataque con éxito, no dará acceso inmediato al resto del programa o su enterno.
 
-name' OR 'a'='a
+Específicamente, seguir el principio del menor privilegio cuando se crean cuentas de usuario en una base de datos SQL.
+Los usuarios solo deberian de tener los privilegios mínimos necesarios para usar su cuenta.
+Si los requerimientos del sistema indican que un usuario puede leer y modificar sus propios datos, entonces limitad sus privilegios para que no pueda leer o escribir los datos de los demás.
+Usar los permisos más estrictos posibles en todos los objetos de la base de datos.
 
-for itemName, then the query becomes the following:
+Estrategia: Aplicación por Conversión
 
-SELECT * FROM items WHERE owner = 'wiley' AND itemname = 'name' OR 'a'='a';
+Cuando el set de objetos aceptables, como nombres de archivos o URLs, es limitado o conocido, crear un mapa de todos los sets de valores fijos a poner, (como IDs numéricos) de los nombres de archivos o URL actuales, y rechazar el resto.
 
-The addition of the:
+Estrategia: Otros
 
-OR 'a'='a
+Por cualquier chequeo de seguridad que se haya realizado en el lado del cliente, asegurate de que esos chequeos son duplicados en el lado del servidor.
+Atacantes pueden sortear los chequeos del lado del cliente mediante la modificación de valores después de que esos chequeos hayan sido realizados, o mediante el cambio de cliente para eliminar los chequeos del lado de cliente enteramente.
+Entonces, los valores modificados serán entregados al servidor.
 
-condition causes the WHERE clause to always evaluate to true, so the query becomes logically equivalent to the much simpler query:
+Fase: Implementación
 
-SELECT * FROM items;
+Estrategia: Codificacion de Output
 
-This simplification of the query allows the attacker to bypass the requirement that the query only return items owned by the authenticated user; the query now returns all entries stored in the items table, regardless of their specified owner.
+Aunque sea arriesgado usar lineas dinámicamente generadas, código, o comandos que mezclan control y datos, algunas veces no puede seer evitado.
+La aproximación más conservadora es de escapar o filtrar todos los carácteres que no pasen una lista de permisos extremadamente estricta. Si algunas veces esos carácteres son necesarios, como un espacio vacío, mete cada argumento en citas, después del filtrado. 
+
+Es posible que estas características estén disponibles en el lenguaje de la base de datos.
+
+Estrategia: Validación de input.
+
+
+
+### Detecciones potenciales
 
 ### Referencias
 
