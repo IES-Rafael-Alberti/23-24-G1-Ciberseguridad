@@ -4,9 +4,6 @@
 El producto construye todas o parte de un comando SQL usando entradas externas de un componente, pero que no neutraliza o neutraliza incorrectamente elementos especiales que pueda modificar el comando SQL intencionado.
 
 Sin suficientes citas o retiradas de la sintaxis SQL en las entradas por usuario, la consulta generada de SQL puede causar que esas entradas puedan ser interpretadas como SQL en vez de datos de usuario ordinario.
-Esto puede ser usado para alterar la lógica de la consulta para sortear chequeos de seguridad, o para insertar estamentos adicionales para modificar el back-end de la base de datos, incluyendo la posibilidad de ejecución de comandos de sistema.
-
-Inyección SQL se ha vuelto un problema común con las páginas web basadas en base de datos. Este fallo es fácilmente detectado, y explotado, pudiendo ser sujeto a ataques de esta índole. Este fallo depende del hecho de que SQL no hace una distinción real entre el control y la planificación de datos.
 
 ### Plataformas Aplicables
 
@@ -120,10 +117,19 @@ Análisis manual
 
 Puede ser útil para encontrar esta debilidad, pero puede no llegar a cubrir lo suficiente debido a los límites de tiempo. Esto se vuelve difícil porque se debe considerar todas las entradas, dado que la superficie de ataque puede ser muy grande. 
 
-
 ### Referencias
 
 Origen: https://cwe.mitre.org/data/definitions/89.html
 
 ## CWE-20: Improper Input Validation
 
+### Descripción
+
+La validación de entrada es una técnica frecuentemente usada para revisar entradas potencialmente peligrosas en orden para asegurarse de que las entradas son seguras para procesar dentro del código, o cuando se está comunicando con otros componentes. 
+Cuando el software no valida la entrada adecuadamente, un atacante puede crear la entrada en una forma que no es esperada por el resto de la aplicación. Esto lleva a las partes del sistema a recibir la entrada no deseada, la cual puede alterar el control de flujo, control de recurso arbitrario o ejecución de código arbitrario.
+
+
+
+### Referencias
+
+Origen: https://cwe.mitre.org/data/definitions/20.html
