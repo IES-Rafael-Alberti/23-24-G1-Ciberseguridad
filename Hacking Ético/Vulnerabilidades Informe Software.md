@@ -32,7 +32,7 @@ El producto lee datos más allá del final, o antes del principio, del búfer pr
 ## CVE-2022-42971
 ### Descripción
 
-Existe una vulnerabilidad CWE-434: carga sin restricciones de archivos peligrosos que podría causar la ejecución remota de código cuando el atacante carga un archivo JSP malicioso.
+Carga sin restricciones de archivos peligrosos que podría causar la ejecución remota de código cuando el atacante carga un archivo JSP malicioso.
 
 ## Referencias
 
