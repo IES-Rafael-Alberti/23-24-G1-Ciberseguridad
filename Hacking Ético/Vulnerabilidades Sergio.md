@@ -52,9 +52,13 @@ Flux es una solución de entrega continua abierta y extensible para Kubernetes. 
 - Clase: Exposición de datos confidenciales y posible escalada de privilegios.
 
   A traves de un fichero .yaml malicioso permite al atacante no solo exponer datos confidenciales si no que además permite una escalada de privilegios en implementaciones de múltiples inquilinos.
+  
 - CWE: [CW22](http://cwe.mitre.org/data/definitions/22.html) y [CWE36](http://cwe.mitre.org/data/definitions/36.html)
 
 ### Solución
+
+- Actualizar flux2 a una versión posterior a la versión afectada.
+- Actualizar Kustomize-coontroller a una versión posterior a la afectada.
 
 
 
