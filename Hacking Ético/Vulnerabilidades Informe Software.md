@@ -65,7 +65,7 @@ URL:https://github.com/nexB/scancode.io/security/advisories/GHSA-6xcx-gx7r-rccj
 La pila Treck TCP/IP anterior a 6.0.1.66 tiene una lectura fuera de límites de IPv6.
 
 ### Referencias
-[https://www.kb.cert.org/vuls/id/257161](https://www.kb.cert.org/vuls/id/257161)
+[https://www.kb.cert.org/vuls/id/257161](https://www.kb.cert.org/vuls/id/257161)  
 
 [https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-treck-ip-stack-JyBQ5GyC](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-treck-ip-stack-JyBQ5GyC)
 
