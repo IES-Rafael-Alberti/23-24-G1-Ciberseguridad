@@ -44,7 +44,7 @@ Origen: https://cwe.mitre.org/data/definitions/89.html
 - Cuando se usa PHP, configura la aplicación para que no use register_globals.
 
 
-## CWE-20: Improper Input Validation
+## CVE-2021-32566
 
 ### Descripción
 
