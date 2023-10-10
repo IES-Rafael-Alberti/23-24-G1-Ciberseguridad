@@ -267,3 +267,49 @@ CWE: [CWE-416](https://cwe.mitre.org/data/definitions/416.html)
 ### Solucion
 
 La mitigación para este problema no está disponible.
+
+## CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+### Descripción
+
+El producto construye todas o parte de un comando SQL usando entradas externas de un componente, pero que no neutraliza o neutraliza incorrectamente elementos especiales que pueda modificar el comando SQL intencionado.
+
+Sin suficientes citas o retiradas de la sintaxis SQL en las entradas por usuario, la consulta generada de SQL puede causar que esas entradas puedan ser interpretadas como SQL en vez de datos de usuario ordinario.
+
+### Referencias
+
+Origen: https://cwe.mitre.org/data/definitions/89.html
+
+### Impacto
+
+- Base Score: [9.8 CRITICAL](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-34476&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Vector: [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-34476&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Sistemas Afectados: Servidores de Bases de Datos
+
+### Explotacion
+
+- Confidencialidad.
+- Control de Acceso
+- Control de Acceso
+- Integridad
+
+### Soluciones
+
+- Usar una libreria o framework verificado que no permita que se produzca la debilidad, o provea construcciones que hagan más fácil de evadir.
+- Si es posible, usar mecanismos estructurados para enforzar automáticamente la separación entre datos y código.
+- Correr el código usando los menores privilegios requeridos para cumplimentar las tareas necesarias si es posible, crear cuentas aisladas con privilegios limitados para solo usarse en tareas únicas.
+- Específicamente, seguir el principio del menor privilegio cuando se crean cuentas de usuario en una base de datos SQL.
+- Los usuarios solo deberian de tener los privilegios mínimos necesarios para usar su cuenta.
+- Si los requerimientos del sistema indican que un usuario puede leer y modificar sus propios datos, entonces limitar sus privilegios para que no pueda leer o escribir los datos de los demás.
+- Usar los permisos más estrictos posibles en todos los objetos de la base de datos.
+- Cuando el set de objetos aceptables, como nombres de archivos o URLs, es limitado o conocido, crear un mapa de todos los sets de valores fijos a poner, (como IDs numéricos) de los nombres de archivos o URL actuales, y rechazar el resto.
+- Por cualquier chequeo de seguridad que se haya realizado en el lado del cliente, asegurar de que esos chequeos son duplicados en el lado del servidor.
+- Aunque sea arriesgado usar lineas dinámicamente generadas, código, o comandos que mezclan control y datos, algunas veces no puede seer evitado.
+- Asumir que todo input es malicioso.
+- Cuando se realiza la validación de input, considerr que todas las propiedades relevantes, incluyendo longitud, tipo de input, el rango completo de valores aceptables, etc.
+- No confiar exclusivamente en buscar inputs maliciosos o mal formados.
+- Cuando se construyan consultas de SQL, usar las listas de permisos más estricta para limitar el set de carácteres para el valor del parámetro en la petición.
+- Asegurar que el mensaje de error solo contenga los detalles mínimos para ayudar a la audiencia objetivo y nadie más.
+- En el contexto de las Inyecciones SQL, los mensajes de error relevando la estructura de una consulta SQL puede ayudar a los atacantes a refinar sus ataques.
+- Usar una aplicación de cortafuegos puede detectar ataques contra esta debilidad.
+- Cuando se usa PHP, configura la aplicación para que no use register_globals.
+
