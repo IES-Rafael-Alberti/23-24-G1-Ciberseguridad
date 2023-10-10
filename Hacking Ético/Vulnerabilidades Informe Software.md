@@ -137,3 +137,35 @@ red prevista para conectarse a las redes de seguridad o control sin un saneamien
 no son accesibles desde Internet.
 
 - Cuando se requiera acceso remoto, utilice métodos seguros, como redes privadas virtuales (VPN). Reconocer que las VPN pueden tener vulnerabilidades y deben actualizarse al versión más actual disponible.
+
+## CVE-2023-20805
+### Descripción
+
+El producto escribe datos pasados en el final o antes del comienzo del bufer previsto. Normalmente, esto puede provocar daños en los datos, un bloqueo o la ejecuccion del codigo. El producto puede modificar un indice o realizar un aritmetica que haga referencia a una ubicación de memoria que este de los limites del bufer. Una operacion de escritura posterior produce resultados indefinidos o inesperados. En resumen, puede ocurrir Corrupción de memoria.
+
+## Referencias
+https://cwe.mitre.org/data/definitions/787.html
+
+### Impacto
+- Base Score: [6.7 MEDIUM](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-20805&vector=AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+  
+- Vector: [CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-20805&vector=AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+
+- Sistemas afectados: En C, C++, en la clase Assembly y en tecnologia, en la clase: ICS/OT.
+
+### Explotación
+
+Impacto tecnico: modificar la memoria; DoS: Bloqueo, Salir o Reiniciar; Ejecutar código o
+comandos no autorizados.
+
+### Solución
+
+- Utilizar un lenguaje que no permite este tipo de debilidades o proporcionar estructuras que
+hagan esta debilidad sea más facil de evitar.
+- Utilizar una biblioteca que no produzca esta debilidad como Safe C String (SafeSTR).
+- Utlizar mecanismos automáticos de detección de desbordamiento del bufer que ofrecen determinados compiladores o
+extensiones de compilador como Visual Studio /GS.
+- Remplazar las funciones de copia ilimitadas con funciones análogas que admitan argumentos de longitud como strcpy.
+- Utilizar una CPU y un SO que ofrezca proteccion de ejecución de datos o técnicas equivalentes que simulen esta
+caracteristica.
+- Ejecutar o compilar el software utilizando funciones o extensiones que organizan aleatoriamente las posiciones del ejecutable y las bibliotecas de un programa en la memoria.
