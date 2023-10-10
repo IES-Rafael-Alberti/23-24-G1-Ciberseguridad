@@ -5,121 +5,44 @@ El producto construye todas o parte de un comando SQL usando entradas externas d
 
 Sin suficientes citas o retiradas de la sintaxis SQL en las entradas por usuario, la consulta generada de SQL puede causar que esas entradas puedan ser interpretadas como SQL en vez de datos de usuario ordinario.
 
-### Plataformas Aplicables
-
-No hay un lenguaje específico que destaque en su uso.
-
-Tecnologías:
-
-Servidores de Bases de Datos
-
-### Consecuencias Comunes
-
-Confidencialidad: Dado que las bases de datos SQL suelen mantener datos sensitivos, la pérdida de confidencialidad es un problema frecuente con vulnerabilidades de inyección SQL
-
-Control de Acceso: Si comandos SQL pobres son usados para revisar nombres de usuario y contraseñas, puede ser posible conectarse a un sistema como otro usuario sin conocimiento previo de la contraseña.
-
-Control de Acceso: Si la información de autorización es mantenida en una base de datos SQL, es posible de obtener esta información a través de una explotación exitosa de una vulnerabilidad por inyección SQL.
-
-Integridad: A la vez que es posible leer información sensitiva, también es posible cambiar o borrar esa información con un ataque de inyección SQL.
-
-### Posibilidad de Explotación
-
-Alta
-
-### Mitigaciones potenciales
-
-Fase: Arquitectura y Diseño
-Estrategia: Librerias o Frameworks
-
-Usar una libreria o framework verificado que no permita que se produzca la debilidad, o provea construcciones que hagan más fácil de evadir.
-
-Estrategia: Parametrización
-
-Si es posible, usar mecanismos estructurados para enforzar automáticamente la separación entre datos y código.
-Estos mecanismos pueden proveer la codificación, citas y validaciones automáticamente, en vez de depender del desarrollador para proveer esta capacidad en cada punto donde se genera el output.
-
-Estrategia: Endurecimiento de Entorno
-
-Correr el código usando los menores privilegios requeridos para cumplimentar las tareas necesarias si es posible, crear cuentas aisladas con privilegios limitados para solo usarse en tareas únicas.
-De esa forma, si hay un ataque con éxito, no dará acceso inmediato al resto del programa o su enterno.
-
-Específicamente, seguir el principio del menor privilegio cuando se crean cuentas de usuario en una base de datos SQL.
-Los usuarios solo deberian de tener los privilegios mínimos necesarios para usar su cuenta.
-Si los requerimientos del sistema indican que un usuario puede leer y modificar sus propios datos, entonces limitad sus privilegios para que no pueda leer o escribir los datos de los demás.
-Usar los permisos más estrictos posibles en todos los objetos de la base de datos.
-
-Estrategia: Aplicación por Conversión
-
-Cuando el set de objetos aceptables, como nombres de archivos o URLs, es limitado o conocido, crear un mapa de todos los sets de valores fijos a poner, (como IDs numéricos) de los nombres de archivos o URL actuales, y rechazar el resto.
-
-Estrategia: Otros
-
-Por cualquier chequeo de seguridad que se haya realizado en el lado del cliente, asegurate de que esos chequeos son duplicados en el lado del servidor.
-Atacantes pueden sortear los chequeos del lado del cliente mediante la modificación de valores después de que esos chequeos hayan sido realizados, o mediante el cambio de cliente para eliminar los chequeos del lado de cliente enteramente.
-Entonces, los valores modificados serán entregados al servidor.
-
-Fase: Implementación
-
-Estrategia: Codificacion de Output
-
-Aunque sea arriesgado usar lineas dinámicamente generadas, código, o comandos que mezclan control y datos, algunas veces no puede seer evitado.
-La aproximación más conservadora es de escapar o filtrar todos los carácteres que no pasen una lista de permisos extremadamente estricta. Si algunas veces esos carácteres son necesarios, como un espacio vacío, mete cada argumento en citas, después del filtrado. 
-
-Es posible que estas características estén disponibles en el lenguaje de la base de datos.
-
-Estrategia: Validación de input.
-
-Asume que todo input es malicioso. Solo usar "aceptar lo bueno conocido" como estrategia, es decir, usar inputs que se comforma a las especificaciones.
-Rechazar cualquier input que no siga estrictamente las especificaciones, o se transforme en algo que lo haga.
-
-Cuando se realiza la validación de input, considera todas las propiedades relevantes, incluyendo longitud, tipo de input, el rango completo de valores aceptables, etc.
-
-No confíes exclusivamente en buscar inputs maliciosos o mal formados, dado que es posible que no se vea un input no deseado, sobre todo si el entorno del código cambia. Esto puede dar a los atacantes suficiente espacio para evitar la validación. Sin embargo, listas de denegación pueden ser útiles para detectar ataques potenciales o determinar que inputs son mal formados y que deben se rechazados.
-
-Cuando se construyan consultas de SQL, usar las listas de permisos más estricta para limitar el set de carácteres para el valor del parámetro en la petición.
-
-Estrategia: Otros
-
-Asegurar que el mensaje de error solo contenga los detalles mínimos para ayudar a la audiencia objetivo y nadie más, dado que pueden usar la información para refinar u optimizar sus ataques originales e incrementan sus posibilidades de éxito.
-
-En el contexto de las Inyecciones SQL, los mensajes de error relevando la estructura de una consulta SQL puede ayudar a los atacantes a refinar sus ataques.
-
-Fase de Operación
-
-Estrategia: Cortafuegos
-
-Usar una aplicación de cortafuegos puede detectar ataques contra esta debilidad. Puede ser beneficioso cuando el código no puede ser arreglado, como una medida de prevención preventiva, o para proveer defensa en profundidad.
-
-Sin embargo, no es posible cubrir todos los vectores de entrada. Adicionalmente, técnicas de ataque pueden sortear esta protección. Además, dependiendo de la funcionalidad, puede llegar a rechazar o modificar peticiones legítima. 
-
-Estrategia: Endurecimiento de Entorno
-
-Cuando se usa PHP, configura la aplicación para que no use register_globals. Durante implementación, desarrolla la aplicación para que no dependa de esta característica, pero cuidado de implementar otras emulaciones que sea sujeto a debilidades.
-
-### Detecciones potenciales
-
-Análisis estático automatizado
-
-Esta debilidad puede ser detectada habitualmente usando herramientas de análisis estático automático. Muchas herramientas modernas usa el análisis de flujo de datos o técnicas basadas en restricciones para minimizar el número de falsos positivos.
-
-Esto no puede reconocer cuando una entrada adecuada de validación está siendo realizada, dando lugar a falsos positivos.
-
-Quizás no pueda detectar el uso de una función API personalizada o librerías de terceros que indirectamente invoquen comandos SQL, dado a lugar falsos negativos, especialmente si el código de la API/Libreria no está disponible para análisis.
-
-Análisis dinámico automatizado
-
-Esta debilidad puede ser detectada usando herramientas dinámicas y técnicas que interactuan con el software, usando grandes tests con diversas entradas, como fuzzing, pruebas de robustez e inyección de fallas.
-
-La operación del software puede enlentecerse, pero no debería desestabilizarse, caerse o generar resultados incorrectos.
-
-Análisis manual
-
-Puede ser útil para encontrar esta debilidad, pero puede no llegar a cubrir lo suficiente debido a los límites de tiempo. Esto se vuelve difícil porque se debe considerar todas las entradas, dado que la superficie de ataque puede ser muy grande. 
-
 ### Referencias
 
 Origen: https://cwe.mitre.org/data/definitions/89.html
+
+### Impacto
+
+- Base Score: [9.8 CRITICAL](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-34476&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Vector: [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-34476&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Sistemas Afectados: Servidores de Bases de Datos
+
+### Explotacion
+
+- Confidencialidad.
+- Control de Acceso
+- Control de Acceso
+- Integridad
+
+### Soluciones
+
+- Usar una libreria o framework verificado que no permita que se produzca la debilidad, o provea construcciones que hagan más fácil de evadir.
+- Si es posible, usar mecanismos estructurados para enforzar automáticamente la separación entre datos y código.
+- Correr el código usando los menores privilegios requeridos para cumplimentar las tareas necesarias si es posible, crear cuentas aisladas con privilegios limitados para solo usarse en tareas únicas.
+- Específicamente, seguir el principio del menor privilegio cuando se crean cuentas de usuario en una base de datos SQL.
+- Los usuarios solo deberian de tener los privilegios mínimos necesarios para usar su cuenta.
+- Si los requerimientos del sistema indican que un usuario puede leer y modificar sus propios datos, entonces limitar sus privilegios para que no pueda leer o escribir los datos de los demás.
+- Usar los permisos más estrictos posibles en todos los objetos de la base de datos.
+- Cuando el set de objetos aceptables, como nombres de archivos o URLs, es limitado o conocido, crear un mapa de todos los sets de valores fijos a poner, (como IDs numéricos) de los nombres de archivos o URL actuales, y rechazar el resto.
+- Por cualquier chequeo de seguridad que se haya realizado en el lado del cliente, asegurar de que esos chequeos son duplicados en el lado del servidor.
+- Aunque sea arriesgado usar lineas dinámicamente generadas, código, o comandos que mezclan control y datos, algunas veces no puede seer evitado.
+- Asumir que todo input es malicioso.
+- Cuando se realiza la validación de input, considerr que todas las propiedades relevantes, incluyendo longitud, tipo de input, el rango completo de valores aceptables, etc.
+- No confiar exclusivamente en buscar inputs maliciosos o mal formados.
+- Cuando se construyan consultas de SQL, usar las listas de permisos más estricta para limitar el set de carácteres para el valor del parámetro en la petición.
+- Asegurar que el mensaje de error solo contenga los detalles mínimos para ayudar a la audiencia objetivo y nadie más.
+- En el contexto de las Inyecciones SQL, los mensajes de error relevando la estructura de una consulta SQL puede ayudar a los atacantes a refinar sus ataques.
+- Usar una aplicación de cortafuegos puede detectar ataques contra esta debilidad.
+- Cuando se usa PHP, configura la aplicación para que no use register_globals.
+
 
 ## CWE-20: Improper Input Validation
 
