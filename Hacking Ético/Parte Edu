@@ -114,36 +114,18 @@ Quizás no pueda detectar el uso de una función API personalizada o librerías 
 
 Análisis dinámico automatizado
 
+Esta debilidad puede ser detectada usando herramientas dinámicas y técnicas que interactuan con el software, usando grandes tests con diversas entradas, como fuzzing, pruebas de robustez e inyección de fallas.
 
+La operación del software puede enlentecerse, pero no debería desestabilizarse, caerse o generar resultados incorrectos.
 
 Análisis manual
 
-
-
-Anállisis estático automatizado - Binario o Bytecode
-
-
-
-Análisis dinámico con interpretación de resultados automatizado.
-
-
-
-Análisis dinámico con interpretación de resultados manual.
-
-
-
-Análisis estático manual - Codigo fuente
-
-
-
-Análisis estático automatizado - Código fuente
-
-
-
-Revisión de Arquitectura o Diseño.
-
+Puede ser útil para encontrar esta debilidad, pero puede no llegar a cubrir lo suficiente debido a los límites de tiempo. Esto se vuelve difícil porque se debe considerar todas las entradas, dado que la superficie de ataque puede ser muy grande. 
 
 
 ### Referencias
 
 Origen: https://cwe.mitre.org/data/definitions/89.html
+
+## CWE-20: Improper Input Validation
+
