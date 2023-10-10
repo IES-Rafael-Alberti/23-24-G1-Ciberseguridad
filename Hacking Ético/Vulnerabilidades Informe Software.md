@@ -173,7 +173,7 @@ El repositorio orchest/orchest anterior a 2022.05.0 en GitHub permite un recorri
 
 ### Solución
 
-- Actualzar Orchest a una versión más nueva.
+- Actualizar Orchest a una versión más nueva.
 - Eliminar rutas no seguras en los modulos de los proyectos.
 
 ## CVE-2022-24877
