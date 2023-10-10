@@ -271,7 +271,7 @@ Flux es una solución de entrega continua abierta y extensible para Kubernetes. 
 
 ### Descripción
 
-El punto final goform/setUsbUnload de Tenda AC15 AC1900 versión 15.03.05.19 permite a atacantes remotos ejecutar comandos del sistema de su elección a través del parámetro POST deviceName.
+El goform/setUsbUnload endpoint de Tenda AC15 AC1900 versión 15.03.05.19 permite a atacantes remotos ejecutar comandos del sistema de su elección a través del parámetro POST deviceName.
 
 ### Referencias
 
@@ -287,11 +287,32 @@ El punto final goform/setUsbUnload de Tenda AC15 AC1900 versión 15.03.05.19 per
 
 ### Explotación
 
-Mientras exploramos el archivo httpd binario, descubrimos que durante la ejecución de la solicitud, el parámetro deviceNamey y lanIp se pasan directamente a la función doSystemCmd, provocando la ejecución de un comando arbitrario.
+El atacante puede cambiar el parámetro devicename de tu enrutador y ejecutar comandos arbitrarios.
 
-El valor del parámetro deviceName se puede configurar mediante una solicitud autenticada a la interfaz web.
+### Solución
 
-El valor de lan.ip también se puede configurar mediante una petición a la interfaz web, o configurarlo mediante cfm en el root shell obtenido al iniciar el telnet daemon como se mencionó anteriormente.
+Actualmente no se conoce ningún parche proporcionado por el proveedor ni actualizaciones disponibles para este problema.
 
-Esto se puede utilizar para ataques persistentes, ya que el valor de lan.ip no cambia a menos que el router se restablezca de fábrica, incluso después de reiniciar. Cambiar el valor de lan.ip desactiva temporalmente el WiFi y requiere un reinicio para que funcione normalmente.
+## CVE-2021-0920
 
+### Descripción
+
+Se descubrió un problema en el sistema operativo Linux que afecta a la forma en que se manejan ciertos tipos de conexiones de red llamadas "sockets de dominio Unix". Este problema puede llevar a que el sistema no limpie adecuadamente cierta información, lo que podría causar un mal uso de la memoria y, en última instancia, hacer que el sistema se bloquee o permitir que un usuario local aumente sus privilegios en el sistema.
+
+### Referencias
+
+[https://www.cve.org/CVERecord?id=CVE-2021-0920](https://www.cve.org/CVERecord?id=CVE-2021-0920)
+[https://nvd.nist.gov/vuln/detail/cve-2021-0920](https://nvd.nist.gov/vuln/detail/cve-2021-0920)
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-RCAs/2021/CVE-2021-0920.html](https://googleprojectzero.github.io/0days-in-the-wild//0day-RCAs/2021/CVE-2021-0920.html)
+[https://access.redhat.com/security/cve/cve-2021-0920](https://access.redhat.com/security/cve/cve-2021-0920)
+
+### Impacto
+
+- Base Score: [6.9 MEDIUM](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-0920&vector=AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Vector: [AV:L/AC:M/Au:N/C:C/I:C/A:C](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-0920&vector=AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
+- Sistemas Afectados: AndroidVersions: Android kernelAndroid ID: A-196926917
+
+### Explotación
+
+En unix_scm_to_skb de af_unix.c, existe un posible error que podría conducir a una escalada local de privilegios.
+La interacción del usuario no es necesaria para la explotación.
