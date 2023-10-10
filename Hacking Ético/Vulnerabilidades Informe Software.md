@@ -228,7 +228,7 @@ El goform/setUsbUnload endpoint de Tenda AC15 AC1900 versión 15.03.05.19 permit
 ### Explotación
 
 El atacante puede cambiar el parámetro deviceName de tu enrutador y ejecutar comandos arbitrarios.  
-[CWE-78](https://cwe.mitre.org/data/definitions/78.html)
+CWE: [CWE-78](https://cwe.mitre.org/data/definitions/78.html)
 
 ### Solución
 
@@ -262,7 +262,7 @@ En unix_scm_to_skb de af_unix.c, existe un posible error que podría conducir a 
 
 La interacción del usuario no es necesaria para la explotación.
 
-[CWE-416](https://cwe.mitre.org/data/definitions/416.html)  
+CWE: [CWE-416](https://cwe.mitre.org/data/definitions/416.html)  
 
 ### Solucion
 
