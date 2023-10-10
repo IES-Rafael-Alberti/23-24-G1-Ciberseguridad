@@ -214,7 +214,9 @@ El goform/setUsbUnload endpoint de Tenda AC15 AC1900 versión 15.03.05.19 permit
 ### Referencias
 
 [https://nvd.nist.gov/vuln/detail/CVE-2020-10987](https://nvd.nist.gov/vuln/detail/CVE-2020-10987)
+
 [https://blog.securityevaluators.com/tenda-ac1900-vulnerabilities-discovered-and-exploited-e8e26aa0bc68](https://blog.securityevaluators.com/tenda-ac1900-vulnerabilities-discovered-and-exploited-e8e26aa0bc68)
+
 [https://www.fortiguard.com/encyclopedia/ips/49352](https://www.fortiguard.com/encyclopedia/ips/49352)
 
 ### Impacto
@@ -240,8 +242,11 @@ Se descubrió un problema en el sistema operativo Linux que afecta a la forma en
 ### Referencias
 
 [https://www.cve.org/CVERecord?id=CVE-2021-0920](https://www.cve.org/CVERecord?id=CVE-2021-0920)
+
 [https://nvd.nist.gov/vuln/detail/cve-2021-0920](https://nvd.nist.gov/vuln/detail/cve-2021-0920)
+
 [https://googleprojectzero.github.io/0days-in-the-wild//0day-RCAs/2021/CVE-2021-0920.html](https://googleprojectzero.github.io/0days-in-the-wild//0day-RCAs/2021/CVE-2021-0920.html)
+
 [https://access.redhat.com/security/cve/cve-2021-0920](https://access.redhat.com/security/cve/cve-2021-0920)
 
 ### Impacto
