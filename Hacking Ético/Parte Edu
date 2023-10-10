@@ -75,9 +75,74 @@ Es posible que estas características estén disponibles en el lenguaje de la ba
 
 Estrategia: Validación de input.
 
+Asume que todo input es malicioso. Solo usar "aceptar lo bueno conocido" como estrategia, es decir, usar inputs que se comforma a las especificaciones.
+Rechazar cualquier input que no siga estrictamente las especificaciones, o se transforme en algo que lo haga.
 
+Cuando se realiza la validación de input, considera todas las propiedades relevantes, incluyendo longitud, tipo de input, el rango completo de valores aceptables, etc.
+
+No confíes exclusivamente en buscar inputs maliciosos o mal formados, dado que es posible que no se vea un input no deseado, sobre todo si el entorno del código cambia. Esto puede dar a los atacantes suficiente espacio para evitar la validación. Sin embargo, listas de denegación pueden ser útiles para detectar ataques potenciales o determinar que inputs son mal formados y que deben se rechazados.
+
+Cuando se construyan consultas de SQL, usar las listas de permisos más estricta para limitar el set de carácteres para el valor del parámetro en la petición.
+
+Estrategia: Otros
+
+Asegurar que el mensaje de error solo contenga los detalles mínimos para ayudar a la audiencia objetivo y nadie más, dado que pueden usar la información para refinar u optimizar sus ataques originales e incrementan sus posibilidades de éxito.
+
+En el contexto de las Inyecciones SQL, los mensajes de error relevando la estructura de una consulta SQL puede ayudar a los atacantes a refinar sus ataques.
+
+Fase de Operación
+
+Estrategia: Cortafuegos
+
+Usar una aplicación de cortafuegos puede detectar ataques contra esta debilidad. Puede ser beneficioso cuando el código no puede ser arreglado, como una medida de prevención preventiva, o para proveer defensa en profundidad.
+
+Sin embargo, no es posible cubrir todos los vectores de entrada. Adicionalmente, técnicas de ataque pueden sortear esta protección. Además, dependiendo de la funcionalidad, puede llegar a rechazar o modificar peticiones legítima. 
+
+Estrategia: Endurecimiento de Entorno
+
+Cuando se usa PHP, configura la aplicación para que no use register_globals. Durante implementación, desarrolla la aplicación para que no dependa de esta característica, pero cuidado de implementar otras emulaciones que sea sujeto a debilidades.
 
 ### Detecciones potenciales
+
+Análisis estático automatizado
+
+Esta debilidad puede ser detectada habitualmente usando herramientas de análisis estático automático. Muchas herramientas modernas usa el análisis de flujo de datos o técnicas basadas en restricciones para minimizar el número de falsos positivos.
+
+Esto no puede reconocer cuando una entrada adecuada de validación está siendo realizada, dando lugar a falsos positivos.
+
+Quizás no pueda detectar el uso de una función API personalizada o librerías de terceros que indirectamente invoquen comandos SQL, dado a lugar falsos negativos, especialmente si el código de la API/Libreria no está disponible para análisis.
+
+Análisis dinámico automatizado
+
+
+
+Análisis manual
+
+
+
+Anállisis estático automatizado - Binario o Bytecode
+
+
+
+Análisis dinámico con interpretación de resultados automatizado.
+
+
+
+Análisis dinámico con interpretación de resultados manual.
+
+
+
+Análisis estático manual - Codigo fuente
+
+
+
+Análisis estático automatizado - Código fuente
+
+
+
+Revisión de Arquitectura o Diseño.
+
+
 
 ### Referencias
 
