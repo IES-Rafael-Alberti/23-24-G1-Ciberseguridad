@@ -73,41 +73,63 @@ este problema requiere la interacción del usuario, ya que la víctima debe abri
 [https://helpx.adobe.com/security/products/acrobat/apsb21-104.html](https://helpx.adobe.com/security/products/acrobat/apsb21-104.html)
 
 ### Impacto
+- Base Score: 
 - Vector: [ CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-40729&vector=AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N&version=3.1&source=Adobe%20Systems%20Incorporated)
+  
 - Sistemas Afectados:  Acrobat DC 21.007.20096, Acrobat Reader DC 21.007.20096, Acrobat Classic 2020 20.004.30015, Acrobat Reader Classic 2020   20.004.30015, Acrobat Classic 2017 17.011.30202 y Acrobat Reader Classic 17.011.30202.
   
 ### Explotación
 - Clase: Lectura fuera de limites
+  
 El producto lee datos más allá del final, o antes del principio, del búfer previsto. Por lo general, esto puede permitir a los atacantes leer información confidencial de otras ubicaciones de memoria o provocar un bloqueo.
+
 - CWE: [CWE-125](https://cwe.mitre.org/data/definitions/125.html)
 ### Solución
 Adobe recomienda a los usuarios que actualicen sus instalaciones de software a las últimas versiones.
 
-## CVE-2023-5357
+## CVE-2022-42971
 ### Descripción
-El plugin Instagram for WordPress para WordPress es vulnerable a Stored Cross-Site Scripting a través de 
-shortcodes en versiones hasta, e incluyendo, 2.1.6 debido a insuficiente sanitización de entrada y escape
-de salida en atributos suministrados por el usuario. Esto hace posible que atacantes autenticados con
-permisos de nivel de colaborador y superiores, inyecten scripts web arbitrarios en páginas que se ejecutarán
-cada vez que un usuario acceda a una página inyectada.
+
+Existe una vulnerabilidad CWE-434: carga sin restricciones de archivos peligrosos que podría causar la ejecución remota de código cuando el atacante carga un archivo JSP malicioso.
 
 ## Referencias
-[https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12](https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12)
 
-[https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12](https://plugins.trac.wordpress.org/browser/instagram-for-wordpress/tags/2.1.6/templates/instagramPost.php#L12)
-
-[https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve](https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve)
-
-[https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve](https://www.wordfence.com/threat-intel/vulnerabilities/id/3991d8d0-57a8-42e7-a53c-97508f7e137f?source=cve)
+[https://download.schneider-electric.com/files?p_Doc_SEVD-2022-347-01&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2022-347-01_Easy_UPS_Online_Monitoring_Software_Security_Notification.pdf](https://download.schneider-electric.com/files?p_Doc_SEVD-2022-347-01&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2022-347-01_Easy_UPS_Online_Monitoring_Software_Security_Notification.pdf)
 
 ### Impacto
-- Vector:   [CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2023-5357&vector=AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N&version=3.1&source=NIST)
-- Sistemas Afectados: Wordpress 6.1, Instagram pluying para Wordpress 2.1.6
+- Base Score: [9.8 CRITICAL](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2022-42971&vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=Schneider%20Electric%20SE)
   
+- Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+- Sistemas Afectados: Software de monitoreo en línea Easy UPS de APC (Windows 7, 10, 11 y Windows Server 2016, 2019, 2022 - Versiones anteriores a V2.5-GA), Software de monitoreo en línea Easy UPS de APC (Windows 11, Windows Server 2019, 2022 - Versiones anteriores a V2.5-GA-01-22261), Software de monitoreo en línea Schneider Electric Easy UPS (Windows 7, 10, 11 y Windows Server 2016, 2019, 2022 - Versiones anteriores a V2.5-GS), Schneider Electric Software de monitoreo en línea Easy UPS (Windows 11, Windows Server 2019, 2022 - Versiones anteriores a V2.5-GS-01-22261)
+
 ### Explotación
-- Clase: Cross site scripting (XSS)
-  Consiste en enviar la URL con el payload precargado al usuario víctima con un objetivo determinado: robar datos personales del usuario, cookies de sesión, implementar técnicas de ingeniería social, entre otras.
-- CWE: [CWE-79/CWE-74/CWE-707](https://cwe.mitre.org/data/definitions/79.html)
+- Clase: Carga sin restricciones de archivos con tipos peligrosos.
   
+  El producto permite al atacante cargar o transferir archivos de tipos peligrosos que pueden procesarse automáticamente dentro del entorno del producto.
+  
+- CWE: [CWE-434](https://cwe.mitre.org/data/definitions/434.html)
 ### Solución
-Se recomienda eliminar este plugin y instalar otro que cumpla su misma función ya que no existe parche posible para esta vulnerabilidad por ahora.
+[Documento Oficial](https://download.schneider-electric.com/files?p_Doc_SEVD-2022-347-01&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2022-347-01_Easy_UPS_Online_Monitoring_Software_Security_Notification.pdf)
+
+- Ubicar redes de sistemas de control y seguridad y dispositivos remotos detrás de firewalls y
+aislarlos de la red empresarial.
+
+- Instale controles físicos para que ningún personal no autorizado pueda acceder a su control industrial
+y sistemas de seguridad, componentes, equipos periféricos y redes.
+
+- Coloque todos los controladores en gabinetes cerrados con llave y nunca los deje en el modo "Programa".
+
+- Nunca conecte el software de programación a ninguna red que no sea la red del
+dispositivos a los que está destinado.
+
+- Escanee todos los métodos de intercambio de datos móviles con la red aislada, como CD, USB
+unidades, etc. antes de su uso en los terminales o cualquier nodo conectado a estas redes.
+
+- Nunca permita que dispositivos móviles que se hayan conectado a cualquier otra red además de la
+red prevista para conectarse a las redes de seguridad o control sin un saneamiento adecuado.
+
+- Minimizar la exposición de la red para todos los dispositivos y sistemas del sistema de control y garantizar que
+no son accesibles desde Internet.
+
+- Cuando se requiera acceso remoto, utilice métodos seguros, como redes privadas virtuales (VPN). Reconocer que las VPN pueden tener vulnerabilidades y deben actualizarse al versión más actual disponible.
