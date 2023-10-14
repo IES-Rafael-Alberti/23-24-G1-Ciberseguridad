@@ -31,7 +31,7 @@ style: |
 ---
 # CVE-2022-42971
 
-## Carga sin restricciones de archivos peligrosos que podría causar la ejecución remota de código cuando el atacante carga un archivo JSP malicioso.
+## Carga sin restricciones de archivos peligrosos que podría causar la ejecución remota de código cuando el atacante carga un archivo JSP malicioso en Easy UPS de APC en Windows.
 
 ![width:300px, height:225px](https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/02/ransomware-1862491.jpg)
 
@@ -41,7 +41,7 @@ style: |
 ---
 # CVE-2023-20805
 
-## El producto escribe datos pasados en el final o antes del comienzo del bufer previsto. 
+## En imgsys, existe una posible escritura fuera de límites debido a una verificación de límites faltantes. Esto podría conducir a una escalada local de privilegios con privilegios de ejecución del sistema necesarios.
 
 ## Puntuacion -> 6.7
 
@@ -67,13 +67,13 @@ style: |
 ---
 # CVE-2022-24877
 
-##  Permitir a un atacante exponer datos confidenciales del sistema de archivos pod del controlador. 
+##  Permite a un atacante exponer datos confidenciales del sistema de archivos pod del controlador de la solución Flux para Kubernetes. 
 
 ## Puntuacion -> 9.3
 
 ![width:300px, height:175px](https://blog.ehcgroup.io/wp-content/uploads/2020/03/screenshot.1005.jpg?v=1585670179)
 
-## Explotacion -> A traves de un fichero .yaml malicioso permite al atacante una escalada de privilegios en implementaciones de múltiples inquilinos..
+## Explotacion -> A través de un fichero .yaml malicioso permite al atacante una escalada de privilegios en implementaciones de múltiples inquilinos..
 
 ---
 # CVE-2020-10987
@@ -90,7 +90,7 @@ style: |
 ---
 # CVE-2021-0920
 
-##  Este problema puede llevar a que el sistema de Linux no se limpie adecuadamente cierta información,
+##  Este problema puede llevar a que el sistema de Linux no se limpie adecuadamente cierta información.
 
 ## Puntuacion -> 6.9
 
@@ -106,7 +106,7 @@ style: |
 ---
 # CVE-2021-32566
 
-##  Un atacante puede crear el input en una forma que no es esperada por el resto de la aplicación.
+##  Un atacante puede crear el input de una forma que no es esperada por el resto de la aplicación en HTTP/2 de Apache Traffic Server.
 
 ## Puntuacion -> 7.5
 
