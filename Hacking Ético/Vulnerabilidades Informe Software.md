@@ -79,7 +79,7 @@ no son accesibles desde Internet.
 ## CVE-2023-20805
 ### Descripción
 
-El producto escribe datos pasados en el final o antes del comienzo del bufer previsto. Normalmente, esto puede provocar daños en los datos, un bloqueo o la ejecuccion del codigo. El producto puede modificar un indice o realizar un aritmetica que haga referencia a una ubicación de memoria que este de los limites del bufer. Una operacion de escritura posterior produce resultados indefinidos o inesperados. En resumen, puede ocurrir Corrupción de memoria.
+En imgsys, existe una posible escritura fuera de límites debido a una verificación de límites faltantes. Esto podría conducir a una escalada local de privilegios con privilegios de ejecución del sistema necesarios. La interacción del usuario no es necesaria para la explotación. ID de parche: ALPS07199773; ID del problema: ALPS07326411.
 
 ## Referencias
 https://cwe.mitre.org/data/definitions/787.html
