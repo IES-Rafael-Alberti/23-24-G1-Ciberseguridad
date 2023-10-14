@@ -102,7 +102,7 @@ style: |
 
 ## Puntuacion -> 9.8
 
-## Explotacion -> Confidencialidad ,Control de Acceso, Integridad.
+## Explotacion -> Confidencialidad, Control de Acceso, Integridad.
 ---
 # CVE-2021-32566
 
