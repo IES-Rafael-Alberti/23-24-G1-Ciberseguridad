@@ -53,7 +53,7 @@ style: |
 
 ## Puntuacion -> 6.1
 
-## Explotacion -> Confidencialidad del control de acceso, Integridad, Confidencialidad, Disponibilidad, Control de Acceso...
+## Explotación -> Confidencialidad del control de acceso, Integridad, Confidencialidad, Disponibilidad, Control de Acceso...
 
 ![width:300px, height:225px](https://easydmarc.com/blog/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/06/What-is-Cross-site-Scripting-XSS-Attack-and-How-to-Fix-it_-1.jpg.webp)
 ---
@@ -61,7 +61,7 @@ style: |
 
 ## Permitir un recorrido de ruta absoluto porque la función Flask send_file se usa de manera insegura. 
 
-## Puntuacion -> 9.3
+## Puntuación -> 9.3
 
 ## Explotacion -> Clase: Recorrido de ruta absoluta. Gracias a la función Flask send_file un archivo cargado en orchest nos puede dar acceso a la ruta raiz.
 ---
@@ -73,14 +73,21 @@ style: |
 
 ![width:300px, height:175px](https://blog.ehcgroup.io/wp-content/uploads/2020/03/screenshot.1005.jpg?v=1585670179)
 
-## Explotacion -> A través de un fichero .yaml malicioso permite al atacante una escalada de privilegios en implementaciones de múltiples inquilinos..
+## Explotación -> A través de un fichero .yaml malicioso permite al atacante una escalada de privilegios en implementaciones de múltiples inquilinos..
+---
+# CVE-2022-31503
 
+## El repositorio orchest/orchest anterior a 2022.05.0 en GitHub permite un recorrido de ruta absoluto porque la función Flask send_file se usa de manera insegura.
+
+## Puntuación -> 9.3
+
+## Explotación -> Recorrido de ruta absoluta.
 ---
 # CVE-2020-10987
 
 ##  El goform/setUsbUnload endpoint de Tenda  permite a atacantes remotos ejecutar comandos del sistema de su elección.
 
-## Puntuacion -> 9.8
+## Puntuación -> 9.8
 
 ## Explotacion -> El atacante puede cambiar el parámetro deviceName de tu enrutador y ejecutar comandos arbitrarios.
 
@@ -92,17 +99,17 @@ style: |
 
 ##  Este problema puede llevar a que el sistema de Linux no se limpie adecuadamente cierta información.
 
-## Puntuacion -> 6.9
+## Puntuación -> 6.9
 
-## Explotacion -> La interacción del usuario no es necesaria para la explotación.
+## Explotación -> La interacción del usuario no es necesaria para la explotación.
 ---
 # CVE-2023-34476
 
-## Un comando SQL usando entradas externas de un componente,no neutraliza o neutraliza incorrectamente elementos especiales que pueda modificar el comando SQL intencionado.
+## Un comando SQL usando entradas externas de un componente, no neutraliza o neutraliza incorrectamente elementos especiales que pueda modificar el comando SQL intencionado.
 
-## Puntuacion -> 9.8
+## Puntuación -> 9.8
 
-## Explotacion -> Confidencialidad, Control de Acceso, Integridad.
+## Explotación -> Confidencialidad, Control de Acceso, Integridad.
 ---
 # CVE-2021-32566
 
@@ -110,4 +117,4 @@ style: |
 
 ## Puntuacion -> 7.5
 
-## Explotacion -> Disponibilidad, Confidencialidad, Integridad
+## Explotacion -> Disponibilidad, Confidencialidad, Integridad.
