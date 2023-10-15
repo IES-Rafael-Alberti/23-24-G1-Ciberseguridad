@@ -69,7 +69,7 @@ style: |
 
 ##  Permite a un atacante exponer datos confidenciales del sistema de archivos pod del controlador de la solución Flux para Kubernetes. 
 
-## Puntuacion -> 9.3
+## Puntuacion -> 8.8
 
 ![width:300px, height:175px](https://blog.ehcgroup.io/wp-content/uploads/2020/03/screenshot.1005.jpg?v=1585670179)
 
