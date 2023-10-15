@@ -17,7 +17,7 @@ style: |
 ---
 #
 #
-# Analisis de Vulnerabilidades
+# Análisis de Vulnerabilidades
 #
 #
 ##### Eduardo de Motrico Fedriani
