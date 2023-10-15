@@ -37,7 +37,7 @@ style: |
 
 ## Puntuacion -> 9.8
 
-## Explotacion -> Carga sin restricciones de archivos con tipos peligrosos.
+## Explotacion -> Carga sin restricciones de archivos de tipo peligroso.
 ---
 # CVE-2023-20805
 
