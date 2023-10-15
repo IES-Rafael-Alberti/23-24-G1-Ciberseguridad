@@ -33,7 +33,7 @@ style: |
 
 ## Carga sin restricciones de archivos peligrosos que podría causar la ejecución remota de código cuando el atacante carga un archivo JSP malicioso en Easy UPS de APC en Windows.
 
-![width:300px, height:225px](https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/02/ransomware-1862491.jpg)
+![width:300px, height:200px](https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/02/ransomware-1862491.jpg)
 
 ## Puntuacion -> 9.8
 
