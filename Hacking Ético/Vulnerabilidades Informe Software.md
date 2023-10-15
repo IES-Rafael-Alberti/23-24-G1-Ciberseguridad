@@ -9,7 +9,23 @@
 ##### Adrián Campó Merlo
 ##### Sergio Guerrero Merlo
 
-## CVE-2020-11899
+
+**Indice**
+1. CVE-2020-11899 (#id1)
+2. CVE-2020-11899 (#id2)
+3. CVE-2023-20805 (#id3)
+4. CVE-2023-38435 (#id4)
+5. CVE-2022-31503 (#id5)
+6. CVE-2022-24877 (#id6)
+7. CVE-2020-10987 (#id7)
+8. CVE-2021-0920 (#id8)
+9. CVE-2023-34476 (#id9)
+10. CVE-2021-32566 (#id10)
+
+
+
+
+## CVE-2020-11899 <a name="id1"></a>
 ### Descripción
 La pila Treck TCP/IP anterior a 6.0.1.66 tiene una lectura fuera de límites de IPv6.
 
@@ -40,7 +56,7 @@ El producto lee datos más allá del final, o antes del principio, del búfer pr
 - Bloquear el enrutamiento de origen IP y cualquier característica obsoleta de IPv6, como encabezados de enrutamiento
 - Proporcione seguridad DHCP/DHCPv6 con funciones como DHCP snooping
 - Deshabilite o bloquee la multidifusión IPv6 si no se usa en la infraestructura de conmutación
-## CVE-2022-42971
+## CVE-2022-42971 <a name="id2"></a>
 ### Descripción
 
 Carga sin restricciones de archivos peligrosos que podría causar la ejecución remota de código cuando el atacante carga un archivo JSP malicioso.
@@ -87,7 +103,7 @@ no son accesibles desde Internet.
 
 - Cuando se requiera acceso remoto, utilice métodos seguros, como redes privadas virtuales (VPN). Reconocer que las VPN pueden tener vulnerabilidades y deben actualizarse al versión más actual disponible.
 
-## CVE-2023-20805
+## CVE-2023-20805 <a name="id3"></a>
 ### Descripción
 
 En imgsys, existe una posible escritura fuera de límites debido a una verificación de límites faltantes. Esto podría conducir a una escalada local de privilegios con privilegios de ejecución del sistema necesarios. La interacción del usuario no es necesaria para la explotación. ID de parche: ALPS07199773; ID del problema: ALPS07326411.
@@ -119,7 +135,7 @@ extensiones de compilador como Visual Studio /GS.
 caracteristica.
 - Ejecutar o compilar el software utilizando funciones o extensiones que organizan aleatoriamente las posiciones del ejecutable y las bibliotecas de un programa en la memoria.
 
-## CVE-2023-38435
+## CVE-2023-38435 <a name="id4"></a>
 ### Descripción
 
 El producto no neutraliza o neutraliza incorrectamente la entrada controlable por el usuario antes de colocarla en la salida que se utiliza como una pagina web que se sirve a otros usuarios. Los datos que no son de confianza ingresan a una aplicación web. La aplicacion web genera dinamicamente una pagina web que contiene estos datos que no son de confianza. Durante la generacion de la pagina, la aplicacion no impide que los datos contengan contenido ejecutable mediante un navegador web. Una victima visita la pagina web generada a través de un navegador web, que contiene un script malicioso que se inyectó utilizando datos que no son de confianza. Dado que el script proviene de una página web enviada por el servidor web, el navegador web, el navegador web de la
@@ -154,7 +170,7 @@ Confidencialidad del control de acceso, Integridad, Confidencialidad, Disponibil
 - Utilizar un firewall de aplicaciones que puede detectar ataques contra esta debilidad.
 - Cuando utilice PHP, configurar la aplicación para que no utilice Register globals.
 
-## CVE-2022-31503
+## CVE-2022-31503 <a name="id5"></a>
 
 ### Descripción
 
@@ -187,7 +203,7 @@ El repositorio orchest/orchest anterior a 2022.05.0 en GitHub permite un recorri
 - Actualizar Orchest a una versión más nueva.
 - Eliminar rutas no seguras en los modulos de los proyectos.
 
-## CVE-2022-24877
+## CVE-2022-24877 <a name="id6"></a>
 
 ### Descripción
 
@@ -216,7 +232,7 @@ Flux es una solución de entrega continua abierta y extensible para Kubernetes. 
 - Actualizar flux2 a una versión posterior a la versión afectada ya que la nueva versión parcheada tiene un nuevo fichero yaml.
 - Actualizar Kustomize-coontroller a una versión posterior a la afectada ya que la nueva versión parcheada tiene un nuevo fichero yaml.
 
-## CVE-2020-10987
+## CVE-2020-10987 <a name="id7"></a>
 
 ### Descripción
 
@@ -245,7 +261,7 @@ CWE: [CWE-78](https://cwe.mitre.org/data/definitions/78.html)
 
 Actualmente no se conoce ningún parche proporcionado por el proveedor ni actualizaciones disponibles para este problema.
 
-## CVE-2021-0920
+## CVE-2021-0920 <a name="id8"></a>
 
 ### Descripción
 
@@ -279,7 +295,7 @@ CWE: [CWE-416](https://cwe.mitre.org/data/definitions/416.html)  y [CWE-362](htt
 
 La mitigación para este problema no está disponible.
 
-## CVE-2023-34476
+## CVE-2023-34476 <a name="id9"></a>
 ### Descripción
 
 El producto construye todas o parte de un comando SQL usando entradas externas de un componente, pero que no neutraliza o neutraliza incorrectamente elementos especiales que pueda modificar el comando SQL intencionado.
@@ -323,7 +339,7 @@ Origen: https://cwe.mitre.org/data/definitions/89.html
 - Usar una aplicación de cortafuegos puede detectar ataques contra esta debilidad.
 - Cuando se usa PHP, configura la aplicación para que no use register_globals.
 
-## CVE-2021-32566
+## CVE-2021-32566<a name="id10"></a>
 
 ### Descripción
 
