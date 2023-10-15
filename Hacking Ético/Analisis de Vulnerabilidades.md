@@ -18,14 +18,13 @@ style: |
 # 
 #
 #
-#
 # Analisis de Vulnerabilidades
 
-## Eduardo de Motrico Fedriani
-## Rafael Valverde Cros
-## Pedro Luis Borrego Vargas
-## Adrán Campó Merlo
-## Sergio Guerrero Merlo
+### Eduardo de Motrico Fedriani
+### Rafael Valverde Cros
+### Pedro Luis Borrego Vargas
+### Adrián Campó Merlo
+### Sergio Guerrero Merlo
 ---
 # CVE-2020-11899
 
