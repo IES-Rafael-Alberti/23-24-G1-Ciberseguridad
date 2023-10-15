@@ -1,3 +1,13 @@
+# Análisis de vulnerabilidades de Software
+
+## Autores:
+
+##### Eduardo de Motrico Fedriani
+##### Rafael Valverde Cros
+##### Pedro Luis Borrego Vargas
+##### Adrián Campó Merlo
+##### Sergio Guerrero Merlo
+
 ## CVE-2020-11899
 ### Descripción
 La pila Treck TCP/IP anterior a 6.0.1.66 tiene una lectura fuera de límites de IPv6.
