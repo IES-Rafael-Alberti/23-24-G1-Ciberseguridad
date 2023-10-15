@@ -15,9 +15,7 @@ style: |
       font-size: 25px;
     }
 ---
-# 
-#
-#
+
 # Analisis de Vulnerabilidades
 
 ##### Eduardo de Motrico Fedriani
