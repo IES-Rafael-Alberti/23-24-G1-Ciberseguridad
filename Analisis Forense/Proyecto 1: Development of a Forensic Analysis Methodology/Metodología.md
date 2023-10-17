@@ -53,7 +53,7 @@ Proporciona pasos para el estudio de la evidencia digital; sistematizando recole
     - Si el equipo esta encendido, se pasara a realizar la adquisición en vivo de dicho equipo.
     - Si se esta ejecutando cualquier software destructivo se debera forzar el apagado del equipo desconectandolo del cable de alimentación.
     - Las computadoras que están apagadas se pueden recopilar como evidencia siguiendo el orden de volatilidad.
-2. Análisis
+2. Análisis  
 En esta etapa se realizara el análisis de las adquisiciones previas.
   * Prevenir la contaminación
     - Antes de analizar la evidencia digital, se crea una imagen o copia de trabajo del dispositivo de almacenamiento original. Al recopilar datos de un dispositivo sospechoso, la copia debe almacenarse en otro medio de comunicación para mantener el estado original.
