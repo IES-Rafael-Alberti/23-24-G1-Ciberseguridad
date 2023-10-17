@@ -53,4 +53,15 @@ Proporciona pasos para el estudio de la evidencia digital; sistematizando recole
     - Si el equipo esta encendido, se pasara a realizar la adquisición en vivo de dicho equipo.
     - Si se esta ejecutando cualquier software destructivo se debera forzar el apagado del equipo desconectandolo del cable de alimentación.
     - Las computadoras que están apagadas se pueden recopilar como evidencia siguiendo el orden de volatilidad.
-2. Análisis 
+2. Análisis
+En esta etapa se realizara el análisis de las adquisiciones previas.
+  * Prevenir la contaminación
+    - Antes de analizar la evidencia digital, se crea una imagen o copia de trabajo del dispositivo de almacenamiento original. Al recopilar datos de un dispositivo sospechoso, la copia debe almacenarse en otro medio de comunicación para mantener el estado original.
+    - Los analistas deben usar medios de almacenamiento «limpios» para evitar la contaminación o la introducción de datos de otra fuente.
+  * Aislar dispositivos inalámbricos
+    - Para trabajar con estos dispositivos debemos de hacerlo totalmente en salas aisladas para estar desconectados de cualquier red.
+    - Si no se dispone de sala aislada, los investigadores generalmente colocarán el dispositivo en una bolsa Faraday y cambiarán el teléfono al modo avión para evitar la recepción.
+  * Bloqueo de escritura
+    Antes de comenzar a trabajar, deberemos protejer contra escritura la evidencia para que al conectar cualquier dispositivo no se sobreescriban los datos.
+  * Selección de herramientas para el análisis
+    En esta etapa, tendremos que seleccionar las herramientas que veamos mas oportunas para el tipo de análisis que vamos a realizar, algunas seran para ver artefactos en Windows, otra en Linux, etc...
