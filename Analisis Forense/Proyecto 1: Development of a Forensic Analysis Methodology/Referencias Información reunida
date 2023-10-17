@@ -13,3 +13,22 @@ Esta norma nos define como debe redactarse un informe pericial informático, tel
 UNE 71506:2013
 
 Esta norma UNE es el marco de referencia de buenas prácticas en la gestión de Evidencias Electrónicas, y en ella se fija el procedimiento de análisis forense dentro del proceso de la gestión de las pruebas tecnológicas, basándose en la norma UNE 71505.
+
+ISO/IEC 27037:212. Indicaciones para la identificación, recolección, adquisición y preservación de la evidencia digital
+El estándar nos proporciona directrices para la identificación, recolección, adquisición y preservación de potenciales evidencias telemáticas e informáticas que pueden tener valor probatorio.
+
+Nos proporciona, entre otros, guías para el manejo de evidencias digitales, así como orientaciones en los procedimientos de intercambio de evidencias digitales. Sin embargo, nunca entra en el análisis de la evidencia.
+
+ISO/IEC 27040:2105. Almacenamiento seguro
+Reúne guías y recomendaciones para que el almacenamiento de las evidencias digitales sea seguro.
+
+ISO/IEC 27042:2015. Indicaciones para el análisis e interpretación de la evidencia digital
+Norma que trata el análisis y la interpretación de evidencias digitales.
+
+Proporciona guías sobre como un perito en informática y telemática forense puede afrontar el análisis e interpretación de una evidencia digital o tecnológica en un incidente o en una intervención pericial, desde su identificación, análisis, hasta que es aceptada como prueba en un juicio y las partes que deben tener el informe.
+
+RFC 4998. Evidence Record Syntax
+Esta RFC define un estándar para la preservación de la información, incluyendo información firmada digitalmente.
+
+Nos indica como demostrar su existencia e integridad durante un periodo de tiempo que se desconoce.
+
