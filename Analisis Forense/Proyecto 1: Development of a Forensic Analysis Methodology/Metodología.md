@@ -41,7 +41,7 @@ El RFC 3227 es un documento que recoge las directrices para la recopilación de 
   * Los programas que utilicemos tienen que estar localizados en dispositivos de lectura (USB,CDs,etc)
     
 ### ISO/IEC 27037
-Proporciona pasos para el estudio de la evidencia digital; sistematizando la identificación, recolección, adquisición y preservación de la misma; con procesos diseñados para respetar la integridad de la evidencia y con una metodología para asegurar su validez ante un juez.
+Proporciona pasos para el estudio de la evidencia digital; sistematizando recolección, adquisición y preservación de la misma; con procesos diseñados para respetar la integridad de la evidencia y con una metodología para asegurar su validez ante un juez.
 
 1. Adquisición. A la hora de realizar adquisiciones, esta norma explica el como aprovechar dispositivos móviles y como extraer equipos y dispositivos independientes.
   * Dispositivos móviles
@@ -53,4 +53,4 @@ Proporciona pasos para el estudio de la evidencia digital; sistematizando la ide
     - Si el equipo esta encendido, se pasara a realizar la adquisición en vivo de dicho equipo.
     - Si se esta ejecutando cualquier software destructivo se debera forzar el apagado del equipo desconectandolo del cable de alimentación.
     - Las computadoras que están apagadas se pueden recopilar como evidencia siguiendo el orden de volatilidad.
-   
+2. Análisis 
