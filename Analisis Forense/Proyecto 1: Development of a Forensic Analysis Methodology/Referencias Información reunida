@@ -32,3 +32,6 @@ Esta RFC define un estándar para la preservación de la información, incluyend
 
 Nos indica como demostrar su existencia e integridad durante un periodo de tiempo que se desconoce.
 
+RFC 6283. XML Evidence Record Syntax
+Esta RFC nos demuestra la existencia, integridad y validez de la información, durante periodos determinados de tiempo.
+
