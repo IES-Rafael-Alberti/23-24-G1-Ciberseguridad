@@ -23,7 +23,7 @@ El RFC 3227 es un documento que recoge las directrices para la recopilación de 
     - Documentos
     
   * Transparencia. A la hora de realizar nuestra adquisición tendremos que explicar detalladamente el proceso que hemos seguido para que pueda ser totalmente reproducible:
-    - ¿Dónde está la evidencia? Definir de que dispositivos hemos extraido las evidencias.
+    - Dónde está la evidencia. Definir de que dispositivos hemos extraido las evidencias.
     - Establecer qué es relevante. Se ha de definir que información es relevante para el caso.
     - Fijar el orden de volatilidad para cada dispositivo.
     - Documentar cada paso.
