@@ -57,7 +57,7 @@ Proporciona pasos para el estudio de la evidencia digital; sistematizando recole
 En esta etapa se realizara el análisis de las adquisiciones previas.
   * Prevenir la contaminación
     - Antes de analizar la evidencia digital, se crea una imagen o copia de trabajo del dispositivo de almacenamiento original. Al recopilar datos de un dispositivo sospechoso, la copia debe almacenarse en otro medio de comunicación para mantener el estado original.
-    - Los analistas deben usar medios de almacenamiento «limpios» para evitar la contaminación o la introducción de datos de otra fuente.
+    - Los analistas deben usar medios de almacenamiento que se hayan sometido a un borrado seguro para evitar la contaminación o la introducción de datos de otra fuente.
   * Aislar dispositivos inalámbricos
     - Para trabajar con estos dispositivos debemos de hacerlo totalmente en salas aisladas para estar desconectados de cualquier red.
     - Si no se dispone de sala aislada, los investigadores generalmente colocarán el dispositivo en una bolsa Faraday y cambiarán el teléfono al modo avión para evitar la recepción.
