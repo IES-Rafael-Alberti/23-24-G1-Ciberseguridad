@@ -12,12 +12,19 @@ de la evidencia y manetener una buena presentacion en un tribunal en los casos q
 * NIST SP 800-101 -> Esta guia se centra en la informática forense aplicada en dispositivos móviles. Proporciona orientación técnica
 y ética para garantizar la seguridad de la evidencia digital y el cumplimiento de los requisitos a la hora de hacer investigaciones en 
 dispoitivos moviles.
-* NIST SP 800-86
-* ASTM E2916-17
-* ACPO Good Practice Guide for Digital Evidence
-* Federal Rules of Evidence (FRE) y Federal Rules of Criminal Procedure (FRCP) en los Estados Unidos
-* LEVA (Law Enforcement and Emergency Services Video Association)
-* Código de Ética y Estándares de Conducta de ISFCE
+* NIST SP 800-86 -> Es una publicación del Instituto Nacional de Estandares y Tecnologia (NIST) de los Estados Unidos. Esta guia proporciona
+re omendaciones y directrices para integrar tecnicas forenses en los procesos de respuesta  a incidentes de seguridad cibernetica.
+* ASTM E2916-17 -> Es una especificacion tecnia desarrollada por ASTM anteriormente conocido por Sociedad Estadounidense de Pruebas y Materiales.
+Se refiere a la practica estandar de porgramas de capacitacion, educacion continua y desarrollo profesional de profesionales de las ciencias forenses.
+* ACPO Good Practice Guide for Digital Evidence -> Es un documento de orientacion que proporciona directrices y buenas practicas para la gestion y el manejo de
+evidencia digital en investigacion criminales.
+* Federal Rules of Evidence (FRE) -> Son un conjunto de reglas que rigen la admisibilidad de pruebas en los tribunales federales de los EEUU. Estas reglas establecen
+los estandares para que evidencia pueda ser presentada en un juicio y cuando se puede presentar.
+* Federal Rules of Criminal Procedure (FRCP) en los Estados Unidos -> Son un conjunto de reglas que rigen los procedimientos en casos criminales en los tribunales federales
+de EEUU. Estas reglas establecen los procedimientos y estandares que deben seguirse durante un juicio penal federal, desde la presentacion de cargo hasta la apelación
+* LEVA (Law Enforcement and Emergency Services Video Association) -> Es una organizacion profesional que se dedica a la pormocion de la excelencia en la adquision y utilizacion
+de video en aplicaciones policiales y de servicios de emergencia.
+* Código de Ética y Estándares de Conducta de ISFCE -> Es una organizacion ampliamente reconocida ni muy conocida en el campo de la ciberseguridad y la investigacion forense digital.
 
 Conclusion->
 Es importante que sepamos estas normas para asegurar la integridad de las pruebas. Además, estas letes pueden cambiar, a lo
