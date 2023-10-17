@@ -30,9 +30,9 @@ El RFC 3227 es un documento que recoge las directrices para la recopilación de 
 
 2. Almacenamiento. Tendremos que cumplir un procedimiento para asegurar la evidencia.
   * Cadena de custodia. Simplemente documentaremos lo siguiente:
-    - ¿Dónde?, ¿cuándo? y ¿quién? descubrió y recolectó la evidencia.
-    - ¿Dónde?, ¿cuándo? y ¿quién? manejó la evidencia.
-    - ¿Quién ha custodiado la evidencia?, ¿cuánto tiempo? y ¿cómo la ha almacenado?
+    - Dónde, cuándo y quién descubrió y recolectó la evidencia.
+    - Dónde, cuándo y quién manejó la evidencia.
+    - Quién ha custodiado la evidencia, cuánto tiempo y cómo la ha almacenado
     - Si se ha cambiado de custodia indicar a quien, que fecha y hora y comprobar que los hashes coinciden
   * Donde almacenarlo. Dependiendo del dispositivo tendremos que almacenarlo de una u otra forma, por ejemplo, si es un dispositivo portatil tendremos que custodiarlo en una bolsa de faraday para que no pueda ser comprometido.
 3. Como usar las herramientas
