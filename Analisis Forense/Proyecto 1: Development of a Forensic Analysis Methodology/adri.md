@@ -8,7 +8,7 @@ Cualquier análisis forense requerirá un control sobre las evidencias que van a
 Consecuentemente, la cadena de custodia debe tener implementado un sistema de gestión documental donde van a quedar reflejados todos los pasos llevados a cabo. Esta gestión documental incluirá los siguientes documentos, entre otros:
 
 - Documento de recepción de evidencias informáticas, pudiendo llevar así un control de las peticiones de análisis y de las propias evidencias a estudiar.
-- Registro de la documentación recibida, teniendo en cuenta que entre los documentos que acompañarán a la evidencia, se puede encontrar una descripción de las evidencias y de la cadena de custodia hasta que dichas evidencias llegan al entorno de análisis, así como los estudios solicitados en dicho análisis y los permisos necesarios para realizar dichos estudios.
+- Registro de la documentación recibida donde se puede encontrar una descripción de las evidencias y de la cadena de custodia hasta que dichas evidencias llegan al entorno de análisis, así como los estudios solicitados en dicho análisis y los permisos necesarios para realizar dichos estudios.
 - Registro de las evidencias, en el que se describirá detalladamente cada evidencia y su estado, en el momento de la recepción de la misma.
 - Registro del tratamiento inicial en el que se describirá el proceso de clonado (volcado de datos o realización de la imagen).
 - Registro de situación de evidencias, en el que se reflejarán las operaciones practicadas a una evidencia, dónde se practicaron, por quién y en qué momento.
@@ -22,11 +22,11 @@ Durante la fase de análisis, se llevarán a cabo una serie de procesos y tareas
 Al llegar las evidencias al laboratorio forense, deberán ejecutarse una serie de acciones previas:
 
 1. Comprobar que está dentro de la competencia del laboratorio.
-1. Formar un mapa contextual de las evidencias, según la documentación adjunta, las relaciones entre las mismas y de éstas con los distintos actores implicados.
+1. Formar un mapa contextual de las evidencias.
 1. Revisar la cadena de custodia previa a la llegada de las evidencias al laboratorio.
 1. Solicitar las autorizaciones que se precisen para el estudio solicitado, según la legislación vigente.
 1. Comprobar que las evidencias no están deterioradas y que se pueden someter a estudio.
-1. Si aparecen nuevas evidencias no contempladas anteriormente, se generará un nuevo proceso de gestión, custodia y trazabilidad siguiendo la norma UNE 71505, previamente descrita, notificándose al solicitante.
+1. Si aparecen nuevas evidencias no contempladas anteriormente, se generará un nuevo proceso de gestión, custodia y trazabilidad, previamente descrita, notificándose al solicitante.
 1. Revisar la hora de la BIOS del equipo sometido a estudio, de modo que pueda ser comparada con la fecha del momento en que se active el análisis forense.
 1. Establecer unos criterios de prioridades.
 
@@ -34,7 +34,7 @@ Teniendo esto en cuenta describiremos las acciones y procesos que se llevarán a
 
 **Recuperación de los ficheros borrados**
 
-Consiste en una recuperación total o parcial de los datos ubicados en áreas del disco no asignadas por el sistema en ese momento y en el espacio del disco sin utilizar, así como tratar de recuperar carpetas y archivos *huérfanos*, de los que se ha perdido su vinculación. Asimismo, se buscarán también archivos completos o fragmentos de éstos a través de sus cabeceras.
+Consiste en una recuperación total o parcial de los datos ubicados en áreas del disco no asignadas por el sistema en ese momento y en el espacio del disco sin utilizar, así como tratar de recuperar carpetas y archivos de los que se ha perdido su vinculación. Asimismo, se buscarán también archivos completos o fragmentos de éstos a través de sus cabeceras.
 
 En el informe pericial se especificará claramente de dónde se ha extraído la información y qué método se usó para dicha recuperación.
 
@@ -45,7 +45,7 @@ Este proceso tendrá como finalidad estudiar las diversas estructuras de los con
 El proceso incluirá una serie de tareas básicas:
 
 - Enumeración de las particiones actuales y de las que hubieran existido anteriormente.
-- Identificar zonas del disco ocultas no visibles para el sistema operativo, como las HPA o DCO.
+- Identificar zonas del disco ocultas no visibles para el sistema operativo.
 - Identificar los sistemas de archivos en los contenedores o en las particiones, con la identificación del contenedor que almacena el sistema operativo de inicio y el tipo de arranque o selector multiarranque.
 - Identificar también los sistemas de archivos de los discos compactos y los posibles archivos cifrados y/o protegidos por contraseña.
 - Proceder al montaje de los archivos contenedores de otros verificando las cabeceras de los distintos formatos y sus resúmenes digitales.
