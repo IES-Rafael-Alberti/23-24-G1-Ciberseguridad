@@ -9,6 +9,7 @@ El uso de una metodología en analisis forense es crucial ya que necesitamos uno
 ## Investigación
 En nuestro caso, hemos realizado una pequeña investigación de las normas más importantes de este campo y realizaremos la nuestra propia a partir de estas.
 ### RFC3227
+El RFC 3227 es un documento que recoge las directrices para la recopilación de evidencias y su almacenamiento.
 1. Adquisición. Este estandar nos habla de unos puntos a tener en cuenta a la hora de realizar la extracción de evidencias. Estos puntos son:
   * La captura de la adquisición debe de ser lo más precisa posible.
   * Detallar las fechas y horas a las que seralizarón la extracción.
