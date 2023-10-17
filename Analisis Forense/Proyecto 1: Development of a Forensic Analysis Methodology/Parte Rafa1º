@@ -1,0 +1,24 @@
+El analisis forense se basa en una serie de estandares y normas de importancia crucial para asegurar la integridad de
+las investigaciones y la presentación de pruebas en casos legales. Aqui se tiene un ejemplo de las normas más importantes:
+
+* ISO/IEC 27037 -> Esta normal se centra en la gestión de evidencia digital en la informatica forense. Se explica de forma
+clara sobre como identificar, adquirir, perservar y analizar evidencia digital de manera que sea aceptable en un juicio.
+* ISO/IEC 27041 -> Esta norma se centra en la adquisición y en mantener la evidencia digital en sistemas de almacenamientos
+electrónicos.
+* ISO/IEC 27043 -> Esta norma se enfoca en la recopilación y en mantener la evidencia digital y dicta reglas para garantizar
+que la evidencia se adquiera y maneje de manera forense y que sea aceptable en un juicio. Esta norma es clave para garantizar
+que sigan prácticas solidas en obtener evidencias en el ambito forense. Al cumplir esta norma, podemos mantener la integridad
+de la evidencia y manetener una buena presentacion en un tribunal en los casos que involucran pruebas digitales.
+* NIST SP 800-101 -> Esta guia se centra en la informática forense aplicada en dispositivos móviles. Proporciona orientación técnica
+y ética para garantizar la seguridad de la evidencia digital y el cumplimiento de los requisitos a la hora de hacer investigaciones en 
+dispoitivos moviles.
+* NIST SP 800-86
+* ASTM E2916-17
+* ACPO Good Practice Guide for Digital Evidence
+* Federal Rules of Evidence (FRE) y Federal Rules of Criminal Procedure (FRCP) en los Estados Unidos
+* LEVA (Law Enforcement and Emergency Services Video Association)
+* Código de Ética y Estándares de Conducta de ISFCE
+
+Conclusion->
+Es importante que sepamos estas normas para asegurar la integridad de las pruebas. Además, estas letes pueden cambiar, a lo
+largo que se va desarrollando las tecnologías, asi que es importante saber como cambian y cuando.
