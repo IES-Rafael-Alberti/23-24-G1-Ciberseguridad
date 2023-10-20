@@ -2,16 +2,16 @@
 
 
 ## Responsabilidades de los miembros
-En este proyecto en especifico todos vamos a llevar la responsabilidad de ser investigadores, revisores y a su vez redactores, ya que cada uno tendra que realizar 
+En este proyecto en especifico todos vamos a llevar la responsabilidad de ser investigadores, revisores y a su vez redactores, ya que cada uno tendrá que realizar. 
 estas labores en sus respectivas tareas.
 
 ## Tareas a realizar por cada miembro  
-- Pedro: Investigacion de Metodologia.
-- Rafa: Tipos de ataques Informaticos.
-- Eduardo: Tipo de audotoria y describirlo junto a los resultados esperados.
-- Adrian: Herramiento de Monitorizacion, comprender las caracterisitcas y requisitos de las herramientas.
+- Pedro: Investigación de Metodología.
+- Rafa: Tipos de ataques Informáticos.
+- Eduardo: Tipo de auditoría y describirlo junto a los resultados esperados.
+- Adrian: Herramienta de Monitorización, comprender las características y requisitos de las herramientas.
 
-Entre todos -> Division del Trabajo. Seleccion de Metodologia junto a una justificacion. Seleccionar una herramienta relevante de monitorizacion mas relevantes y utiles. y justificarlo. Calcular el precio de esas herramientas.
+Entre todos -> División del Trabajo. Selección de Metodología junto a una justificación. Seleccionar una herramienta relevante de monitorización mas relevantes y útiles. y justificarlo. Calcular el precio de esas herramientas.
 
 ## Plazos y fechas para revisiones  
 
