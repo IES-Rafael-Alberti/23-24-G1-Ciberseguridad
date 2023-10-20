@@ -14,6 +14,6 @@ Entre todos -> Division del Trabajo. Seleccion de Metodologia junto a una justif
 
 ## Plazos y fechas para revisiones
 
-Domingo 22 a las 17:00 -> Puesta en común de todas las investigaciones y estructuración escritas de los resultados.
-Lunes 23 a las 16:30 -> Finalización y revisión de documentos, verificación de todos los puntos y control de calidad.
-Martes 24 a las 16:30 -> Hora máxima para entrega y finalización de revisión y control de calidad.
+Domingo 22 a las 17:00 -> Puesta en común de todas las investigaciones y estructuración escritas de los resultados.  
+Lunes 23 a las 16:30 -> Finalización y revisión de documentos, verificación de todos los puntos y control de calidad.  
+Martes 24 a las 16:30 -> Hora máxima para entrega y finalización de revisión y control de calidad.  
