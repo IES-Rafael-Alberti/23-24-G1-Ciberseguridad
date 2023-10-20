@@ -1,5 +1,6 @@
 # Planificación de trabajo del grupo 1 para el Proyecto HE02_a
 
+
 ## Responsabilidades de los miembros
 En este proyecto en especifico todos vamos a llevar la responsabilidad de ser investigadores, revisores y a su vez redactores, ya que cada uno tendra que realizar 
 estas labores en sus respectivas tareas.
