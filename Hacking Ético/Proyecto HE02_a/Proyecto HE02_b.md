@@ -328,13 +328,13 @@ Hemos considerado utilizar estas herramientas ya que son las más adecuada para 
 # Estimación de Inversión Inicial
 En este apartado enunciaremos la cantidad de presupuesto con el que empezaremos la empresa en base a las herramientas, personal y hardware que necesitaremos para el buen funcionamiento de esta:
 
-- Herramientas
+- Herramientas  
   Solo necesitamos realizar la compra de dos licencias para estas herramientas, que serian:
   * Nessus con un gasto anual de 4482 € anuales.
   * Burpsuite con un gasto 449 € al año.  
-- Personal
+- Personal  
   El personal al ser una pequeña empresa consta de los 4 participantes de este grupo.  
-- Hardware
+- Hardware  
   Utilizaremos nuestros actuales equipos ya que disponemos de hardware potente para poder almenos empezar con las auditorias, este hardware se ira cambiando con el crecimiento de la empresa.  
 ## Referencias <a name="id5"></a>
 [Metodología OSSTMM](https://www.ciberseguridad.eus/ciberpedia/vulnerabilidades/open-source-security-testing-methodology-manual-osstmm)  
