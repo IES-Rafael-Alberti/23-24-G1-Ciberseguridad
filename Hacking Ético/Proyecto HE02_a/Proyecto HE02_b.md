@@ -202,8 +202,6 @@ En cambio, también tiene algunos contras que debemos tener en cuenta:
 - No recibe actualizaciones.
 - No admite equipos basados en UEFI.
 
-<https://blog.ehcgroup.io/2019/04/29/15/18/28/5144/las-10-herramientas-hacking-de-fuerza-bruta-mas-populares/delitos-informaticos/ehacking/>
-
 **WIFI**
 
 **Aircrack-Ng**
@@ -222,8 +220,6 @@ El funcionamiento conceptual es bastante sencillo, funciona enviando una serie d
 
 Entre las funcionalidades que presta, informa sobre si una IP está disponible, que sistema operativo ejecuta, que puertos tiene abiertos y que servicios presta. Esta herramienta es de gran utilidad para comprobar que superficie de ataque tiene expuesta una máquina por lo que puede ser utilizada como auditoría de seguridad.
 
-<https://www.freecodecamp.org/espanol/news/que-es-nmap-y-como-usarlo-un-tutorial-para-la-mejor-herramienta-de-escaneo-de-todos-los-tiempos/>
-
 **Nessus**
 
 Nessus es un software especial que utiliza una extensa base de datos con vulnerabilidades para detectar fallas de seguridad en dispositivos.
@@ -241,7 +237,6 @@ El proceso de cómo funiona Nessus en solo cuatro pasos, que son los siguientes:
 
 Anteriormente conocido como Netsparker, se trata de una herramienta muy precisa. Imita el comportamiento de los hackers para poder detectar e identificar vulnerabilidades. Esta herramienta es capaz de verificar las vulnerabilidades que se detectan y determinar si son reales o falsos positivos. De esta manera, el hacker ético no tiene que estar usando otras herramientas o verificando manualmente las vulnerabilidades que se han detectado.
 
-<https://www.invicti.com/support/what-is-invicti/>
 
 **NIKTO**
 
@@ -249,7 +244,6 @@ Diseñado para revelar posibles problemas y vulnerabilidades en tus aplicaciones
 
 Nikto es compatible con SSL, proxy, autenticación de host y ofrece capacidades de evasión IDS, lo que lo convierte en una herramienta completa y poderosa para garantizar la seguridad de tus aplicaciones web.
 
-<https://www.innovaciondigital360.com/es/cyber-security/nikto-el-escaner-de-vulnerabilidades-para-aplicaciones-web-asi-funciona/#Que_es_Nikto_y_para_que_sirve>
 
 **BURPSUITE**
 
@@ -264,15 +258,9 @@ La versión profesional Incluye, además del proxy HTTP, algunas herramientas de
 - Programas para hacer fuzzing.
 - Funciones colaborativas.
 
-<https://keepcoding.io/blog/que-es-burp-suite/>
-
-<https://openwebinars.net/blog/hacer-testeo-con-burp-suite/>
-
 **FFUF**
 
 Ffuf es un web fuzzer que prueba diferentes combinaciones de direcciones URL de un dominio para identificar qué rutas están activas y cuáles no. Con el fin de hacer este test, Ffuf utiliza listas de palabras predeterminadas que el usuario puede modificar, diseñar o conseguir por su propia cuenta. El web fuzzing es uno de los principales protocolos para reunir información sobre fallos en un sistema.
-
-<https://keepcoding.io/blog/que-es-ffuf-ciberseguridad/#:~:text=Ffuf%20es%20un%20web%20fuzzer,conseguir%20por%20su%20propia%20cuenta>.
 
 **SNIFFER** 
 
@@ -284,17 +272,14 @@ Esta herramienta, permite visualizar el tráfico de la red de la misma manera qu
 
 Mediante la inspección del tráfico, que permite desencapsularlo y ver la estructura interna detalladamente, pudiendo llegar a gran nivel de detalle, por lo que ayuda a detectar problemas en comunicaciones de muy diverso origen.
 
-<https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/>
-
 **SQL** 
 
-Sobre inyección: **[https://kinsta.com/es/blog/inyeccion-sql/**](https://kinsta.com/es/blog/inyeccion-sql/)**
+Sobre inyección: [Mirar Referencia]
 
 **SQLMap**
 
 Es una herramienta open source programada en Python, diseñada para automatizar el proceso de detección y explotación de vulnerabilidades de inyección SQL en aplicaciones web. Permite a los usuarios listar bases de datos, recuperar hashes de contraseñas, privilegios y más, en el host objetivo después de detectar inyecciones SQL.
 
-<https://www.dragonjar.org/sqlmap-herramienta-automatica-de-inyeccion-sql.xhtml>
 
 **EXPLOIT**
 
@@ -312,7 +297,6 @@ las funciones que tiene esta herramienta son:
 - Evasión de antivirus: meta exploid incluye herramientas para la ofuscación de código, lo cual permite reescribirlo de tal forma que no sea identificable para un sistema de defensa.
 - Eliminación de rastros: este programa también incluye métodos que permiten borrar la huella digital del atacante, por medio de la eliminación de logs y ficheros maliciosos que hayan sido utilizados durante el hackeo.
 
-[**https://keepcoding.io/blog/que-es-metasploit-ciberseguridad/**](https://keepcoding.io/blog/que-es-metasploit-ciberseguridad/)
 
 ## Referencias 
 [Metodología OSSTMM](https://www.ciberseguridad.eus/ciberpedia/vulnerabilidades/open-source-security-testing-methodology-manual-osstmm)
@@ -323,3 +307,14 @@ https://blog.hubspot.es/website/auditoria-de-seguridad
 https://www.compliance-antisoborno.com/auditoria-de-cumplimiento-normativo-como-prepararse-para-superarla-con-exito/
 https://unirfp.unir.net/revista/ingenieria-y-tecnologia/auditoria-seguridad-informatica/#:~:text=La%20auditor%C3%ADa%20de%20seguridad%20inform%C3%A1tica,una%20empresa%20y%20ponerle%20soluci%C3%B3n.
 https://mrinformatica.es/pasos-para-realizar-una-auditoria-de-ciberseguridad/
+[Herramientas de Fuerza Bruta](https://blog.ehcgroup.io/2019/04/29/15/18/28/5144/las-10-herramientas-hacking-de-fuerza-bruta-mas-populares/delitos-informaticos/ehacking/)
+[Nmap](https://www.freecodecamp.org/espanol/news/que-es-nmap-y-como-usarlo-un-tutorial-para-la-mejor-herramienta-de-escaneo-de-todos-los-tiempos/)
+[Invicti](https://www.invicti.com/support/what-is-invicti/)
+[Nikto](https://www.innovaciondigital360.com/es/cyber-security/nikto-el-escaner-de-vulnerabilidades-para-aplicaciones-web-asi-funciona/#Que_es_Nikto_y_para_que_sirve)
+[Burpsuite](https://keepcoding.io/blog/que-es-burp-suite/)
+[Burpsuite 2](https://openwebinars.net/blog/hacer-testeo-con-burp-suite/)
+[FFUF](https://keepcoding.io/blog/que-es-ffuf-ciberseguridad/#:~:text=Ffuf%20es%20un%20web%20fuzzer,conseguir%20por%20su%20propia%20cuenta)
+[WireShark](https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/)
+[SQL]([https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/](https://kinsta.com/es/blog/inyeccion-sql/**))
+[SQL Map]([https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/](https://www.dragonjar.org/sqlmap-herramienta-automatica-de-inyeccion-sql.xhtml)https://www.dragonjar.org/sqlmap-herramienta-automatica-de-inyeccion-sql.xhtml)
+[Metaesploit](https://keepcoding.io/blog/que-es-metasploit-ciberseguridad/)
