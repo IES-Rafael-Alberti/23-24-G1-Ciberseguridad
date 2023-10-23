@@ -306,6 +306,24 @@ las funciones que tiene esta herramienta son:
 - Evasión de antivirus: meta exploid incluye herramientas para la ofuscación de código, lo cual permite reescribirlo de tal forma que no sea identificable para un sistema de defensa.
 - Eliminación de rastros: este programa también incluye métodos que permiten borrar la huella digital del atacante, por medio de la eliminación de logs y ficheros maliciosos que hayan sido utilizados durante el hackeo.
 
+### Selección de Herramientas
+Hemos considerado utilizar estas herramientas ya que son las más adecuada para el tipo de servicio y auditoria que ofreceremos en nuestra empresa:  
+- Ataques de fuerza bruta:
+  * THC Hydra
+  * John The Ripper
+- Wi-fi
+  * Aircrack-Ng
+- Mapeo/Escaneo
+  * Nmap
+  * Nessus
+- Aplicaciones Web
+  * Burpsuite
+- Sniffer
+  * Wireshark
+- SQL
+  * SQLMap
+- Exploit
+  * Metasploitable
 
 ## Referencias a name="id5"></a>
 [Metodología OSSTMM](https://www.ciberseguridad.eus/ciberpedia/vulnerabilidades/open-source-security-testing-methodology-manual-osstmm)  
