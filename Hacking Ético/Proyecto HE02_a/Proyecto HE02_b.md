@@ -1,3 +1,11 @@
+# Proyecto 2 Offensive Audit Services.
+##Índice
+**Índice**   
+1. [Investigación de Tipos de Ataque](#id1)
+2. [Tipos de Auditoría Ofensiva](#id2)  
+3. [Investigación de Metodología del Prentesting](#id3)
+4. [Herramientas](#id4)
+## Investigación de Tipos de Ataque<a name="id1"></a>
 Los ataques informáticos son un intento organizado o intencionado que busca explotar alguna vulnerabilidad o debilidad en las redes informáticas, tanto software como hardware, con el objetivo de tener algún beneficio.
 
 Cada vez las tecnologías de información y comunicación avanzan, llegando a estar más conectadas a Internet, generando más datos con cada acción que se realiza. Aparte de traer muchas ventajas, tiene muchos inconvenientes, debido a que ha traído muchas vulnerabilidades que son aprovechadas por los ciberdelicuentes para robar, secuestrar o destruir cualquier tipo de información que recojan.
@@ -33,7 +41,7 @@ Para una empresa los más ataques más importantes que pueden recibir son:
 - Ramsoware -> Debido a que pueden encriptar los datos y pedir un rescato. Entonces la empresa pierde tiempo y dinero para intentar recuperar esos datos.
 - Whaling -> Son ataques que van dirigidos a un grupo especificado de personas, donde puede robar información confidencial de la empresa o datos a futuro.
 
-## Tipos de auditorías de seguridad informática
+## Tipos de auditorías de seguridad informática<a name="id2"></a>
 No todas las empresas necesitan hacer una auditoría completa de todos sus servicios y activos, por lo que se puede ajustar las auditorías a unas comunes que pueden ser encontradas en todas las empresas generalmente:
 ### 1. Auditoría de cumplimiento normativo
 Esta auditoría revisa si una organización cumple con los requisitos legales y normativos en materia de seguridad de la información. Esto puede abarcar el cumplimiento de leyes de protección de datos, regulaciones específicas de la industria, o estándares internacionales entre otras normativas.
@@ -61,7 +69,7 @@ Se ocupa de evaluar los procedimientos y las capacidades de respuesta de una org
 Esta auditoría permite probar la capacidad de reacción de la empresa ante un incidente, su contención y resolución. Es muy importante, debido a que una buena gestión de incidencias permite evitar que se propague al resto de la empresa en caso de que ocurra, además de la posesión del playbook para tenerlo todo recogido.
 
 
-# Investigación de Metodologías de pentesting
+# Investigación de Metodologías de pentesting <a name="id3"></a>
 
 En esta parte del proyecto vamos a realizar un pequeño estudio de las diferentes metodologías de pentesting que podemos usar a la hora de realizar una auditoria. 
 
@@ -157,7 +165,7 @@ Los objetivos del estándar PTES son los siguientes:
 
 Nostros vamos a escoger la metodología PTES debido a que comparandolo con los demás, veos que es la más completa ya que se centra en todos los ámbitos de la informática y que ofrece la suficiente versatibilidad para cubrirlos. Y vemos que es la que encaja perfectamente con nuestra empresa.
 
-**Herramientas para ataque de fuerza bruta**
+**Herramientas para ataque de fuerza bruta**<a name="id4"></a>
 
 **THC Hydra**
 
