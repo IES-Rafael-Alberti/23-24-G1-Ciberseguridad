@@ -4,6 +4,7 @@
 2. [Tipos de Auditoría Ofensiva](#id2)  
 3. [Investigación de Metodología del Prentesting](#id3)
 4. [Herramientas de Pentesting](#id4)
+5. [Referencias](#id5)
 ## Investigación de Tipos de Ataque<a name="id1"></a>
 Los ataques informáticos son un intento organizado o intencionado que busca explotar alguna vulnerabilidad o debilidad en las redes informáticas, tanto software como hardware, con el objetivo de tener algún beneficio.
 
@@ -306,7 +307,7 @@ las funciones que tiene esta herramienta son:
 - Eliminación de rastros: este programa también incluye métodos que permiten borrar la huella digital del atacante, por medio de la eliminación de logs y ficheros maliciosos que hayan sido utilizados durante el hackeo.
 
 
-## Referencias 
+## Referencias a name="id5"></a>
 [Metodología OSSTMM](https://www.ciberseguridad.eus/ciberpedia/vulnerabilidades/open-source-security-testing-methodology-manual-osstmm)  
 [(OWASP)](https://owasp.org/www-project-web-security-testing-guide/)  
 [Penetration Testing Execution Standard(PTES)](https://www.ciberseguridad.eus/ciberpedia/marcos-de-referencia/penetration-testing-execution-standard-ptes)  
