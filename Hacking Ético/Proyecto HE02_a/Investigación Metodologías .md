@@ -1,4 +1,3 @@
-# Untitled
 
 # Investigación de Metodologías de pentesting
 
