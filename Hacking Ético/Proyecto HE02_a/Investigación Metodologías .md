@@ -90,3 +90,7 @@ Los objetivos del estándar PTES son los siguientes:
 5. Explotación: Se ejecutan mecanismos para obtener acceso a sistemas o recursos al aprovechar las vulnerabilidades identificadas. Se utilizan exploits y ataques dirigidos.
 6. Post-Explotación: Aquí se asegura la persistencia del acceso obtenido, se realizan movimientos laterales para controlar otros activos y se recopila información valiosa.
 7. Informe: Implica la elaboración de un informe detallado que resume los resultados técnicos y metodológicos de la prueba, así como un informe ejecutivo que resume los resultados, riesgos y propuestas de mitigación.
+
+# Selección de Metodología
+
+Nostros vamos a escoger la metodología PTES debido a que comparandolo con los demás, veos que es la más completa ya que se centra en todos los ámbitos de la informática y que ofrece la suficiente versatibilidad para cubrirlos. Y vemos que es la que encaja perfectamente con nuestra empresa.
