@@ -163,7 +163,7 @@ Los objetivos del estándar PTES son los siguientes:
 
 # Selección de Metodología
 
-Nostros vamos a escoger la metodología PTES debido a que comparandolo con los demás, veos que es la más completa ya que se centra en todos los ámbitos de la informática y que ofrece la suficiente versatibilidad para cubrirlos. Y vemos que es la que encaja perfectamente con nuestra empresa.
+Nosotros vamos a escoger la metodología PTES debido a que comparandolo con los demás, vemos que es la más completa, ya que se centra en todos los ámbitos de la informática y que ofrece la suficiente versatibilidad para cubrirlos. También vemos que es la que encaja perfectamente con nuestra empresa.
 
 # Herramientasde Pentesting<a name="id4"></a>
 **Herramientas para ataque de fuerza bruta**
