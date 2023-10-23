@@ -59,3 +59,267 @@ Esta auditoría asegura la identificación de las vulnerabilidades dentro de las
 Se ocupa de evaluar los procedimientos y las capacidades de respuesta de una organización ante incidentes de seguridad. Esto incluye examinar la preparación y planificación de incidentes, la detección y notificación de incidentes, la gestión de respuesta y recuperación, y el aprendizaje de lecciones de los incidentes anteriores para poder reaccionar de una mejor manera a las futuras incidencias.
 
 Esta auditoría permite probar la capacidad de reacción de la empresa ante un incidente, su contención y resolución. Es muy importante, debido a que una buena gestión de incidencias permite evitar que se propague al resto de la empresa en caso de que ocurra, además de la posesión del playbook para tenerlo todo recogido.
+
+
+# Investigación de Metodologías de pentesting
+
+En esta parte del proyecto vamos a realizar un pequeño estudio de las diferentes metodologías de pentesting que podemos usar a la hora de realizar una auditoria. 
+
+## OSSTMM
+
+El OSSTMM, o Open Source Security Testing Methodology Manual, es una metodología completa desarrollada por ISECOM para llevar a cabo pruebas, análisis y medición de la seguridad operativa real.
+
+ Es una herramienta diseñada para realizar auditorías técnicas de seguridad de manera consistente y repetible.
+
+Esta metodología se puede dividir en varios temas:
+
+- Seguridad de la Información
+- Seguridad de los Procesos
+- Seguridad en las Tecnologías de Internet
+- Seguridad en las Comunicaciones
+- Seguridad Inalámbrica
+- Seguridad Física
+
+Tambien especifica lo necesario a saber para realizar una auditoria:
+
+- Conceptos básicos (lo que debes saber / lo que debes hacer)
+- Metodología de análisis de seguridad
+- Métricas de seguridad operacional
+- Confiabilidad
+- Flujo de trabajo
+
+### Objetivos
+
+El objetivo principal del OSSTMM es construir las mejores defensas de seguridad. Sus objetivos específicos incluyen establecer un enfoque sistemático para auditorías de seguridad más consistentes y repetibles, proporcionar un mecanismo para evaluar los resultados de las auditorías de manera objetiva y permitir una presentación estructurada y comparativa de los resultados.
+
+### Fases de una auditoria
+
+Estas son las fases que deberia de tener una auditoria según OSSTMM:
+
+1. **Lanzar el proyecto:** Esta etapa implica la aprobación de recursos y la conciencia de los posibles impactos no deseados en los sistemas de información.
+2. **Fase inductiva:** En esta fase, se comprenden los requisitos, alcance y limitaciones de la auditoría, lo que ayuda a determinar las pruebas a realizar.
+3. **Fase interactiva:** Aquí se planifica la auditoría después de definir el alcance y los tipos de pruebas para cada elemento a auditar.
+4. **Fase de investigación:** Se analizan los aspectos organizativos y de gestión de la organización, junto con un análisis técnico inicial de fuentes abiertas.
+5. **Fase de intervención:** Esta es la fase central de la auditoría, donde se realizan pruebas técnicas en los elementos del alcance, pudiendo modificar, sobrecargar o bloquear elementos para evaluar la seguridad.
+6. **Reporte:** Como fase final, se elabora un informe que evalúa los resultados objetivos y valora los hallazgos identificados durante la auditoría.
+7. **Resolución de deficiencias:** La organización debe abordar las deficiencias identificadas en la auditoría, utilizando los resultados y valoraciones como base para priorizar las acciones correctivas.
+
+## OWASP Testing Guide
+
+La metodología de pruebas de penetración de OWASP (Open Web Application Security Project) se centra en evaluar la seguridad de las aplicaciones web y ayudar a identificar y abordar vulnerabilidades de seguridad.
+
+### Objetivos
+
+Estos son los objetivos que se definen en OWASP:
+
+1. **Identificar Vulnerabilidades de Seguridad:**
+2. **Evaluar la Seguridad de las Aplicaciones Web**
+3. **Proporcionar Recomendaciones de Mitigación**
+4. **Concienciar sobre la Seguridad**
+5. **Ayudar a las Organizaciones a Proteger sus Activos Digitales**
+6. **Mejorar la Calidad del Software**
+7. **Promover Pruebas de Penetración Éticas**
+
+### Fases
+
+Estas son las fases a la hora de realizar una auditoria según la metodología OWASP:
+
+1. **Fase de Recopilación de Información:** Esta etapa inicial implica reunir datos sobre el objetivo, como información sobre la aplicación, tecnologías utilizadas, arquitectura, etc. También se busca información de dominio público y se lleva a cabo una enumeración de recursos.
+2. **Fase de Análisis:** En esta fase, se analizan las vulnerabilidades potenciales, los puntos de entrada y los flujos de datos. Se evalúa la lógica de la aplicación y se identifican posibles vectores de ataque.
+3. **Fase de Descubrimiento de Vulnerabilidades:** Aquí es donde se realizan pruebas activas para descubrir vulnerabilidades, como inyecciones SQL, ataques de cross-site scripting (XSS), vulnerabilidades de seguridad en la autenticación y la autorización, entre otras.
+4. **Fase de Explotación:** Si se encuentran vulnerabilidades significativas, se intenta explotarlas para evaluar el impacto real de un ataque. Esto puede incluir la obtención de datos confidenciales o la ejecución de código malicioso.
+5. **Fase de Informe:** Luego de las pruebas, se genera un informe que documenta todas las vulnerabilidades encontradas, su gravedad y recomendaciones para solucionarlas. Este informe es una herramienta importante para la organización objetivo para mejorar su seguridad.
+6. **Fase de Validación:** Después de que se hayan corregido las vulnerabilidades, se realiza una validación para asegurarse de que los problemas identificados se hayan solucionado adecuadamente.
+7. **Fase de Documentación y Entrega Final:** La metodología OWASP enfatiza la importancia de documentar todo el proceso de prueba de penetración y entregar esta documentación a la organización objetivo.
+
+## PTES
+
+El Penetration Testing Execution Standard (PTES) es un estándar que proporciona un marco común para realizar pruebas de penetración o pentesting en empresas y proveedores de servicios de seguridad.
+
+### Objetivos
+
+Los objetivos del estándar PTES son los siguientes:
+
+- Disponer de un marco de referencia para la realización de las auditorías técnicas de seguridad de los sistemas de información de una manera más consistente y replicable.
+- Incrementar el valor proporcionado por las pruebas de penetración.
+
+### Fases
+
+1. Interacción previa: En esta etapa se define el alcance y las acciones a realizar para llevar a cabo con éxito la prueba de penetración.
+2. Recopilación de información: Se recopila información sobre el objetivo a través de fuentes OSINT, inspección y caracterización, considerando medidas de protección que deben evitarse.
+3. Modelado de amenazas: Se analiza el contexto interno y externo para identificar elementos que podrían utilizarse en ataques. Se caracterizan los activos y las amenazas para perfilar los tipos de ataques más probables.
+4. Análisis de vulnerabilidades: Se buscan fallos en los sistemas que puedan ser aprovechados por atacantes, desde mala configuración hasta diseños inseguros. Estas vulnerabilidades se verifican para su posible explotación.
+5. Explotación: Se ejecutan mecanismos para obtener acceso a sistemas o recursos al aprovechar las vulnerabilidades identificadas. Se utilizan exploits y ataques dirigidos.
+6. Post-Explotación: Aquí se asegura la persistencia del acceso obtenido, se realizan movimientos laterales para controlar otros activos y se recopila información valiosa.
+7. Informe: Implica la elaboración de un informe detallado que resume los resultados técnicos y metodológicos de la prueba, así como un informe ejecutivo que resume los resultados, riesgos y propuestas de mitigación.
+
+# Selección de Metodología
+
+Nostros vamos a escoger la metodología PTES debido a que comparandolo con los demás, veos que es la más completa ya que se centra en todos los ámbitos de la informática y que ofrece la suficiente versatibilidad para cubrirlos. Y vemos que es la que encaja perfectamente con nuestra empresa.
+
+**Herramientas para ataque de fuerza bruta**
+
+**THC Hydra**
+
+THC Hydra es una de las herramientas de descifrado de contraseñas más antiguas desarrolladas por “The Hackers Community“. Por el momento, Hydra tiene la mayor cobertura de protocolo que cualquier otra herramienta de descifrado de contraseñas, según nuestro conocimiento, y está disponible para casi todos los sistemas operativos modernos. THC Hydra puede realizar ataques rápidos de diccionario contra muchos protocolos como Telnet, FTP, HTTP, SMB, etc.
+
+Aquí está la sintaxis básica de hydra (versión de Linux) para realizar fuerza bruta a un servicio.
+
+Sintaxis:
+
+Hydra -L administrador -P password.txt <víctima IP> <servicio>
+
+**John the Ripper**
+
+John the Ripper (JTR) es un cracker de contraseña de código abierto; Es uno de los crackers de contraseñas más rápidos y está preinstalado en el sistema operativo Kali Linux. Se puede utilizar para realizar ataques de fuerza bruta y ataques basados ​​en diccionario. También viene con listas de palabras preinstaladas.
+
+- Sitio web oficial: https://www.openwall.com/john/
+- Enlace de Github: https://github.com/magnumripper/JohnTheRipper
+
+**Ncrack**
+
+Es una de nuestras herramientas favoritas para descifrar contraseñas. Se basa en las bibliotecas de nmap. Viene preinstalado con Kali Linux OS. Se puede combinar con nmap para obtener excelentes resultados. La única desventaja es que admite muy pocos servicios, a saber, FTP, SSH, Telnet, FTP, POP3, SMB, RDP y VNC.
+
+- Sitio web oficial: https://nmap.org/ncrack/
+- Enlace Github: https://github.com/nmap/ncrack
+
+**Cain & Abel** 
+
+Se trata de una herramienta de recuperación de contraseñas para los sistemas operativos de Microsoft. Gracias a ella podemos realizar una fácil recuperación de varios tipos de contraseñas al rastrear la red, descifrar contraseñas cifradas mediante ataques de diccionario, fuerza bruta y criptoanálisis. Además, también podemos grabar conversaciones de VoIP, decodificar contraseñas codificadas, recuperar claves de redes inalámbricas, revelar casillas de contraseñas, descubrir contraseñas almacenadas en caché y analizar el enrutamiento de protocolos. Este programa no explota ninguna vulnerabilidad, sino que busca la obtención de las contraseñas por técnicas convencionales.
+
+Algunos de los beneficios que tiene esta aplicación son:
+
+- Es gratuita, y no tienen ningún tipo de cargo.
+- Incluye varios métodos para descifrar contraseñas.
+- La recuperación de contraseñas es rápida cuando se trata de contraseñas simples
+- Cuando mejor rinde es al usarla con Windows XP, 2000 y NT.
+
+En cambio, también tiene algunos contras que debemos tener en cuenta:
+
+- Debemos descargar los «Rainbow Tables» correctos. Estas se pueden encontrar en internet fácilmente.
+- Se trata de un software de instalación. Que, si bien no es malo, si es una contra en comparación a otras que son portables.
+- El procedimiento es bastante largo.
+- No recibe actualizaciones.
+- No admite equipos basados en UEFI.
+
+<https://blog.ehcgroup.io/2019/04/29/15/18/28/5144/las-10-herramientas-hacking-de-fuerza-bruta-mas-populares/delitos-informaticos/ehacking/>
+
+**WIFI**
+
+**Aircrack-Ng**
+
+Aircrack-ng es otra herramienta de hacking inalámbrica de fuerza bruta más popular que se utiliza para evaluar la seguridad de la red WiFi. En general, se enfoca en 4 áreas diferentes de seguridad WiFi, es decir, monitoreo, ataque, testing y cracking.
+
+Aircrack-ng es un conjunto de herramientas ampliamente utilizadas para romper/recuperar WEP/WPA/WPA2-PSK. Es compatible con varios ataques, como el PTW, que se puede usar para descifrar la clave WEP con un número menor de vectores de inicialización, y ataques de fuerza bruta/diccionario, que se pueden usar contra WPA/WPA2-PSK. Incluye una amplia variedad de herramientas, como el detector de paquetes y el inyector de paquetes. Los más comunes son airodump-ng, aireply-ng y airmon-ng.
+
+**MAPEO**
+
+**Nmap**
+
+Es una herramienta de línea de comandos de Linux de código abierto que se utiliza para escanear direcciones IP y puertos en una red y para detectar aplicaciones instaladas.
+
+El funcionamiento conceptual es bastante sencillo, funciona enviando una serie de paquetes predefinidos a un rango de direcciones IP para comprobar los puertos abiertos y tras analizar la respuesta proporcionada por cada equipo describir los servicios que se prestan en cada uno de ellos.
+
+Entre las funcionalidades que presta, informa sobre si una IP está disponible, que sistema operativo ejecuta, que puertos tiene abiertos y que servicios presta. Esta herramienta es de gran utilidad para comprobar que superficie de ataque tiene expuesta una máquina por lo que puede ser utilizada como auditoría de seguridad.
+
+<https://www.freecodecamp.org/espanol/news/que-es-nmap-y-como-usarlo-un-tutorial-para-la-mejor-herramienta-de-escaneo-de-todos-los-tiempos/>
+
+**Nessus**
+
+Nessus es un software especial que utiliza una extensa base de datos con vulnerabilidades para detectar fallas de seguridad en dispositivos.
+
+El proceso de cómo funiona Nessus en solo cuatro pasos, que son los siguientes:
+
+1. Escáner de puertos: al igual que Nmap, el módulo Nessusd ejecuta un análisis sobre los dispositivos conectados a una red y los puertos que se encuentren abiertos.
+1. Detección de servicios: Nessusd identifica los servicios de las aplicaciones que utilizan dichos puertos.
+1. Identificación de vulnerabilidades: Nessus Client compara la información obtenida con sus extensas bases de datos y señala las coincidencias con fallos de seguridad.
+1. Sondeo final: el sistema revisa que no haya falsos positivos dentro de los resultados de la investigación.
+
+**APP. WEB**
+
+**Invicti**
+
+Anteriormente conocido como Netsparker, se trata de una herramienta muy precisa. Imita el comportamiento de los hackers para poder detectar e identificar vulnerabilidades. Esta herramienta es capaz de verificar las vulnerabilidades que se detectan y determinar si son reales o falsos positivos. De esta manera, el hacker ético no tiene que estar usando otras herramientas o verificando manualmente las vulnerabilidades que se han detectado.
+
+<https://www.invicti.com/support/what-is-invicti/>
+
+**NIKTO**
+
+Diseñado para revelar posibles problemas y vulnerabilidades en tus aplicaciones web, lleva a cabo pruebas exhaustivas en servidores web, explorando más de 6.700 archivos y programas que podrían representar una amenaza. Además, rastrea la presencia de versiones obsoletas en más de 1.250 servidores y problemas específicos de versión en otros 270 servidores.
+
+Nikto es compatible con SSL, proxy, autenticación de host y ofrece capacidades de evasión IDS, lo que lo convierte en una herramienta completa y poderosa para garantizar la seguridad de tus aplicaciones web.
+
+<https://www.innovaciondigital360.com/es/cyber-security/nikto-el-escaner-de-vulnerabilidades-para-aplicaciones-web-asi-funciona/#Que_es_Nikto_y_para_que_sirve>
+
+**BURPSUITE**
+
+Plataforma digital que reúne herramientas especializadas para realizar pruebas de penetración en aplicaciones web.
+
+La versión gratuita de esta plataforma tiene como función principal actuar como proxy HTTP de la aplicación para hacer el pentesting. Un proxy HTTP es una herramienta que se usa con el fin de interceptar el tráfico de red, lo cual permite analizar, modificar, aceptar o rechazar todas las solicitudes y respuestas de la aplicación.
+
+La versión profesional Incluye, además del proxy HTTP, algunas herramientas de pentesting web como:
+
+- Escáner de diferentes tipos de vulnerabilidades web.
+- Módulo Spider de detección de contenido indexado.
+- Programas para hacer fuzzing.
+- Funciones colaborativas.
+
+<https://keepcoding.io/blog/que-es-burp-suite/>
+
+<https://openwebinars.net/blog/hacer-testeo-con-burp-suite/>
+
+**FFUF**
+
+Ffuf es un web fuzzer que prueba diferentes combinaciones de direcciones URL de un dominio para identificar qué rutas están activas y cuáles no. Con el fin de hacer este test, Ffuf utiliza listas de palabras predeterminadas que el usuario puede modificar, diseñar o conseguir por su propia cuenta. El web fuzzing es uno de los principales protocolos para reunir información sobre fallos en un sistema.
+
+<https://keepcoding.io/blog/que-es-ffuf-ciberseguridad/#:~:text=Ffuf%20es%20un%20web%20fuzzer,conseguir%20por%20su%20propia%20cuenta>.
+
+**SNIFFER** 
+
+**WireShark**
+
+WireShark es una de las herramientas más conocidas y usadas dentro del mundo de la seguridad de redes. Es un analizador de protocolos que aquellos que hayan hecho cursos de formación de Cisco Systems, la recordarán, porque entre otras cosas se utiliza para saber cómo funcionan las comunicaciones y como se componen los paquetes TCP y UDP.
+
+Esta herramienta, permite visualizar el tráfico de la red de la misma manera que lo hace “tcpdump”, pero eliminando complejidad al añadir un interfaz gráfico bastante simple.
+
+Mediante la inspección del tráfico, que permite desencapsularlo y ver la estructura interna detalladamente, pudiendo llegar a gran nivel de detalle, por lo que ayuda a detectar problemas en comunicaciones de muy diverso origen.
+
+<https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/>
+
+**SQL** 
+
+Sobre inyección: **[https://kinsta.com/es/blog/inyeccion-sql/**](https://kinsta.com/es/blog/inyeccion-sql/)**
+
+**SQLMap**
+
+Es una herramienta open source programada en Python, diseñada para automatizar el proceso de detección y explotación de vulnerabilidades de inyección SQL en aplicaciones web. Permite a los usuarios listar bases de datos, recuperar hashes de contraseñas, privilegios y más, en el host objetivo después de detectar inyecciones SQL.
+
+<https://www.dragonjar.org/sqlmap-herramienta-automatica-de-inyeccion-sql.xhtml>
+
+**EXPLOIT**
+
+**Metaesploit**
+
+Hay una versión de pago llamada Metasploit Pro, que incluye cierto número de exploits de día cero anualmente.
+
+las funciones que tiene esta herramienta son:
+
+- Escanear y recopilar información de una máquina: esto implica el uso de herramientas como Nmap, con el fin de hacer una recolección de datos completa acerca del objetivo del ataque.
+- Identificar y explorar vulnerabilidades de seguridad: este programa puede detectar qué vulnerabilidades que presenta un sistema informático ya se han publicado en el sistema CVE y, de este modo, encuentra qué tipos de exploit se han desarrollado para aprovecharlas.
+- Escalada de privilegios: Metasploit cuenta con softwares diseñados para conseguir privilegios de administrador en diferentes sistemas operativos, como Microsoft Windows y Linux.
+- Instalar backdoors: en su módulo de payloads, existen códigos maliciosos que permiten instalar backdoors o puertas traseras en el sistema de la víctima con el fin de robar información confidencial desde su ordenador.
+- Hacer fuzzing: esto implica automatizar el ingreso de valores aleatorios, inesperados o erróneos en las entradas de un sistema, con el fin de encontrar fallos informáticos que permitan infiltrarse en un dispositivo o una red.
+- Evasión de antivirus: meta exploid incluye herramientas para la ofuscación de código, lo cual permite reescribirlo de tal forma que no sea identificable para un sistema de defensa.
+- Eliminación de rastros: este programa también incluye métodos que permiten borrar la huella digital del atacante, por medio de la eliminación de logs y ficheros maliciosos que hayan sido utilizados durante el hackeo.
+
+[**https://keepcoding.io/blog/que-es-metasploit-ciberseguridad/**](https://keepcoding.io/blog/que-es-metasploit-ciberseguridad/)
+
+## Referencias 
+[Metodología OSSTMM](https://www.ciberseguridad.eus/ciberpedia/vulnerabilidades/open-source-security-testing-methodology-manual-osstmm)
+[(OWASP)](https://owasp.org/www-project-web-security-testing-guide/)
+[Penetration Testing Execution Standard(PTES)](https://www.ciberseguridad.eus/ciberpedia/marcos-de-referencia/penetration-testing-execution-standard-ptes)
+[Tipos de Ataque](https://winempresas.pe/blog/ataques-informaticos-causas-y-12-tipos-de-ciberataques)
+https://blog.hubspot.es/website/auditoria-de-seguridad
+https://www.compliance-antisoborno.com/auditoria-de-cumplimiento-normativo-como-prepararse-para-superarla-con-exito/
+https://unirfp.unir.net/revista/ingenieria-y-tecnologia/auditoria-seguridad-informatica/#:~:text=La%20auditor%C3%ADa%20de%20seguridad%20inform%C3%A1tica,una%20empresa%20y%20ponerle%20soluci%C3%B3n.
+https://mrinformatica.es/pasos-para-realizar-una-auditoria-de-ciberseguridad/
