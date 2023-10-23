@@ -172,25 +172,19 @@ Nosotros vamos a escoger la metodología PTES debido a que comparandolo con los 
 
 THC Hydra es una de las herramientas de descifrado de contraseñas más antiguas desarrolladas por “The Hackers Community“. Por el momento, Hydra tiene la mayor cobertura de protocolo que cualquier otra herramienta de descifrado de contraseñas, según nuestro conocimiento, y está disponible para casi todos los sistemas operativos modernos. THC Hydra puede realizar ataques rápidos de diccionario contra muchos protocolos como Telnet, FTP, HTTP, SMB, etc.
 
-Aquí está la sintaxis básica de hydra (versión de Linux) para realizar fuerza bruta a un servicio.
-
-Sintaxis:
-
-Hydra -L administrador -P password.txt <víctima IP> <servicio>
-
 **John the Ripper**
 
 John the Ripper (JTR) es un cracker de contraseña de código abierto; Es uno de los crackers de contraseñas más rápidos y está preinstalado en el sistema operativo Kali Linux. Se puede utilizar para realizar ataques de fuerza bruta y ataques basados ​​en diccionario. También viene con listas de palabras preinstaladas.
 
-- Sitio web oficial: https://www.openwall.com/john/
-- Enlace de Github: https://github.com/magnumripper/JohnTheRipper
+[Sitio web oficial](https://www.openwall.com/john/)
+[Enlace de Github](https://github.com/magnumripper/JohnTheRipper)
 
 **Ncrack**
 
-Es una de nuestras herramientas favoritas para descifrar contraseñas. Se basa en las bibliotecas de nmap. Viene preinstalado con Kali Linux OS. Se puede combinar con nmap para obtener excelentes resultados. La única desventaja es que admite muy pocos servicios, a saber, FTP, SSH, Telnet, FTP, POP3, SMB, RDP y VNC.
+Es una herramientas usada para descifrar contraseñas. Se basa en las bibliotecas de nmap. Viene preinstalado con Kali Linux OS. Se puede combinar con nmap para obtener excelentes resultados. La única desventaja es que admite muy pocos servicios, a saber, FTP, SSH, Telnet, FTP, POP3, SMB, RDP y VNC.
 
-- Sitio web oficial: https://nmap.org/ncrack/
-- Enlace Github: https://github.com/nmap/ncrack
+[Sitio web oficial](https://nmap.org/ncrack/)
+[Enlace Github](https://github.com/nmap/ncrack)
 
 **Cain & Abel** 
 
@@ -215,7 +209,7 @@ En cambio, también tiene algunos contras que debemos tener en cuenta:
 
 **Aircrack-Ng**
 
-Aircrack-ng es otra herramienta de hacking inalámbrica de fuerza bruta más popular que se utiliza para evaluar la seguridad de la red WiFi. En general, se enfoca en 4 áreas diferentes de seguridad WiFi, es decir, monitoreo, ataque, testing y cracking.
+Aircrack-ng es una herramienta de hacking inalámbrica de fuerza bruta, se utiliza para evaluar la seguridad de la red WiFi. En general, se enfoca en 4 áreas diferentes de seguridad WiFi: monitoreo, ataque, testing y cracking.
 
 Aircrack-ng es un conjunto de herramientas ampliamente utilizadas para romper/recuperar WEP/WPA/WPA2-PSK. Es compatible con varios ataques, como el PTW, que se puede usar para descifrar la clave WEP con un número menor de vectores de inicialización, y ataques de fuerza bruta/diccionario, que se pueden usar contra WPA/WPA2-PSK. Incluye una amplia variedad de herramientas, como el detector de paquetes y el inyector de paquetes. Los más comunes son airodump-ng, aireply-ng y airmon-ng.
 
@@ -225,7 +219,7 @@ Aircrack-ng es un conjunto de herramientas ampliamente utilizadas para romper/re
 
 Es una herramienta de línea de comandos de Linux de código abierto que se utiliza para escanear direcciones IP y puertos en una red y para detectar aplicaciones instaladas.
 
-El funcionamiento conceptual es bastante sencillo, funciona enviando una serie de paquetes predefinidos a un rango de direcciones IP para comprobar los puertos abiertos y tras analizar la respuesta proporcionada por cada equipo describir los servicios que se prestan en cada uno de ellos.
+Su funcionamiento es bastante sencillo, funciona enviando una serie de paquetes predefinidos a un rango de direcciones IP para comprobar los puertos abiertos y tras analizar la respuesta proporcionada por cada equipo describir los servicios que se prestan en cada uno de ellos.
 
 Entre las funcionalidades que presta, informa sobre si una IP está disponible, que sistema operativo ejecuta, que puertos tiene abiertos y que servicios presta. Esta herramienta es de gran utilidad para comprobar que superficie de ataque tiene expuesta una máquina por lo que puede ser utilizada como auditoría de seguridad.
 
@@ -244,7 +238,7 @@ El proceso de cómo funiona Nessus en solo cuatro pasos, que son los siguientes:
 
 **Invicti**
 
-Anteriormente conocido como Netsparker, se trata de una herramienta muy precisa. Imita el comportamiento de los hackers para poder detectar e identificar vulnerabilidades. Esta herramienta es capaz de verificar las vulnerabilidades que se detectan y determinar si son reales o falsos positivos. De esta manera, el hacker ético no tiene que estar usando otras herramientas o verificando manualmente las vulnerabilidades que se han detectado.
+Anteriormente conocido como Netsparker, imita el comportamiento de los hackers para poder detectar e identificar vulnerabilidades. Esta herramienta es capaz de verificar las vulnerabilidades que se detectan y determinar si son reales o falsos positivos. De esta manera, el hacker ético no tiene que estar usando otras herramientas o verificando manualmente las vulnerabilidades que se han detectado.
 
 
 **NIKTO**
@@ -288,7 +282,6 @@ Sobre inyección: [Mirar Referencia]
 **SQLMap**
 
 Es una herramienta open source programada en Python, diseñada para automatizar el proceso de detección y explotación de vulnerabilidades de inyección SQL en aplicaciones web. Permite a los usuarios listar bases de datos, recuperar hashes de contraseñas, privilegios y más, en el host objetivo después de detectar inyecciones SQL.
-
 
 ## EXPLOIT
 
