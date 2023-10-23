@@ -3,7 +3,7 @@
 1. [Investigación de Tipos de Ataque](#id1)
 2. [Tipos de Auditoría Ofensiva](#id2)  
 3. [Investigación de Metodología del Prentesting](#id3)
-4. [Herramientas](#id4)
+4. [Herramientas de Pentesting](#id4)
 ## Investigación de Tipos de Ataque<a name="id1"></a>
 Los ataques informáticos son un intento organizado o intencionado que busca explotar alguna vulnerabilidad o debilidad en las redes informáticas, tanto software como hardware, con el objetivo de tener algún beneficio.
 
@@ -164,7 +164,8 @@ Los objetivos del estándar PTES son los siguientes:
 
 Nostros vamos a escoger la metodología PTES debido a que comparandolo con los demás, veos que es la más completa ya que se centra en todos los ámbitos de la informática y que ofrece la suficiente versatibilidad para cubrirlos. Y vemos que es la que encaja perfectamente con nuestra empresa.
 
-# Herramientas para ataque de fuerza bruta<a name="id4"></a>
+# Herramientasde Pentesting<a name="id4"></a>
+**Herramientas para ataque de fuerza bruta**
 
 **THC Hydra**
 
