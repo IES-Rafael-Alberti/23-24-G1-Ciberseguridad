@@ -28,6 +28,9 @@ Esta auditoría permite probar la capacidad de reacción de la empresa ante un i
 ## Referencias:
 
 https://blog.hubspot.es/website/auditoria-de-seguridad
+
 https://www.compliance-antisoborno.com/auditoria-de-cumplimiento-normativo-como-prepararse-para-superarla-con-exito/
+
 https://unirfp.unir.net/revista/ingenieria-y-tecnologia/auditoria-seguridad-informatica/#:~:text=La%20auditor%C3%ADa%20de%20seguridad%20inform%C3%A1tica,una%20empresa%20y%20ponerle%20soluci%C3%B3n.
+
 https://mrinformatica.es/pasos-para-realizar-una-auditoria-de-ciberseguridad/
