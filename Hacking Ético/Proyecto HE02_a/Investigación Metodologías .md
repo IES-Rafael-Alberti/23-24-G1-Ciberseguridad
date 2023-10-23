@@ -91,6 +91,12 @@ Los objetivos del estándar PTES son los siguientes:
 6. Post-Explotación: Aquí se asegura la persistencia del acceso obtenido, se realizan movimientos laterales para controlar otros activos y se recopila información valiosa.
 7. Informe: Implica la elaboración de un informe detallado que resume los resultados técnicos y metodológicos de la prueba, así como un informe ejecutivo que resume los resultados, riesgos y propuestas de mitigación.
 
+
+## Referencias 
+[Metodología OSSTMM](https://www.ciberseguridad.eus/ciberpedia/vulnerabilidades/open-source-security-testing-methodology-manual-osstmm)
+[(OWASP)](https://owasp.org/www-project-web-security-testing-guide/)
+[Penetration Testing Execution Standard(PTES)](https://www.ciberseguridad.eus/ciberpedia/marcos-de-referencia/penetration-testing-execution-standard-ptes)
+
 # Selección de Metodología
 
 Nostros vamos a escoger la metodología PTES debido a que comparandolo con los demás, veos que es la más completa ya que se centra en todos los ámbitos de la informática y que ofrece la suficiente versatibilidad para cubrirlos. Y vemos que es la que encaja perfectamente con nuestra empresa.
