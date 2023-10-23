@@ -166,7 +166,7 @@ Los objetivos del estándar PTES son los siguientes:
 Nosotros vamos a escoger la metodología PTES debido a que comparandolo con los demás, vemos que es la más completa, ya que se centra en todos los ámbitos de la informática y que ofrece la suficiente versatibilidad para cubrirlos. También vemos que es la que encaja perfectamente con nuestra empresa.
 
 # Herramientasde Pentesting<a name="id4"></a>
-**Herramientas para ataque de fuerza bruta**
+## Herramientas para ataque de fuerza bruta
 
 **THC Hydra**
 
@@ -211,7 +211,7 @@ En cambio, también tiene algunos contras que debemos tener en cuenta:
 - No recibe actualizaciones.
 - No admite equipos basados en UEFI.
 
-**WIFI**
+## WIFI
 
 **Aircrack-Ng**
 
@@ -219,7 +219,7 @@ Aircrack-ng es otra herramienta de hacking inalámbrica de fuerza bruta más pop
 
 Aircrack-ng es un conjunto de herramientas ampliamente utilizadas para romper/recuperar WEP/WPA/WPA2-PSK. Es compatible con varios ataques, como el PTW, que se puede usar para descifrar la clave WEP con un número menor de vectores de inicialización, y ataques de fuerza bruta/diccionario, que se pueden usar contra WPA/WPA2-PSK. Incluye una amplia variedad de herramientas, como el detector de paquetes y el inyector de paquetes. Los más comunes son airodump-ng, aireply-ng y airmon-ng.
 
-**MAPEO**
+## MAPEO/ESCANEO
 
 **Nmap**
 
@@ -240,7 +240,7 @@ El proceso de cómo funiona Nessus en solo cuatro pasos, que son los siguientes:
 1. Identificación de vulnerabilidades: Nessus Client compara la información obtenida con sus extensas bases de datos y señala las coincidencias con fallos de seguridad.
 1. Sondeo final: el sistema revisa que no haya falsos positivos dentro de los resultados de la investigación.
 
-**APP. WEB**
+## APLICACIONES WEB
 
 **Invicti**
 
@@ -271,7 +271,7 @@ La versión profesional Incluye, además del proxy HTTP, algunas herramientas de
 
 Ffuf es un web fuzzer que prueba diferentes combinaciones de direcciones URL de un dominio para identificar qué rutas están activas y cuáles no. Con el fin de hacer este test, Ffuf utiliza listas de palabras predeterminadas que el usuario puede modificar, diseñar o conseguir por su propia cuenta. El web fuzzing es uno de los principales protocolos para reunir información sobre fallos en un sistema.
 
-**SNIFFER** 
+## SNIFFER
 
 **WireShark**
 
@@ -281,7 +281,7 @@ Esta herramienta, permite visualizar el tráfico de la red de la misma manera qu
 
 Mediante la inspección del tráfico, que permite desencapsularlo y ver la estructura interna detalladamente, pudiendo llegar a gran nivel de detalle, por lo que ayuda a detectar problemas en comunicaciones de muy diverso origen.
 
-**SQL** 
+## SQL
 
 Sobre inyección: [Mirar Referencia]
 
@@ -290,7 +290,7 @@ Sobre inyección: [Mirar Referencia]
 Es una herramienta open source programada en Python, diseñada para automatizar el proceso de detección y explotación de vulnerabilidades de inyección SQL en aplicaciones web. Permite a los usuarios listar bases de datos, recuperar hashes de contraseñas, privilegios y más, en el host objetivo después de detectar inyecciones SQL.
 
 
-**EXPLOIT**
+## EXPLOIT
 
 **Metaesploit**
 
