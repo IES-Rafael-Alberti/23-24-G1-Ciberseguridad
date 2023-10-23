@@ -330,10 +330,10 @@ Hemos considerado utilizar estas herramientas ya que son las más adecuada para 
 [(OWASP)](https://owasp.org/www-project-web-security-testing-guide/)  
 [Penetration Testing Execution Standard(PTES)](https://www.ciberseguridad.eus/ciberpedia/marcos-de-referencia/penetration-testing-execution-standard-ptes)  
 [Tipos de Ataque](https://winempresas.pe/blog/ataques-informaticos-causas-y-12-tipos-de-ciberataques)  
-https://blog.hubspot.es/website/auditoria-de-seguridad  
-https://www.compliance-antisoborno.com/auditoria-de-cumplimiento-normativo-como-prepararse-para-superarla-con-exito/  
-https://unirfp.unir.net/revista/ingenieria-y-tecnologia/auditoria-seguridad-informatica/#:~:text=La%20auditor%C3%ADa%20de%20seguridad%20inform%C3%A1tica,una%20empresa%20y%20ponerle%20soluci%C3%B3n.  
-https://mrinformatica.es/pasos-para-realizar-una-auditoria-de-ciberseguridad/  
+[Tipos de Auditoría Ofensiva]https://blog.hubspot.es/website/auditoria-de-seguridad  
+[Auditoria de cumplimiento normativo]https://www.compliance-antisoborno.com/auditoria-de-cumplimiento-normativo-como-prepararse-para-superarla-con-exito/  
+[Auditoria seguridad informática]https://unirfp.unir.net/revista/ingenieria-y-tecnologia/auditoria-seguridad-informatica/#:~:text=La%20auditor%C3%ADa%20de%20seguridad%20inform%C3%A1tica,una%20empresa%20y%20ponerle%20soluci%C3%B3n.  
+[Pasos para realizar una auditoria de ciberseguridad]https://mrinformatica.es/pasos-para-realizar-una-auditoria-de-ciberseguridad/  
 [Herramientas de Fuerza Bruta](https://blog.ehcgroup.io/2019/04/29/15/18/28/5144/las-10-herramientas-hacking-de-fuerza-bruta-mas-populares/delitos-informaticos/ehacking/)  
 [Nmap](https://www.freecodecamp.org/espanol/news/que-es-nmap-y-como-usarlo-un-tutorial-para-la-mejor-herramienta-de-escaneo-de-todos-los-tiempos/)  
 [Invicti](https://www.invicti.com/support/what-is-invicti/)  
