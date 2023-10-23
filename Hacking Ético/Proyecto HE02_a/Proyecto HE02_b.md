@@ -307,22 +307,22 @@ las funciones que tiene esta herramienta son:
 
 
 ## Referencias 
-[Metodología OSSTMM](https://www.ciberseguridad.eus/ciberpedia/vulnerabilidades/open-source-security-testing-methodology-manual-osstmm)
-[(OWASP)](https://owasp.org/www-project-web-security-testing-guide/)
-[Penetration Testing Execution Standard(PTES)](https://www.ciberseguridad.eus/ciberpedia/marcos-de-referencia/penetration-testing-execution-standard-ptes)
-[Tipos de Ataque](https://winempresas.pe/blog/ataques-informaticos-causas-y-12-tipos-de-ciberataques)
-https://blog.hubspot.es/website/auditoria-de-seguridad
-https://www.compliance-antisoborno.com/auditoria-de-cumplimiento-normativo-como-prepararse-para-superarla-con-exito/
-https://unirfp.unir.net/revista/ingenieria-y-tecnologia/auditoria-seguridad-informatica/#:~:text=La%20auditor%C3%ADa%20de%20seguridad%20inform%C3%A1tica,una%20empresa%20y%20ponerle%20soluci%C3%B3n.
-https://mrinformatica.es/pasos-para-realizar-una-auditoria-de-ciberseguridad/
-[Herramientas de Fuerza Bruta](https://blog.ehcgroup.io/2019/04/29/15/18/28/5144/las-10-herramientas-hacking-de-fuerza-bruta-mas-populares/delitos-informaticos/ehacking/)
-[Nmap](https://www.freecodecamp.org/espanol/news/que-es-nmap-y-como-usarlo-un-tutorial-para-la-mejor-herramienta-de-escaneo-de-todos-los-tiempos/)
-[Invicti](https://www.invicti.com/support/what-is-invicti/)
-[Nikto](https://www.innovaciondigital360.com/es/cyber-security/nikto-el-escaner-de-vulnerabilidades-para-aplicaciones-web-asi-funciona/#Que_es_Nikto_y_para_que_sirve)
-[Burpsuite](https://keepcoding.io/blog/que-es-burp-suite/)
-[Burpsuite 2](https://openwebinars.net/blog/hacer-testeo-con-burp-suite/)
-[FFUF](https://keepcoding.io/blog/que-es-ffuf-ciberseguridad/#:~:text=Ffuf%20es%20un%20web%20fuzzer,conseguir%20por%20su%20propia%20cuenta)
-[WireShark](https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/)
-[SQL]([https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/](https://kinsta.com/es/blog/inyeccion-sql/**))
-[SQL Map]([https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/](https://www.dragonjar.org/sqlmap-herramienta-automatica-de-inyeccion-sql.xhtml)https://www.dragonjar.org/sqlmap-herramienta-automatica-de-inyeccion-sql.xhtml)
-[Metaesploit](https://keepcoding.io/blog/que-es-metasploit-ciberseguridad/)
+[Metodología OSSTMM](https://www.ciberseguridad.eus/ciberpedia/vulnerabilidades/open-source-security-testing-methodology-manual-osstmm)  
+[(OWASP)](https://owasp.org/www-project-web-security-testing-guide/)  
+[Penetration Testing Execution Standard(PTES)](https://www.ciberseguridad.eus/ciberpedia/marcos-de-referencia/penetration-testing-execution-standard-ptes)  
+[Tipos de Ataque](https://winempresas.pe/blog/ataques-informaticos-causas-y-12-tipos-de-ciberataques)  
+https://blog.hubspot.es/website/auditoria-de-seguridad  
+https://www.compliance-antisoborno.com/auditoria-de-cumplimiento-normativo-como-prepararse-para-superarla-con-exito/  
+https://unirfp.unir.net/revista/ingenieria-y-tecnologia/auditoria-seguridad-informatica/#:~:text=La%20auditor%C3%ADa%20de%20seguridad%20inform%C3%A1tica,una%20empresa%20y%20ponerle%20soluci%C3%B3n.  
+https://mrinformatica.es/pasos-para-realizar-una-auditoria-de-ciberseguridad/  
+[Herramientas de Fuerza Bruta](https://blog.ehcgroup.io/2019/04/29/15/18/28/5144/las-10-herramientas-hacking-de-fuerza-bruta-mas-populares/delitos-informaticos/ehacking/)  
+[Nmap](https://www.freecodecamp.org/espanol/news/que-es-nmap-y-como-usarlo-un-tutorial-para-la-mejor-herramienta-de-escaneo-de-todos-los-tiempos/)  
+[Invicti](https://www.invicti.com/support/what-is-invicti/)  
+[Nikto](https://www.innovaciondigital360.com/es/cyber-security/nikto-el-escaner-de-vulnerabilidades-para-aplicaciones-web-asi-funciona/#Que_es_Nikto_y_para_que_sirve)  
+[Burpsuite](https://keepcoding.io/blog/que-es-burp-suite/)  
+[Burpsuite 2](https://openwebinars.net/blog/hacer-testeo-con-burp-suite/)  
+[FFUF](https://keepcoding.io/blog/que-es-ffuf-ciberseguridad/#:~:text=Ffuf%20es%20un%20web%20fuzzer,conseguir%20por%20su%20propia%20cuenta)  
+[WireShark](https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/)  
+[SQL]([https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/](https://kinsta.com/es/blog/inyeccion-sql/**))  
+[SQL Map]([https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/](https://www.dragonjar.org/sqlmap-herramienta-automatica-de-inyeccion-sql.xhtml)https://www.dragonjar.org/sqlmap-herramienta-automatica-de-inyeccion-sql.xhtml)  
+[Metaesploit](https://keepcoding.io/blog/que-es-metasploit-ciberseguridad/)  
