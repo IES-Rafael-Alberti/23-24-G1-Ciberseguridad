@@ -43,5 +43,14 @@ Al llegar las evidencias al laboratorio forense, deberán ejecutarse una serie d
 
 Teniendo esto en cuenta describiremos las acciones y procesos que se llevarán a cabo durante la fase de análisis de las evidencias.
 ## Documentación de hallazgos.
+Al igual que la fase anterior, a la hora de realizar una documentación el estandar UNE71506:2013 es el más completo.
 
+Esta norma explica que para documentar bien los informes deben de incluir los siguientes apartados:
+- Documento de recepción de evidencias informáticas, pudiendo llevar así un control de las peticiones de análisis y de las propias evidencias a estudiar.
+- Registro de la documentación recibida donde se puede encontrar una descripción de las evidencias y de la cadena de custodia hasta que dichas evidencias llegan al entorno de análisis, así como los estudios solicitados en dicho análisis y los permisos necesarios para realizar dichos estudios.
+- Registro de las evidencias, en el que se describirá detalladamente cada evidencia y su estado, en el momento de la recepción de la misma.
+- Registro del tratamiento inicial en el que se describirá el proceso de clonado (volcado de datos o realización de la imagen).
+- Registro de situación de evidencias, en el que se reflejarán las operaciones practicadas a una evidencia, dónde se practicaron, por quién y en qué momento.
+- Registro de tareas del análisis inicial.
+- Registro de tareas del análisis de datos definitivo, junto a la expresión temporal de los procesos llevados a cabo, así como la ubicación temporal de la evidencia si se paralizara temporalmente su estudio.
 ## Presentación de resultados.
