@@ -182,7 +182,7 @@ La norma RFC 3227 y UNE 71506 son dos normas que centran en aspectos diferentes 
 
 * Aplicación: La norma RFC 3227 es aplicable en situaciones en las que se requiere gestionar la seguridad de la información en redes de ordenadores. Por otro lado, la norma UNE 71506 es aplicable en situaciones en las que se requiere gestionar la seguridad de la información en el ámbito de la protección de infraestructuras críticas, como en empresas de servicios públicos...
 
-En resumen, la norma RFC 3227 se centra en proporcionar bases para la gestión de la seguridad de la información en redes de ordenadores, mientras que la norma UNE 71506 se enfoca en proporcionar directrices para la gestión de la seguridad de la infromación en el ámbito de la protección de infraestructuras críticas. Ambas normas son importantes para la gestión de la seguridad de la información, pero se enfocan en aspectos diferentes y tienen alcances distintos.
+En resumen, la norma RFC 3227 se centra en proporcionar bases para la gestión de la seguridad de la información en redes de ordenadores, mientras que la norma UNE 71506 se enfoca en proporcionar directrices para la gestión de la seguridad de la información en el ámbito de la protección de infraestructuras críticas. Ambas normas son importantes para la gestión de la seguridad de la información, pero se enfocan en aspectos diferentes y tienen alcances distintos.
 
 # Selección de Metodología propia<a name=id4></a>
 
