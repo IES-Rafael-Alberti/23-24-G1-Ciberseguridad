@@ -131,5 +131,8 @@ Esta norma explica que para documentar bien los informes deben de incluir los si
 
 
 ## Presentación de resultados.
-En esta ultima etapa, nos guiaremos a traves de la norma UNE71506:2013 de nuevo, ya que es la única en la cual se habla de como presentar los hallazgos de forma de que sean validos.  
+
+En esta última etapa, nos guiaremos a través de la norma UNE71506:2013 de nuevo, ya que es la única en la cual se habla de cómo presentar los hallazgos de forma de que sean válidos.
+  
 En la fase final, se consolida toda la información derivada del análisis de las evidencias en un informe pericial, el cual es firmado por el perito informático y entregado al organismo o entidad que solicitó la evaluación. Es importante destacar que este informe a menudo se dirige a un público con conocimientos limitados en informática, por lo que se requiere un equilibrio entre la claridad y la precisión técnica en su redacción. Una vez completado, se envía el informe al solicitante, junto con un registro de las evidencias controladas, marcando el final del proceso de custodia de evidencias y aportando una sólida trazabilidad a dicho proceso.
+
