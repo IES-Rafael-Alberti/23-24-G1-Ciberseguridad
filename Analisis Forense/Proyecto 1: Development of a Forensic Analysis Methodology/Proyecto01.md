@@ -164,6 +164,8 @@ Un análisis forense detallado contemplará los siguientes aspectos:
 
 Esta fase final consiste en plasmar toda la información obtenida durante el proceso de análisis de las evidencias en un informe pericial, firmado por el perito informático, dirigido al organismo o entidad que solicitó el estudio, teniendo en cuenta que este informe irá dirigido muchas veces a un público sin conocimientos técnicos profundos dentro del campo de la informática, por lo que deberá mantenerse un equilibrio entre la inteligibilidad y el rigor de lo escrito en el informe. Una vez redactado, se debe remitir el informe al organismo solicitante, junto al documento de control de evidencias, finalizando así el proceso de custodia de las evidencias y aportando trazabilidad a dicho proceso.
 
+# Comparativa de metodologías
+
 # Selección de Metodología propia
 
 ## Adquisición de evidencia digital.
