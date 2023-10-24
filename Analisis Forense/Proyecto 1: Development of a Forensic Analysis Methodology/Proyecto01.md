@@ -206,7 +206,7 @@ Esta normativa nos indica que:
     - Establecer qué es relevante. Se ha de definir qué información es relevante para el caso.
     - Fijar el orden de volatilidad para cada dispositivo.
     - Documentar cada paso.
-    - 
+      
 ## Preservación y almacenamiento de evidencia.
 
 A la hora de almacenar, la única normativa que nos habla de esto con detalle vuelve a ser la norma RFC3227, por lo cual elegimos esta como referencia para nuestra propio método de almacenamiento de evidencias:
