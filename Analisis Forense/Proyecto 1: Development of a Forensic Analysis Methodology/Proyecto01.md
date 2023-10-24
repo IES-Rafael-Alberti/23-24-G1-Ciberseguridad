@@ -268,6 +268,8 @@ El proceso de gestión de evidencia digital se divide en varias fases:
 
 * Presentación de Resultados: En la etapa final, se consolida la información en un informe pericial, siguiendo el estándar UNE71506:2013. El informe se adapta para ser claro y preciso, ya que a menudo se dirige a un público no técnico. Se entrega el informe junto con un registro de las evidencias, proporcionando trazabilidad al proceso.
 
+![Resumen Metodología](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/assets/146707444/51411048-3bb8-4a5e-9ee9-d41999b29991)
+
 
 # Referencias<a name=id6></a>
 [RFC3227](https://www.incibe.es/incibe-cert/blog/rfc3227)  
