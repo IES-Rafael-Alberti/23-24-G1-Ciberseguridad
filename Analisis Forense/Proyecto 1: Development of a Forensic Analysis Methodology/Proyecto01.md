@@ -252,3 +252,5 @@ El proceso de gestión de evidencia digital se divide en varias fases:
 
 
 # Referencias
+[RFC3227](https://www.incibe.es/incibe-cert/blog/rfc3227)
+[ISO/IEC 27037](https://ciberseguridad.com/normativa/espana/iso-iec-27037-evidencia-digital/)
