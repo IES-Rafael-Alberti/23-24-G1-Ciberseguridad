@@ -1,9 +1,11 @@
-## Introducción
+# Índice
+
+# Introducción
 
 Este proyecto se basa en investigar sobre las normas y estandares más utilizadas en el analísis forense informático y crear nuestra metodología propia tomando estas como referencia.
+
 El uso de una metodología en analisis forense es crucial ya que necesitamos unos pasos a seguir a la hora de analizar un dispositivo para poder llevar el trabajo de forma ordenada y limpia.
 
-# Índice
 
 # Investigación
 En nuestro caso, hemos realizado una pequeña investigación de las normas más importantes de este campo y realizaremos la nuestra propia a partir de estas.
