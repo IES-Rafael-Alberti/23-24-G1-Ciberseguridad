@@ -1,5 +1,5 @@
 
-##Adquisición de evidencia digital.
+## Adquisición de evidencia digital.
 En adquisición hemos decidido utilizar la que nos proporciona el estandar RFC3227 ya que creemos que es la más detallada.
 Esta normativa nos indica que:
   * La captura de la adquisición debe de ser lo más precisa posible.
@@ -18,10 +18,10 @@ Esta normativa nos indica que:
     - Establecer qué es relevante. Se ha de definir que información es relevante para el caso.
     - Fijar el orden de volatilidad para cada dispositivo.
     - Documentar cada paso.
-##Preservación y almacenamiento de evidencia.
+## Preservación y almacenamiento de evidencia.
 
-##Análisis de evidencias.
+## Análisis de evidencias.
 
-##Documentación de hallazgos.
+## Documentación de hallazgos.
 
-##Presentación de resultados.
+## Presentación de resultados.
