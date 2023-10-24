@@ -1,4 +1,4 @@
-
+# Selección de Metodología propia
 ## Adquisición de evidencia digital.
 En adquisición hemos decidido utilizar la que nos proporciona el estandar RFC3227 ya que creemos que es la más detallada.
 Esta normativa nos indica que:
