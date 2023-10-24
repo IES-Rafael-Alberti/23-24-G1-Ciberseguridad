@@ -172,6 +172,18 @@ Esta fase final consiste en plasmar toda la información obtenida durante el pro
 
 # Comparativa de metodologías
 
+La norma RFC 3227 y UNE 71506 son dos normas que centran en aspectos diferentes de la seguridad de la información. Ahora vamos a mostrar las comparativas entre estas normas:
+
+* Objetivo: La norma RFC 3227 tiene como objetivo proporcionar pautas para la gestión de la seguridad de la información en redes. POr otro lado, la UNE 71506 tiene como objetivo proporcionar directices para la gestión de la seguridad de la infromación en el ámbito de la protección de infraestructuras críticas.
+  
+* Alcance: La norma RFC 3227 se aplica a cualquier organización que necesite gestionar la seguridad de la información en redes. Por otro lado, la norma UNE 71506 se aplica a cualquier organización que necesite gestionar información en el ámbito de la protección de infraestructuras críticas.
+
+* Contenido: La norma RFC 3227 proporciona pautas para la gestión de la seguridad de la información en redes de ordenadores, incluyendo aspectos como la identificación de activos... Por otro lado, la norma UNE 71506 proporciona directrices para la gestión de seguridad de la información en el ámbito de la protección de infraestructuras críticas, incluyendo aspectos como la identificiación de activos críticios, la evaluación de riesgos...
+
+* Aplicación: La norma RFC 3227 es aplicable en situaciones en las que se requiere gestionar la seguridad de la información en redes de ordenadores. Por otro lado, la norma UNE 71506 es aplicable en situaciones en las que se requiere gestionar la seguridad de la información en el ámbito de la protección de infraestructuras críticas, como en empresas de servicios públicos...
+
+En resumen, la norma RFC 3227 se centra en proporcionar bases para la gestión de la seguridad de la información en redes de ordenadores, mientras que la norma UNE 71506 se enfoca en proporcionar directrices para la gestión de la seguridad de la infromación en el ámbito de la protección de infraestructuras críticas. Ambas normas son importantes para la gestión de la seguridad de la información, pero se enfocan en aspectos diferentes y tienen alcances distintos.
+
 # Selección de Metodología propia
 
 ## Adquisición de evidencia digital.
