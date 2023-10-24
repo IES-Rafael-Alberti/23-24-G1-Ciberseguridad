@@ -3,7 +3,7 @@
 2. [Investigación](#id2)
 3. [Comparativa de Metodologías](#id3)
 4. [Selección de Metodología](#id4)
-5. [Resumen](#id5)
+5. [Resumén](#id5)
 6. [Referencias](#id6)
    
 # Introducción<a name=id1></a>
