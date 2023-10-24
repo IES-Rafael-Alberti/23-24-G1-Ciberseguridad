@@ -12,7 +12,7 @@ Este proyecto se basa en investigar sobre las normas y estandares más utilizada
 El uso de una metodología en analisis forense es crucial ya que necesitamos unos pasos a seguir a la hora de analizar un dispositivo para poder llevar el trabajo de forma ordenada y limpia.
 
 
-# Investigación
+# Investigación<a name=id2></a>
 En nuestro caso, hemos realizado una pequeña investigación de las normas más importantes de este campo y realizaremos la nuestra propia a partir de estas.
 ### RFC3227
 El RFC 3227 es un documento que recoge las directrices para la recopilación de evidencias y su almacenamiento.
@@ -170,7 +170,7 @@ Un análisis forense detallado contemplará los siguientes aspectos:
 
 Esta fase final consiste en plasmar toda la información obtenida durante el proceso de análisis de las evidencias en un informe pericial, firmado por el perito informático, dirigido al organismo o entidad que solicitó el estudio, teniendo en cuenta que este informe irá dirigido muchas veces a un público sin conocimientos técnicos profundos dentro del campo de la informática, por lo que deberá mantenerse un equilibrio entre la inteligibilidad y el rigor de lo escrito en el informe. Una vez redactado, se debe remitir el informe al organismo solicitante, junto al documento de control de evidencias, finalizando así el proceso de custodia de las evidencias y aportando trazabilidad a dicho proceso.
 
-# Comparativa de metodologías
+# Comparativa de metodologías<a name=id3></a>
 
 La norma RFC 3227 y UNE 71506 son dos normas que centran en aspectos diferentes de la seguridad de la información. Ahora vamos a mostrar las comparativas entre estas normas:
 
@@ -184,7 +184,7 @@ La norma RFC 3227 y UNE 71506 son dos normas que centran en aspectos diferentes 
 
 En resumen, la norma RFC 3227 se centra en proporcionar bases para la gestión de la seguridad de la información en redes de ordenadores, mientras que la norma UNE 71506 se enfoca en proporcionar directrices para la gestión de la seguridad de la infromación en el ámbito de la protección de infraestructuras críticas. Ambas normas son importantes para la gestión de la seguridad de la información, pero se enfocan en aspectos diferentes y tienen alcances distintos.
 
-# Selección de Metodología propia
+# Selección de Metodología propia<a name=id4></a>
 
 ## Adquisición de evidencia digital.
 
@@ -255,7 +255,7 @@ En esta última etapa, nos guiaremos a través de la norma UNE71506:2013 de nuev
   
 En la fase final, se consolida toda la información derivada del análisis de las evidencias en un informe pericial, el cual es firmado por el perito informático y entregado al organismo o entidad que solicitó la evaluación. Es importante destacar que este informe a menudo se dirige a un público con conocimientos limitados en informática, por lo que se requiere un equilibrio entre la claridad y la precisión técnica en su redacción. Una vez completado, se envía el informe al solicitante, junto con un registro de las evidencias controladas, marcando el final del proceso de custodia de evidencias y aportando una sólida trazabilidad a dicho proceso.
 
-# Resumén de Metodología
+# Resumén de Metodología<a name=id5></a>
 El proceso de gestión de evidencia digital se divide en varias fases:
 
 * Adquisición de Evidencia Digital: Se utiliza el estándar RFC3227 para garantizar la precisión de la captura de evidencia. Se detallan fechas, horas y se evita instalar software innecesario. Se sigue el orden de volatilidad al recopilar evidencias y se documenta exhaustivamente el proceso para garantizar la reproducibilidad.
@@ -269,6 +269,6 @@ El proceso de gestión de evidencia digital se divide en varias fases:
 * Presentación de Resultados: En la etapa final, se consolida la información en un informe pericial, siguiendo el estándar UNE71506:2013. El informe se adapta para ser claro y preciso, ya que a menudo se dirige a un público no técnico. Se entrega el informe junto con un registro de las evidencias, proporcionando trazabilidad al proceso.
 
 
-# Referencias
+# Referencias<a name=id6></a>
 [RFC3227](https://www.incibe.es/incibe-cert/blog/rfc3227)
 [ISO/IEC 27037](https://ciberseguridad.com/normativa/espana/iso-iec-27037-evidencia-digital/)
