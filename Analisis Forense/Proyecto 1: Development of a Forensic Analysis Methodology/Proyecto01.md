@@ -3,6 +3,7 @@
 Este proyecto se basa en investigar sobre las normas y estandares más utilizadas en el analísis forense informático y crear nuestra metodología propia tomando estas como referencia.
 El uso de una metodología en analisis forense es crucial ya que necesitamos unos pasos a seguir a la hora de analizar un dispositivo para poder llevar el trabajo de forma ordenada y limpia.
 
+# Índice
 
 # Investigación
 En nuestro caso, hemos realizado una pequeña investigación de las normas más importantes de este campo y realizaremos la nuestra propia a partir de estas.
@@ -136,3 +137,4 @@ En esta última etapa, nos guiaremos a través de la norma UNE71506:2013 de nuev
   
 En la fase final, se consolida toda la información derivada del análisis de las evidencias en un informe pericial, el cual es firmado por el perito informático y entregado al organismo o entidad que solicitó la evaluación. Es importante destacar que este informe a menudo se dirige a un público con conocimientos limitados en informática, por lo que se requiere un equilibrio entre la claridad y la precisión técnica en su redacción. Una vez completado, se envía el informe al solicitante, junto con un registro de las evidencias controladas, marcando el final del proceso de custodia de evidencias y aportando una sólida trazabilidad a dicho proceso.
 
+# Referencias
