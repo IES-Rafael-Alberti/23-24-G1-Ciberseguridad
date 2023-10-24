@@ -240,15 +240,15 @@ En la fase final, se consolida toda la información derivada del análisis de la
 # Resumén de Metodología
 El proceso de gestión de evidencia digital se divide en varias fases:
 
-*Adquisición de Evidencia Digital: Se utiliza el estándar RFC3227 para garantizar la precisión de la captura de evidencia. Se detallan fechas, horas y se evita instalar software innecesario. Se sigue el orden de volatilidad al recopilar evidencias y se documenta exhaustivamente el proceso para garantizar la reproducibilidad.
+* Adquisición de Evidencia Digital: Se utiliza el estándar RFC3227 para garantizar la precisión de la captura de evidencia. Se detallan fechas, horas y se evita instalar software innecesario. Se sigue el orden de volatilidad al recopilar evidencias y se documenta exhaustivamente el proceso para garantizar la reproducibilidad.
 
-*Preservación y Almacenamiento de Evidencia: La normativa RFC3227 se utiliza para establecer una cadena de custodia, documentando quién recopiló y manejó las evidencias, dónde y cuándo se almacenaron y si hubo cambios en la custodia. Se considera la forma de almacenamiento apropiada para cada dispositivo.
+* Preservación y Almacenamiento de Evidencia: La normativa RFC3227 se utiliza para establecer una cadena de custodia, documentando quién recopiló y manejó las evidencias, dónde y cuándo se almacenaron y si hubo cambios en la custodia. Se considera la forma de almacenamiento apropiada para cada dispositivo.
 
-*Análisis de Evidencia: En esta fase, se sigue la metodología UNE71506:2013 para realizar un análisis metódico, auditable y repetible de las evidencias. Se realizan acciones previas, se verifica la integridad de las evidencias y se establecen criterios de prioridades.
+* Análisis de Evidencia: En esta fase, se sigue la metodología UNE71506:2013 para realizar un análisis metódico, auditable y repetible de las evidencias. Se realizan acciones previas, se verifica la integridad de las evidencias y se establecen criterios de prioridades.
 
-*Documentación de Hallazgos: El estándar UNE71506:2013 se utiliza para documentar hallazgos, incluyendo registros de la documentación recibida, estado de las evidencias, procesos de clonado, operaciones realizadas y tareas de análisis.
+* Documentación de Hallazgos: El estándar UNE71506:2013 se utiliza para documentar hallazgos, incluyendo registros de la documentación recibida, estado de las evidencias, procesos de clonado, operaciones realizadas y tareas de análisis.
 
-*Presentación de Resultados: En la etapa final, se consolida la información en un informe pericial, siguiendo el estándar UNE71506:2013. El informe se adapta para ser claro y preciso, ya que a menudo se dirige a un público no técnico. Se entrega el informe junto con un registro de las evidencias, proporcionando trazabilidad al proceso.
+* Presentación de Resultados: En la etapa final, se consolida la información en un informe pericial, siguiendo el estándar UNE71506:2013. El informe se adapta para ser claro y preciso, ya que a menudo se dirige a un público no técnico. Se entrega el informe junto con un registro de las evidencias, proporcionando trazabilidad al proceso.
 
 
 # Referencias
