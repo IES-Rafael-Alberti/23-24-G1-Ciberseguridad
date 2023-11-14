@@ -27,7 +27,7 @@ Algunas características clave de Maltego incluyen:
 5. **Colaboración:** Maltego permite a los usuarios compartir y colaborar en sus investigaciones. Esto es útil en entornos donde varios analistas trabajan en el mismo caso o proyecto.
 6. **Ediciones:** Maltego se ofrece en varias ediciones, incluyendo una versión gratuita llamada Maltego CE (Community Edition) y versiones comerciales con funcionalidades más avanzadas.
 
-## DESCARGA E INSTALACIÓN<a name="id3"></a>
+## Descarga e instalación<a name="id3"></a>
 Vamos a la página de la aplicación [Maltego](https://www.maltego.com), una vez allí, en el menú superior, seleccionamos la pestaña “product” y clicamos en “Download Maltego”, elegimos la versión y la instalamos en nuestro equipo.
 
 ![prueba](img/Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.001.png)
@@ -44,7 +44,7 @@ La instalación es bastante simple, solo debemos elegir si será usada por nosot
 
 ![](img/Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.006.png)
 
-## CONFIGURACIÓN INICIAL MALTEGO<a name="id4"></a>
+## Configuración inicial Maltego<a name="id4"></a>
 Una vez arrancado el programa, la primera pantalla que nos saldrá será para seleccionar el tipo de producto de Maltego, nosotros, como vamos a usar la licencia gratuita, vamos a seleccionar la versión CE, que, aunque está limitada, nos permite ver como funciona la herramienta con los módulos de aplicaciones.
 
 ![](img/Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.007.png)
