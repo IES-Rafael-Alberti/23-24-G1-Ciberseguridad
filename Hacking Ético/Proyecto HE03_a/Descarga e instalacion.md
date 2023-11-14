@@ -16,13 +16,13 @@ La instalación es bastante simple, solo debemos elegir si será usada por nosot
 ![](img/Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.006.png)
 
 ## CONFIGURACIÓN INICIAL MALTEGO
-Una vez arrancado el programa, la primera pantalla que nos saldrá será para seleccionar el tipo de producto de Maltego, nosotros, como vamos a usar la licencia gratuita, vamos a seleccionar la versión CE, que, aunque está limitada, nos permite ver como funciona la herramienta con las “mods” de aplicaciones.
+Una vez arrancado el programa, la primera pantalla que nos saldrá será para seleccionar el tipo de producto de Maltego, nosotros, como vamos a usar la licencia gratuita, vamos a seleccionar la versión CE, que, aunque está limitada, nos permite ver como funciona la herramienta con los módulos de aplicaciones.
 
 ![](img/Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.007.png)
 
 ![](img/Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.008.png)
 
-D estar logueados para poder usar la aplicación, si aún no lo estamos, nos trae un enlace directamente al registro, sin tener que buscar en la web donde debemos hacerlo. 
+Debemos estar logueados para poder usar la aplicación, si aún no lo estamos, nos trae un enlace directamente al registro, sin tener que buscar en la web donde debemos hacerlo. 
 
 ![](img/Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.009.png)
 
