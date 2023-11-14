@@ -1,14 +1,11 @@
 ## DESCARGA E INSTALACIÓN
 Vamos a la página de la aplicación [Maltego](https://www.maltego.com), una vez allí, en el menú superior, seleccionamos la pestaña “product” y clicamos en “Download Maltego”, elegimos la versión y la instalamos en nuestro equipo.
 
-![prueba](Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.002.png)
+![prueba](Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.001.png)
 
 La instalación es bastante simple, solo debemos elegir si será usada por nosotros o por cualquiera que use este equipo, a parte de la ruta en la que queremos que se instale.
 
 ![](Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.002.png)
-
-
-![Alt text](Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.002.png)
 
 ![](Aspose.Words.1faf0c9e-02ad-4db6-b73a-8ea5766580e2.003.png)
 
