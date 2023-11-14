@@ -75,9 +75,9 @@ Una vez dentro del programa podemos agregar los mods que veamos oportunos para n
 
 
 ## Referencias <a name="id5"></a>
-[Pagina oficial de Maltego](https://www.maltego.com/)
-[Tutorial - Como Usar Maltego](https://www.youtube.com/watch?v=Ph_KmKY1yEM&ab_channel=TheGoodHacker)
-[Wikipedia - Maltego](https://es.wikipedia.org/wiki/Maltego)
-[Maltego: herramienta que muestra qué tan expuesta está tu información](https://www.welivesecurity.com/la-es/2023/05/11/maltego-herramienta-muestra-tan-expuesto-estas-internet/)
-[Descripción de Maltego por la UCM](https://www.ucm.es/pimcd2014-free-software/maltego)
+[Pagina oficial de Maltego](https://www.maltego.com/)  
+[Tutorial - Como Usar Maltego](https://www.youtube.com/watch?v=Ph_KmKY1yEM&ab_channel=TheGoodHacker)  
+[Wikipedia - Maltego](https://es.wikipedia.org/wiki/Maltego)  
+[Maltego: herramienta que muestra qué tan expuesta está tu información](https://www.welivesecurity.com/la-es/2023/05/11/maltego-herramienta-muestra-tan-expuesto-estas-internet/)  
+[Descripción de Maltego por la UCM](https://www.ucm.es/pimcd2014-free-software/maltego)  
 
