@@ -34,46 +34,46 @@ El director senior de la empresa es Rizawanul Haque ([Linkedin](https://in.linke
 
 Después de hacer la investigación a través de las redes sociales e internet, procedimos a realizar un escaneo de sus redes a través de whois y nslookup. A través del comando whois; haciendo previamente un export con la página web de razorpay, pudimos sacar mucha información de la propia página:
 
-*whois1*
+![](img/whois.png)
 
 Pudimos encontrar el ID de registro de dominio, su nombre de dominio, de cual servidor de whois viene la información y cuando fue actualizada la última vez, junto con los nombres de servidores.
 
-*whois2*
+*![](img/whois2.png)
 
 También podemos notar que hay información que está prohibida, como el estatus del dominio. Pero eso no impide que exista otra información, como la localización actual de la organización, que está situada en París, Francia, junto con números de contacto y fax para poder contactarnos con ellos. Sin embargo, el email de registro parece que está encriptado.
 
-*whois3*
+![](img/whois3.png)
 
 También se ha proporcionado el nombre del Administrador. con información de donde vive, en este caso Palo Alto, California, en Estados Unidos, email y teléfonos de contacto. También es el técnico encargado, con datos similares sobre la persona.
 
-*whois4*
+![](img/whois.png)4
 
 Luego de hacer el whois, y sacar toda la información acerca de la propia página, se procedió a hacer uso de la herramienta nslookup para averiguar más información acerca de la propia página.
 
-*export/nslookup*
+![](img/exportnslookup.png)
 
 Como se puede comprobar, está más protegida la página con respecto a la averiguación de datos, pero aún así, se obtienen diversas direcciones IP que se pueden consultar en mayor profundidad.
 
-*nslookup2*
-*nslookup3*
-*nslookup4*
-*nslookup5*
+![](img/nslookup2.png)
+![](img/nslookup3.png)
+![](img/nslookup4.png)
+![](img/nslookup5.png)
 
 Como se puede comprobar, obtenemos en la respuesta no autorizada, un nombre, mientras que se pueden encontrar en cierta medida respuestas autorizadas de las páginas amazonaws.com, amazonaws.org, y pdns1.ultradns.net.
 
 Luego de eso, se procede a intentar obtener todos los registros posibles:
 
-*nslookup6*
-*nslookup7*
-*nslookup8*
+![](img/nslookup6.png)
+![](img/nslookup7.png)
+![](img/nslookup8.png)
 
 Como se puede ver, aunque haya respuestas no autorizadas, sigue habiendo mucha información al respecto, como nombres de servidor, un email de contacto, servidores de correo, y numerosos registros de texto.
 
 Después de esto, también usamos dnsrecon para averiguar más información del dominio de razorpay.
 
-*dnsrecon1*
-*dnsrecon2*
-*dnsrecon3*
+![](img/dnsrecon1.png)
+![](img/dnsrecon2.png)
+![](img/dnsrecon3.png)
 
 Además, hicimos una búsqueda acerca de los certificados de SSL/TLS para intentar averiguar más información, empleando crt.sh.
 
