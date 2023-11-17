@@ -46,7 +46,7 @@ También podemos notar que hay información que está prohibida, como el estatus
 
 También se ha proporcionado el nombre del Administrador. con información de donde vive, en este caso Palo Alto, California, en Estados Unidos, email y teléfonos de contacto. También es el técnico encargado, con datos similares sobre la persona.
 
-![](img/whois.png)4
+![](img/whois4.png)
 
 Luego de hacer el whois, y sacar toda la información acerca de la propia página, se procedió a hacer uso de la herramienta nslookup para averiguar más información acerca de la propia página.
 
