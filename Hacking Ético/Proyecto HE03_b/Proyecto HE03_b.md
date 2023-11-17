@@ -1,7 +1,9 @@
 # Proyecto 03b: Investigación pasiva
 ## Índice  
 1. [Empresa seleccionada: Razorpay](#id1)
-2. [Referencias](#id2)
+2. [WHois y Nslookup](#id2)
+3. [TheHarvester](#id3)
+4. [Referencias](#id4)
 
 ## Empresa seleccionada: Razorpay<a name="id1"></a>
 
@@ -28,6 +30,9 @@ Tiene Razorpay varias empresas asociadas a su alrededor, como son el caso de:
 
 El director senior de la empresa es Rizawanul Haque ([Linkedin](https://in.linkedin.com/in/rizwanul-haque-736236)).
 
+## Whois y Nslooup <a name="id2"></a>
+
+### Whois
 
 Después de hacer la investigación a través de las redes sociales e internet, procedimos a realizar un escaneo de sus redes a través de whois y nslookup. A través del comando whois; haciendo previamente un export con la página web de razorpay, pudimos sacar mucha información de la propia página:
 
@@ -44,6 +49,8 @@ También podemos notar que hay información que está prohibida, como el estatus
 También se ha proporcionado el nombre del Administrador. con información de donde vive, en este caso Palo Alto, California, en Estados Unidos, email y teléfonos de contacto. También es el técnico encargado, con datos similares sobre la persona.
 
 ![](img/whois4.png)
+
+### NSlookup
 
 Luego de hacer el whois, y sacar toda la información acerca de la propia página, se procedió a hacer uso de la herramienta nslookup para averiguar más información acerca de la propia página.
 
@@ -74,7 +81,20 @@ Después de esto, también usamos dnsrecon para averiguar más información del 
 
 Además, hicimos una búsqueda acerca de los certificados de SSL/TLS para intentar averiguar más información, empleando crt.sh.
 
-## Referencias <a name="id2"></a>
+## TheHarvester <a name="id3"></a>
+
+También hemos buscando mediante la herramientas "theHarvester".
+
+![image](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/assets/146707444/b9a11064-d4eb-4d03-950f-40a7da47c8c1)
+
+![image](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/assets/146707444/a47391c8-a502-4229-ae37-189f2147f91b)
+
+
+Como podemos observar, esta herramienta nos ha proporcionado un mail que tienen para contactar con ellos y 33 hosts de dominios que ha encontrado bajo su nombre.
+
+
+
+## Referencias <a name="id4"></a>
 
 - [Página web de Razorpay](https://razorpay.com/)
 - [Blog de Razorpay](https://razorpay.com/blog/)
