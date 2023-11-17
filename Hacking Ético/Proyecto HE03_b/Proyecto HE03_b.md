@@ -104,7 +104,7 @@ Mediante esta extensión hemos comprobado las tecnologías con las que funciona 
 
 ![image](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/assets/146707444/5ff0d96d-6fd1-4681-a2ec-acec5954d6a1)
 
-
+Esta herramienta nos ha proporcionado datos muy especificos, como las herramientas que usa su web y la versión que utilizan actualmente.
 
 ## Referencias <a name="id4"></a>
 
