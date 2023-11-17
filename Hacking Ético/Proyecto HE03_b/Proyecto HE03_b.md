@@ -1,10 +1,7 @@
 # Proyecto 03b: Investigación pasiva
 ## Índice  
 1. [Empresa seleccionada: Razorpay](#id1)
-2. [Maltego](#id2)
-3. [Descarga e instalación](#id3)
-4. [Configuración inicial Maltego](#id4)
-5. [Referencias](#id5)
+2. [Referencias](#id2)
 
 ## Empresa seleccionada: Razorpay<a name="id1"></a>
 
@@ -77,7 +74,7 @@ Después de esto, también usamos dnsrecon para averiguar más información del 
 
 Además, hicimos una búsqueda acerca de los certificados de SSL/TLS para intentar averiguar más información, empleando crt.sh.
 
-## Referencias
+## Referencias <a name="id2"></a>
 
 - [Página web de Razorpay](https://razorpay.com/)
 - [Blog de Razorpay](https://razorpay.com/blog/)
