@@ -27,7 +27,7 @@ Actualmente, Razorpay está buscando empleados en la zona de Malasia e India. Es
 
 Tiene Razorpay varias empresas asociadas a su alrededor, como son el caso de:
 
-![](Hacking Ético/Proyecto HE03_b/img/paginasasociadas.png)
+![](/img/paginasasociadas.png)
 
 El director senior de la empresa es Rizawanul Haque ([Linkedin](https://in.linkedin.com/in/rizwanul-haque-736236)).
 
