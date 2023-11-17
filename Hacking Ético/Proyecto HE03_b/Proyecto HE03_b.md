@@ -79,18 +79,30 @@ Después de esto, también usamos dnsrecon para averiguar más información del 
 ![](img/dnsrecon2.png)
 ![](img/dnsrecon3.png)
 
-Además, hicimos una búsqueda acerca de los certificados de SSL/TLS para intentar averiguar más información, empleando crt.sh.
+Además, hicimos una búsqueda acerca de los certificados de SSL/TLS para intentar averiguar más información, empleando la web [search.censys.io](https://search.censys.io/certificates).
+
+![image](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/assets/146707444/bc028b29-f150-4b07-9e8e-0c11e087fbbe)
+
+Esta web nos muestra una gran lista certificados de subdominios, hay tantos que hemos obviado las demás capturas, pero es tan sencillo como ingresar a la página y buscar el dominio de la web objetivo.
 
 ## TheHarvester <a name="id3"></a>
 
 También hemos buscando mediante la herramientas "theHarvester".
 
-![image](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/assets/146707444/b9a11064-d4eb-4d03-950f-40a7da47c8c1)
+![image](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/assets/146707444/93a6c6c5-9b6b-4814-9866-e06865e53c02)
 
 ![image](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/assets/146707444/a47391c8-a502-4229-ae37-189f2147f91b)
 
 
-Como podemos observar, esta herramienta nos ha proporcionado un mail que tienen para contactar con ellos y 33 hosts de dominios que ha encontrado bajo su nombre.
+Como podemos observar, esta herramienta nos ha proporcionado algunos emails que tienen y 33 hosts de dominios que ha encontrado bajo su nombre.
+
+## WappAlyzer
+
+Mediante esta extensión hemos comprobado las tecnologías con las que funciona su página web.
+
+![image](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/assets/146707444/b940f67b-a76c-4e45-ba0b-dc2dc6325521)
+
+![image](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/assets/146707444/5ff0d96d-6fd1-4681-a2ec-acec5954d6a1)
 
 
 
