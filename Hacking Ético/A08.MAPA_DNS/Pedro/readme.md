@@ -4,13 +4,13 @@ En esta practica usaremos herramientas para obtener información de forma pasiva
 
 # Información WHOIS
 
-Domain Name: [ELPOZO.COM](http://elpozo.com/)
-Registry Domain ID: 1181800_DOMAIN_COM-VRSN
-Registrar WHOIS Server: [https://www.arsys.es/dominios/whois](https://www.arsys.es/dominios/whois)
-Registrar URL: [http://www.arsys.es](http://www.arsys.es/)
-Updated Date: 2023-05-19T09:34:34Z
-Creation Date: 1997-05-23T04:00:00Z
-Registry Expiry Date: 2024-05-24T04:00:00Z
+Domain Name: [ELPOZO.COM](http://elpozo.com/)  
+Registry Domain ID: 1181800_DOMAIN_COM-VRSN  
+Registrar WHOIS Server: [https://www.arsys.es/dominios/whois](https://www.arsys.es/dominios/whois)  
+Registrar URL: [http://www.arsys.es](http://www.arsys.es/)  
+Updated Date: 2023-05-19T09:34:34Z  
+Creation Date: 1997-05-23T04:00:00Z  
+Registry Expiry Date: 2024-05-24T04:00:00Z  
 
 ## Direcciones IP
 
@@ -20,10 +20,10 @@ Usando la herramienta nslookup obtenemos la dirección ip de el pozo:
 
 ## Datos de contacto y emails
 
-Registrar: Arsys Internet, S.L. dba [NICLINE.COM](http://nicline.com/)
-Registrar IANA ID: 379
-Registrar Abuse Contact Email: [abuse@nicline.com](mailto:abuse@nicline.com)
-Registrar Abuse Contact Phone: +34 941 620 100
+Registrar: Arsys Internet, S.L. dba [NICLINE.COM](http://nicline.com/)  
+Registrar IANA ID: 379  
+Registrar Abuse Contact Email: [abuse@nicline.com](mailto:abuse@nicline.com)  
+Registrar Abuse Contact Phone: +34 941 620 100  
 
 # Servidores DNS
 
