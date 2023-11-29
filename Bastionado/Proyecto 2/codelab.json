@@ -1,0 +1,26 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2023-11-29T12:20:20+01:00",
+  "id": "guia-VLAN-G1",
+  "duration": 20,
+  "title": "Guia de VLAN",
+  "summary": "Guía de VLAN",
+  "source": "guiaVLAN.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "vlan",
+    "markdown",
+    "cisco",
+    "tracer"
+  ],
+  "tags": [
+    "web"
+  ],
+  "url": "guia-VLAN-G1"
+}

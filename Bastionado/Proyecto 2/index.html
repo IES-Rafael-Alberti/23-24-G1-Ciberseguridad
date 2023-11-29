@@ -1,0 +1,265 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Guia de VLAN</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="guia-VLAN-G1"
+                  title="Guia de VLAN"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Distribución de nuestra Red" duration="20">
+        <p>Una cosa que vamos a tener en cuenta es que vamos a hacer VLAN por cada departamento que haya en nuestra empresa, en este caso tenemos un total de 9 departamentos con 150 empleados entre ellos que son</p>
+<ul>
+<li>Facturación -&gt; 35 empleados</li>
+<li>Compras -&gt; 35 empleado</li>
+<li>RRSS -&gt; 10 empleados</li>
+<li>Mantenimiento -&gt; 23 empleados</li>
+<li>Legal -&gt; 10 empleados</li>
+<li>Delivery -&gt; 15 empleados</li>
+<li>TIC -&gt; 4 empleados</li>
+<li>Consejo de Administracion -&gt; 8 empleados</li>
+<li>RRHH -&gt; 10 empleados</li>
+</ul>
+<p>Por cada departamento que hay, hay que mirar los equipos que tiene cada departamento y VSLM por cada sede que hay, que habra 2, de manera que queda de la siguiente manera:</p>
+<ul>
+<li>Sede 1<ul>
+<li>Facturacion -&gt; 20 empleados (20 equipos, 20 telefonos y 3 impresoras) -&gt; VLAN 10</li>
+<li>Compras -&gt; 20 empleados (20 equipos, 20 telefonos y 3 impresoras) -&gt; VLAN 20</li>
+<li>RRSS -&gt; 10 empleados (10 equipos, 10 telefonos y 3 impresoras) -&gt; VLAN 30</li>
+<li>TIC -&gt; 4 empleados (4 equipos, 4 telefonos y 1 impresora) -&gt; VLAN 40</li>
+<li>RRHH -&gt; 10 empleados (10 equipos, 10 telefonos y 1 impresora) -&gt; VLAN 50</li>
+<li>Delivery -&gt; 15 empleados (15 equipos, 15 telefonos y 2 impresoras) -&gt; VLAN 60</li>
+<li>Mantenimiento -&gt; 15 empleados (15 equipos, 5 telefonos, 1 impresora) -&gt; VLAN 70</li>
+<li>Legal -&gt; 10 empleados (10 equipos, 10 telefonos y 2 impresoras) -&gt; VLAN 80</li>
+<li>Consejo de Administración -&gt; 8 empleados (8 equipos, 8 telefonos y 2 impresoras) -&gt; VLAN 90</li>
+</ul>
+</li>
+<li>Sede 2<ul>
+<li>Facturacion: 15 empleados (15 equipos, 15 telefonos y 3 impresoras) -&gt; VLAN 10</li>
+<li>Compras -&gt; 15 empleados (15 equipos, 15 telefonos y 3 impresoras) -&gt; VLAN 20</li>
+<li>Mantenimiento -&gt; 8 empleados (8 equipos, 3 telefonos y 1 impresora) -&gt; VLAN 70</li>
+</ul>
+</li>
+</ul>
+<p>De forma que el VSLM, quedaria de la siguiente manera:</p>
+<ul>
+<li>Sede 1</li>
+</ul>
+<table>
+<tr><td colspan="1" rowspan="1"><p>Departamento</p>
+</td><td colspan="1" rowspan="1"><p>VLAN</p>
+</td><td colspan="1" rowspan="1"><p>Numeros de Equipos</p>
+</td><td colspan="1" rowspan="1"><p>Nombre de RED(NID)</p>
+</td><td colspan="1" rowspan="1"><p>IP Inicio</p>
+</td><td colspan="1" rowspan="1"><p>IP Fin</p>
+</td><td colspan="1" rowspan="1"><p>Broadcast</p>
+</td><td colspan="1" rowspan="1"><p>Mascara</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Facturacion</p>
+</td><td colspan="1" rowspan="1"><p>10</p>
+</td><td colspan="1" rowspan="1"><p>43</p>
+</td><td colspan="1" rowspan="1"><p>192.168.1.0</p>
+</td><td colspan="1" rowspan="1"><p>1.1</p>
+</td><td colspan="1" rowspan="1"><p>1.62</p>
+</td><td colspan="1" rowspan="1"><p>1.63</p>
+</td><td colspan="1" rowspan="1"><p>.192/26</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Compras</p>
+</td><td colspan="1" rowspan="1"><p>20</p>
+</td><td colspan="1" rowspan="1"><p>43</p>
+</td><td colspan="1" rowspan="1"><p>192.168.1.64</p>
+</td><td colspan="1" rowspan="1"><p>1.65</p>
+</td><td colspan="1" rowspan="1"><p>1.126</p>
+</td><td colspan="1" rowspan="1"><p>1.127</p>
+</td><td colspan="1" rowspan="1"><p>.192/26</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Delivery</p>
+</td><td colspan="1" rowspan="1"><p>30</p>
+</td><td colspan="1" rowspan="1"><p>32</p>
+</td><td colspan="1" rowspan="1"><p>192.168.1.128</p>
+</td><td colspan="1" rowspan="1"><p>1.129</p>
+</td><td colspan="1" rowspan="1"><p>1.158</p>
+</td><td colspan="1" rowspan="1"><p>1.159</p>
+</td><td colspan="1" rowspan="1"><p>.224/27</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Legal</p>
+</td><td colspan="1" rowspan="1"><p>40</p>
+</td><td colspan="1" rowspan="1"><p>22</p>
+</td><td colspan="1" rowspan="1"><p>192.168.1.160</p>
+</td><td colspan="1" rowspan="1"><p>1.161</p>
+</td><td colspan="1" rowspan="1"><p>1.190</p>
+</td><td colspan="1" rowspan="1"><p>1.191</p>
+</td><td colspan="1" rowspan="1"><p>.224/27</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>RRSS</p>
+</td><td colspan="1" rowspan="1"><p>50</p>
+</td><td colspan="1" rowspan="1"><p>21</p>
+</td><td colspan="1" rowspan="1"><p>192.168.1.192</p>
+</td><td colspan="1" rowspan="1"><p>1.193</p>
+</td><td colspan="1" rowspan="1"><p>1.222</p>
+</td><td colspan="1" rowspan="1"><p>1.223</p>
+</td><td colspan="1" rowspan="1"><p>.224/27</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>RRHH</p>
+</td><td colspan="1" rowspan="1"><p>60</p>
+</td><td colspan="1" rowspan="1"><p>21</p>
+</td><td colspan="1" rowspan="1"><p>192.168.1.224</p>
+</td><td colspan="1" rowspan="1"><p>1.225</p>
+</td><td colspan="1" rowspan="1"><p>1.254</p>
+</td><td colspan="1" rowspan="1"><p>1.255</p>
+</td><td colspan="1" rowspan="1"><p>.224/27</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Mantenimiento</p>
+</td><td colspan="1" rowspan="1"><p>70</p>
+</td><td colspan="1" rowspan="1"><p>21</p>
+</td><td colspan="1" rowspan="1"><p>192.168.2.0</p>
+</td><td colspan="1" rowspan="1"><p>2.1</p>
+</td><td colspan="1" rowspan="1"><p>2.30</p>
+</td><td colspan="1" rowspan="1"><p>2.31</p>
+</td><td colspan="1" rowspan="1"><p>.224/27</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Consejo Adm.</p>
+</td><td colspan="1" rowspan="1"><p>80</p>
+</td><td colspan="1" rowspan="1"><p>18</p>
+</td><td colspan="1" rowspan="1"><p>192.168.2.32</p>
+</td><td colspan="1" rowspan="1"><p>2.33</p>
+</td><td colspan="1" rowspan="1"><p>2.63</p>
+</td><td colspan="1" rowspan="1"><p>2.63</p>
+</td><td colspan="1" rowspan="1"><p>.224/27</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>TIC</p>
+</td><td colspan="1" rowspan="1"><p>90</p>
+</td><td colspan="1" rowspan="1"><p>9</p>
+</td><td colspan="1" rowspan="1"><p>192.168.2.64</p>
+</td><td colspan="1" rowspan="1"><p>2.65</p>
+</td><td colspan="1" rowspan="1"><p>2.78</p>
+</td><td colspan="1" rowspan="1"><p>2.79</p>
+</td><td colspan="1" rowspan="1"><p>.240/28</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Servidores</p>
+</td><td colspan="1" rowspan="1"><p>100</p>
+</td><td colspan="1" rowspan="1"><p>4</p>
+</td><td colspan="1" rowspan="1"><p>192.168.2.80</p>
+</td><td colspan="1" rowspan="1"><p>2.81</p>
+</td><td colspan="1" rowspan="1"><p>2.86</p>
+</td><td colspan="1" rowspan="1"><p>2.88</p>
+</td><td colspan="1" rowspan="1"><p>.248/29</p>
+</td></tr>
+</table>
+<ul>
+<li>Sede 2</li>
+</ul>
+<table>
+<tr><td colspan="1" rowspan="1"><p>Departamento</p>
+</td><td colspan="1" rowspan="1"><p>VLAN</p>
+</td><td colspan="1" rowspan="1"><p>Numeros de Equipos</p>
+</td><td colspan="1" rowspan="1"><p>Nombre de RED(NID)</p>
+</td><td colspan="1" rowspan="1"><p>IP Inicio</p>
+</td><td colspan="1" rowspan="1"><p>IP Fin</p>
+</td><td colspan="1" rowspan="1"><p>Broadcast</p>
+</td><td colspan="1" rowspan="1"><p>Mascara</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Facturacion</p>
+</td><td colspan="1" rowspan="1"><p>10</p>
+</td><td colspan="1" rowspan="1"><p>43</p>
+</td><td colspan="1" rowspan="1"><p>192.168.1.0</p>
+</td><td colspan="1" rowspan="1"><p>1.1</p>
+</td><td colspan="1" rowspan="1"><p>1.62</p>
+</td><td colspan="1" rowspan="1"><p>1.63</p>
+</td><td colspan="1" rowspan="1"><p>.192/26</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Compras</p>
+</td><td colspan="1" rowspan="1"><p>20</p>
+</td><td colspan="1" rowspan="1"><p>43</p>
+</td><td colspan="1" rowspan="1"><p>192.168.1.64</p>
+</td><td colspan="1" rowspan="1"><p>1.65</p>
+</td><td colspan="1" rowspan="1"><p>1.126</p>
+</td><td colspan="1" rowspan="1"><p>1.127</p>
+</td><td colspan="1" rowspan="1"><p>.192/26</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Mantenimiento</p>
+</td><td colspan="1" rowspan="1"><p>70</p>
+</td><td colspan="1" rowspan="1"><p>21</p>
+</td><td colspan="1" rowspan="1"><p>192.168.1.128</p>
+</td><td colspan="1" rowspan="1"><p>1.129</p>
+</td><td colspan="1" rowspan="1"><p>1.142</p>
+</td><td colspan="1" rowspan="1"><p>1.143</p>
+</td><td colspan="1" rowspan="1"><p>.240/28</p>
+</td></tr>
+</table>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Configuración de Nuestra Red" duration="0">
+        <h2 is-upgraded>Distribución de la Sede Principal</h2>
+<p>Tras preparar las IPs que vamos preparar los equipos, el cual solo vamos a configurar la 1º sede.</p>
+<p class="image-container"><img alt="Alt text" src="img\\772fa9952af15385.png"></p>
+<p>Como se puede ver en la imagen, asi se veria un vistazo al circuito que vamos a hacer.</p>
+<h2 is-upgraded>Configuración de enrutamiento entre VLANs</h2>
+<p>Asi que el primer paso sería, configurar el router que esta a la derecha del todo, para distribuir las IPs con el resto del Switch:</p>
+<p>interface GigabitEthernet0/0<br> no shutdown</p>
+<p>interface GigabitEthernet 0/0.10<br> encapsulation dot1Q 10<br> ip address 192.168.1.1 255.255.255.192<br> exit</p>
+<p>interface GigabitEthernet 0/0.20<br> encapsulation dot1Q 20<br> ip address 192.168.1.65 255.255.255.192<br> exit</p>
+<p>interface GigabitEthernet 0/0.30<br> encapsulation dot1Q 30<br> ip address 192.168.1.129 255.255.255.224<br> exit</p>
+<p>interface GigabitEthernet 0/0.40<br> encapsulation dot1Q 40<br> ip address 192.168.1.161 255.255.255.224<br> exit</p>
+<p>interface GigabitEthernet 0/0.50<br> encapsulation dot1Q 50<br> ip address 192.168.1.193 255.255.255.224<br> exit</p>
+<p>interface GigabitEthernet 0/0.60<br> encapsulation dot1Q 60<br> ip address 192.168.1.225 255.255.255.224<br> exit</p>
+<p>interface GigabitEthernet 0/0.70<br> encapsulation dot1Q 70<br> ip address 192.168.2.1 255.255.255.224<br> exit</p>
+<p>interface GigabitEthernet 0/0.80<br> encapsulation dot1Q 80<br> ip address 192.168.2.33 255.255.255.224<br> exit</p>
+<p>interface GigabitEthernet 0/0.90<br> encapsulation dot1Q 90<br> ip address 192.168.2.65 255.255.255.240<br> exit</p>
+<p>interface GigabitEthernet 0/0.100<br> encapsulation dot1Q 100<br> ip address 192.168.2.81 255.255.255.248<br> exit</p>
+<h2 is-upgraded>Creación de VLANs</h2>
+<p>Tras terminar de configurar el Router, vamos al switch de distribución y preparamos el VLAN (Solo vamos a mostrar un ejemplo, esto deberiamos hacerlo por cada departamento que haya):</p>
+<p>VLAN 10<br> Name Departamento1<br> Exit</p>
+<p>Tras eso vamos a configurar el VTP Servidor, en el mismo Switch de distribución, lo que nos ayudará a distrubuir las VLANs a los Switch de los departamentos:</p>
+<p>Vtp mode server<br> Vtp domain Sede1<br> Vtp Password Sede1</p>
+<p>Interface range fa0/1-24<br> Switchport mode trunk</p>
+<p>Interface gi0/1<br> Switchport mode trunk<br> Switchport trunk allowed vlan 10,20,30,40,50,60,70,80,90,100</p>
+<h2 is-upgraded>Configuración de los Switches de los Departamentos</h2>
+<p>Ahora tras eso, tenemos que ir a cada Switch de cada departamento, para configurar el VTP Cliente para la recepción de las VLANs creadas anteriormente:</p>
+<p>Vtp mode client Vtp domain Sede1 Vtp password Sede1</p>
+<p>Interface fa0/1 Switchport mode trunk Switchport trunk allowed vlan 10,20,30,40,50,60,70,80,90,100</p>
+<p>Interface range fa0/2-24 Switchport mode access Switchport access vlan X</p>
+<p>Ahora tras eso, tenemos que configurar la seguridad de los puertos y deshabilitar los que no estemos usando, porque hemos optado que el puerto solo pueda guardar dos MACs distintas :</p>
+<p>interface range f0/2-24<br> shut<br> switchport port-security<br> switchport port-security mac-address sticky<br> switchport port-security maximum 2<br> switchport port-security violation restrict<br> no shut<br> exit</p>
+<p>interface range f0/6 - 24<br> shutdown<br> exit<br> interface range g0/1-2<br> shutdown<br> exit</p>
+<h2 is-upgraded>Guardado y Comprobación de la Configuración</h2>
+<p>Debemos guardar la configuración con todo, porque si apagamos todos los dispositivos no se guardaría y volvería a su estado inicial, perdiendo todo lo que hemos hecho, por eso, tenemos que ponerlo en todos los dispositivos:</p>
+<p>Copy running-config startup-config</p>
+<p>Y ya si queremos comprobar el resultado, podemos utilizar los siguientes comandos en los dispositivos:</p>
+<p>Show ip interface brief<br> Show port-security<br> Show port-security address</p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
