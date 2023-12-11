@@ -1,3 +1,5 @@
+# 2.a Taxonomía
+
 ## Contenido abusivo
 
 ### Pornografía infantil, contenido sexual o violento inadecuado
