@@ -7,14 +7,8 @@
 | Descripción | Material que represente de manera visual contenido relacionado con pornografía infantil, apología del odio, etc. |
 | --- | --- |
 | Funcionamiento | Puede propagarse de diversas maneras en la web, a menudo a través de sitios web, foros, redes sociales y correo electrónico. |
-| Identificación | Este tipo de contenido puede estar presente de muchas formas, algunas de ellas pueden ser:                                     • Contenido que parece inapropiado o te haga estar incomodo.
-• Solicitudes de información personal o imágenes/videos privados.
-• Mensajes o publicaciones que promueven odio o violencia.
-• Cualquier contenido que involucre a menores en actividades sexuales. |
-| Protección | Algunas medidas que se pueden tomar son:                                       • No compartir información personal con desconocidos en línea.
-• Utilizar configuraciones de privacidad en redes sociales.
-• Informar de actividades sospechosas a las autoridades pertinentes.
-• En caso de menores, enseñarles los peligros existentes en internet. |
+| Identificación | Este tipo de contenido puede estar presente de muchas formas, algunas de ellas pueden ser:  • Contenido que parece inapropiado o te haga estar incomodo. • Solicitudes de información personal o imágenes/videos privados. • Mensajes o publicaciones que promueven odio o violencia. • Cualquier contenido que involucre a menores en actividades sexuales. |
+| Protección | Algunas medidas que se pueden tomar son: • No compartir información personal con desconocidos en línea. • Utilizar configuraciones de privacidad en redes sociales. • Informar de actividades sospechosas a las autoridades pertinentes. • En caso de menores, enseñarles los peligros existentes en internet. |
 
 | URL | https://www.europapress.es/illes-balears/noticia-detenido-menor-edad-distribucion-pornografia-infantil-20231208101106.html |
 | --- | --- |
