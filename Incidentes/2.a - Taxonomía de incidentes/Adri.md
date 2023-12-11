@@ -26,16 +26,8 @@
 | Descripción | Sistema infectado con malware. Ejemplo: sistema, computadora o teléfono móvil infectado con un rootkit. |
 | --- | --- |
 | Funcionamiento | El malware se propaga e infecta el sistema. |
-| Identificación | • El equipo funciona más lento de lo normal.
-• La velocidad de internet es más lenta.
-• Aumenta  la cantidad de anuncios que aparecen, ventanas emergentes, reenvio a ciertas direcciones, etc.
-• Se instalan programas no deseados |
-| Protección | • Mantener todos los sistemas actualizados.
-• Instalar un antivirus.
-• Descargar aplicaciones de desarrolladores confiables.
-• Evitar hacer clic en enlaces sospechosos.
-• No visitar sitios web no seguros.
-• Realizar análisis constantemente en busca de malware. |
+| Identificación | <li>El equipo funciona más lento de lo normal.</li><li>La velocidad de internet es más lenta.</li><li>Aumenta  la cantidad de anuncios que aparecen, ventanas emergentes, reenvio a ciertas direcciones, etc.</li><li>Se instalan programas no deseados</li> |
+| Protección | <li> Mantener todos los sistemas actualizados.</li><li>Instalar un antivirus.</li><li>Descargar aplicaciones de desarrolladores confiables.</li><li>Evitar hacer clic en enlaces sospechosos.</li><li>No visitar sitios web no seguros.</li><li>Realizar análisis constantemente en busca de malware.</li> |
 
 | URL | https://www.elespanol.com/omicrono/software/20200122/virus-informatico-desconectado-hospital-torrejon/461704059_0.html |
 | --- | --- |
