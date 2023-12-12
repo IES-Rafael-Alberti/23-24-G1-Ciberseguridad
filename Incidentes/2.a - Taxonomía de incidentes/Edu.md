@@ -23,4 +23,4 @@
 
 | URL | Titular | Agrupación | Origen | Categoría | Usuarios afectados | Número y tipología infectados | Impacto |
 | --- | ------- | ---------- | ------ | --------- | ------------------ | ----------------------------- | ------- |
-| [Link a noticia](https://unaaldia.hispasec.com/2020/07/el-malware-de-robo-de-datos-qsnatch-infecto-mas-de-62-000-dispositivos-nas-qnap.html) | El malware de robo de datos QSnatch infectó más de 62.000 dispositivos NAS QNAP | Malware dominio DGA |  | Confidencialidad e Integridad | Usuarios de dispositivos QNAP | Más de 62000 dispositivos NAS QNAP | Alto |
+| [Link a noticia](https://unaaldia.hispasec.com/2020/07/el-malware-de-robo-de-datos-qsnatch-infecto-mas-de-62-000-dispositivos-nas-qnap.html) | El malware de robo de datos QSnatch infectó más de 62.000 dispositivos NAS QNAP | Malware dominio DGA | Externo | Confidencialidad e Integridad | Usuarios de dispositivos QNAP | Más de 62000 dispositivos NAS QNAP | Alto |
