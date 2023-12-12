@@ -12,7 +12,7 @@
 
 | URL | https://www.europapress.es/illes-balears/noticia-detenido-menor-edad-distribucion-pornografia-infantil-20231208101106.html |
 | --- | --- |
-| Resumen |  |
+| Resumen | Un menor compartió videos inapropiados que recibió jugando en línea. Otro menor fue detenido por ser el presunto autor de un delito de corrupción de menores al distribuir videos. |
 | Agrupación | Pornografía infantil |
 | Origen | videoconsola/red social |
 | Categoría | Distribución de pornografía infantil online |
