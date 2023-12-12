@@ -10,7 +10,7 @@
 
 | URL | Titular | Agrupación | Origen | Categoría | Usuarios afectados | Número y tipología infectados | Impacto |
 | --- | ------- | ---------- | ------ | --------- | ------------------ | ----------------------------- | ------- |
-| https://www.europapress.es/portaltic/ciberseguridad/noticia-malware-cherryblos-integra-apps-android-usa-reconocimiento-optico-caracteres-robar-contrasenas-20230731121817.html | El malware CherryBlos se integra en apps de Android y usa reconocimiento óptico de caracteres para robar contraseñas | Configuración de Malware | Externo | Económica, confidencialidad e integridad | Todos los usuarios de las aplicaciones GPTalk, Happy Miner, Robot 999 y SynthNet. | Ciudadanía española en general | Alto |
+| [Link a noticia](https://www.europapress.es/portaltic/ciberseguridad/noticia-malware-cherryblos-integra-apps-android-usa-reconocimiento-optico-caracteres-robar-contrasenas-20230731121817.html) | El malware CherryBlos se integra en apps de Android y usa reconocimiento óptico de caracteres para robar contraseñas | Configuración de Malware | Externo | Económica, confidencialidad e integridad | Todos los usuarios de las aplicaciones GPTalk, Happy Miner, Robot 999 y SynthNet. | Ciudadanía española en general | Alto |
 
 
 ## Malware dominio DGA
