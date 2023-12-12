@@ -32,7 +32,7 @@
 
 | URL | https://www.elespanol.com/omicrono/software/20200122/virus-informatico-desconectado-hospital-torrejon/461704059_0.html |
 | --- | --- |
-| Resumen |  |
+| Resumen | El sistema informático del hospital de Torrejón ha sido infectado por un ransomware presuntamente por un correo electrónico. |
 | Agrupación | Contenido dañino: ransomware |
 | Origen | Externo, por hackers internacionales. |
 | Categoría | Ataque de ransomware |
