@@ -12,6 +12,7 @@
 
 | URL | https://www.europapress.es/illes-balears/noticia-detenido-menor-edad-distribucion-pornografia-infantil-20231208101106.html |
 | --- | --- |
+| Resumen |  |
 | Agrupación | Pornografía infantil |
 | Origen | videoconsola/red social |
 | Categoría | Distribución de pornografía infantil online |
@@ -31,6 +32,7 @@
 
 | URL | https://www.elespanol.com/omicrono/software/20200122/virus-informatico-desconectado-hospital-torrejon/461704059_0.html |
 | --- | --- |
+| Resumen |  |
 | Agrupación | Contenido dañino: ransomware |
 | Origen | Externo, por hackers internacionales. |
 | Categoría | Ataque de ransomware |
