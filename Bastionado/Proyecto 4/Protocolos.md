@@ -1,4 +1,4 @@
-Tras echar un vistazo a los protocolos que se usan, vamos a usar lo siguiente para nuestra empresa:
+Tras una pequeña investigación de los protocolos más usados respecto a la seguridad empresarial, hemos decidido implementar los siguientes protocolos en nuestra empresa:
 
 - A todos los empleados de la empresa, se les otorgará una tarjeta inteligente personal, la cual será usada en diversos medios de seguridad. También recibirán un correo corporativo que será usado para entrar en diversos medios electrónicos de la empresa, este correo deberá seguir unas normas de uso específicas.
 - Para entrar en el recinto de la empresa , será necesario pasar la tarjeta inteligente por un torno el cual otorgará acceso, el cúal al lado del torno estará un guardia de seguridad para comprobar que es la persona que entra y no sea un intruso. Esta misma tarjeta será utilizada para realizar el fichaje de entrada/salida de la jornada laboral.
