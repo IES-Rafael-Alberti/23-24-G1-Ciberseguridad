@@ -50,7 +50,6 @@ Es obligatorio notificar cualquier incidencia de seguridad (virus, pérdida de i
 - Evidencia o sospecha de acceso no autorizado a áreas restringidas.
 - Evidencia o sospecha de acceso no autorizado a sistemas informáticos o información confidencial por parte de terceros.
 - Cualquier actividad sospechosa que pueda detectar en su puesto de trabajo.
-- 
 
 ## Politicas de contraseñas
 
