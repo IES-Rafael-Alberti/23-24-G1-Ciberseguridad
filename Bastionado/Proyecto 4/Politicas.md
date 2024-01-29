@@ -1,4 +1,4 @@
-## **Políticas de seguridad:**
+## **Políticas de seguridad**
 
 ### **Políticas en el puesto de trabajo:**
 
