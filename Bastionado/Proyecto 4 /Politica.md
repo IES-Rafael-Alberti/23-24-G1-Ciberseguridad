@@ -1,6 +1,6 @@
-**Politicas de seguridad:**
+# Politicas de seguridad
 
-**Politicas en el puesto de trabajo:**
+## Politicas en el puesto de trabajo:
 
 **Destrucción de la documentación**
 
@@ -26,7 +26,7 @@ La información debe ser almacenada en dispositivos autorizados de forma segura.
 - No podrá sacarse de las instalaciones.
 - Una vez terminado su uso deberá ser guardado.
 
-**Política de mesas limpias**
+## Política de mesas limpias
 
 Las mesas de trabajo deberán encontrarse siempre despejadas y sin documentación sensible ni dispositivos extraíbles al alcance de otras personas. Se deberá guardar la documentación de trabajo al ausentarse del puesto de trabajo y al final de la jornada laboral. No deberá dejar información sensible a la vista de otras personas que puedan hacer un uso indebido de la misma.
 
@@ -52,7 +52,7 @@ Es obligatorio notificar cualquier incidencia de seguridad (virus, pérdida de i
 - Cualquier actividad sospechosa que pueda detectar en su puesto de trabajo.
 - 
 
-**Politicas de contraseñas**
+## Politicas de contraseñas
 
 **Contraseñas robustas**
 
