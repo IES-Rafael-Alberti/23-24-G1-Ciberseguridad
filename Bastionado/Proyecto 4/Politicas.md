@@ -2,7 +2,7 @@
 
 ### **Políticas en el puesto de trabajo:**
 
-#### **Destrucción de la documentación**
+**Destrucción de la documentación**
 
 La información confidencial obsoleta o no útil deberá ser destruida de forma segura siguiendo el método apropiado.
 
