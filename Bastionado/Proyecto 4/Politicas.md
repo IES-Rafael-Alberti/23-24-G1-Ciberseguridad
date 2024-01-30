@@ -166,6 +166,22 @@ Se debe notificar al personal técnico responsable la sospecha de infección por
 
 Si se sospecha la infección por virus u otro software malicioso, se debe notificar a la mayor brevedad posible al personal técnico responsable.
 
+**Uso adecuado de tokens/tarjetas inteligentes**
+
+El personal será instruido sobre como utilizar correctamente los dispositivos Tokens. Esto incluye mantener los dispositivos físicamente seguros en todo momento y no compartir los dispositivos con otros.
+
+**Notificación de pérdida o robo**
+
+El personal deberá informar inmediatamente al personal de TIC si su dispositivo, token o tarjeta inteligente se pierde o es robado. El personal de TIC lo desactivará inmediatamente..
+
+**Políticas de bloqueo**
+
+Si se introducen códigos incorrectos repetidamente en un dispositivo, el dispositivo se bloqueará automáticamente para prevenir ataques de fuerza bruta.
+
+**Actualizaciones regulares**
+
+Los dispositivos, tokens y tarjetas inteligentes deberán estar siempre actualizados o reemplazados regularmente para mantener la tecnología más reciente y segura.
+
 ### Políticas de a**plicaciones**
 
 **Registro de licencias**
