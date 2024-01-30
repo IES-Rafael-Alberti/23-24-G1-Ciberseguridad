@@ -240,3 +240,17 @@ Si queremos reutilizar un soporte que ya contiene datos, debemos utilizar la opc
 Se debe eliminar la información en teléfonos móviles, impresoras, GPS, etc. (memoria y tarjetas) antes de deshacernos de ellos.
 
 Prestar una especial atención cuando queramos deshacernos de dispositivos móviles (smartphones, tabletas, etc.) y dispositivos que almacenan información de uso (impresoras, GPS, etc.) ya que también pueden contener información empresarial confidencial.
+
+### Políticas de biometría
+
+**Información básica**
+
+Se informará a los empleados del uso de la autenticación biométrica, junto con su finalidad y qué datos se recogerán para dicho uso, además de sus derechos con respecto al tratamiento de dichos datos, incluyendo la posibilidad de denegar su uso si así lo desean.
+
+Los datos recogidos deberán ser los justos y necesarios para la finalidad destinada a la biometría.
+
+**Seguridad de la información**
+
+Se pasará a establecerse el almacenamiento de todos los datos biométricos en una base de datos separada de la principal de la empresa, para que no se vea relacionada con posibles vulneraciones de filtración de datos no comprobados.
+
+Además, se pasará a emplear cifrados para garantizar la confidencialidad, disponibilidad e integridad de dichos datos.
