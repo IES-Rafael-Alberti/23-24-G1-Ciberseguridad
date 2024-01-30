@@ -1,3 +1,5 @@
+# Protocolos
+
 Tras una pequeña investigación de los protocolos más usados respecto a la seguridad empresarial, hemos decidido implementar los siguientes protocolos en nuestra empresa:
 
 - A todos los empleados de la empresa, se les otorgará una tarjeta inteligente personal, la cual será usada en diversos medios de seguridad. También recibirán un correo corporativo que será usado para entrar en diversos medios electrónicos de la empresa, este correo deberá seguir unas normas de uso específicas.
