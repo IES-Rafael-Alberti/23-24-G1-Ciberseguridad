@@ -175,7 +175,6 @@ Existe un registro actualizado de licencias disponibles del software autorizado.
 Si queremos saber de qué software dispone la organización conviene tener un registro actualizado de licencias. En dicho registro se almacenará al menos la siguiente información:
 
 - Nombre y versión del producto.
-- 
 - Fecha de adquisición.
 - Vigencia de la licencia.
 - Tipo de licencia.
