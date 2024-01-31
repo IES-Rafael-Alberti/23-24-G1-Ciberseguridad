@@ -239,6 +239,20 @@ El tiempo de conservación de la información de forma local será de 15 días. 
 
 Para evitar problemas de espacio en los discos duros estableceremos un periodo de tiempo de conservación de la información. Transcurrido este tiempo, según la información en cuestión, tendremos que decidir si se transfiere a los servidores empresariales o si se elimina definitivamente.
 
+### Políticas de biometría
+
+**Información básica**
+
+Se informará a los empleados del uso de la autenticación biométrica, junto con su finalidad y qué datos se recogerán para dicho uso, además de sus derechos con respecto al tratamiento de dichos datos, incluyendo la posibilidad de denegar su uso si así lo desean.
+
+Los datos recogidos deberán ser los justos y necesarios para la finalidad destinada a la biometría.
+
+**Seguridad de la información**
+
+Se pasará a establecerse el almacenamiento de todos los datos biométricos en una base de datos separada de la principal de la empresa, para que no se vea relacionada con posibles vulneraciones de filtración de datos no comprobados.
+
+Además, se pasará a emplear cifrados para garantizar la confidencialidad, disponibilidad e integridad de dichos datos.
+
 ### Políticas de b**orrado seguro**
 
 **Inventario de activos**
@@ -259,16 +273,14 @@ Se debe eliminar la información en teléfonos móviles, impresoras, GPS, etc. (
 
 Prestar una especial atención cuando queramos deshacernos de dispositivos móviles (smartphones, tabletas, etc.) y dispositivos que almacenan información de uso (impresoras, GPS, etc.) ya que también pueden contener información empresarial confidencial.
 
-### Políticas de biometría
+### Políticas sobre certificados digitales.
 
-**Información básica**
+**Uso de certificados digitales**
 
-Se informará a los empleados del uso de la autenticación biométrica, junto con su finalidad y qué datos se recogerán para dicho uso, además de sus derechos con respecto al tratamiento de dichos datos, incluyendo la posibilidad de denegar su uso si así lo desean.
+Los empleados tendrán que notificar a los jefes de departamento qué documentos serán necesarios el uso del certificado digital para comprobar su validez y necesidad de uso. 
 
-Los datos recogidos deberán ser los justos y necesarios para la finalidad destinada a la biometría.
+Los propios empleados no podrán usar los certificados digitales en los documentos, teniendo que ser siempre notificado a un superior para su validez completa en la empresa.
 
-**Seguridad de la información**
+**Cese de uso del certificado**
 
-Se pasará a establecerse el almacenamiento de todos los datos biométricos en una base de datos separada de la principal de la empresa, para que no se vea relacionada con posibles vulneraciones de filtración de datos no comprobados.
-
-Además, se pasará a emplear cifrados para garantizar la confidencialidad, disponibilidad e integridad de dichos datos.
+Si un documento necesita el retirar el certificado digital, tendrá que ser anteriormente notificado a todas las partes relevantes de este hecho antes de proceder a su retiramiento.
