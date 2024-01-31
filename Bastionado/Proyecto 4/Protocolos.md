@@ -15,6 +15,6 @@ Tras una pequeña investigación de los protocolos más usados respecto a la seg
 
 ## Protocolos de Certificados
 
-- Los documentos de la empresa de alta importancia o de información confidencial se usarán certificados digitales para firmarlos, sólo pudiendo ser firmados por los jefes de departamento relacionados con el documento o información, y los altos ejecutivos. El certificado digital estará formado por el nombre del jefe de departamento o suyo caso, un ejecutivo, junto a su firma, en la parte final del documento.
+- Los documentos de la empresa de alta importancia o de información confidencial seran firmados mediante certificado digital, sólo pudiendo ser firmados por los jefes de departamento relacionados con el documento o información, y los altos ejecutivos. El certificado digital estará formado por el nombre del jefe de departamento o suyo caso, un ejecutivo, en la parte final del documento.
 - Cualquier documento que este firmado por un certificado, se debe de guardar de manera segura dentro de la empresa, en una de las áreas protegidas.
 - Si por un casual, se tiene que quitar el certificado a un documento, es necesario notificar a todas las partes involucradas en relación a dicho documento. También habría que notificar a los altos directivos. Siempre se guardará una copia con el certificado, pero, ya no tendrá validez. 
