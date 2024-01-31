@@ -112,6 +112,8 @@ La gestión de contraseñas es uno de los aspectos más delicados para asegurar 
     - Periodo de validez
     - Posibles observaciones, incidentes, etc.
 
+  - Si se pierde la contraseña o no se recuerda, un método de recuperación de dicha contraseña es respondiendo unas preguntas de seguridad para garantizar la identidad de la persona que está recuperando dicha contraseña, que podrá una vez validada la identidad del usuario, cambiar la contraseña.
+
 **Cambio periódico de contraseñas**
 
 Se deben modificar las contraseñas periódicamente, como mínimo cada 6 meses.
