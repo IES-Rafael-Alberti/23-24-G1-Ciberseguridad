@@ -2,10 +2,10 @@
 
 ## Índice
 
-1. [Metodología Utilizada](#Metodologia)  
-2. [Herramientas Usadas](#Herramientas)  
+1. <a href="https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#1-metodolog%C3%ADa-utilizada-">Metodología Utilizada</a>
+2. <a href="https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#2--herramientas-usadas">Herramientas Usadas  
 3. <a href="https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3:%20Unfaithful%20Employee/Anexos.md#3-anexo-de-im%C3%A1genes-">Anexo de Imágenes</a>  
-4. [Anexo de Evidencias](#Evidencias)  
+4. <a href="https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#4-anexo-evidencias-">Anexo de Evidencias</a>
 
 ### 1 Metodología Utilizada <div id='Metodologia' />  
 
@@ -84,146 +84,146 @@ Autopsy:
 
 
 
-## 3. Anexo de Imágenes <div id='Imagenes' />
-<div id='imagen1' />Imagen 1.
+### 3. Anexo de Imágenes <div id='Imagenes' />
+#### <div id='imagen1' />Imagen 1.
 
 ![Hash MD5](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/bd2105da-782d-436a-920b-d22de7162fb8.png)
 
 
   **Hash MD5**
-<div id='imagen2' />
+#### <div id='imagen2' />
 Imagen 2.
 
 ![Hash SHA1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled.png)
 
 Hash SHA1
-<div id='imagen3' />
+#### <div id='imagen3' />
 Imagen 3.
 
 ![Hash SHA256](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%201.png)
 
 Hash SHA256
-<div id='imagen4' />Imagen 4.
+#### <div id='imagen4' />Imagen 4.
 
 ![Nombre del equipo de Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%202.png)
 
 Nombre del equipo de Richard
-<div id='imagen5' />Imagen 5.
+#### <div id='imagen5' />Imagen 5.
 
 ![Versión del sistema operativo](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%203.png)
 
 Versión del sistema operativo
-<div id='imagen6' />Imagen 6.
+#### <div id='imagen6' />Imagen 6.
 
 ![Usuario encontrado Registro SAM](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%204.png)
 
 Usuario encontrado Registro SAM
-<div id='imagen7' />Imagen 7.
+#### <div id='imagen7' />Imagen 7.
 
 ![Fecha/Hora Última Conexión Usuario Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/3f7b241c-f76d-48ff-b547-662f2e6145ab.png)
 
 Fecha/Hora Última Conexión Usuario Richard
-<div id='imagen8' />Imagen 8.
+#### <div id='imagen8' />Imagen 8.
 
 ![Dispositivo USB pendrive utilizado por Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%205.png)
 
 Dispositivo USB pendrive utilizado por Richard
-<div id='imagen9' />Imagen 9.
+#### <div id='imagen9' />Imagen 9.
 
 ![Hora de Ultima Conexión Dispositivo USB](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%206.png)
 
 Hora de Ultima Conexión Dispositivo USB
-<div id='imagen10' />Imagen 10.
+#### <div id='imagen10' />Imagen 10.
 
 ![Mozilla Firefox instalado](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%207.png)
 
 Mozilla Firefox instalado
-<div id='imagen11' />Imagen 11.
+#### <div id='imagen11' />Imagen 11.
 
 ![Fecha instalación Mozilla Firefox](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%208.png)
 
 Fecha instalación Mozilla Firefox
-<div id='imagen12' />Imagen 12
+#### <div id='imagen12' />Imagen 12
 
 ![Historial de búsquedas 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%209.png)
 
 Historial de búsquedas 1
-<div id='imagen13' />Imagen 13
+#### <div id='imagen13' />Imagen 13
 
 ![Historial de búsquedas 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2010.png)
 
 Historial de búsquedas 2
-<div id='imagen14' />Imagen 14
+#### <div id='imagen14' />Imagen 14
 
 ![Historial de búsquedas 3](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2011.png)
 
 Historial de búsquedas 3
-<div id='imagen15' />Imagen 15
+#### <div id='imagen15' />Imagen 15
 
 ![Historial de búsquedas 4](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2012.png)
 
 Historial de búsquedas 4
-<div id='imagen16' />Imagen 16
+#### <div id='imagen16' />Imagen 16
 
 ![Historial de búsquedas 5](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2013.png)
 
 Historial de búsquedas 5
-<div id='imagen17' />Imagen 17
+#### <div id='imagen17' />Imagen 17
 
 ![Arranque con el sistema Opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2014.png)
 
 Arranque con el sistema Opera
 
-<div id='imagen18' />Imagen 18
+#### <div id='imagen18' />Imagen 18
  
 ![historial_opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera.png)
 
 Historial de búsquedas Opera
  
-<div id='imagen18' />Imagen 19  
+#### <div id='imagen18' />Imagen 19  
  
  ![historial_opera2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera2.png)
 
 Historial de búsquedas Opera
  
-<div id='imagen18' />Imagen 20  
+#### <div id='imagen18' />Imagen 20  
 
  ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2015.png)
 
 Bandeja de correo electrónico
 
-<div id='imagen19' />Imagen 21  
+#### <div id='imagen19' />Imagen 21  
 
  ![Conversación 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2016.png)
 
 Conversación 1
 
-<div id='imagen20' />Imagen 22  
+#### <div id='imagen20' />Imagen 22  
 
  ![Conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2017.png)
 
 Conversación 2
 
-<div id='imagen21' />Imagen 23
+#### <div id='imagen21' />Imagen 23
 
  ![Archivo adjunto en conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2018.png)
 
 Archivo adjunto en conversación 2
 
-<div id='imagen22' />Imagen 24
+#### <div id='imagen22' />Imagen 24
 
  ![Contenido archivo pom.xml](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2019.png)
 
 Contenido archivo pom.xml
 
-<div id='imagen23' />Imagen 25
+#### <div id='imagen23' />Imagen 25
 
  ![Conversación 3](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2020.png)
 
 Conversación 3
 
-## 4. Anexo evidencias <div id='Evidencias' />
-<div id='evidencia1' />Evidencia 1
+### 4. Anexo evidencias <div id='Evidencias' />
+#### <div id='evidencia1' />Evidencia 1
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Mozilla/Firefox/Profiles/mt13hmmn.default-release/places.sqlite |
 | --- | --- |
@@ -238,7 +238,7 @@ Conversación 3
 | HASH SHA256 | 3fae0bf074aaaafa496de4478a7e33e86a9e3e50ba4c38f56d04be232a8224ac |
 
 
-<div id='evidencia2' />Evidencia 2
+#### <div id='evidencia2' />Evidencia 2
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Opera Software/Opera Stable/History |
 | --- | --- |
@@ -253,7 +253,7 @@ Conversación 3
 | HASH SHA256 | 88c45210c583fcc148ce26f4224c72cb660454831536c1c619da806326257661 |
 
 
-<div id='evidencia2' />Evidencia 3
+#### <div id='evidencia2' />Evidencia 3
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Thunderbird/Profiles/tvtlv94f.default-release/ImapMail/imap.gmail.com/[Gmail].sbd/Todos |
 | --- | --- |
@@ -267,7 +267,7 @@ Conversación 3
 | HASH MD5 | 0370097a00c34071e6bc95409456a80f |
 | HASH SHA256 | 042decdb9493260d8c95dd03e0262293097f62dfd255fbfe320dedaa162f6925 |
 
-<div id='evidencia3' />Evidencia 3
+#### <div id='evidencia3' />Evidencia 3
 
 | Ruta | C:/Users/Richard/Proyectos/reverb-master/reverb-master/models/pom.xml |
 | --- | --- |
