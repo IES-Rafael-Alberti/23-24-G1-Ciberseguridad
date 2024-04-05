@@ -54,9 +54,9 @@ Verificamos si esta información es correcta o no:
 
 | Criptografía | HASH | Prueba |
 | --- | --- | --- |
-| MD5 | DFDFBA2231E3FA409676B1B737474288 | https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21 |
-| SHA1 | F476A81089A10F9D5393AA8C2F8BBCCDB87F7D3C | https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21 |
-| SHA256 | 66D6EE7A61EA7A986E8F6BB54B9986F79D95B5A0278BEF86678ED42ACE320D9B | https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21 |
+| MD5 | DFDFBA2231E3FA409676B1B737474288 | [Ver en el anexo de imagenes. Imagen 1](#imagen1) |
+| SHA1 | F476A81089A10F9D5393AA8C2F8BBCCDB87F7D3C | [Ver en el anexo de imagenes. Imagen 1](#imagen2) |
+| SHA256 | 66D6EE7A61EA7A986E8F6BB54B9986F79D95B5A0278BEF86678ED42ACE320D9B | [Ver en el anexo de imagenes. Imagen 3](#imagen3) |
 
 Como podemos apreciar, los hashes recibidos por parte de Alan no coinciden con los generados por nosotros.
 
@@ -74,21 +74,21 @@ Haciendo uso de la herramienta WRR (Windows Registry Recovery) podemos visualiza
 
 Primero podemos ver el nombre del equipo en el registro SYSTEM.
 
-[(Véase el anexo de imágenes, Imagen 4)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+[Ver en el anexo de imagenes. Imagen 4](#imagen4)  
 
 Ahora el sistema operativo que esta utilizando usando el registro SOFTWARE.
 
-[(Véase el anexo de imágenes, Imagen 5)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+[Ver en el anexo de imagenes. Imagen 5](#imagen5)  
 
 A continuación, averiguaremos si existe algún usuario que pertenezca a Richard, esto lo podremos  localizar en el registro SAM del sistema que se encuentra en la raíz. C:/Windows/System32/config/SAM
 
-[(Véase el anexo de imágenes, Imagen 6)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+[Ver en el anexo de imagenes. Imagen 6](#imagen6)  
 
 Como podemos comprobar, si que existe dicho usuario, el cual se llama como el presunto sospechoso.
 
 También podemos determinar cierta información valiosa, como la última vez que este usuario inició sesión en el equipo.
 
-[(Véase el anexo de imágenes, Imagen 7)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+[Ver en el anexo de imagenes. Imagen 7](#imagen7)  
 
 En este caso, el ultimo inicio de sesión del usuario correspondiente a Richard fue el 22 de Febrero de 2023 a las 13:55:18.
 
@@ -98,7 +98,7 @@ Dicho dispositivo USB es un pendrive Kingston DataTraveler 3.0 USB Device.
 
 Esta información la conseguimos gracias al registro SYSTEM y utilizando una vez más la herramienta WRR.
 
-[(Véase el anexo de imágenes, Imagen 8)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+[Ver en el anexo de imagenes. Imagen 8](#imagen8)  
 
 Para encontrar la fecha y hora exacta de la conexión de este dispositivo tendremos que utilizar otra herramienta llamada Registry Explorer, volver a abrir el registro SYSTEM y ver los detalles técnicos del dispositivo en la siguiente ruta:
 
@@ -106,37 +106,32 @@ Para encontrar la fecha y hora exacta de la conexión de este dispositivo tendre
 
 La fecha y hora exacta a la que se conectó el dispositivo USB fue el 22 de Febrero de 2023 a las  0:27:42.
 
-[(Véase el anexo de imágenes, Imagen 9)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+[Ver en el anexo de imagenes. Imagen 9](#imagen9)  
 
 Podemos apreciar que Richard, también se saltó las políticas de la empresa con respecto al navegador web, ya que estas solo permiten navegadores webs distribuidos por Microsoft.
 
 Observamos que tiene instalado otro navegador web visualizando con WRR en el registro SOFTWARE, Mozilla Firefox, el cual es el que estaba utilizando para realizar actividades fuera de sus labores en el trabajo.
 
-[(Véase el anexo de imágenes, Imagen 10)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+[Ver en el anexo de imagenes. Imagen 10](#imagen10)  
 
 Verificaremos la fecha y la hora a la cual se instaló el navegador haciendo uso de la herramienta Registry Explorer y volviendo a abrir el registro SOFTWARE. Dicha información se encuentra en los detalles técnicos de la ruta:
 
  ROOT\Mozilla\Mozilla Firefox 
 
-[(Véase el anexo de imágenes, Imagen 11)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+[Ver en el anexo de imagenes. Imagen 11](#imagen11)  
 
 Podemos comprobar el historial de navegación haciendo uso de la herramienta DBBrowser for SQLite, abriendo el archivo places.qlite que contiene el historial de navegación del navegador Mozilla Firefox. Este archivo podemos encontrarlo en la siguiente ruta:
 
 C://Users/Richard/AppData/Roaming/Mozilla/Firefox/Profiles/mt13hmmn.default-release 
 
-[(Véase el anexo de evidencias, Evidencia 1)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
+[Ver en el anexo de Evidencias. Evidencia 1](#evidencia1)  
 Al registrar el historial de navegación, hemos visto que Richard ha estado buscando durante el transcurso de la jornada laboral diverso contenido no autorizado, como películas, vídeos, páginas web de apuestas, etc.
 
-[(Véase el anexo de imágenes, Imagen 12)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
-[(Véase el anexo de imágenes, Imagen 13)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
-[(Véase el anexo de imágenes, Imagen 14)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
-[(Véase el anexo de imágenes, Imagen 15)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
-[(Véase el anexo de imágenes, Imagen 16)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+[Ver en el anexo de imagenes. Imagen 12](#imagen12)  
+[Ver en el anexo de imagenes. Imagen 13](#imagen13)  
+[Ver en el anexo de imagenes. Imagen 14](#imagen14)  
+[Ver en el anexo de imagenes. Imagen 15](#imagen15)  
+[Ver en el anexo de imagenes. Imagen 16](#imagen16)  
 
 También podemos ver que aunque tiene varios navegadores web instalados en el equipo, el único habilitado para que se inicie al ejecutarse el equipo es Opera.
 
@@ -144,7 +139,7 @@ Esto podemos descubrirlo desde los registros del usuario, en el archivo NT.USERD
 
 \Software\Microsoft\Windows\CurrentVersion\Run
 
-[(Véase el anexo de imágenes, Imagen 17)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+[Ver en el anexo de imagenes. Imagen 17](#imagen17)  
 
 Podemos comprobar por su historial de conversaciones a través del cliente de correo electrónico Thunderbird, que el presunto sospechoso, Richard, con correo electrónico proba1.seguridade@gmail.com, ha mantenido una conversación con una presunta empresa competidora, con correo electrónico proba2.seguridade@gmail.com, en la que le ha suministrado datos confidenciales de la empresa.
 
@@ -152,34 +147,26 @@ Esto puede ser comprobado el historial de este mismo cliente, ubicado en la ruta
 
 C:\Users\Richard\AppData\Roaming\Thunderbird\Profiles\tvtlv94f.default-release\
 
-[(Véase el anexo de evidencias, evidencia 2)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
+[Ver en el anexo de evidencias. Evidencia 2](#evidencia2)  
 Esta carpeta, siendo montada en el programa SysTools MBOX viewer, nos ha permitido indagar en el historial de conversaciones de Richard. 
 
-[(Véase el anexo de imágenes, Imagen 18)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
+[Ver en el anexo de imagenes. Imagen 18](#imagen18)  
 El primer mensaje sospechoso, a fecha de 20/02/2023 a las 20:53, tenemos a Richard hablando con la presunta empresa competidora, en la que pide un aumento de su salario, siguiendo la conversación (1→2→3), podemos comprobar como la presunta empresa competidora, le pide una prueba para poder evaluar la situación.
 
-[(Véase el anexo de imágenes, Imagen 19)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
+[Ver en el anexo de imagenes. Imagen 19](#imagen19)  
 El día 22/02/2023 a las 00:59, empiezan a mantener otra conversación, en la que parece que llegan a un acuerdo, y nuestro presunto sospechoso le manda en fichero pom.xml a la presunta empresa competidora. Podemos observar que la exfiltración es de su agrado y continúan con el acuerdo con Richard.
 
-[(Véase el anexo de imágenes, Imagen 20)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
+[Ver en el anexo de imagenes. Imagen 20](#imagen20)  
 Podemos ver que en la conversación anterior, en el mensaje número 3, Richard le adjunta y envia un archivo llamado “pom.xml”. Haciendo una búsqueda sobre el archivo, podemos comprobar que se encuentra dentro de un proyecto, el archivo parece contener datos de un proyecto y el enlace a un repositorio de github del mismo.
 
 Ruta del archivo: C:\Users\Richard\Proyectos\reverb-master\reverb-master\models\pom.xml
 
-[(Véase el anexo de imágenes, Imagen 21)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
-[(Véase el anexo de imágenes, Imagen 22)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
-[(Véase el anexo de evidencias, evidencia 3)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
+[Ver en el anexo de imagenes. Imagen 21](#imagen21)  
+[Ver en el anexo de imagenes. Imagen 22](#imagen22)  
+[Ver en el anexo de evidencias. Evidencia 3](#evidencia3)  
 En una última conversación, el día 22/02/2023 a las 15:10, Richard, envía un enlace de Google drive (el cuál se encuentra borrado), con el material en cuestión, protegido con contraseña esperando una remuneración económica en forma de bitcoin. Una vez él ha recibido el ingreso, ha proporcionado a la presunta empresa rival la contraseña para acceder al material.
 
-[(Véase el anexo de imágenes, Imagen 23)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
-
+[Ver en el anexo de imagenes. Imagen 23](#imagen23)
 # 5. Conclusión
 
 Tras el análisis del disco del equipo, se puede deducir que el usuario Richard estuvo haciendo actividades inusuales en las horas de trabajo, como visitar otras páginas e incluso la instalación de otro navegador, saltándose así las políticas de la empresa.
@@ -264,139 +251,140 @@ usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódic
 auditable, repetible y defendible.
 
 ## 8. Anexo de Imágenes
-
+<a name=»imagen1″></a>
 Imagen 1.
 
-![  **Hash MD5**](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/bd2105da-782d-436a-920b-d22de7162fb8.png)
+![Hash MD5](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/bd2105da-782d-436a-920b-d22de7162fb8.png)
+<div id='imagen1' />
 
   **Hash MD5**
-
+<a name=»imagen2″></a>
 Imagen 2.
 
 ![Hash SHA1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled.png)
 
 Hash SHA1
-
+<a name=»imagen3″></a>
 Imagen 3.
 
 ![Hash SHA256](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%201.png)
 
 Hash SHA256
-
+<a name=»imagen4″></a>
 Imagen 4.
 
 ![Nombre del equipo de Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%202.png)
 
 Nombre del equipo de Richard
-
+<a name=»imagen5″></a>
 Imagen 5.
 
 ![Versión del sistema operativo](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%203.png)
 
 Versión del sistema operativo
-
+<a name=»imagen6″></a>
 Imagen 6.
 
 ![Usuario encontrado Registro SAM](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%204.png)
 
 Usuario encontrado Registro SAM
-
+<a name=»imagen7″></a>
 Imagen 7.
 
 ![Fecha/Hora Última Conexión Usuario Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/3f7b241c-f76d-48ff-b547-662f2e6145ab.png)
 
 Fecha/Hora Última Conexión Usuario Richard
-
+<a name=»imagen8″></a>
 Imagen 8.
 
 ![Dispositivo USB pendrive utilizado por Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%205.png)
 
 Dispositivo USB pendrive utilizado por Richard
-
+<a name=»imagen9″></a>
 Imagen 9.
 
 ![Hora de Ultima Conexión Dispositivo USB](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%206.png)
 
 Hora de Ultima Conexión Dispositivo USB
-
+<a name=»imagen10″></a>
 Imagen 10.
 
 ![Mozilla Firefox instalado](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%207.png)
 
 Mozilla Firefox instalado
-
+<a name=»imagen11″></a>
 Imagen 11.
 
 ![Fecha instalación Mozilla Firefox](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%208.png)
 
 Fecha instalación Mozilla Firefox
-
+<a name=»imagen12″></a>
 Imagen 12
 
 ![Historial de búsquedas 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%209.png)
 
 Historial de búsquedas 1
-
+<a name=»imagen13″></a>
 Imagen 13
 
 ![Historial de búsquedas 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2010.png)
 
 Historial de búsquedas 2
-
+<a name=»imagen14″></a>
 Imagen 14
 
 ![Historial de búsquedas 3](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2011.png)
 
 Historial de búsquedas 3
-
+<a name=»imagen15″></a>
 Imagen 15
 
 ![Historial de búsquedas 4](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2012.png)
 
 Historial de búsquedas 4
-
+<a name=»imagen16″></a>
 Imagen 16
 
 ![Historial de búsquedas 5](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2013.png)
 
 Historial de búsquedas 5
-
+<a name=»imagen17″></a>
 Imagen 17
 
 ![Arranque con el sistema Opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2014.png)
 
 Arranque con el sistema Opera
-
+<a name=»imagen18″></a>
 Imagen 18
 
 ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2015.png)
 
 Bandeja de correo electrónico
-
+<a name=»imagen19″></a>
 Imagen 19
 
 ![Conversación 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2016.png)
 
 Conversación 1
-
+<a name=»imagen20″></a>
 Imagen 20
 
 ![Conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2017.png)
 
 Conversación 2
-
+<a name=»imagen21″></a>
 Imagen 21
 
 ![Archivo adjunto en conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2018.png)
 
 Archivo adjunto en conversación 2
-
+<a name=»imagen22″></a>
 Imagen 22
 
 ![Contenido archivo pom.xml](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2019.png)
 
 Contenido archivo pom.xml
-
+<a name=»imagen23″></a>
 Imagen 23
 
 ![Conversación 3](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2020.png)
@@ -404,7 +392,7 @@ Imagen 23
 Conversación 3
 
 ## 9. Anexo evidencias
-
+<a name=»evidencia1″></a>
 Evidencia 1
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Mozilla/Firefox/Profiles/mt13hmmn.default-release/places.sqlite |
@@ -423,6 +411,7 @@ Changed:
 | HASH MD5 | 069c40b3140718f254b82fd73ac1c07a |
 | HASH SHA256 | 3fae0bf074aaaafa496de4478a7e33e86a9e3e50ba4c38f56d04be232a8224ac |
 
+<a name=»evidencia2″></a>
 Evidencia 2
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Thunderbird/Profiles/tvtlv94f.default-release/ImapMail/imap.gmail.com/[Gmail].sbd/Todos |
@@ -441,6 +430,7 @@ Changed:
 | HASH MD5 | 0370097a00c34071e6bc95409456a80f |
 | HASH SHA256 | 042decdb9493260d8c95dd03e0262293097f62dfd255fbfe320dedaa162f6925 |
 
+<a name=»evidencia3″></a>
 Evidencia 3
 
 | Ruta | C:/Users/Richard/Proyectos/reverb-master/reverb-master/models/pom.xml |
