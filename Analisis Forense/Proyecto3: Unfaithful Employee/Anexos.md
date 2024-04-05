@@ -168,7 +168,7 @@ Historial de búsquedas 5
 Arranque con el sistema Opera
 
 <div id='imagen18' />Imagen 18
- ![historial_opera]([Analisis Forense/Proyecto3: Unfaithful Employee/Informe Técnico proyecto 3 7d96aeb709894c2b9c873461746ee9dc/historial_opera.png](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/e1c658bf79ec2dd2947f72413bdcc3309830fb30/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera.png))
+ ![historial_opera](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/e1c658bf79ec2dd2947f72413bdcc3309830fb30/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera.png)
 Historial de búsquedas Opera
  
 <div id='imagen18' />Imagen 19
