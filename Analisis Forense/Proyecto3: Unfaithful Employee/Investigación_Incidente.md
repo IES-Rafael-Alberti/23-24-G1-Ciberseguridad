@@ -97,7 +97,7 @@ Una vez abierto nos vamos a la siguiente ruta:
 
 Hacemos click derecho en la rama y clickamos en Technical details:
 
-![TechnicalDetail](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/technicaldetails.png)
+![TechnicalDetail](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/tecnicaldetails.png)
 
 Aquí podremos ver con detalle las propiedades del dispositivo.
 
