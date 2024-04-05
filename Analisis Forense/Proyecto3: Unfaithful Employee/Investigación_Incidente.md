@@ -131,13 +131,13 @@ Alternativamente, si nos vamos a la ruta de C://Users/Richard/AppData/Roaming/Mo
 
 También si observamos el historial de Opera, podemos ver que realiza constantemente búsquedas sobre noticias del mundo deportivo .
 
-![Arranque con el sistema Opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2014.png)
+![Arranque con el sistema Opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera.png)
 
 ## 6. Determinar si, tras su salida de la empresa, Richard tenía planes de visitar otro lugar y, de ser así, cómo planeaba llegar allí.
 
 Dentro del historial, también podemos observar que Richard, hace búsquedas dentro del portal de Vueling, buscando ofertas de para viajar. Acto seguido, empieza a buscar a través de Booking, un portal de búsqueda de alojamiento, hoteles en Las Palmas de Gran Canaria.
 
-![historial_opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera.png)
+![historial_opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera2.png)
 
 ---
 
