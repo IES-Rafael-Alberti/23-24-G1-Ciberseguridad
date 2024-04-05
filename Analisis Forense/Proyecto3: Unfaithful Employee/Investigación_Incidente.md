@@ -87,7 +87,7 @@ Volvemos a necesitar información que podemos sacar de nuevo con esta herramient
 
 Encontramos un dispositivo USB externo llamado Kingston DataTraveler 3.0 USB Device:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/0903039d-37f1-4d1d-a4c2-d475f682d626/Untitled.png)
+![Dispositivo USB pendrive utilizado por Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%205.png)
 
 Para encontrar la fecha y hora exacta de la conexión de este dispositivo tendremos que utilizar otra herramienta llamada Registry Explorer y volver a abrir el registro SYSTEM.
 
@@ -97,7 +97,7 @@ Una vez abierto nos vamos a la siguiente ruta:
 
 Hacemos click derecho en la rama y clickamos en Technical details:
 
-![Dispositivo USB pendrive utilizado por Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%205.png)
+![TechnicalDetail](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/technicaldetails.png)
 
 Aquí podremos ver con detalle las propiedades del dispositivo.
 
