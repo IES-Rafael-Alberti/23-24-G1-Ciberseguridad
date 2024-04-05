@@ -375,16 +375,12 @@ Conversación 3
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Mozilla/Firefox/Profiles/mt13hmmn.default-release/places.sqlite |
 | --- | --- |
-| Contenido | ![Historial de búsqueda]( )
- |
-| MAC | Modified:
-2023-02-22 22:55:45 CET
-Accessed:
-2023-02-22 22:56:08 CET
-Created:
-2023-02-20 19:51:56 CET
-Changed:
-2023-02-22 22:55:45 CET |
+| Contenido | ![Historial de búsqueda](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_busqueda.png). |
+| MAC | 
+| Modified: | 2023-02-22 22:55:45 CET |
+| Accessed: | 2023-02-22 22:56:08 CET |
+| Created: | 2023-02-20 19:51:56 CET |
+| Changed: | 2023-02-22 22:55:45 CET |
 | Tamaño | 5242880 |
 | HASH MD5 | 069c40b3140718f254b82fd73ac1c07a |
 | HASH SHA256 | 3fae0bf074aaaafa496de4478a7e33e86a9e3e50ba4c38f56d04be232a8224ac |
@@ -393,16 +389,12 @@ Changed:
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Thunderbird/Profiles/tvtlv94f.default-release/ImapMail/imap.gmail.com/[Gmail].sbd/Todos |
 | --- | --- |
-| Contenido | ![Mensaje de correo]( )
- |
-| MAC | Modified:
-2023-02-22 15:26:03 CET
-Accessed:
-2023-02-22 15:26:03 CET
-Created:
-2023-02-20 20:49:31 CET
-Changed:
-2023-02-22 15:26:03 CET |
+| Contenido | ![Mensaje de correo](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/correoselectronicos.png) |
+| MAC | 
+| Modified: | 2023-02-22 15:26:03 CET |
+| Accessed: | 2023-02-22 15:26:03 CET |
+| Created: | 2023-02-20 20:49:31 CET |
+| Changed: | 2023-02-22 15:26:03 CET |
 | Tamaño | 721317 |
 | HASH MD5 | 0370097a00c34071e6bc95409456a80f |
 | HASH SHA256 | 042decdb9493260d8c95dd03e0262293097f62dfd255fbfe320dedaa162f6925 |
@@ -411,16 +403,12 @@ Changed:
 
 | Ruta | C:/Users/Richard/Proyectos/reverb-master/reverb-master/models/pom.xml |
 | --- | --- |
-| Contenido | ![archivo pom.xml]( )
- |
-| MAC | Modified:
-2013-09-16 16:32:22 CEST
-Accessed:
-2023-02-22 00:55:23 CET
-Created:
-2013-09-16 16:32:22 CEST
-Changed:
-2023-02-22 00:48:51 CET |
+| Contenido | ![archivo pom.xml](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/archivo_pom.png) |
+| MAC | 
+| Modified: | 2013-09-16 16:32:22 CEST |
+| Accessed: | 2023-02-22 00:55:23 CET |
+| Created: | 2013-09-16 16:32:22 CEST |
+| Changed: | 2023-02-22 00:48:51 CET |
 | Tamaño | 1592 |
 | HASH MD5 | e6fad44768934e63f1e2867f0dfa34ee |
 | HASH SHA256 | 96fc4c3c8a4e3090eff4c48a4854f3943701b526a6ca32fe3b1c656b3480d258 |
