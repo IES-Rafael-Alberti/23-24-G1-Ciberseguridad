@@ -55,16 +55,7 @@ Análisis completo de la imagen del disco del equipo de Richard en busca de cual
 
 Antes de comenzar con el análisis vamos a realizar la comprobación de hashes para verificar que la imagen forense del equipo de Richard no ha sido alterada.
 
-### 4.1 Cadena de custodia <div id='cadena' />
-
-<table><tr><th colspan="7" valign="top">Registro de la cadena de custodia de la imagen forense</th></tr>
-<tr><td colspan="3">(Todas las transferencias de este artículo serán registradas a continuación y firmadas con bolígrafo indeleble)</td><td colspan="1">Nombre de la persona que lo entrega</td><td colspan="1" valign="top">Firma</td><td colspan="1" valign="top">Nombre de las personas que lo reciben</td><td colspan="1" valign="top">Firmas</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">1</td><td colspan="1" valign="top">Propósito de la Transferencia</td><td colspan="1">Análisis forense del disco duro de Richard para investigar cualquier indicio de mal uso de los recursos de la empresa, filtración de información confidencial o cualquier otra actividad</td><td colspan="1" rowspan="3" valign="top">Alan</td><td colspan="1" rowspan="3" valign="top">Firmado por Alan</td><td colspan="1" rowspan="3" valign="top"><p>- Rafael Valverde Cros</p><p>- Adrián Campó Merlo</p><p>- Eduardo de Motrico Fedriani </p><p>- Pedro Luis Borrego Vargas</p></td><td colspan="1" rowspan="3" valign="top"><p>Firmado Por:</p><p>- Rafael Valverde Cros</p><p>- Adrián Campó Merlo</p><p>- Eduardo de Motrico Fedriani</p><p>- Pedro Luis Borrego Vargas</p></td></tr>
-<tr><td colspan="1" valign="top">Método de la transferencia</td><td colspan="1" valign="top">Se nos ha proporcionado la imagen forense del disco duro de Richard a traves de un enlace de One Drive</td></tr>
-<tr><td colspan="1" valign="top">Fecha de la transferencia</td><td colspan="1" valign="top">03/04/2024</td></tr>
-</table>
-
-### 4.2 Comparación de hashes<div id='comparacion' />
+### 4.1 Comparación de hashes<div id='comparacion' />
 
 Comenzaremos con comprobar que los hashes de la imagen forense del equipo coinciden con las proporcionadas por Alan el cuál adquirió y preservo la imagen, del departamento de sistemas, quien proporcionó los siguientes hashes:
 
@@ -82,7 +73,7 @@ Verificamos si esta información es correcta o no:
 
 Como podemos apreciar, los hashes recibidos por parte de Alan no coinciden con los generados por nosotros.
 
-### 4.3 Análisis de la imagen forense<div id='forense' />
+### 4.2 Análisis de la imagen forense<div id='forense' />
 
 Comenzaremos con detallar la información del equipo al cual vamos a realizar el análisis.
 
