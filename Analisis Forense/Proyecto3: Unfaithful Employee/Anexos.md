@@ -91,14 +91,12 @@ Autopsy:
 
 
   **Hash MD5**
-#### <div id='imagen2' />
-Imagen 2.
+#### <div id='imagen2' />Imagen 2.
 
 ![Hash SHA1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled.png)
 
 Hash SHA1
-#### <div id='imagen3' />
-Imagen 3.
+#### <div id='imagen3' />Imagen 3.
 
 ![Hash SHA256](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%201.png)
 
