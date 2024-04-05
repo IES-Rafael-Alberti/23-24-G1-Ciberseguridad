@@ -97,13 +97,13 @@ Una vez abierto nos vamos a la siguiente ruta:
 
 Hacemos click derecho en la rama y clickamos en Technical details:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/726bea05-eb0a-414f-86a3-8b911a3c1e57/Untitled.png)
+![Dispositivo USB pendrive utilizado por Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%205.png)
 
 Aquí podremos ver con detalle las propiedades del dispositivo.
 
 La fecha y hora exacta a la que se conecto el dispositivo USB fue el 22 de Febrero de 2023 a las  0:27:42 como podemos comprobar en la siguiente imagen:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/4590e40e-8df3-4606-9283-105b557ffbb1/Untitled.png)
+![Hora de Ultima Conexión Dispositivo USB](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%206.png)
 
 ---
 
