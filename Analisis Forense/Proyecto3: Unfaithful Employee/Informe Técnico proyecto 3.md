@@ -9,9 +9,9 @@
     2.3 [Alcance](#alcance)  
 3. [Información analizada](#informacion)  
 4. [Análisis](#analisis)
-    4.1 [Cadena de Custodia](#cadena)
-    4.2 [Comparación de hashes](#comparacion)  
-    4.3 [Análisis de la imagen forense](#forense)  
+   4.1 [Cadena de Custodia](#cadena)
+   4.2 [Comparación de hashes](#comparacion)
+   4.3 [Análisis de la imagen forense](#forense)  
 6. [Conclusión](#conclusion)  
 
 # 1. Resumen Ejecutivo <div id='resumen' />
