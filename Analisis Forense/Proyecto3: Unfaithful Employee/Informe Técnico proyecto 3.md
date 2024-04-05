@@ -148,7 +148,7 @@ Al registrar el historial de navegación, hemos visto que Richard ha estado busc
 
 También podemos ver que aunque tiene varios navegadores web instalados en el equipo, el único habilitado para que se inicie al ejecutarse el equipo es Opera.
 
-Esto podemos descubrirlo desde los registros del usuario, en el archivo NT.USERDAT, ubicado en la ruta:
+Esto podemos descubrirlo desde los registros del usuario, en el archivo NT.USERDAT, dentro de este fichero ubicado en la ruta:
 
 \Software\Microsoft\Windows\CurrentVersion\Run
 
