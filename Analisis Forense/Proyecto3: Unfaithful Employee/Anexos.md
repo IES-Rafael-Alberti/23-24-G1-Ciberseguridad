@@ -168,11 +168,11 @@ Historial de búsquedas 5
 Arranque con el sistema Opera
 
 <div id='imagen18' />Imagen 18
- ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2015.png)
+ ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera.png)
 Historial de búsquedas Opera
  
 <div id='imagen18' />Imagen 19
- ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2015.png)
+ ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera2.png)
 Historial de búsquedas Opera
  
 <div id='imagen18' />Imagen 20
