@@ -141,6 +141,19 @@ Esto podemos descubrirlo desde los registros del usuario, en el archivo NT.USERD
 
 [Ver en el anexo de imagenes. Imagen 17](#imagen17)  
 
+En el historial de este navegador, podemos encontrar múltiples búsquedas de canciones en youtube, a parte de eso, también realiza constantes búsquedas de noticias deportivas, ya sea en el portal marca, como en el diario online, sport. El historial de este navegador podemos encontrarlo en la ruta: 
+
+C:/Users/Richard/AppData/Roaming/Opera Software/Opera Stable/History
+
+[(Véase el anexo de evidencias, Evidencia 2)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+
+[(Véase el anexo de imágenes, Imagen 18)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+
+Siguiendo con el análisis del historial, hemos hallado búsquedas tanto de vuelos como de alojamiento, ubicando esto último en Las Palmas de Gran Canaria.
+
+[(Véase el anexo de imágenes, Imagen 19)](https://www.notion.so/Informe-T-cnico-proyecto-3-7d96aeb709894c2b9c873461746ee9dc?pvs=21)
+
+
 Podemos comprobar por su historial de conversaciones a través del cliente de correo electrónico Thunderbird, que el presunto sospechoso, Richard, con correo electrónico proba1.seguridade@gmail.com, ha mantenido una conversación con una presunta empresa competidora, con correo electrónico proba2.seguridade@gmail.com, en la que le ha suministrado datos confidenciales de la empresa.
 
 Esto puede ser comprobado el historial de este mismo cliente, ubicado en la ruta: 
@@ -173,7 +186,42 @@ Tras el análisis del disco del equipo, se puede deducir que el usuario Richard 
 
 También el usuario Richard, estuvo en contacto con dos personas por correo, el cual, una de ellas, estaba hablando de salario y empleo con un lenguaje claro, mientras que con el segundo usuario, Richard estuvo comentándole de manera coloquial sus planes de futuro.
 
-# 6. Herramientas usadas
+
+
+# 7. Anexo
+
+### 7.1 Metodología Utilizada
+
+A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
+las evidencias:
+
+- Adquisición de evidencia digital
+1. La captura de la adquisición debe ser lo más precisa posible.
+2. Detallar las fechas y horas a la que se realizó la extracción.
+3. Intentar no sobrescribir las pruebas instalando software, si no es estrictamente
+necesario.
+4. Recoger las evidencias en orden de volatilidad:
+5. Transparencia: A la hora de realizar la adquisición tendremos que explicar
+detalladamente el proceso que hemos seguido para que pueda ser totalmente
+reproducible.
+- Preservación y almacenamiento de evidencia
+A la hora de almacenamiento, se documentará:
+- Dónde, cuándo y quién descubrió y recolectó la evidencia.
+-  Dónde, cuándo y quién manejó la evidencia.
+-  Quién ha custodiado la evidencia, cuánto tiempo y cómo la ha almacenado
+-  Si se ha cambiado de custodia indicar a quien, que fecha y hora y comprobar que los
+hashes coinciden
+-  Dónde almacenarlo. Dependiendo del dispositivo tendremos que almacenarlo de una
+u otra forma, por ejemplo, si es un dispositivo portátil tendremos que custodiarlo en
+una bolsa de Faraday para que no pueda ser comprometido por las redes móviles.
+- Análisis de evidencias
+
+Se llevarán a cabo una serie de procesos y tareas que intentarán dar respuesta a preguntas
+relacionadas con una intrusión, como su origen, la lista de sistemas afectados, los métodos
+usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
+auditable, repetible y defendible.
+
+# 7.2 Herramientas usadas
 
 WRR (Windows Registry Recovery):
 
@@ -217,38 +265,7 @@ Autopsy:
 | Versión: | 4.21.0 |
 | Página web | https://www.autopsy.com/ |
 
-# 7. Anexo
 
-### 7.1 Metodología Utilizada
-
-A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
-las evidencias:
-
-- Adquisición de evidencia digital
-1. La captura de la adquisición debe ser lo más precisa posible.
-2. Detallar las fechas y horas a la que se realizó la extracción.
-3. Intentar no sobrescribir las pruebas instalando software, si no es estrictamente
-necesario.
-4. Recoger las evidencias en orden de volatilidad:
-5. Transparencia: A la hora de realizar la adquisición tendremos que explicar
-detalladamente el proceso que hemos seguido para que pueda ser totalmente
-reproducible.
-- Preservación y almacenamiento de evidencia
-A la hora de almacenamiento, se documentará:
-- Dónde, cuándo y quién descubrió y recolectó la evidencia.
--  Dónde, cuándo y quién manejó la evidencia.
--  Quién ha custodiado la evidencia, cuánto tiempo y cómo la ha almacenado
--  Si se ha cambiado de custodia indicar a quien, que fecha y hora y comprobar que los
-hashes coinciden
--  Dónde almacenarlo. Dependiendo del dispositivo tendremos que almacenarlo de una
-u otra forma, por ejemplo, si es un dispositivo portátil tendremos que custodiarlo en
-una bolsa de Faraday para que no pueda ser comprometido por las redes móviles.
-- Análisis de evidencias
-
-Se llevarán a cabo una serie de procesos y tareas que intentarán dar respuesta a preguntas
-relacionadas con una intrusión, como su origen, la lista de sistemas afectados, los métodos
-usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
-auditable, repetible y defendible.
 
 ## 8. Anexo de Imágenes
 <div id='imagen1' />Imagen 1.
@@ -339,35 +356,37 @@ Historial de búsquedas 5
 ![Arranque con el sistema Opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2014.png)
 
 Arranque con el sistema Opera
+
 <div id='imagen18' />Imagen 18
-
+ ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2015.png)
+Historial de búsquedas Opera
+ 
+<div id='imagen18' />Imagen 19
+ ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2015.png)
+Historial de búsquedas Opera
+ 
+<div id='imagen18' />Imagen 20
 ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2015.png)
-
 Bandeja de correo electrónico
-<div id='imagen19' />Imagen 19
 
+<div id='imagen19' />Imagen 21
 ![Conversación 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2016.png)
-
 Conversación 1
-<div id='imagen20' />Imagen 20
 
+<div id='imagen20' />Imagen 22
 ![Conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2017.png)
-
 Conversación 2
-<div id='imagen21' />Imagen 21
 
+<div id='imagen21' />Imagen 23
 ![Archivo adjunto en conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2018.png)
-
 Archivo adjunto en conversación 2
-<div id='imagen22' />Imagen 22
 
+<div id='imagen22' />Imagen 24
 ![Contenido archivo pom.xml](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2019.png)
-
 Contenido archivo pom.xml
-<div id='imagen23' />Imagen 23
 
+<div id='imagen23' />Imagen 25
 ![Conversación 3](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2020.png)
-
 Conversación 3
 
 ## 9. Anexo evidencias
@@ -385,7 +404,23 @@ Conversación 3
 | HASH MD5 | 069c40b3140718f254b82fd73ac1c07a |
 | HASH SHA256 | 3fae0bf074aaaafa496de4478a7e33e86a9e3e50ba4c38f56d04be232a8224ac |
 
+
 <div id='evidencia2' />Evidencia 2
+
+| Ruta | C:/Users/Richard/AppData/Roaming/Opera Software/Opera Stable/History |
+| --- | --- |
+| Contenido | ![Mensaje de correo](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/correoselectronicos.png) |
+| MAC | 
+| Modified: | 2023-02-22 22:41:19 CET |
+| Accessed: | 2023-02-22 22:55:44 CET |
+| Created: | 2023-02-20 19:42:16 CET |
+| Changed: | 2023-02-22 22:41:19 CET |
+| Tamaño | 262144 |
+| HASH MD5 | b761c8a0804c04cbc45b10cb7186be45 |
+| HASH SHA256 | 88c45210c583fcc148ce26f4224c72cb660454831536c1c619da806326257661 |
+
+
+<div id='evidencia2' />Evidencia 3
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Thunderbird/Profiles/tvtlv94f.default-release/ImapMail/imap.gmail.com/[Gmail].sbd/Todos |
 | --- | --- |
