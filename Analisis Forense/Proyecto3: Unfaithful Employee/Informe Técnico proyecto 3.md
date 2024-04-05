@@ -137,7 +137,7 @@ Podemos comprobar el historial de navegación haciendo uso de la herramienta DBB
 
 C://Users/Richard/AppData/Roaming/Mozilla/Firefox/Profiles/mt13hmmn.default-release 
 
-[Ver en el anexo de Evidencias. Evidencia 1](Anexos.md)  
+[Ver en el anexo de Vestigios. Vestigio 1](Anexos.md)  
 Al registrar el historial de navegación, hemos visto que Richard ha estado buscando durante el transcurso de la jornada laboral diverso contenido no autorizado, como películas, vídeos, páginas web de apuestas, etc.
 
 [Ver en el anexo de imagenes. Imagen 12](Anexos.md)  
@@ -158,7 +158,7 @@ En el historial de este navegador, podemos encontrar múltiples búsquedas de ca
 
 C:/Users/Richard/AppData/Roaming/Opera Software/Opera Stable/History
 
-[(Véase el anexo de evidencias, Evidencia 2)](Anexos.md)
+[(Véase el anexo de Vestigios, Vestigio 2)](Anexos.md)
 
 [(Véase el anexo de imágenes, Imagen 18)](Anexos.md)
 
@@ -173,7 +173,7 @@ Esto puede ser comprobado el historial de este mismo cliente, ubicado en la ruta
 
 C:\Users\Richard\AppData\Roaming\Thunderbird\Profiles\tvtlv94f.default-release\
 
-[Ver en el anexo de evidencias. Evidencia 2](Anexos.md)  
+[Ver en el anexo de Vestigios. Vestigio 3](Anexos.md)  
 Esta carpeta, siendo montada en el programa SysTools MBOX viewer, nos ha permitido indagar en el historial de conversaciones de Richard. 
 
 [Ver en el anexo de imagenes. Imagen 18](Anexos.md)  
@@ -189,7 +189,7 @@ Ruta del archivo: C:\Users\Richard\Proyectos\reverb-master\reverb-master\models\
 
 [Ver en el anexo de imagenes. Imagen 21](Anexos.md)  
 [Ver en el anexo de imagenes. Imagen 22](Anexos.md)  
-[Ver en el anexo de evidencias. Evidencia 3](Anexos.md)  
+[Ver en el anexo de Vestigios. Vestigio 4](Anexos.md)  
 En una última conversación, el día 22/02/2023 a las 15:10, Richard, envía un enlace de Google drive (el cuál se encuentra borrado), con el material en cuestión, protegido con contraseña esperando una remuneración económica en forma de bitcoin. Una vez él ha recibido el ingreso, ha proporcionado a la presunta empresa rival la contraseña para acceder al material.
 
 [Ver en el anexo de imagenes. Imagen 23](Anexos.md)
