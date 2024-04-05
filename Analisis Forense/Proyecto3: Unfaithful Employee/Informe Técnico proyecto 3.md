@@ -1,5 +1,18 @@
 # Informe Técnico proyecto 3
 
+# Índice
+1. Resumen Ejecutivo
+    1.1. Línea temporal
+2. Introducción
+    2.1 Antecedentes
+    2.2 Objetivos
+    2.3 Alcance
+3. Información analizada
+4. Análisis
+    4.1 Comparación de hashes
+    4.2 Análisis de la imagen forense
+5. Conclusión
+
 # 1. Resumen Ejecutivo
 
 El análisis forense del disco duro revela una serie de irregularidades en el comportamiento de Richard Warner. Se encontraron indicios de violaciones a las políticas de seguridad de la empresa, como el uso de dispositivos USB no autorizados y la instalación de navegadores web no permitidos en su equipo de trabajo. Además, se descubrió que Warner había mantenido comunicación con una presunta empresa competidora, a la cual proporcionó información confidencial de la empresa, incluyendo archivos de proyectos y datos sensibles, a cambio de beneficios económicos. 
@@ -12,11 +25,11 @@ Hemos detallado en una pequeña línea temporal toda la actividad ilícita que e
 
 # 2. Introducción
 
-## 2.2 Antecedentes
+## 2.1 Antecedentes
 
 InnovaTech Solutions, una empresa de desarrollo de software conocida por sus proyectos innovadores como "Ligueitor" y "Social Query", enfrenta rumores de inestabilidad financiera y despidos inminentes. En medio de esta incertidumbre, Richard Eduardo Warner, un empleado ejemplar hasta ahora, ha dejado la empresa después de una confrontación con su jefe. Se sospecha que su comportamiento inusual podría estar relacionado con acciones perjudiciales para la empresa, por lo que se realizará un análisis forense de su disco duro en busca de evidencia de mal uso de recursos o filtración de información confidencial. El objetivo es proteger los activos y la integridad de la empresa.
 
-## 2.3 Objetivos
+## 2.2 Objetivos
 
 Los objetivos de este informe técnicos son:
 
@@ -25,7 +38,7 @@ Los objetivos de este informe técnicos son:
 3. Detectar cualquier actividad no autorizada, como el mal uso de recursos de la empresa o la extracción de datos confidenciales.
 4. Documentar y presentar de manera clara y concisa las conclusiones del análisis.
 
-## 2.4 Alcance
+## 2.3 Alcance
 
 Análisis completo de la imagen del disco del equipo de Richard en busca de cualquier uso indebido de los recursos de la empresa o de filtración de información confidencial.
 
