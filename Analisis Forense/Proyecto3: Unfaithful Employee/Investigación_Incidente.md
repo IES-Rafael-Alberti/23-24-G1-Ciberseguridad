@@ -193,12 +193,10 @@ Haciendo una búsqueda sobre el archivo, podemos comprobar que se encuentra dent
 
 Ruta del archivo: `C:\Users\Richard\Proyectos\reverb-master\reverb-master\models\pom.xml`
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/faea8d77-1891-410c-9268-95389330aa81/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/c0120707-b775-4d46-b01e-4906afae41fe/Untitled.png)
+ ![Contenido archivo pom.xml](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2019.png)
 
 En una última conversación, el día 22/02/2023 a las 15:10, Richard, envía un enlace de Google drive (el cuál se encuentra borrado), con el material en cuestión, protegido con contraseña esperando una remuneración económica en forma de bitcoin. Una vez él ha recibido el ingreso, ha proporcionado a la presunta empresa rival la contraseña para acceder al material.
 
  
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/29b9ca47-ec17-4e85-919f-334c2196fa4e/Untitled.png)
+ ![Conversación 3](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2020.png)
