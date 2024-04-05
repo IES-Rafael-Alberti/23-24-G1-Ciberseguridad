@@ -111,35 +111,33 @@ La fecha y hora exacta a la que se conecto el dispositivo USB fue el 22 de Febre
 
 El usuario Richard estuvo buscando algo llamado “Trabajo Basura”, una película, y entra CUEVANAHD, un portal de visualización de peliculas.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/a4728530-1b1a-44bf-b0e8-a35e8844aeb5/Untitled.png)
+![Historial de búsquedas 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%209.png)
 
 El cuál, si investigamos por internet, podemos ver que es una película. También Richard estuvo en las páginas webs de el Corte Inglés, youtube e incluso Bershka:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/dbcd8652-2273-400b-b3d6-d88ce7cc62b3/Untitled.png)
+![Historial de búsquedas 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2010.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/fd03b405-e5c9-4c41-91e9-ba8819b7a825/Untitled.png)
+![Historial de búsquedas 3](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2011.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/335e1519-3515-41f7-8ce6-505d04802e41/Untitled.png)
+![Historial de búsquedas 4](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2012.png)
 
 Richard, también estuvo en la página web de eToro, una página de apuestas:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/2a9da31f-4d3d-4b65-92c4-be66877b8988/Untitled.png)
-
----
+![Historial de búsquedas 5](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2013.png)
 
 Alternativamente, si nos vamos a la ruta de C://Users/Richard/AppData/Roaming/Mozilla/Firefox/Profiles/mt13hmmn.default-release, si nos vamos al archivo places.sqlite y abrimos ese fichero con, por ejemplo, DBBrowser for SQLIte, en la tabla moz_origins, podemos ver las páginas que ha visitado:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/e3462346-7aa2-436c-95b7-8b92cebd75fd/Untitled.png)
+![Arranque con el sistema Opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2014.png)
 
 También si observamos el historial de Opera, podemos ver que realiza constantemente búsquedas sobre noticias del mundo deportivo .
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/157038f8-769c-431b-b997-e3ef30e490de/Untitled.png)
+![Arranque con el sistema Opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2014.png)
 
 ## 6. Determinar si, tras su salida de la empresa, Richard tenía planes de visitar otro lugar y, de ser así, cómo planeaba llegar allí.
 
 Dentro del historial, también podemos observar que Richard, hace búsquedas dentro del portal de Vueling, buscando ofertas de para viajar. Acto seguido, empieza a buscar a través de Booking, un portal de búsqueda de alojamiento, hoteles en Las Palmas de Gran Canaria.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/1faaf7a6-2c72-4944-963c-604a3776cc8f/Untitled.png)
+![historial_opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera.png)
 
 ---
 
