@@ -84,58 +84,36 @@ Autopsy:
 
 
 
-### Anexo de Imágenes
+### 3. Anexo de Imágenes
 
 ### 3.1 Índice de Imágenes
 
 1.[Imagen 1](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-1)  
 2.[Imagen 2](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-2)  
 3.[Imagen 3](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-3)  
-
-4.[Imagen 4](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-4)
-
-5.[Imagen 5](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-5)
-
-6.[Imagen 6](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-6)
-
-7.[Imagen 7](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-7)
-
-8.[Imagen 8](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-8)
-
-9.[Imagen 9](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-9)
-
-10.[Imagen 10](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-10)
-
-11.[Imagen 11](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-11)
-
-12.[Imagen 12](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-12)
-
-13.[Imagen 13](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-13)
-
-14.[Imagen 14](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-14)
-
-15.[Imagen 15](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-15)
-
-16.[Imagen 16](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-16)
-
-17.[Imagen 17](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-17)
-
-18.[Imagen 18](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-18)
-
-19.[Imagen 19](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-19)
-
-20.[Imagen 20](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-20)
-
-21.[Imagen 21](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-21)
-
-22.[Imagen 22](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-22)
-
-23.[Imagen 23](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-23)
-
-24.[Imagen 24](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-24)
-
-25.[Imagen 25](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-25)
-
+4.[Imagen 4](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-4)  
+5.[Imagen 5](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-5)  
+6.[Imagen 6](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-6)  
+7.[Imagen 7](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-7)  
+8.[Imagen 8](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-8)  
+9.[Imagen 9](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-9)  
+10.[Imagen 10](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-10)  
+11.[Imagen 11](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-11)  
+12.[Imagen 12](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-12)  
+13.[Imagen 13](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-13)  
+14.[Imagen 14](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-14)  
+15.[Imagen 15](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-15)  
+16.[Imagen 16](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-16)  
+17.[Imagen 17](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-17)  
+18.[Imagen 18](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-18)  
+19.[Imagen 19](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-19)  
+20.[Imagen 20](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-20)  
+21.[Imagen 21](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-21)  
+22.[Imagen 22](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-22)  
+23.[Imagen 23](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-23)  
+24.[Imagen 24](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-24)  
+25.[Imagen 25](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Anexos.md#imagen-25)  
+ 
 
 #### <div id='imagen1' />Imagen 1.
 
@@ -273,6 +251,7 @@ Contenido archivo pom.xml
 Conversación 3
 
 ### 4. Anexo evidencias <div id='Evidencias' />
+### 4.1 Índice de evidencias
 #### <div id='evidencia1' />Evidencia 1
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Mozilla/Firefox/Profiles/mt13hmmn.default-release/places.sqlite |
