@@ -127,7 +127,7 @@ Richard, también estuvo en la página web de eToro, una página de apuestas:
 
 Alternativamente, si nos vamos a la ruta de C://Users/Richard/AppData/Roaming/Mozilla/Firefox/Profiles/mt13hmmn.default-release, si nos vamos al archivo places.sqlite y abrimos ese fichero con, por ejemplo, DBBrowser for SQLIte, en la tabla moz_origins, podemos ver las páginas que ha visitado:
 
-![Arranque con el sistema Opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2014.png)
+![Arranque con el sistema Opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historialfirefox.png)
 
 También si observamos el historial de Opera, podemos ver que realiza constantemente búsquedas sobre noticias del mundo deportivo .
 
