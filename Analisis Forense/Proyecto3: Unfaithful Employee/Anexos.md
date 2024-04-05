@@ -2,13 +2,13 @@
 
 ## Índice
 
-1.[Metodología Utilizada](#Metodologia)
+1. [Metodología Utilizada](#Metodologia)
 
-2.[Herramientas Usadas](#Herramientas)
+2. [Herramientas Usadas](#Herramientas)
 
-3.[Anexo de Imágenes](#Imagenes)
+3. [Anexo de Imágenes](#Imagenes)
 
-4.[Anexo de Evidencias](#Evidencias)
+4. [Anexo de Evidencias](#Evidencias)
 
 ### 1 Metodología Utilizada <div id='Metodologia' />
 
