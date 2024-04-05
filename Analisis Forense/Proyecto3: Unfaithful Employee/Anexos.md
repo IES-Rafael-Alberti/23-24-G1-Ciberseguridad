@@ -10,7 +10,7 @@
 
 4.[Anexo de Evidencias](#Evidencias)
 
-### 1 Metodología Utilizada <div id='#Metodologia' />
+### 1 Metodología Utilizada <div id='Metodologia' />
 
 A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
 las evidencias:
@@ -41,7 +41,7 @@ relacionadas con una intrusión, como su origen, la lista de sistemas afectados,
 usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
 auditable, repetible y defendible.
 
-# 2  Herramientas usadas<a name="Herramientas"></a>
+# 2  Herramientas usadas<div id='Herramientas' />
 
 WRR (Windows Registry Recovery):
 
@@ -87,7 +87,7 @@ Autopsy:
 
 
 
-## 3. Anexo de Imágenes<a name="Imagenes"></a>
+## 3. Anexo de Imágenes <div id='Imagenes' />
 <div id='imagen1' />Imagen 1.
 
 ![Hash MD5](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/bd2105da-782d-436a-920b-d22de7162fb8.png)
