@@ -1,17 +1,17 @@
 # Informe Técnico proyecto 3
 
 # Índice
-1. Resumen Ejecutivo
-    1.1. Línea temporal
-2. Introducción
-    2.1 Antecedentes
-    2.2 Objetivos
-    2.3 Alcance
-3. Información analizada
-4. Análisis
-    4.1 Comparación de hashes
-    4.2 Análisis de la imagen forense
-5. Conclusión
+1. Resumen Ejecutivo  
+    1.1. Línea temporal  
+2. Introducción  
+    2.1 Antecedentes  
+    2.2 Objetivos  
+    2.3 Alcance  
+3. Información analizada  
+4. Análisis  
+    4.1 Comparación de hashes  
+    4.2 Análisis de la imagen forense  
+5. Conclusión  
 
 # 1. Resumen Ejecutivo
 
