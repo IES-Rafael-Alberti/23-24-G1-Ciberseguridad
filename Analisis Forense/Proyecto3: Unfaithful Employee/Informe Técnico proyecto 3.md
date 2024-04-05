@@ -251,149 +251,127 @@ usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódic
 auditable, repetible y defendible.
 
 ## 8. Anexo de Imágenes
-<a name=»imagen1″></a>
-Imagen 1.
+<div id='imagen1' />Imagen 1.
 
 ![Hash MD5](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/bd2105da-782d-436a-920b-d22de7162fb8.png)
-<div id='imagen1' />
+
 
   **Hash MD5**
-<a name=»imagen2″></a>
+<div id='imagen2' />
 Imagen 2.
 
 ![Hash SHA1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled.png)
 
 Hash SHA1
-<a name=»imagen3″></a>
+<div id='imagen3' />
 Imagen 3.
 
 ![Hash SHA256](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%201.png)
 
 Hash SHA256
-<a name=»imagen4″></a>
-Imagen 4.
+<div id='imagen4' />Imagen 4.
 
 ![Nombre del equipo de Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%202.png)
 
 Nombre del equipo de Richard
-<a name=»imagen5″></a>
-Imagen 5.
+<div id='imagen5' />Imagen 5.
 
 ![Versión del sistema operativo](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%203.png)
 
 Versión del sistema operativo
-<a name=»imagen6″></a>
-Imagen 6.
+<div id='imagen6' />Imagen 6.
 
 ![Usuario encontrado Registro SAM](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%204.png)
 
 Usuario encontrado Registro SAM
-<a name=»imagen7″></a>
-Imagen 7.
+<div id='imagen7' />Imagen 7.
 
 ![Fecha/Hora Última Conexión Usuario Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/3f7b241c-f76d-48ff-b547-662f2e6145ab.png)
 
 Fecha/Hora Última Conexión Usuario Richard
-<a name=»imagen8″></a>
-Imagen 8.
+<div id='imagen8' />Imagen 8.
 
 ![Dispositivo USB pendrive utilizado por Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%205.png)
 
 Dispositivo USB pendrive utilizado por Richard
-<a name=»imagen9″></a>
-Imagen 9.
+<div id='imagen9' />Imagen 9.
 
 ![Hora de Ultima Conexión Dispositivo USB](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%206.png)
 
 Hora de Ultima Conexión Dispositivo USB
-<a name=»imagen10″></a>
-Imagen 10.
+<div id='imagen10' />Imagen 10.
 
 ![Mozilla Firefox instalado](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%207.png)
 
 Mozilla Firefox instalado
-<a name=»imagen11″></a>
-Imagen 11.
+<div id='imagen11' />Imagen 11.
 
 ![Fecha instalación Mozilla Firefox](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%208.png)
 
 Fecha instalación Mozilla Firefox
-<a name=»imagen12″></a>
-Imagen 12
+<div id='imagen12' />Imagen 12
 
 ![Historial de búsquedas 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%209.png)
 
 Historial de búsquedas 1
-<a name=»imagen13″></a>
-Imagen 13
+<div id='imagen13' />Imagen 13
 
 ![Historial de búsquedas 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2010.png)
 
 Historial de búsquedas 2
-<a name=»imagen14″></a>
-Imagen 14
+<div id='imagen14' />Imagen 14
 
 ![Historial de búsquedas 3](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2011.png)
 
 Historial de búsquedas 3
-<a name=»imagen15″></a>
-Imagen 15
+<div id='imagen15' />Imagen 15
 
 ![Historial de búsquedas 4](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2012.png)
 
 Historial de búsquedas 4
-<a name=»imagen16″></a>
-Imagen 16
+<div id='imagen16' />Imagen 16
 
 ![Historial de búsquedas 5](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2013.png)
 
 Historial de búsquedas 5
-<a name=»imagen17″></a>
-Imagen 17
+<div id='imagen17' />Imagen 17
 
 ![Arranque con el sistema Opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2014.png)
 
 Arranque con el sistema Opera
-<a name=»imagen18″></a>
-Imagen 18
+<div id='imagen18' />Imagen 18
 
 ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2015.png)
 
 Bandeja de correo electrónico
-<a name=»imagen19″></a>
-Imagen 19
+<div id='imagen19' />Imagen 19
 
 ![Conversación 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2016.png)
 
 Conversación 1
-<a name=»imagen20″></a>
-Imagen 20
+<div id='imagen20' />Imagen 20
 
 ![Conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2017.png)
 
 Conversación 2
-<a name=»imagen21″></a>
-Imagen 21
+<div id='imagen21' />Imagen 21
 
 ![Archivo adjunto en conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2018.png)
 
 Archivo adjunto en conversación 2
-<a name=»imagen22″></a>
-Imagen 22
+<div id='imagen22' />Imagen 22
 
 ![Contenido archivo pom.xml](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2019.png)
 
 Contenido archivo pom.xml
-<a name=»imagen23″></a>
-Imagen 23
+<div id='imagen23' />Imagen 23
 
 ![Conversación 3](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2020.png)
 
 Conversación 3
 
 ## 9. Anexo evidencias
-<a name=»evidencia1″></a>
-Evidencia 1
+<div id='evidencia1' />Evidencia 1
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Mozilla/Firefox/Profiles/mt13hmmn.default-release/places.sqlite |
 | --- | --- |
@@ -411,8 +389,7 @@ Changed:
 | HASH MD5 | 069c40b3140718f254b82fd73ac1c07a |
 | HASH SHA256 | 3fae0bf074aaaafa496de4478a7e33e86a9e3e50ba4c38f56d04be232a8224ac |
 
-<a name=»evidencia2″></a>
-Evidencia 2
+<div id='evidencia2' />Evidencia 2
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Thunderbird/Profiles/tvtlv94f.default-release/ImapMail/imap.gmail.com/[Gmail].sbd/Todos |
 | --- | --- |
@@ -430,8 +407,7 @@ Changed:
 | HASH MD5 | 0370097a00c34071e6bc95409456a80f |
 | HASH SHA256 | 042decdb9493260d8c95dd03e0262293097f62dfd255fbfe320dedaa162f6925 |
 
-<a name=»evidencia3″></a>
-Evidencia 3
+<div id='evidencia3' />Evidencia 3
 
 | Ruta | C:/Users/Richard/Proyectos/reverb-master/reverb-master/models/pom.xml |
 | --- | --- |
