@@ -109,7 +109,7 @@ La fecha y hora exacta a la que se conecto el dispositivo USB fue el 22 de Febre
 
 ## 5. Dado el interés conocido de Richard por el fútbol y la música rock y heavy, investigar su actividad en línea relacionada con estos intereses. Además, verificar si ha visualizado contenido en línea que pueda justificar un despido procedente, como la visualización de una película online. Documentar cualquier hallazgo relevante.
 
-El usuario Richard estuvo buscando algo llamado “Trabajo Basura”, una película, y entra CUEVANAHD, un portal de visualización de peliculas.
+El usuario Richard estuvo buscando algo llamado “Trabajo Basura”, una película, y entra CUEVANAHD, un portal de visualización de películas.
 
 ![Historial de búsquedas 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%209.png)
 
