@@ -317,7 +317,7 @@ Conversación 3
 | HASH MD5 | e6fad44768934e63f1e2867f0dfa34ee |
 | HASH SHA256 | 96fc4c3c8a4e3090eff4c48a4854f3943701b526a6ca32fe3b1c656b3480d258 |
 
-### 5. Cadena de Custodia <div id='Cadena' />
+### 5. cadena de custodia <div id='Cadena' />
 
 
 <table><tr><th colspan="7" valign="top">Registro de la cadena de custodia de la imagen forense</th></tr>
