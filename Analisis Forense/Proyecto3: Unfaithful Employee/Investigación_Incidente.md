@@ -20,7 +20,7 @@ DFDFBA2231E3FA409676B1B737474288
 
 ## SHA-1
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/052322d3-b245-4105-ba89-09316234a545/Untitled.png)
+![Hash SHA1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled.png)
 
 SHA-1:
 
@@ -28,7 +28,7 @@ F476A81089A10F9D5393AA8C2F8BBCCDB87F7D3C
 
 ## SHA-256
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/ed536a0c-3579-4972-8fa1-ac4529ef71d3/Untitled.png)
+![Hash SHA256](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%201.png)
 
 SHA-256:
 
@@ -46,13 +46,13 @@ C:/Windows/System32/config/SAM/
 
 Utilizando una herramienta para ver el contenido de registros verificaremos si existe ese usuario o no. Vamos a utilizar **Windows Registry Recovery (WRR):**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/4e61d46f-3aa1-4452-b0f7-ab754c96bbb1/Untitled.png)
+![Usuario encontrado Registro SAM](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%204.png)
 
 Como podemos comprobar, si que existe dicho usuario, el cual se llama como el presunto sospechoso.
 
 También podemos determinar cierta información valiosa como la ultima vez que este usuario inicio sesión en el equipo:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/316d0d24-0bc6-4592-9ed0-13c79adbf0ee/Untitled.png)
+![Fecha/Hora Última Conexión Usuario Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/3f7b241c-f76d-48ff-b547-662f2e6145ab.png)
 
 En este caso, el ultimo inicio de sesión del usuario correspondiente a Richard fue **el 22 de Febrero de 2023 a las 13:55:18**.
 
@@ -69,13 +69,13 @@ Volviendo a utilizar la misma herramienta podremos sacar el nombre del equipo y 
 
 Nombre del equipo:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/524502ff-ef87-4629-a18e-00695b84936f/Untitled.png)
+![Nombre del equipo de Richard](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%202.png)
 
 El nombre del equipo por lo que podemos apreciar es LADRONERA.
 
 Sistema operativo:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/ba7810a5-4b47-439f-a9a9-c67ba88babf6/Untitled.png)
+![Versión del sistema operativo](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%203.png)
 
 El sistema operativo utilizado por este equipo es un Windows 10 Pro Education N.
 
