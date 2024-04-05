@@ -145,7 +145,7 @@ Dentro del historial, también podemos observar que Richard, hace búsquedas den
 
 Para comprobar si existe algún navegador web instalado a demás de los proporcionados por Microsoft, podemos indagar en el registro SOFTWARE de nuevo y ver todos los programas que tiene instalado en el equipo:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/e791097a-070f-4d12-8f8e-333d99ce91be/Untitled.png)
+![Mozilla Firefox instalado](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%207.png)
 
 Podemos verificar la fecha y la hora a la cual se instalo el navegador haciendo uso de la herramienta Register Explorer y volviendo a abrir el registro SOFTWARE.
 
