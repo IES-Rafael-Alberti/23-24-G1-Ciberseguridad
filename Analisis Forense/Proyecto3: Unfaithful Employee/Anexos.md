@@ -235,7 +235,7 @@ Conversación 3
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Opera Software/Opera Stable/History |
 | --- | --- |
-| Contenido | ![Mensaje de correo](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/correoselectronicos.png) |
+| Contenido | ![Mensaje de correo](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto3%3A%20Unfaithful%20Employee/Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera.png) |
 | MAC | 
 | Modified: | 2023-02-22 22:41:19 CET |
 | Accessed: | 2023-02-22 22:55:44 CET |
