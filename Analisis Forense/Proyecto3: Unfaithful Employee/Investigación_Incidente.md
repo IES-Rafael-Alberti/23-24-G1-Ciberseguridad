@@ -153,13 +153,9 @@ Para ello vamos a la ruta:
 
 ROOT\Mozilla\Mozilla Firefox
 
-En la cual haremos click izquierdo para ver los detalles.
+En la cual haremos click izquierdo para ver los detalles, podemos accedemos a ver toda la información del fichero:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/e523e8ce-4e4d-4c62-bad0-56a04faac457/Untitled.png)
-
-Y accedemos a ver la información:
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/80c8d363-8551-4d2c-b370-feb31b0254ea/Untitled.png)
+![Fecha instalación Mozilla Firefox](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%208.png)
 
 También podemos ver que aunque tiene varios navegadores web instalados en el equipo, el único habilitado para que se inicie al ejecutarse el equipo es Opera.
 
@@ -167,7 +163,7 @@ Esto podemos descubrirlo desde los registros del usuario, en el archivo NT.USERD
 
 \Software\Microsoft\Windows\CurrentVersion\Run
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/c46cfecc-ae7b-4e64-9429-aff3ec765add/Untitled.png)
+![Arranque con el sistema Opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2014.png)
 
 ---
 
@@ -179,19 +175,19 @@ Esto puede ser comprobado el historial de este mismo cliente, ubicado en la ruta
 
 Esta carpeta, siendo montada en el programa SysTools MBOX viewer, nos ha permitido indagar en el historial de conversaciones de Richard. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/bb3e7251-d451-4c51-b1ba-511401a43be7/Untitled.png)
+ ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2015.png)
 
 El primer mensaje sospechoso, a fecha de 20/02/2023 a las 20:53, tenemos a Richard hablando con la presunta empresa competidora, en la que pide un aumento de su salario, siguiendo la conversación (1→2→3), podemos comprobar como la presunta empresa competidora, le pide una prueba para poder evaluar la situación.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/66913c2b-976e-4ac7-8a14-7149c812827a/Untitled.png)
+ ![Conversación 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2016.png)
 
 El día 22/02/2023 a las 00:59, empiezan a mantener otra conversación, en la que parece que llegan a un acuerdo, y nuestro presunto sospechoso le manda en fichero pom.xml a la presunta empresa competidora. Podemos observar que la exfiltración es de su agrado y continúan con el acuerdo con Richard.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/e596e572-b6c1-4556-98ef-91bc950ed441/Untitled.png)
+ ![Conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2017.png)
 
 Podemos ver que en la conversación anterior, en el mensaje número 3, Richard le adjunta y envia un archivo llamado “pom.xml”.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/45865888-1652-41a5-b07c-5404e7717d64/Untitled.png)
+ ![Archivo adjunto en conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2018.png)
 
 Haciendo una búsqueda sobre el archivo, podemos comprobar que se encuentra dentro de un proyecto, el archivo parece contener datos de un proyecto y el enlace a un repositorio de github del mismo.
 
