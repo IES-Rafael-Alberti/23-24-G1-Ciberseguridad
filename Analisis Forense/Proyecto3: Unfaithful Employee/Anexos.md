@@ -167,36 +167,52 @@ Historial de búsquedas 5
 
 Arranque con el sistema Opera
 
-<div id='imagen18' />Imagen 18  
+<div id='imagen18' />Imagen 18
+ 
 ![historial_opera](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera.png)
+
 Historial de búsquedas Opera
  
 <div id='imagen18' />Imagen 19  
+ 
  ![historial_opera2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/historial_opera2.png)
+
 Historial de búsquedas Opera
  
 <div id='imagen18' />Imagen 20  
-![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2015.png)
+
+ ![Bandeja de correo electrónico](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2015.png)
+
 Bandeja de correo electrónico
 
 <div id='imagen19' />Imagen 21  
-![Conversación 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2016.png)
+
+ ![Conversación 1](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2016.png)
+
 Conversación 1
 
 <div id='imagen20' />Imagen 22  
-![Conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2017.png)
+
+ ![Conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2017.png)
+
 Conversación 2
 
 <div id='imagen21' />Imagen 23
-![Archivo adjunto en conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2018.png)
+
+ ![Archivo adjunto en conversación 2](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2018.png)
+
 Archivo adjunto en conversación 2
 
 <div id='imagen22' />Imagen 24
-![Contenido archivo pom.xml](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2019.png)
+
+ ![Contenido archivo pom.xml](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2019.png)
+
 Contenido archivo pom.xml
 
 <div id='imagen23' />Imagen 25
-![Conversación 3](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2020.png)
+
+ ![Conversación 3](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Untitled%2020.png)
+
 Conversación 3
 
 ## 4. Anexo evidencias
