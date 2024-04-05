@@ -38,7 +38,7 @@ relacionadas con una intrusión, como su origen, la lista de sistemas afectados,
 usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
 auditable, repetible y defendible.
 
-# 2  Herramientas usadas<div id='Herramientas' />
+### 2  Herramientas usadas<div id='Herramientas' />
 
 WRR (Windows Registry Recovery):
 
