@@ -67,7 +67,7 @@ Verificamos si esta información es correcta o no:
 
 | Criptografía | HASH | Prueba |
 | --- | --- | --- |
-| MD5 | DFDFBA2231E3FA409676B1B737474288 | [Ver en el anexo de imagenes. Imagen 1](Anexos.md####Imagen%1) |
+| MD5 | DFDFBA2231E3FA409676B1B737474288 | [Ver en el anexo de imagenes. Imagen 1](Anexos.md###Imágenes) |
 | SHA1 | F476A81089A10F9D5393AA8C2F8BBCCDB87F7D3C | [Ver en el anexo de imagenes. Imagen 2](#imagen2) |
 | SHA256 | 66D6EE7A61EA7A986E8F6BB54B9986F79D95B5A0278BEF86678ED42ACE320D9B | [Ver en el anexo de imagenes. Imagen 3](#imagen3) |
 
