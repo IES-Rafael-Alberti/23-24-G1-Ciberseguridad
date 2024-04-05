@@ -12,7 +12,7 @@ Para ello hemos utilizado el PowerShell de Windows:
 
 ## MD5
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/5a65ff71-c2f8-403f-b53a-0c997971ebc6/bd2105da-782d-436a-920b-d22de7162fb8.png)
+![Hash MD5](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/bd2105da-782d-436a-920b-d22de7162fb8.png)
 
 MD5:
 
