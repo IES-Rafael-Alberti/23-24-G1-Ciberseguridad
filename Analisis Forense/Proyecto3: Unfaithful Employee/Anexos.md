@@ -10,7 +10,7 @@
 
 4.[Anexo de Evidencias](#Evidencias)
 
-### <a name="Metodología">1 Metodología Utilizada</a>
+### 1 Metodología Utilizada<a name="Metodología"></a>
 
 A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
 las evidencias:
@@ -41,7 +41,7 @@ relacionadas con una intrusión, como su origen, la lista de sistemas afectados,
 usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
 auditable, repetible y defendible.
 
-# 2 <a name="Herramientas"> Herramientas usadas</a>
+# 2  Herramientas usadas<a name="Herramientas"></a>
 
 WRR (Windows Registry Recovery):
 
@@ -87,7 +87,7 @@ Autopsy:
 
 
 
-## 3. <a name="Imágenes">Anexo de Imágenes</a>
+## 3. Anexo de Imágenes<a name="Imágenes"></a>
 <div id='imagen1' />Imagen 1.
 
 ![Hash MD5](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/bd2105da-782d-436a-920b-d22de7162fb8.png)
@@ -225,7 +225,7 @@ Contenido archivo pom.xml
 
 Conversación 3
 
-## 4. <a name="Evidencias">Anexo evidencias</a>
+## 4. Anexo evidencias<a name="Evidencias"></a>
 <div id='evidencia1' />Evidencia 1
 
 | Ruta | C:/Users/Richard/AppData/Roaming/Mozilla/Firefox/Profiles/mt13hmmn.default-release/places.sqlite |
