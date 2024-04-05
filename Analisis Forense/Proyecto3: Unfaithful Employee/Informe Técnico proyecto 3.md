@@ -27,7 +27,7 @@ Hemos detallado en una pequeña línea temporal toda la actividad ilícita que e
 
 ## 2.1 Antecedentes<div id='antecedentes' />
 
-InnovaTech Solutions, una empresa de desarrollo de software conocida por sus proyectos innovadores como "Ligueitor" y "Social Query", enfrenta rumores de inestabilidad financiera y despidos inminentes. En medio de esta incertidumbre, Richard Eduardo Warner, un empleado ejemplar hasta ahora, ha dejado la empresa después de una confrontación con su jefe. Se sospecha que su comportamiento inusual podría estar relacionado con acciones perjudiciales para la empresa, por lo que se realizará un análisis forense de su disco duro en busca de evidencia de mal uso de recursos o filtración de información confidencial. El objetivo es proteger los activos y la integridad de la empresa.
+InnovaTech Solutions, una empresa de desarrollo de software conocida por sus proyectos innovadores como "Ligueitor" y "Social Query", enfrenta rumores de inestabilidad financiera y despidos inminentes. En medio de esta incertidumbre, Richard Eduardo Warner, un empleado ejemplar hasta ahora, ha dejado la empresa después de una confrontación con su jefe. Se sospecha que su comportamiento inusual podría estar relacionado con acciones perjudiciales para la empresa, por lo que se realizará un análisis forense de su disco duro en busca de vestigios de mal uso de recursos o filtración de información confidencial. El objetivo es proteger los activos y la integridad de la empresa.
 
 ## 2.2 Objetivos<div id='objetivos' />
 
@@ -53,11 +53,11 @@ Análisis completo de la imagen del disco del equipo de Richard en busca de cual
 
 # 4. Análisis<div id='analisis' />
 
-Antes de comenzar con el análisis vamos a realizar la comprobación de hashes para verificar que la evidencia no ha sido alterada.
+Antes de comenzar con el análisis vamos a realizar la comprobación de hashes para verificar que la imagen forense del equipo de Richard no ha sido alterada.
 
 ### 4.1 Comparación de hashes<div id='comparacion' />
 
-Comenzaremos con comprobar que los hashes de la evidencia coinciden con las proporcionadas por Alan el cuál adquirió y preservo la evidencia, del departamento de sistemas, quien proporcionó los siguientes hashes:
+Comenzaremos con comprobar que los hashes de la imagen forense del equipo coinciden con las proporcionadas por Alan el cuál adquirió y preservo la imagen, del departamento de sistemas, quien proporcionó los siguientes hashes:
 
 - MD5: dfdfba2231e3fa409676b1b737474208
 - SHA-1: f476a81089a10f9d5393aa8c2f8bbccdb87f7d3c
