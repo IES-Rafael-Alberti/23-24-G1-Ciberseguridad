@@ -8,8 +8,8 @@
     2.2 [Objetivos](#objetivos)  
     2.3 [Alcance](#alcance)  
 3. [Información analizada](#informacion)  
-4. [Análisis](#analisis)
-       4.1 [Comparación de hashes](#comparacion) 
+4. [Análisis](#analisis)    
+    4.1 [Comparación de hashes](#comparacion) 
     4.2 [Análisis de la imagen forense](#forense) 
 6. [Conclusión](#conclusion)  
 
