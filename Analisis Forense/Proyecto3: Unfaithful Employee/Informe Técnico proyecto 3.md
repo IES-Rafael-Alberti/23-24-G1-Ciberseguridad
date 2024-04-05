@@ -3,15 +3,15 @@
 # Índice
 1. [Resumen Ejecutivo](#resumen)  
     1.1. [Línea temporal](#tiempo)
-2. Introducción  
-    2.1 Antecedentes  
-    2.2 Objetivos  
-    2.3 Alcance  
-3. Información analizada  
-4. Análisis  
-    4.1 Comparación de hashes  
-    4.2 Análisis de la imagen forense  
-5. Conclusión  
+2. [Introducción](#introduccion)  
+    2.1 [Antecedentes](#antecedentes)  
+    2.2 [Objetivos](#objetivos)  
+    2.3 [Alcance](#alcance)  
+3. [Información analizada](#informacion)  
+4. [Análisis](#analisis)  
+    4.1 [Comparación de hashes](#comparacion)  
+    4.2 [Análisis de la imagen forense](#forense)  
+5. [Conclusión]  
 
 # 1. Resumen Ejecutivo <div id='resumen' />
 
@@ -23,13 +23,13 @@ Hemos detallado en una pequeña línea temporal toda la actividad ilícita que e
 
 ![Linea Temporal.png](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/Linea_Temporal.png)
 
-# 2. Introducción
+# 2. Introducción<div id='introduccion' />
 
-## 2.1 Antecedentes
+## 2.1 Antecedentes<div id='antecedentes' />
 
 InnovaTech Solutions, una empresa de desarrollo de software conocida por sus proyectos innovadores como "Ligueitor" y "Social Query", enfrenta rumores de inestabilidad financiera y despidos inminentes. En medio de esta incertidumbre, Richard Eduardo Warner, un empleado ejemplar hasta ahora, ha dejado la empresa después de una confrontación con su jefe. Se sospecha que su comportamiento inusual podría estar relacionado con acciones perjudiciales para la empresa, por lo que se realizará un análisis forense de su disco duro en busca de evidencia de mal uso de recursos o filtración de información confidencial. El objetivo es proteger los activos y la integridad de la empresa.
 
-## 2.2 Objetivos
+## 2.2 Objetivos<div id='objetivos' />
 
 Los objetivos de este informe técnicos son:
 
@@ -38,11 +38,11 @@ Los objetivos de este informe técnicos son:
 3. Detectar cualquier actividad no autorizada, como el mal uso de recursos de la empresa o la extracción de datos confidenciales.
 4. Documentar y presentar de manera clara y concisa las conclusiones del análisis.
 
-## 2.3 Alcance
+## 2.3 Alcance<div id='alcance' />
 
 Análisis completo de la imagen del disco del equipo de Richard en busca de cualquier uso indebido de los recursos de la empresa o de filtración de información confidencial.
 
-# 3. Información analizada
+# 3. Información analizada<div id='informacion' />
 
 | Adquisición | traidor.img |
 | --- | --- |
@@ -51,11 +51,11 @@ Análisis completo de la imagen del disco del equipo de Richard en busca de cual
 | HASH SHA1 | F476A81089A10F9D5393AA8C2F8BBCCDB87F7D3C |
 | HASH SHA256 | 66D6EE7A61EA7A986E8F6BB54B9986F79D95B5A0278BEF86678ED42ACE320D9B |
 
-# 4. Análisis
+# 4. Análisis<div id='analisis' />
 
 Antes de comenzar con el análisis vamos a realizar la comprobación de hashes para verificar que la evidencia no ha sido alterada.
 
-### 4.1 Comparación de hashes
+### 4.1 Comparación de hashes<div id='comparacion' />
 
 Comenzaremos con comprobar que los hashes de la evidencia coinciden con las proporcionadas por Alan el cuál adquirió y preservo la evidencia, del departamento de sistemas, quien proporcionó los siguientes hashes:
 
@@ -73,7 +73,7 @@ Verificamos si esta información es correcta o no:
 
 Como podemos apreciar, los hashes recibidos por parte de Alan no coinciden con los generados por nosotros.
 
-### 4.2 Análisis de la imagen forense
+### 4.2 Análisis de la imagen forense<div id='forense' />
 
 Comenzaremos con detallar la información del equipo al cual vamos a realizar el análisis.
 
@@ -194,7 +194,7 @@ En una última conversación, el día 22/02/2023 a las 15:10, Richard, envía un
 
 [Ver en el anexo de imagenes. Imagen 23](Anexos.md)
 
-# 5. Conclusión
+# 5. Conclusión<div id='conclusion' />
 
 Tras el análisis del disco del equipo, se puede deducir que el usuario Richard estuvo haciendo actividades inusuales en las horas de trabajo, como visitar otras páginas e incluso la instalación de otro navegador, saltándose así las políticas de la empresa.
 
