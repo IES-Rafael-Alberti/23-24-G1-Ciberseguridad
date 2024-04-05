@@ -2,15 +2,15 @@
 
 ## Índice
 
-1.[Metodología Utilizada](#Metodología)
+1.[Metodología Utilizada](#Metodologia)
 
 2.[Herramientas Usadas](#Herramientas)
 
-3.[Anexo de Imágenes](#Imágenes)
+3.[Anexo de Imágenes](#Imagenes)
 
 4.[Anexo de Evidencias](#Evidencias)
 
-### 1 Metodología Utilizada<a name="Metodología"></a>
+### 1 Metodología Utilizada<a name="Metodologia"></a>
 
 A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
 las evidencias:
@@ -87,7 +87,7 @@ Autopsy:
 
 
 
-## 3. Anexo de Imágenes<a name="Imágenes"></a>
+## 3. Anexo de Imágenes<a name="Imagenes"></a>
 <div id='imagen1' />Imagen 1.
 
 ![Hash MD5](Informe%20Te%CC%81cnico%20proyecto%203%207d96aeb709894c2b9c873461746ee9dc/bd2105da-782d-436a-920b-d22de7162fb8.png)
