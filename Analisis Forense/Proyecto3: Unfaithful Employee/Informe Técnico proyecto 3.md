@@ -1,7 +1,7 @@
 # Informe Técnico proyecto 3
 
 # Índice
-1. Resumen Ejecutivo  
+1. [Resumen Ejecutivo](#resumen)  
     1.1. Línea temporal  
 2. Introducción  
     2.1 Antecedentes  
@@ -13,7 +13,7 @@
     4.2 Análisis de la imagen forense  
 5. Conclusión  
 
-# 1. Resumen Ejecutivo
+# 1. Resumen Ejecutivo <div id='resumen' />
 
 El análisis forense del disco duro revela una serie de irregularidades en el comportamiento de Richard Warner. Se encontraron indicios de violaciones a las políticas de seguridad de la empresa, como el uso de dispositivos USB no autorizados y la instalación de navegadores web no permitidos en su equipo de trabajo. Además, se descubrió que Warner había mantenido comunicación con una presunta empresa competidora, a la cual proporcionó información confidencial de la empresa, incluyendo archivos de proyectos y datos sensibles, a cambio de beneficios económicos. 
 
