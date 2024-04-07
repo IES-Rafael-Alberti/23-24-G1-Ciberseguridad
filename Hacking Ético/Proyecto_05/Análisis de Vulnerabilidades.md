@@ -88,17 +88,14 @@
 
 ### Information Exposure 
 
-<table><tr><th colspan="1" valign="top">Descripción:</th><th colspan="1" valign="top">El producto expone información confidencial a un tercero que no está explícitamente autorizado a tener acceso a esa información.</th></tr>
-<tr><td colspan="1" valign="top">CVSS v3.0</td><td colspan="1" valign="top">-</td></tr>
-<tr><td colspan="1" valign="top">CVE/CWE</td><td colspan="1" valign="top">[CWE-200](https://cwe.mitre.org/data/definitions/200.html)</td></tr>
-<tr><td colspan="1" valign="top">Riesgos:</td><td colspan="1" valign="top">Medio</td></tr>
-<tr><td colspan="1" valign="top">Impacto:</td><td colspan="1">Permite al atacante conocer la ubicación del fichero con las credenciales.</td></tr>
-<tr><td colspan="1">Sistemas</td><td colspan="1">192\.168.106.144</td></tr>
-<tr><td colspan="1" valign="top">Remediación:</td><td colspan="1" valign="top">Ajustar las configuraciones para prevenir inputs de los usuarios de manera directa, evitando que pueda hacer rutas directas al servidor.</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">Referencias:</td><td colspan="1" valign="bottom">[https://capec.mitre.org/data/definitions/170.](https://capec.mitre.org/data/definitions/170.html)</td></tr>
-<tr><td colspan="1" valign="top">[html](https://capec.mitre.org/data/definitions/170.html)</td></tr>
-<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1"></td></tr>
-</table>
-
+|Descripción:|El producto expone información confidencial a un tercero que no está explícitamente autorizado a tener acceso a esa información.|
+|CVSS v3.0|-|
+|CVE/CWE|[CWE-200](https://cwe.mitre.org/data/definitions/200.html)|
+|Riesgos:|Medio|
+|Impacto:|Permite al atacante conocer la ubicación del fichero con las credenciales.|
+|Sistemas|192\.168.106.144|
+|Remediación:|Ajustar las configuraciones para prevenir inputs de los usuarios de manera directa, evitando que pueda hacer rutas directas al servidor.|
+|Referencias:|[Information Exposure](https://capec.mitre.org/data/definitions/170.html)|
+|Prueba de Concepto|<p>![](imagenes/Untitled_7.png)</p>|
 
 
