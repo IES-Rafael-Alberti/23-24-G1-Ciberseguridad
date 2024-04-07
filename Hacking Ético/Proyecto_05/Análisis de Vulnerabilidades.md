@@ -41,5 +41,20 @@
 |Referencias:|[CVE-2020-1938](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938),[ CVE-2020-1745](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1745)|
 |Prueba de Concepto|<p>![](imagenes/Untitled_3.png)</p>|
 
+### MS11-030: Vulnerability in DNS Resolution Could Allow Remote Code Execution
+
+
+
+|Descripción:|<p>Hay un fallo en la forma en el que el cliente DNS de el Windows instalado procesa las consultas de Resolución de Nombre Multicast de Enlace Local (LLMNR) puede ser explotada para ejecutar código arbitario en el contexto de la cuenta Network Service.</p><p>Es importante tener en cuenta que Windows XP y 2003 no admiten LLMNR y la explotación existosa en esas plataformas requiere acceso local y la capacidad de ejecutar una aplicación especial. Sin embargo, en Windows Vista 2008, 7 y 2008 R2, el porblema puede ser explotado de forma remota.</p>|
+| - | :- |
+|CVSS v3.0|8\.3|
+|CVE/CWE|[CVE-2011-0657](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0657)|
+|Riesgos:|Críticos|
+|Impacto:|Un atacante puede provocar el agotamiento de la pila o potencialmente causar la corrupción de la memoria de la pila y producir ejecución de código.|
+|Sistemas|192\.168.106.144|
+|Remediación:|Microsoft ha lanzado un conjunto de parches para Windows XP, 2003, Vista, 2008, 7 y 2008 R2.|
+|Referencias:|[CVE-2011-0657](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0657)|
+|Prueba de Concepto|<p>![](imagenes/Untitled_4.png)</p>|
+
 
 
