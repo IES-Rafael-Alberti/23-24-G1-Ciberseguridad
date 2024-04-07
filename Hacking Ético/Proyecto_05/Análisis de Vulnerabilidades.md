@@ -89,6 +89,7 @@
 ### Information Exposure 
 
 |Descripción:|El producto expone información confidencial a un tercero que no está explícitamente autorizado a tener acceso a esa información.|
+| - | :- |
 |CVSS v3.0|-|
 |CVE/CWE|[CWE-200](https://cwe.mitre.org/data/definitions/200.html)|
 |Riesgos:|Medio|
