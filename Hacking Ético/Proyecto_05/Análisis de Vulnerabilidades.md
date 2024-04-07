@@ -142,6 +142,6 @@
 |Sistemas|192\.168.106.144|
 |Remediación:|Desactiva el servicio SNMP en el host remoto si no lo estás utilizando, o filtra los paquetes UDP entrantes dirigidos a este puerto.|
 |Referencias:|[CVE-1990-0499](https://nvd.nist.gov/vuln/detail/CVE-1999-0499)|
-|Prueba de Concepto|<p>![](imagenes/Untitled_9.png)</p>|
+|Prueba de Concepto|<p>![](imagenes/snmpservices.png)</p>|
 
 
