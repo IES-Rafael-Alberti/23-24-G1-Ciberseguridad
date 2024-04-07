@@ -97,7 +97,7 @@
 |Sistemas|192\.168.106.144|
 |Remediación:|Ajustar las configuraciones para prevenir inputs de los usuarios de manera directa, evitando que pueda hacer rutas directas al servidor.|
 |Referencias:|[Information Exposure](https://capec.mitre.org/data/definitions/170.html)|
-|Prueba de Concepto|<p>![](imagenes/Untitled_7.png)</p>|
+|Prueba de Concepto|<p>![](imagenes/tomcatinforma.png)</p>|
 
 ### OpenSSH User enumeration vulnerability
 
@@ -112,7 +112,7 @@
 |Sistemas|192\.168.106.144|
 |Remediación:|Actualizar el OpenSSH a una versión posterior del 7.7|
 |Referencias:|[OpenSSH User numeration vulnerability](https://medium.com/@lcolin250/openssh-7-7-vulnerability-b6886e82f6f6)|
-|Prueba de Concepto|<p>![](imagenes/Untitled_8.png)</p>|
+|Prueba de Concepto|<p>![](imagenes/Untitled_7.png)</p>|
 </table>
 
 ### SNMP Agent Default Community Name (public)
@@ -128,6 +128,6 @@
 |Sistemas|192\.168.106.144|
 |Remediación:|Desactiva el servicio SNMP en el host remoto si no lo estás utilizando. O bien filtra los paquetes UDP entrantes que van a este puerto, o cambia la cadena de comunidad predeterminada.|
 |Referencias:|[CVE-1999-0517](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0517)|
-|Prueba de Concepto|<p>![](imagenes/Untitled_9.png)</p>|
+|Prueba de Concepto|<p>![](imagenes/Untitled_8.png)</p>|
 
 
