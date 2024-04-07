@@ -75,18 +75,16 @@
 
 
 
-<table><tr><th colspan="1" valign="top">Descripción:</th><th colspan="1"><p>Existe una vulnerabilidad de código remoto arbitrario en la implementación del Protocolo de Escritorio Remoto (RDP) en el host remoto de Windows. La vulnerabilidad se debe a la forma en que RDP accede a un objeto en memoria que se ha inicializado incorrectamente o se ha eliminado.</p><p>Si se ha habilitado RDP en el sistema afectado, un atacante remoto no autenticado podría aprovechar esta vulnerabilidad para hacer que el sistema ejecute código arbitrario enviándole una secuencia de paquetes RDP especialmente diseñados.</p><p>Este complemento también comprueba una vulnerabilidad de denegación de servicio en Microsoft Terminal Server.</p></th></tr>
-<tr><td colspan="1" valign="top">CVSS v3.0</td><td colspan="1" valign="top">5\.9</td></tr>
-<tr><td colspan="1" valign="top">CVE/CWE</td><td colspan="1" valign="top">[CVE-2012-0152](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0152), [CVE-2012-0002](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0002)</td></tr>
-<tr><td colspan="1">Riesgos:</td><td colspan="1">Críticos</td></tr>
-<tr><td colspan="1" valign="top">Impacto:</td><td colspan="1" valign="top">Permite al atacante realizar un ataque de denegación de servicio, apagando el equipo.</td></tr>
-<tr><td colspan="1" valign="top">Sistemas</td><td colspan="1" valign="top">192\.168.106.144</td></tr>
-<tr><td colspan="1" valign="top">Remediación:</td><td colspan="1" valign="top">Microsoft ha publicado un conjunto de parches para Windows XP, 2003, Vista, 2008, 7 y 2008 R2..</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">Referencias:</td><td colspan="1" valign="bottom">[https://learn.microsoft.com/en-us/security-u](https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2012/ms12-020?redirectedfrom=MSDN)</td></tr>
-<tr><td colspan="1" valign="top">[pdates/SecurityBulletins/2012/ms12-020?re](https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2012/ms12-020?redirectedfrom=MSDN)</td></tr>
-<tr><td colspan="1" valign="top">[directedfrom=MSDN](https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2012/ms12-020?redirectedfrom=MSDN)</td></tr>
-<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1"></td></tr>
-</table>
+|Descripción:|<p>Existe una vulnerabilidad de código remoto arbitrario en la implementación del Protocolo de Escritorio Remoto (RDP) en el host remoto de Windows. La vulnerabilidad se debe a la forma en que RDP accede a un objeto en memoria que se ha inicializado incorrectamente o se ha eliminado.</p><p>Si se ha habilitado RDP en el sistema afectado, un atacante remoto no autenticado podría aprovechar esta vulnerabilidad para hacer que el sistema ejecute código arbitrario enviándole una secuencia de paquetes RDP especialmente diseñados.</p><p>Este complemento también comprueba una vulnerabilidad de denegación de servicio en Microsoft Terminal Server.</p>
+|CVSS v3.0|5\.9|
+|CVE/CWE|[CVE-2012-0152](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0152), [CVE-2012-0002](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0002)|
+|Riesgos:|Críticos|
+|Impacto:|Permite al atacante realizar un ataque de denegación de servicio, apagando el equipo.|
+|Sistemas|192\.168.106.144|
+|Remediación:|Microsoft ha publicado un conjunto de parches para Windows XP, 2003, Vista, 2008, 7 y 2008 R2..|
+|Referencias:|[https://learn.microsoft.com/en-us/security-u](https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2012/ms12-020?redirectedfrom=MSDN)|
+|Prueba de Concepto|<p>![](imagenes/Untitled_6.png)</p>|
+
 
 
 
