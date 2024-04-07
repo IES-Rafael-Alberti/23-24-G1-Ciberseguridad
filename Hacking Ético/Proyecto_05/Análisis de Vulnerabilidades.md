@@ -1,0 +1,262 @@
+﻿**Análisis de Vulnerabilidades**
+
+**Máquina Windows Server 2008**
+
+**ManageEngine Desktop Central 8 / 9 < Build 91100 Multiple RCE**
+
+(**SUBIDA SIN RESTRICCIONES DE FICHEROS DE TIPOS PELIGROSOS**)
+
+
+
+|Descripción:|<p>La aplicación ManageEngine Desktop Central funcionando en el host remoto es versión 8, o la versión 9 antes de la estructura 91100, por lo que es afectado por múltiples vulnerabilidades de código remoto:</p><p>- Un fallo existe en el script statusUpdate debido a un fallo de sanitizar apropiadamente el input de los usuarios en el parámetro ‘fileName’. Un atacante remoto sin autenticar puede explotar esto, mediante una petición creada para subir un archivo PHP que tiene múltiples extensiones de archivo y, mediante la manipulación del parámetro ‘applicationName’, hacen una petición directa al archivo subido, resultando en la ejecución de código arbitrario con privilegios NT-AUTHORITY/SYSTEM. (CVE-2015-8201)</p><p>-Un fallo no especificado existe en varios servlets que permiten a un atacante remoto no autenticado ejecutar código arbitrariamente. No existen más detalles.</p>|
+| - | :- |
+|CVSS v3.0|6\.0|
+|CVE/CWE|[CVE-2015-8201](https://nvd.nist.gov/vuln/detail/CVE-2015-82001)|
+|Riesgos:|Críticos|
+|Impacto:|El atacante puede entrar a la maquina y a partir, de ahí, conseguir información y permisos necesarios|
+|Sistemas|192\.168.106.144|
+|Remediación:|Actualizar ManageEngine Desktop Central|
+
+
+
+||versión 9 build 91100 o posterior.|
+| :- | - |
+|Referencias:|[CVE-2015-8201](https://nvd.nist.gov/vuln/detail/CVE-2015-82001)|
+|Prueba de Concepto|<p>![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.001.jpeg)</p><p>![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.002.png)</p>|
+
+**MySQL Default Account Credentials**
+
+(**Acceso a la base de datos con credenciales por defecto**)
+
+
+
+|Descripción:|El componente MySQL en Plixer Scrutinizer v9.0.1.19899 y versiones anteriores tiene una contraseña predeterminada de admin para las cuentas, lo que permite a atacantes remotos ejecutar comandos SQL arbitrarios a través de una sesión TCP.|
+| - | :- |
+|CVSS v3.0|9\.8|
+|CVE/CWE|[CVE-2012-3951](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3951)|
+|Riesgos:|Críticos|
+|Impacto:|Un atacante remoto puede acceder y modificar la BD.|
+|Sistemas|192\.168.106.144|
+|Remediación:|Eliminar/cambiar las contraseñas de las cuentas afectadas.|
+|Referencias:|[CVE-2012-3951](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3951),[ NVD](https://nvd.nist.gov/vuln/detail/CVE-2012-3951)|
+
+
+
+|Prueba de Concepto|![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.003.png)|
+| - | - |
+
+**Apache Tomcat AJP Connector Request Injection (Ghostcat)**
+
+
+
+|Descripción:|Una vulnerabilidad de lectura/inclusión de archivo ha sido encontrada en el conector AJP. Un atacante remoto no autenticado puede explotar esta vulnerabilidad para leer archivos de aplicaciones web de un servidor vulnerable. En instancias donde el servidor vulnerable permite subidas de archivos, un atacante podría subir códigos de JavaServer Pages (JPS) maliciosos conteniendo una variedad de tipos de archivos y ganar ejecución de códigos remotos (RCE).|
+| - | :- |
+|CVSS v3.0|9\.8|
+|CVE/CWE|[CVE-2020-1938](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938),[ CVE-2020-1745](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1745)|
+|Riesgos:|Críticos|
+|Impacto:|El atacante puede leer documentos que hay dentro del servidor|
+|Sistemas|192\.168.106.144|
+|Remediación:|<p>Actualizar la configuración AJP para requerir autorización y/o actualizar el servidor Tomcat a 7.0.100, 8.5.5.51, 9.0.31</p><p>o superior</p>|
+|Referencias:|[CVE-2020-1938](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938),[ CVE-2020-1745](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1745)|
+
+
+
+|Prueba de Concepto|![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.004.jpeg)|
+| - | - |
+
+**MS11-030: Vulnerability in DNS Resolution Could Allow Remote Code Execution**
+
+
+
+|Descripción:|<p>Hay un fallo en la forma en el que el cliente DNS de el Windows instalado procesa las consultas de Resolución de Nombre Multicast de Enlace Local (LLMNR) puede ser explotada para ejecutar código arbitario en el contexto de la cuenta Network Service.</p><p>Es importante tener en cuenta que Windows XP y 2003 no admiten LLMNR y la explotación existosa en esas plataformas requiere acceso local y la capacidad de ejecutar una aplicación especial. Sin embargo, en Windows Vista 2008, 7 y 2008 R2, el porblema puede ser explotado de forma remota.</p>|
+| - | :- |
+|CVSS v3.0|8\.3|
+|CVE/CWE|[CVE-2011-0657](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0657)|
+|Riesgos:|Críticos|
+|Impacto:|Un atacante puede provocar el agotamiento de la pila o potencialmente causar la corrupción de la memoria de la pila y producir ejecución de código.|
+|Sistemas|192\.168.106.144|
+|Remediación:|Microsoft ha lanzado un conjunto de parches para Windows XP, 2003, Vista, 2008, 7 y 2008 R2.|
+|Referencias:|[CVE-2011-0657](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0657)|
+
+
+
+|Prueba de Concepto|![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.005.png)|
+| - | - |
+
+**MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)**
+
+
+
+|Descripción:|<p>El host remoto de Windows se ve afectado por las siguientes vulnerabilidades:</p><p>- Existen múltiples vulnerabilidades de ejecución remota de código en Microsoft Server Message Block 1.0 (SMBv1) debido al manejo incorrecto de ciertas solicitudes. Un atacante remoto no autenticado puede aprovechar estas vulnerabilidades, a través de un paquete especialmente diseñado, para ejecutar código arbitrario. (CVE-2017-0143, CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, CVE-2017-0148)</p><p>- Existe una vulnerabilidad de divulgación de información en Microsoft Server Message Block 1.0 (SMBv1) debido al manejo incorrecto de ciertas solicitudes. Un atacante remoto no autenticado puede explotar esto, a través de un paquete especialmente diseñado, para divulgar información sensible. (CVE-2017-0147)</p><p>- ETERNALBLUE, ETERNALCHAMPION, ETERNALROMANCE y ETERNALSYNERGY son cuatro de múltiples vulnerabilidades y exploits del Grupo Equation divulgados el 14/04/2017 por un grupo conocido como los Shadow Brokers. WannaCry / WannaCrypt es un programa de ransomware que utiliza</p>|
+| - | :- |
+
+
+
+<table><tr><th colspan="1"></th><th colspan="1">el exploit ETERNALBLUE, y EternalRocks es un gusano que utiliza siete vulnerabilidades del Grupo Equation. Petya es un programa de ransomware que primero utiliza CVE-2017-0199, una vulnerabilidad en Microsoft Office, y luego se propaga a través de ETERNALBLUE.</th></tr>
+<tr><td colspan="1" valign="top">CVSS v3.0</td><td colspan="1" valign="top">8\.1</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">CVE/CWE</td></tr>
+<tr><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1">Riesgos:</td><td colspan="1">Alto</td></tr>
+<tr><td colspan="1" valign="top">Impacto:</td><td colspan="1">Permite a atacantes remotos ejecutar código arbitrario a través de paquetes manipulados.</td></tr>
+<tr><td colspan="1">Sistemas</td><td colspan="1">192\.168.106.144</td></tr>
+<tr><td colspan="1" valign="top">Remediación:</td><td colspan="1"><p>Microsoft ha lanzado un conjunto de parches para Windows Vista, 2008, 7, 2008 R2, 2012, 8.1, RT 8.1, 2012 R2, 10 y 2016. Microsoft también ha lanzado parches de emergencia para sistemas operativos Windows que ya no cuentan con soporte, incluidos Windows XP, 2003 y 8.</p><p>Para sistemas operativos Windows no compatibles, como Windows XP, Microsoft recomienda que los usuarios dejen de utilizar SMBv1. SMBv1 carece de características de seguridad que se incluyeron en versiones posteriores de SMB. SMBv1 se puede desactivar siguiendo las instrucciones del proveedor proporcionadas en Microsoft KB2696547. Además, el US-CERT recomienda que los usuarios bloqueen SMB directamente bloqueando el puerto TCP 445 en todos los dispositivos de límite de red. Para SMB sobre la API NetBIOS, bloquee los puertos TCP 137/139 y los puertos UDP 137/138 en todos los dispositivos de límite de red.</p></td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">Referencias:</td></tr>
+<tr><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1">Prueba de Concepto</td><td colspan="1"></td></tr>
+</table>
+
+
+||![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.006.jpeg)|
+| :- | - |
+
+**MS12-020: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution**
+
+
+
+|Descripción:|<p>Existe una vulnerabilidad de código remoto arbitrario en la implementación del Protocolo de Escritorio Remoto (RDP) en el host remoto de Windows. La vulnerabilidad se debe a la forma en que RDP accede a un objeto en memoria que se ha inicializado incorrectamente o se ha eliminado.</p><p>Si se ha habilitado RDP en el sistema afectado, un atacante remoto no autenticado podría aprovechar esta vulnerabilidad para hacer que el sistema ejecute código arbitrario enviándole una secuencia de paquetes RDP especialmente diseñados.</p><p>Este complemento también comprueba una vulnerabilidad de denegación de servicio en Microsoft Terminal Server.</p>|
+| - | :- |
+|CVSS v3.0|5\.9|
+|CVE/CWE|[CVE-2012-0152](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0152), [CVE-2012-0002](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0002)|
+|Riesgos:|Críticos|
+|Impacto:|Permite al atacante realizar un ataque de denegación de servicio, apagando el equipo.|
+|Sistemas|192\.168.106.144|
+|Remediación:|Microsoft ha publicado un conjunto de parches para Windows XP, 2003, Vista,|
+
+
+
+<table><tr><th colspan="1"></th><th colspan="1" valign="top">2008, 7 y 2008 R2..</th></tr>
+<tr><td colspan="1" rowspan="3" valign="top">Referencias:</td><td colspan="1" valign="bottom">[https://learn.microsoft.com/en-us/security-u](https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2012/ms12-020?redirectedfrom=MSDN)</td></tr>
+<tr><td colspan="1" valign="top">[pdates/SecurityBulletins/2012/ms12-020?re](https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2012/ms12-020?redirectedfrom=MSDN)</td></tr>
+<tr><td colspan="1" valign="top">[directedfrom=MSDN](https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2012/ms12-020?redirectedfrom=MSDN)</td></tr>
+<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.007.png)</td></tr>
+</table>
+
+**Information Exposure**
+
+
+
+<table><tr><th colspan="1" valign="top">Descripción:</th><th colspan="1" valign="top">El producto expone información confidencial a un tercero que no está explícitamente autorizado a tener acceso a esa información.</th></tr>
+<tr><td colspan="1" valign="top">CVSS v3.0</td><td colspan="1" valign="top">-</td></tr>
+<tr><td colspan="1">CVE/CWE</td><td colspan="1">[CWE-200](https://cwe.mitre.org/data/definitions/200.html)</td></tr>
+<tr><td colspan="1">Riesgos:</td><td colspan="1">Medio</td></tr>
+<tr><td colspan="1" valign="top">Impacto:</td><td colspan="1" valign="top">Permite al atacante conocer la ubicación del fichero con las credenciales.</td></tr>
+<tr><td colspan="1" valign="top">Sistemas</td><td colspan="1" valign="top">192\.168.106.144</td></tr>
+<tr><td colspan="1" valign="top">Remediación:</td><td colspan="1" valign="top">Ajustar las configuraciones para prevenir inputs de los usuarios de manera directa, evitando que pueda hacer rutas directas al servidor.</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">Referencias:</td><td colspan="1" valign="bottom">[https://capec.mitre.org/data/definitions/170.](https://capec.mitre.org/data/definitions/170.html)</td></tr>
+<tr><td colspan="1" valign="top">[html](https://capec.mitre.org/data/definitions/170.html)</td></tr>
+<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.008.png)</td></tr>
+</table>
+
+**OpenSSH User enumeration vulnerability**
+
+
+
+|Descripción:|Esta vulnerabilidad persiste en los|
+| - | - |
+
+
+
+<table><tr><th colspan="1"></th><th colspan="1">OpenSSH que llegan hasta la versión 7.7, provocando que no se llegue a echar al usuario en una autenticación fallida hasta que el paquete no haya sido totalmente parseado, pudiendo de esa forma revelar información sensible.</th></tr>
+<tr><td colspan="1">CVSS v3.0</td><td colspan="1">5\.3</td></tr>
+<tr><td colspan="1" valign="top">CVE/CWE</td><td colspan="1" valign="top">[CVE-2018-15473](https://nvd.nist.gov/vuln/detail/CVE-2018-15473)</td></tr>
+<tr><td colspan="1" valign="top">Riesgos:</td><td colspan="1" valign="top">Medio</td></tr>
+<tr><td colspan="1" valign="top">Impacto:</td><td colspan="1" valign="top">Permite al atacante obtener información sensible.</td></tr>
+<tr><td colspan="1">Sistemas</td><td colspan="1">192\.168.106.144</td></tr>
+<tr><td colspan="1" valign="top">Remediación:</td><td colspan="1" valign="top">Actualizar el OpenSSH a una versión posterior del 7.7</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">Referencias:</td><td colspan="1" valign="bottom">[https://medium.com/@lcolin250/openssh-7-](https://medium.com/@lcolin250/openssh-7-7-vulnerability-b6886e82f6f6)</td></tr>
+<tr><td colspan="1" valign="top">[7-vulnerability-b6886e82f6f6](https://medium.com/@lcolin250/openssh-7-7-vulnerability-b6886e82f6f6)</td></tr>
+<tr><td colspan="1"></td></tr>
+<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.009.png)</td></tr>
+</table>
+
+**SNMP Agent Default Community Name (public)**
+
+
+
+|Descripción:|<p>Es posible obtener el nombre de comunidad predeterminado del servidor SNMP remoto.</p><p>Un atacante podría utilizar esta información para obtener más conocimiento sobre el host remoto, o para cambiar la configuración del sistema remoto (si la comunidad predeterminada permite tales modificaciones).</p>|
+| - | :- |
+|CVSS v3.0|7\.5|
+|CVE/CWE|[CVE-1999-0517](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0517)|
+|Riesgos:|Alto|
+|Impacto:|El atacante puede enumerar la información|
+
+
+
+||que ha conseguido, modificar la configuración del sistema y amenazar la confidencialidad y seguridad del equipo|
+| :- | :- |
+|Sistemas|192\.168.106.144|
+|Remediación:|Desactiva el servicio SNMP en el host remoto si no lo estás utilizando. O bien filtra los paquetes UDP entrantes que van a este puerto, o cambia la cadena de comunidad predeterminada.|
+|Referencias:|[CVE-1999-0517](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0517)|
+|Prueba de Concepto|![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.010.png)|
+
+**Microsoft Windows LAN Manager SNMP LanMan Services Disclosure**
+
+
+
+|Descripción:|<p>Es posible obtener la lista de servicios LanMan en el host remoto enviando solicitudes SNMP con el OID 1.3.6.1.4.1.77.1.2.3.1.1.</p><p>Un atacante podría utilizar esta información para obtener más conocimiento sobre el host objetivo.</p>|
+| - | :- |
+|CVSS v3.0|7\.3|
+|CVE/CWE|[CVE-1990-0499](https://nvd.nist.gov/vuln/detail/CVE-1999-0499)|
+|Riesgos:|Alto|
+|Impacto:|Un atacante puede obtener información valiosa sobre la configuración y los servicios habilitados|
+|Sistemas|192\.168.106.144|
+|Remediación:|Desactiva el servicio SNMP en el host remoto si no lo estás utilizando, o filtra los paquetes UDP entrantes dirigidos a este puerto.|
+|Referencias:|[CVE-1990-0499](https://nvd.nist.gov/vuln/detail/CVE-1999-0499)|
+|Prueba de Concepto||
+
+
+
+||![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.011.jpeg)|
+| :- | - |
+
+**Microsoft Windows LAN Manager SNMP LanMan Users Disclosure**
+
+
+
+|Descripción:|<p>Es posible obtener el nombre de comunidad predeterminado del servidor SNMP remoto.</p><p>Un atacante podría utilizar esta información para obtener más conocimiento sobre el host remoto, o para cambiar la configuración del sistema remoto (si la comunidad predeterminada permite tales modificaciones).</p>|
+| - | :- |
+|CVSS v3.0|7\.5|
+|CVE/CWE|[CVE-1999-0517](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0517)|
+|Riesgos:|Alto|
+|Impacto:|Un atacante podría obtener información del|
+
+
+
+||host remoto, también tiene posibilidad de cambiar la configuración del sistema, amenaza a la confidencialidad, integridad y disponibilidad e incluso facilita la probabilidad de que se hagan más ataques.|
+| :- | :- |
+|Sistemas|192\.168.106.144|
+|Remediación:|Desactiva el servicio SNMP en el host remoto si no lo estás utilizando. O bien filtra los paquetes UDP entrantes que van a este puerto, o cambia la cadena de comunidad predeterminada.|
+|Referencias:|[CVE-1999-0517](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0517)|
+|Prueba de Concepto|![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.012.jpeg)|
+
+**Máquina Windows Server 2016**
+
+**MS17-010: Security Update for Microsoft Windows SMB Server (4013389)(ETERNALBLUE)(ETERNALCHAMPION)(ETERNALROMANCE)( ETERNALSYNERGY)(WannaCry)(EternalRocks)(Petyal)(uncredentialed check)**
+
+(**VALIDACIÓN INCORRECTA DE ENTRADA**)
+
+
+
+|Descripción:|<p>El host remoto Windows es afectado por las siguientes vulnerabilidades:</p><p>- Múltiples vulnerabilidades de ejecución de código remoto existen en Microsoft Server Message Block 1.0 (SMBv1) debido a un manejo inapropiado de ciertas peticiones. Un atacante remoto unautenticado puede explotar estas vulnerabilidades, mediante un paquete especialmente creado, para</p>|
+| - | :- |
+
+
+
+<table><tr><th colspan="1"></th><th colspan="1"><p>ejecutar código arbitrariamente.</p><p>- Una vulnerabilidad de filtrado de información existe en Microsoft Server Message Block 1.0 (SMBv1) debido a un manejo inapropiado de ciertas peticiones. Un atacante remoto unautenticado puede explotar estas vulnerabilidades, mediante un paquete especialmente creado, para revelar la información.</p><p>- ETERNALBLUE, ETERNALCHAMPION, ETERNALROMANCE y ETERNALSYNERGY son cuatro de múltiples vulnerabilidades y exploits Equation Groups, desvelados en 2017/04/14 por un grupo conocido como los Shadow Brokers. WannaCry / WannaCrypt es un programa ransomware que utiliza el exploit ETERNALBLUE, y EternalRocks es un gusano que utiliza siete vulneravilidades de Equation Group. Petya es un programa ransomware que primero utiliza CVE-2017-0199, una vulnerabilidad en Microsoft Office, y luego lo extiende mediante ETERNALBLUE</p></th></tr>
+<tr><td colspan="1">CVSS v3.0</td><td colspan="1">8\.1</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">CVE/CWE</td></tr>
+<tr><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1">Riesgos:</td><td colspan="1">Alto</td></tr>
+<tr><td colspan="1" valign="top">Impacto:</td><td colspan="1">Permite a atacantes remotos ejecutar código arbitrario a través de paquetes manipulados.</td></tr>
+<tr><td colspan="1">Sistemas</td><td colspan="1">192\.168.1.78</td></tr>
+<tr><td colspan="1" valign="top">Remediación:</td><td colspan="1" valign="top"><p>Microsoft ha realizado una serie de parches para Windows Vista, 2008, 7, 2008 R2, 2012, 8.1, RT 8.1, 2012 R2, 10, y 2016. Microsoft ha realizado también parches de emergencia para sistemas operativos Windows que ya no están soportados, incluyendo Windows XP, 2003 y 8.</p><p>Para sistemas operativos Windows no soportados, Microsoft recomienda que los usuarios dejen de usar el SMBv1. SMBv1 carece de las características de seguridad que fueron incluidas en versiones SMB</p></td></tr>
+</table>
+
+
+
+<table><tr><th colspan="1"></th><th colspan="1">posteriores. SMBv1 puede ser deshabilitado siguiendo las instrucciones del vendedor dadas en Microsoft KB2696547. Adicionalmente, US-CERT recomienda que el usuario bloquee SMB directamente mediante el bloqueo del puerto TCP 445 en todos los dispositivos de red. Para SMB en el NetBIOS API, bloquea los puertos TCP 137 / 139 y los puertos UDP 1137 /138 en todos los dispositivos de red.</th></tr>
+<tr><td colspan="1" rowspan="2" valign="top">Referencias:</td></tr>
+<tr><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.013.jpeg)</td></tr>
+</table>
+
