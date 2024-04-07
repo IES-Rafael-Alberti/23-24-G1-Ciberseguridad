@@ -131,3 +131,17 @@
 |Prueba de Concepto|<p>![](imagenes/Untitled_8.png)</p>|
 
 
+### Microsoft Windows LAN Manager SNMP LanMan Services Disclosure
+
+|Descripción:|<p>Es posible obtener la lista de servicios LanMan en el host remoto enviando solicitudes SNMP con el OID 1.3.6.1.4.1.77.1.2.3.1.1.</p><p>Un atacante podría utilizar esta información para obtener más conocimiento sobre el host objetivo.</p>|
+| - | :- |
+|CVSS v3.0|7\.3|
+|CVE/CWE|[CVE-1990-0499](https://nvd.nist.gov/vuln/detail/CVE-1999-0499)|
+|Riesgos:|Alto|
+|Impacto:|Un atacante puede obtener información valiosa sobre la configuración y los servicios habilitados|
+|Sistemas|192\.168.106.144|
+|Remediación:|Desactiva el servicio SNMP en el host remoto si no lo estás utilizando, o filtra los paquetes UDP entrantes dirigidos a este puerto.|
+|Referencias:|[CVE-1990-0499](https://nvd.nist.gov/vuln/detail/CVE-1999-0499)|
+|Prueba de Concepto|<p>![](imagenes/Untitled_9.png)</p>|
+
+
