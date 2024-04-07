@@ -99,4 +99,20 @@
 |Referencias:|[Information Exposure](https://capec.mitre.org/data/definitions/170.html)|
 |Prueba de Concepto|<p>![](imagenes/Untitled_7.png)</p>|
 
+### OpenSSH User enumeration vulnerability
+
+
+
+|Descripción:|Esta vulnerabilidad persiste en los OpenSSH que llegan hasta la versión 7.7, provocando que no se llegue a echar al usuario en una autenticación fallida hasta que el paquete no haya sido totalmente parseado, pudiendo de esa forma revelar información sensible.|
+| - | :- |
+|CVSS v3.0|5\.3|
+|CVE/CWE|[CVE-2018-15473](https://nvd.nist.gov/vuln/detail/CVE-2018-15473)|
+|Riesgos:|Medio|
+|Impacto:|Permite al atacante obtener información sensible.|
+|Sistemas|192\.168.106.144|
+|Remediación:|Actualizar el OpenSSH a una versión posterior del 7.7|
+|Referencias:|[OpenSSH User numeration vulnerability](https://medium.com/@lcolin250/openssh-7-7-vulnerability-b6886e82f6f6)|
+|Prueba de Concepto|<p>![](imagenes/Untitled_8.png)</p>|
+</table>
+
 
