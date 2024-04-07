@@ -1,5 +1,22 @@
 # Análisis de Vulnerabilidades
-## Máquina Windows Server 2008
+
+# Índice
+1. [Máquina Windows Server 2008](#2008)      
+    1.1 [ManageEngine Desktop Central 8 / 9 < Build 91100 Multiple RCE](#Manage)   
+    1.2 [MySQL Default Account Credentials](#MySQL)   
+    1.3 [Apache Tomcat AJP Connector Request Injection (Ghostcat)](#Apache)   
+    1.4 [MS11-030: Vulnerability in DNS Resolution Could Allow Remote Code Execution](#MS11)      
+    1.5 [MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)](#MS17)  
+    1.6 [MS12-020: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution](#MS12) 
+    1.7 [Information Exposure](#Information) 
+    1.8 [OpenSSH User enumeration vulnerability](#OpenSSH) 
+    1.9 [SNMP Agent Default Community Name (public)](#SNMP) 
+    1.10 [Microsoft Windows LAN Manager SNMP LanMan Services Disclosure](#Microsoft)  
+    1.11 [Microsoft Windows LAN Manager SNMP LanMan Users Disclosure](#Windows) 
+2. [Máquina Windows Server 2016](#2016) 
+   2.1 [MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)](#Security)  
+
+## Máquina Windows Server 2008 <div id='2008' />
 ### ManageEngine Desktop Central 8 / 9 < Build 91100 Multiple RCE
 #### (SUBIDA SIN RESTRICCIONES DE FICHEROS DE TIPOS PELIGROSOS)
 
@@ -14,7 +31,7 @@
 |Referencias:|[CVE-2015-8201](https://nvd.nist.gov/vuln/detail/CVE-2015-8201)|
 |Prueba de Concepto| <p> ![](imagenes/Untitled.png) </p> <p>![](imagenes/Untitled_1.png)</p>|
 
-### MySQL Default Account Credentials
+### MySQL Default Account Credentials <div id='MySQL' />
 #### (Acceso a la base de datos con credenciales por defecto)
 
 |Descripción:|El componente MySQL en Plixer Scrutinizer v9.0.1.19899 y versiones anteriores tiene una contraseña predeterminada de admin para las cuentas, lo que permite a atacantes remotos ejecutar comandos SQL arbitrarios a través de una sesión TCP.|
@@ -28,7 +45,7 @@
 |Referencias:|[CVE-2012-3951](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3951),[ NVD](https://nvd.nist.gov/vuln/detail/CVE-2012-3951)|
 |Prueba de Concepto|<p>![](imagenes/Untitled_2.png)</p>|
 
-### Apache Tomcat AJP Connector Request Injection (Ghostcat)
+### Apache Tomcat AJP Connector Request Injection (Ghostcat) <div id='Apache' />
 
 |Descripción:|Una vulnerabilidad de lectura/inclusión de archivo ha sido encontrada en el conector AJP. Un atacante remoto no autenticado puede explotar esta vulnerabilidad para leer archivos de aplicaciones web de un servidor vulnerable. En instancias donde el servidor vulnerable permite subidas de archivos, un atacante podría subir códigos de JavaServer Pages (JPS) maliciosos conteniendo una variedad de tipos de archivos y ganar ejecución de códigos remotos (RCE).|
 | - | :- |
@@ -41,7 +58,7 @@
 |Referencias:|[CVE-2020-1938](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938),[ CVE-2020-1745](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1745)|
 |Prueba de Concepto|<p>![](imagenes/Untitled_3.png)</p>|
 
-### MS11-030: Vulnerability in DNS Resolution Could Allow Remote Code Execution
+### MS11-030: Vulnerability in DNS Resolution Could Allow Remote Code Execution <div id='MS11' />
 
 
 
@@ -56,7 +73,7 @@
 |Referencias:|[CVE-2011-0657](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0657)|
 |Prueba de Concepto|<p>![](imagenes/Untitled_4.png)</p>|
 
-### MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)
+### MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check) <div id='MS17' />
 
 
 
@@ -71,7 +88,7 @@
 |Referencias:|[CVE-2017-0143](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143),[ CVE-2017-0144](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0144), [CVE-2017-0145](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0145),[ CVE-2017-0146](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0146),[CVE-2017-0147](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0147),[ CVE-2017-0148](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0148)|
 |Prueba de Concepto|<p>![](imagenes/Untitled_5.png)</p>|
 
-### MS12-020: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution
+### MS12-020: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution <div id='MS12' />
 
 
 |Descripción:|<p>Existe una vulnerabilidad de código remoto arbitrario en la implementación del Protocolo de Escritorio Remoto (RDP) en el host remoto de Windows. La vulnerabilidad se debe a la forma en que RDP accede a un objeto en memoria que se ha inicializado incorrectamente o se ha eliminado.</p><p>Si se ha habilitado RDP en el sistema afectado, un atacante remoto no autenticado podría aprovechar esta vulnerabilidad para hacer que el sistema ejecute código arbitrario enviándole una secuencia de paquetes RDP especialmente diseñados.</p><p>Este complemento también comprueba una vulnerabilidad de denegación de servicio en Microsoft Terminal Server.</p>|
@@ -86,7 +103,7 @@
 |Prueba de Concepto|<p>![](imagenes/Untitled_6.png)</p>|
 
 
-### Information Exposure 
+### Information Exposure <div id='Information' />
 
 |Descripción:|El producto expone información confidencial a un tercero que no está explícitamente autorizado a tener acceso a esa información.|
 | - | :- |
@@ -99,7 +116,7 @@
 |Referencias:|[Information Exposure](https://capec.mitre.org/data/definitions/170.html)|
 |Prueba de Concepto|<p>![](imagenes/tomcatinforma.png)</p>|
 
-### OpenSSH User enumeration vulnerability
+### OpenSSH User enumeration vulnerability <div id='OpenSSH' />
 
 
 
@@ -115,7 +132,7 @@
 |Prueba de Concepto|<p>![](imagenes/Untitled_7.png)</p>|
 </table>
 
-### SNMP Agent Default Community Name (public)
+### SNMP Agent Default Community Name (public) <div id='SNMP' />
 
 
 
@@ -131,7 +148,7 @@
 |Prueba de Concepto|<p>![](imagenes/Untitled_8.png)</p>|
 
 
-### Microsoft Windows LAN Manager SNMP LanMan Services Disclosure
+### Microsoft Windows LAN Manager SNMP LanMan Services Disclosure <div id='Microsoft' />
 
 |Descripción:|<p>Es posible obtener la lista de servicios LanMan en el host remoto enviando solicitudes SNMP con el OID 1.3.6.1.4.1.77.1.2.3.1.1.</p><p>Un atacante podría utilizar esta información para obtener más conocimiento sobre el host objetivo.</p>|
 | - | :- |
@@ -144,7 +161,7 @@
 |Referencias:|[CVE-1990-0499](https://nvd.nist.gov/vuln/detail/CVE-1999-0499)|
 |Prueba de Concepto|<p>![](imagenes/snmpservices.png)</p>|
 
-### Microsoft Windows LAN Manager SNMP LanMan Users Disclosure
+### Microsoft Windows LAN Manager SNMP LanMan Users Disclosure <div id='Windows' />
 
 
 
@@ -160,8 +177,8 @@
 |Prueba de Concepto|<p>![](imagenes/snmp_users.png)</p>|
 
 
-## Máquina Windows Server 2016
-### MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)
+## Máquina Windows Server 2016 <div id='2016' />
+### MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check) <div id='Security' />
 
 
 |Descripción:|<p>El host remoto de Windows se ve afectado por las siguientes vulnerabilidades:</p><p>- Existen múltiples vulnerabilidades de ejecución remota de código en Microsoft Server Message Block 1.0 (SMBv1) debido al manejo incorrecto de ciertas solicitudes. Un atacante remoto no autenticado puede aprovechar estas vulnerabilidades, a través de un paquete especialmente diseñado, para ejecutar código arbitrario. (CVE-2017-0143, CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, CVE-2017-0148)</p><p>- Existe una vulnerabilidad de divulgación de información en Microsoft Server Message Block 1.0 (SMBv1) debido al manejo incorrecto de ciertas solicitudes. Un atacante remoto no autenticado puede explotar esto, a través de un paquete especialmente diseñado, para divulgar información sensible. (CVE-2017-0147)</p><p>- ETERNALBLUE, ETERNALCHAMPION, ETERNALROMANCE y ETERNALSYNERGY son cuatro de múltiples vulnerabilidades y exploits del Grupo Equation divulgados el 14/04/2017 por un grupo conocido como los Shadow Brokers. WannaCry / WannaCrypt es un programa de ransomware que utiliza el exploit ETERNALBLUE, y EternalRocks es un gusano que utiliza siete vulnerabilidades del Grupo Equation. Petya es un programa de ransomware que primero utiliza CVE-2017-0199, una vulnerabilidad en Microsoft Office, y luego se propaga a través de ETERNALBLUE.</p>|
