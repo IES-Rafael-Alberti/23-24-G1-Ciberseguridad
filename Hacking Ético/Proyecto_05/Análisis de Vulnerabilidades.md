@@ -16,10 +16,7 @@
 |Impacto:|El atacante puede entrar a la maquina y a partir, de ahí, conseguir información y permisos necesarios|
 |Sistemas|192\.168.106.144|
 |Remediación:|Actualizar ManageEngine Desktop Central|
-
-
-
-||versión 9 build 91100 o posterior.|
+|versión 9 build 91100 o posterior.|
 | :- | - |
 |Referencias:|[CVE-2015-8201](https://nvd.nist.gov/vuln/detail/CVE-2015-82001)|
 |Prueba de Concepto|<p>![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.001.jpeg)</p><p>![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.002.png)</p>|
@@ -42,7 +39,7 @@
 
 
 
-|Prueba de Concepto|![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.003.png)|
+|Prueba de Concepto|![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.003.png)|
 | - | - |
 
 **Apache Tomcat AJP Connector Request Injection (Ghostcat)**
@@ -61,7 +58,7 @@
 
 
 
-|Prueba de Concepto|![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.004.jpeg)|
+|Prueba de Concepto|![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.004.jpeg)|
 | - | - |
 
 **MS11-030: Vulnerability in DNS Resolution Could Allow Remote Code Execution**
@@ -80,7 +77,7 @@
 
 
 
-|Prueba de Concepto|![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.005.png)|
+|Prueba de Concepto|![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.005.png)|
 | - | - |
 
 **MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)**
@@ -106,7 +103,7 @@
 </table>
 
 
-||![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.006.jpeg)|
+||![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.006.jpeg)|
 | :- | - |
 
 **MS12-020: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution**
@@ -128,7 +125,7 @@
 <tr><td colspan="1" rowspan="3" valign="top">Referencias:</td><td colspan="1" valign="bottom">[https://learn.microsoft.com/en-us/security-u](https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2012/ms12-020?redirectedfrom=MSDN)</td></tr>
 <tr><td colspan="1" valign="top">[pdates/SecurityBulletins/2012/ms12-020?re](https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2012/ms12-020?redirectedfrom=MSDN)</td></tr>
 <tr><td colspan="1" valign="top">[directedfrom=MSDN](https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2012/ms12-020?redirectedfrom=MSDN)</td></tr>
-<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.007.png)</td></tr>
+<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.007.png)</td></tr>
 </table>
 
 **Information Exposure**
@@ -144,7 +141,7 @@
 <tr><td colspan="1" valign="top">Remediación:</td><td colspan="1" valign="top">Ajustar las configuraciones para prevenir inputs de los usuarios de manera directa, evitando que pueda hacer rutas directas al servidor.</td></tr>
 <tr><td colspan="1" rowspan="2" valign="top">Referencias:</td><td colspan="1" valign="bottom">[https://capec.mitre.org/data/definitions/170.](https://capec.mitre.org/data/definitions/170.html)</td></tr>
 <tr><td colspan="1" valign="top">[html](https://capec.mitre.org/data/definitions/170.html)</td></tr>
-<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.008.png)</td></tr>
+<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.008.png)</td></tr>
 </table>
 
 **OpenSSH User enumeration vulnerability**
@@ -166,7 +163,7 @@
 <tr><td colspan="1" rowspan="3" valign="top">Referencias:</td><td colspan="1" valign="bottom">[https://medium.com/@lcolin250/openssh-7-](https://medium.com/@lcolin250/openssh-7-7-vulnerability-b6886e82f6f6)</td></tr>
 <tr><td colspan="1" valign="top">[7-vulnerability-b6886e82f6f6](https://medium.com/@lcolin250/openssh-7-7-vulnerability-b6886e82f6f6)</td></tr>
 <tr><td colspan="1"></td></tr>
-<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.009.png)</td></tr>
+<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.009.png)</td></tr>
 </table>
 
 **SNMP Agent Default Community Name (public)**
@@ -187,7 +184,7 @@
 |Sistemas|192\.168.106.144|
 |Remediación:|Desactiva el servicio SNMP en el host remoto si no lo estás utilizando. O bien filtra los paquetes UDP entrantes que van a este puerto, o cambia la cadena de comunidad predeterminada.|
 |Referencias:|[CVE-1999-0517](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0517)|
-|Prueba de Concepto|![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.010.png)|
+|Prueba de Concepto|![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.010.png)|
 
 **Microsoft Windows LAN Manager SNMP LanMan Services Disclosure**
 
@@ -206,7 +203,7 @@
 
 
 
-||![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.011.jpeg)|
+||![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.011.jpeg)|
 | :- | - |
 
 **Microsoft Windows LAN Manager SNMP LanMan Users Disclosure**
@@ -227,7 +224,7 @@
 |Sistemas|192\.168.106.144|
 |Remediación:|Desactiva el servicio SNMP en el host remoto si no lo estás utilizando. O bien filtra los paquetes UDP entrantes que van a este puerto, o cambia la cadena de comunidad predeterminada.|
 |Referencias:|[CVE-1999-0517](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0517)|
-|Prueba de Concepto|![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.012.jpeg)|
+|Prueba de Concepto|![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.012.jpeg)|
 
 **Máquina Windows Server 2016**
 
@@ -257,6 +254,6 @@
 <table><tr><th colspan="1"></th><th colspan="1">posteriores. SMBv1 puede ser deshabilitado siguiendo las instrucciones del vendedor dadas en Microsoft KB2696547. Adicionalmente, US-CERT recomienda que el usuario bloquee SMB directamente mediante el bloqueo del puerto TCP 445 en todos los dispositivos de red. Para SMB en el NetBIOS API, bloquea los puertos TCP 137 / 139 y los puertos UDP 1137 /138 en todos los dispositivos de red.</th></tr>
 <tr><td colspan="1" rowspan="2" valign="top">Referencias:</td></tr>
 <tr><td colspan="1" valign="top"></td></tr>
-<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.013.jpeg)</td></tr>
+<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1" valign="top">![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.013.jpeg)</td></tr>
 </table>
 
