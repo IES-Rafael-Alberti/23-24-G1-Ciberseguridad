@@ -115,4 +115,19 @@
 |Prueba de Concepto|<p>![](imagenes/Untitled_8.png)</p>|
 </table>
 
+### SNMP Agent Default Community Name (public)
+
+
+
+|Descripción:|<p>Es posible obtener el nombre de comunidad predeterminado del servidor SNMP remoto.</p><p>Un atacante podría utilizar esta información para obtener más conocimiento sobre el host remoto, o para cambiar la configuración del sistema remoto (si la comunidad predeterminada permite tales modificaciones).</p>|
+| - | :- |
+|CVSS v3.0|7\.5|
+|CVE/CWE|[CVE-1999-0517](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0517)|
+|Riesgos:|Alto|
+|Impacto:|El atacante puede enumerar la información que ha conseguido, modificar la configuración del sistema y amenazar la confidencialidad y seguridad del equipo|
+|Sistemas|192\.168.106.144|
+|Remediación:|Desactiva el servicio SNMP en el host remoto si no lo estás utilizando. O bien filtra los paquetes UDP entrantes que van a este puerto, o cambia la cadena de comunidad predeterminada.|
+|Referencias:|[CVE-1999-0517](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0517)|
+|Prueba de Concepto|<p>![](imagenes/Untitled_9.png)</p>|
+
 
