@@ -9,3 +9,17 @@
 |Referencias:|[CVE-2015-8201](https://nvd.nist.gov/vuln/detail/CVE-2015-82001)|
 |Prueba de Concepto| <p> ![](imagenes/Untitled.png) </p> <p>![](imagenes/Untitled_1.png)</p>|
 
+
+
+|Descripción:|El componente MySQL en Plixer Scrutinizer v9.0.1.19899 y versiones anteriores tiene una contraseña predeterminada de admin para las cuentas, lo que permite a atacantes remotos ejecutar comandos SQL arbitrarios a través de una sesión TCP.|
+| - | :- |
+|CVSS v3.0|9\.8|
+|CVE/CWE|[CVE-2012-3951](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3951)|
+|Riesgos:|Críticos|
+|Impacto:|Un atacante remoto puede acceder y modificar la BD.|
+|Sistemas|192\.168.106.144|
+|Remediación:|Eliminar/cambiar las contraseñas de las cuentas afectadas.|
+|Referencias:|[CVE-2012-3951](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3951),[ NVD](https://nvd.nist.gov/vuln/detail/CVE-2012-3951)|
+|Prueba de Concepto|<p>![](imagenes/Untitled_2.png)</p>|
+
+
