@@ -23,3 +23,17 @@
 |Prueba de Concepto|<p>![](imagenes/Untitled_2.png)</p>|
 
 
+
+|Descripción:|Una vulnerabilidad de lectura/inclusión de archivo ha sido encontrada en el conector AJP. Un atacante remoto no autenticado puede explotar esta vulnerabilidad para leer archivos de aplicaciones web de un servidor vulnerable. En instancias donde el servidor vulnerable permite subidas de archivos, un atacante podría subir códigos de JavaServer Pages (JPS) maliciosos conteniendo una variedad de tipos de archivos y ganar ejecución de códigos remotos (RCE).|
+| - | :- |
+|CVSS v3.0|9\.8|
+|CVE/CWE|[CVE-2020-1938](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938),[ CVE-2020-1745](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1745)|
+|Riesgos:|Críticos|
+|Impacto:|El atacante puede leer documentos que hay dentro del servidor|
+|Sistemas|192\.168.106.144|
+|Remediación:|<p>Actualizar la configuración AJP para requerir autorización y/o actualizar el servidor Tomcat a 7.0.100, 8.5.5.51, 9.0.31</p><p>o superior</p>|
+|Referencias:|[CVE-2020-1938](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938),[ CVE-2020-1745](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1745)|
+|Prueba de Concepto|<p>![](imagenes/Untitled_3.png)</p>|
+
+
+
