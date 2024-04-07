@@ -74,8 +74,7 @@
 ### MS12-020: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution
 
 
-
-|Descripción:|<p>Existe una vulnerabilidad de código remoto arbitrario en la implementación del Protocolo de Escritorio Remoto (RDP) en el host remoto de Windows. La vulnerabilidad se debe a la forma en que RDP accede a un objeto en memoria que se ha inicializado incorrectamente o se ha eliminado.</p><p>Si se ha habilitado RDP en el sistema afectado, un atacante remoto no autenticado podría aprovechar esta vulnerabilidad para hacer que el sistema ejecute código arbitrario enviándole una secuencia de paquetes RDP especialmente diseñados.</p><p>Este complemento también comprueba una vulnerabilidad de denegación de servicio en Microsoft Terminal Server.</p>
+|Descripción:|<p>Existe una vulnerabilidad de código remoto arbitrario en la implementación del Protocolo de Escritorio Remoto (RDP) en el host remoto de Windows. La vulnerabilidad se debe a la forma en que RDP accede a un objeto en memoria que se ha inicializado incorrectamente o se ha eliminado.</p><p>Si se ha habilitado RDP en el sistema afectado, un atacante remoto no autenticado podría aprovechar esta vulnerabilidad para hacer que el sistema ejecute código arbitrario enviándole una secuencia de paquetes RDP especialmente diseñados.</p><p>Este complemento también comprueba una vulnerabilidad de denegación de servicio en Microsoft Terminal Server.</p>|
 |CVSS v3.0|5\.9|
 |CVE/CWE|[CVE-2012-0152](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0152), [CVE-2012-0002](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0002)|
 |Riesgos:|Críticos|
