@@ -6,12 +6,12 @@
 |Descripción:|<p>La aplicación ManageEngine Desktop Central funcionando en el host remoto es versión 8, o la versión 9 antes de la estructura 91100, por lo que es afectado por múltiples vulnerabilidades de código remoto:</p><p>- Un fallo existe en el script statusUpdate debido a un fallo de sanitizar apropiadamente el input de los usuarios en el parámetro ‘fileName’. Un atacante remoto sin autenticar puede explotar esto, mediante una petición creada para subir un archivo PHP que tiene múltiples extensiones de archivo y, mediante la manipulación del parámetro ‘applicationName’, hacen una petición directa al archivo subido, resultando en la ejecución de código arbitrario con privilegios NT-AUTHORITY/SYSTEM. (CVE-2015-8201)</p><p>-Un fallo no especificado existe en varios servlets que permiten a un atacante remoto no autenticado ejecutar código arbitrariamente. No existen más detalles.</p>|
 | - | :- |
 |CVSS v3.0|6\.0|
-|CVE/CWE|[CVE-2015-8201](https://nvd.nist.gov/vuln/detail/CVE-2015-82001)|
+|CVE/CWE|[CVE-2015-8201](https://nvd.nist.gov/vuln/detail/CVE-2015-8201)|
 |Riesgos:|Críticos|
 |Impacto:|El atacante puede entrar a la maquina y a partir, de ahí, conseguir información y permisos necesarios|
 |Sistemas|192\.168.106.144|
 |Remediación:|Actualizar ManageEngine Desktop Central versión 9 build 91100 o posterior.|
-|Referencias:|[CVE-2015-8201](https://nvd.nist.gov/vuln/detail/CVE-2015-82001)|
+|Referencias:|[CVE-2015-8201](https://nvd.nist.gov/vuln/detail/CVE-2015-8201)|
 |Prueba de Concepto| <p> ![](imagenes/Untitled.png) </p> <p>![](imagenes/Untitled_1.png)</p>|
 
 ### MySQL Default Account Credentials
@@ -55,6 +55,27 @@
 |Remediación:|Microsoft ha lanzado un conjunto de parches para Windows XP, 2003, Vista, 2008, 7 y 2008 R2.|
 |Referencias:|[CVE-2011-0657](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0657)|
 |Prueba de Concepto|<p>![](imagenes/Untitled_4.png)</p>|
+
+### MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)
+
+
+
+|Descripción:|<p>El host remoto de Windows se ve afectado por las siguientes vulnerabilidades:</p><p>- Existen múltiples vulnerabilidades de ejecución remota de código en Microsoft Server Message Block 1.0 (SMBv1) debido al manejo incorrecto de ciertas solicitudes. Un atacante remoto no autenticado puede aprovechar estas vulnerabilidades, a través de un paquete especialmente diseñado, para ejecutar código arbitrario. (CVE-2017-0143, CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, CVE-2017-0148)</p><p>- Existe una vulnerabilidad de divulgación de información en Microsoft Server Message Block 1.0 (SMBv1) debido al manejo incorrecto de ciertas solicitudes. Un atacante remoto no autenticado puede explotar esto, a través de un paquete especialmente diseñado, para divulgar información sensible. (CVE-2017-0147)</p><p>- ETERNALBLUE, ETERNALCHAMPION, ETERNALROMANCE y ETERNALSYNERGY son cuatro de múltiples vulnerabilidades y exploits del Grupo Equation divulgados el 14/04/2017 por un grupo conocido como los Shadow Brokers. WannaCry / WannaCrypt es un programa de ransomware que utiliza el exploit ETERNALBLUE, y EternalRocks es un gusano que utiliza siete vulnerabilidades del Grupo Equation. Petya es un programa de ransomware que primero utiliza CVE-2017-0199, una vulnerabilidad en Microsoft Office, y luego se propaga a través de ETERNALBLUE.</p>|
+| - | :- |
+|CVSS v3.0|8\.1|
+|CVE/CWE|[CVE-2017-0143](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143),[ CVE-2017-0144](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0144), [CVE-2017-0145](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0145),[ CVE-2017-0146](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0146),|
+
+
+
+<table><tr><th colspan="1"></th><th colspan="1" valign="top">[CVE-2017-0147](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0147),[ CVE-2017-0148](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0148)</th></tr>
+<tr><td colspan="1" valign="top">Riesgos:</td><td colspan="1" valign="top">Alto</td></tr>
+<tr><td colspan="1" valign="top">Impacto:</td><td colspan="1" valign="top">Permite a atacantes remotos ejecutar código arbitrario a través de paquetes manipulados.</td></tr>
+<tr><td colspan="1" valign="top">Sistemas</td><td colspan="1" valign="top">192\.168.106.144</td></tr>
+<tr><td colspan="1" valign="top">Remediación:</td><td colspan="1" valign="top"><p>Microsoft ha lanzado un conjunto de parches para Windows Vista, 2008, 7, 2008 R2, 2012, 8.1, RT 8.1, 2012 R2, 10 y 2016. Microsoft también ha lanzado parches de emergencia para sistemas operativos Windows que ya no cuentan con soporte, incluidos Windows XP, 2003 y 8.</p><p>Para sistemas operativos Windows no compatibles, como Windows XP, Microsoft recomienda que los usuarios dejen de utilizar SMBv1. SMBv1 carece de características de seguridad que se incluyeron en versiones posteriores de SMB. SMBv1 se puede desactivar siguiendo las instrucciones del proveedor proporcionadas en Microsoft KB2696547. Además, el US-CERT recomienda que los usuarios bloqueen SMB directamente bloqueando el puerto TCP 445 en todos los dispositivos de límite de red. Para SMB sobre la API NetBIOS, bloquee los puertos TCP 137/139 y los puertos UDP 137/138 en todos los dispositivos de límite de red.</p></td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">Referencias:</td></tr>
+<tr><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1" valign="top">Prueba de Concepto</td><td colspan="1"><p>![](imagenes/Untitled_5.png)</p></td></tr>
+</table>
 
 
 
