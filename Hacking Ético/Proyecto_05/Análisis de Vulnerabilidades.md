@@ -7,14 +7,14 @@
     1.3 [Apache Tomcat AJP Connector Request Injection (Ghostcat)](#Apache)   
     1.4 [MS11-030: Vulnerability in DNS Resolution Could Allow Remote Code Execution](#MS11)      
     1.5 [MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)](#MS17)  
-    1.6 [MS12-020: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution](#MS12) 
-    1.7 [Information Exposure](#Information) 
-    1.8 [OpenSSH User enumeration vulnerability](#OpenSSH) 
-    1.9 [SNMP Agent Default Community Name (public)](#SNMP) 
-    1.10 [Microsoft Windows LAN Manager SNMP LanMan Services Disclosure](#Microsoft)  
-    1.11 [Microsoft Windows LAN Manager SNMP LanMan Users Disclosure](#Windows) 
-2. [Máquina Windows Server 2016](#2016) 
-   2.1 [MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)](#Security)  
+    1.6 [MS12-020: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution](#MS12)  
+    1.7 [Information Exposure](#Information)  
+    1.8 [OpenSSH User enumeration vulnerability](#OpenSSH)  
+    1.9 [SNMP Agent Default Community Name (public)](#SNMP)  
+    1.10 [Microsoft Windows LAN Manager SNMP LanMan Services Disclosure](#Microsoft)   
+    1.11 [Microsoft Windows LAN Manager SNMP LanMan Users Disclosure](#Windows)  
+2. [Máquina Windows Server 2016](#2016)  
+   2.1 [MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)](#Security)   
 
 ## Máquina Windows Server 2008 <div id='2008' />
 ### ManageEngine Desktop Central 8 / 9 < Build 91100 Multiple RCE
