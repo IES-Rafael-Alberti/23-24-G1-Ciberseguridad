@@ -18,7 +18,7 @@
 |Remediación:|Actualizar ManageEngine Desktop Central versión 9 build 91100 o posterior.|
 |Referencias:|[CVE-2015-8201](https://nvd.nist.gov/vuln/detail/CVE-2015-82001)|
 |Prueba de Concepto|<p>![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.001.jpeg)</p><p>![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.002.png)</p>|
-| - | :- |
+
 **MySQL Default Account Credentials**
 
 (**Acceso a la base de datos con credenciales por defecto**)
@@ -34,7 +34,7 @@
 |Remediación:|Eliminar/cambiar las contraseñas de las cuentas afectadas.|
 |Referencias:|[CVE-2012-3951](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3951),[ NVD](https://nvd.nist.gov/vuln/detail/CVE-2012-3951)|
 |Prueba de Concepto|![](imagenes/Aspose.Words.baefba13-2459-4cad-a47d-db3805949114.003.png)|
-
+| - | :- |
 **Apache Tomcat AJP Connector Request Injection (Ghostcat)**
 
 
