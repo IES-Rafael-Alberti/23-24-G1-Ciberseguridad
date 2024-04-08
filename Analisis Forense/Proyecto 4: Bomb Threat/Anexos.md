@@ -85,25 +85,23 @@ Conversación Parte 1
 
 Imagen 8.
 
-![Conversación Parte 2](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/Untitled%207.png)
-
+![Conversación Parte 2](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/3.png)
 Conversación Parte 2
 
 Imagen 9.
 
-![Conversación Parte 3](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/b78e8e09-7d8e-422c-9978-a5eb6ea54dc0/4.png)
-
+![Conversación Parte 3](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/4.png)
 Conversación Parte 3
 
 Imagen 10.
 
-![Conversación Parte 4](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/ccccf03e-b2c9-4b95-85d8-b7fcd3b18033/Untitled.png)
+![Conversación Parte 4](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/Untitled%207.png)
 
 Conversación Parte 4
 
 Imagen 11.
 
-![Conversación Parte 5](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/6ba09d85-adec-4ee8-b5ad-4c3d535b7254/6.png)
+![Conversación Parte 5](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/Untitled%207.png)
 
 Conversación Parte 5
 
