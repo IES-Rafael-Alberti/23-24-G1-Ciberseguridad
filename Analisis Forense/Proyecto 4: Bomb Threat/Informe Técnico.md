@@ -14,7 +14,7 @@
 
 # 1. Resumen Ejecutivo<div id='resumen' />
 
-El análisis del volcado de memoria ha desvelado una serie de indicios con respecto a la llamada anónima de una amenaza de bomba. Se encontraron una serie de conversaciones de Discord donde se procedió a hablar sobre dicha amenaza.
+Tras una amenaza de bomba en la escuela, se llevó a cabo un análisis forense del equipo de Francisco José Jiménez, quien había sido señalado como sospechoso. La verificación de hashes confirmó la integridad de la evidencia, y el análisis de la memoria reveló una conversación en la que Francisco José parece admitir haber realizado la llamada para evitar un examen. Esta confesión, junto con otras discusiones encontradas en la memoria, proporciona evidencia concluyente de su participación en el incidente.
 
 ## 1.1 Línea Temporal<div id='tiempo' />
 
@@ -109,6 +109,6 @@ Poco después, podemos ver como ambos hablando sobre que Benji podría chivarse 
 
 # 5. Conclusión<div id='conclusion' />
 
-Tras analizar exhaustivamente el disco, podemos decir que ha habido una planificación, a través de una conversación de Discord de notificación al colegio de una presunta amenaza de bomba el cual, se hizo, para evitar hacer un examen ese día. El usuario que hizo esa notificación fue el propio PakoPepe88 y MarcosHeredia66 a través de la conversación con el usuario, admitió lo que hizo.
+Basado en el análisis forense informático, se puede concluir que hay evidencia sólida de actividad sospechosa por parte del usuario Francisco José Jiménez. La información recuperada de la memoria del equipo sugiere que Jiménez estaba buscando formas de evadir un examen y que incluso pudo realizar una falsa llamada de bomba para lograr este objetivo. Además, existe una preocupación sobre un tercero, “Benji”, que podría revelar la verdad.
 
 
