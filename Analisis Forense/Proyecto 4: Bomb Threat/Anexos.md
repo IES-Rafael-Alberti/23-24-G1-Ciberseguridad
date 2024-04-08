@@ -1,6 +1,13 @@
 # Anexo
 
-### 1. Metodología Utilizada
+# Índice
+1. [Metodología Utilizada](#metodologia)  
+2. [Herramientas](#herramientas)  
+3. [Anexos de Imágenes](#imagenes)  
+4. [Cadena de custodia](#cadena)    
+
+
+## 1. Metodología Utilizada <div id='metodologia' />
 
 A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
 las evidencias:
@@ -31,7 +38,7 @@ relacionadas con una intrusión, como su origen, la lista de sistemas afectados,
 usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
 auditable, repetible y defendible.
 
-# 2. Herramientas usadas
+## 2. Herramientas usadas <div id='herramientas' />
 
 Volatility 
 
@@ -40,7 +47,7 @@ Volatility
 | Versión: | 2.6.1 |
 | Página web | https://volatilityfoundation.org/ |
 
-## 3. Anexo de Imágenes
+## 3. Anexo de Imágenes <div id='imagenes' />
 
 Imagen 1.
 
@@ -105,7 +112,7 @@ Imagen 11.
 
 Conversación Parte 5
 
-# 4. Cadena de Custodia
+## 4. Cadena de Custodia <div id='cadena' />
 
 | Registro de la cadena de custodia de la imagen forense |  |  |  |  |
 | --- | --- | --- | --- | --- |
