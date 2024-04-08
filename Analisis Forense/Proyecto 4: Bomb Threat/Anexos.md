@@ -19,19 +19,19 @@ las evidencias:
 necesario.
 4. Recoger las evidencias en orden de volatilidad:
 5. Transparencia: A la hora de realizar la adquisición tendremos que explicar
-detalladamente el proceso que hemos seguido para que pueda ser totalmente
+detalladamente el proceso que hemos seguido para que pueda ser totalmente.
 reproducible.
 - Preservación y almacenamiento de evidencia
 A la hora de almacenamiento, se documentará:
 - Dónde, cuándo y quién descubrió y recolectó la evidencia.
 -  Dónde, cuándo y quién manejó la evidencia.
--  Quién ha custodiado la evidencia, cuánto tiempo y cómo la ha almacenado
+-  Quién ha custodiado la evidencia, cuánto tiempo y cómo la ha almacenado.
 -  Si se ha cambiado de custodia indicar a quien, que fecha y hora y comprobar que los
-hashes coinciden
+hashes coinciden.
 -  Dónde almacenarlo. Dependiendo del dispositivo tendremos que almacenarlo de una
 u otra forma, por ejemplo, si es un dispositivo portátil tendremos que custodiarlo en
 una bolsa de Faraday para que no pueda ser comprometido por las redes móviles.
-- Análisis de evidencias
+- Análisis de evidencias.
 
 Se llevarán a cabo una serie de procesos y tareas que intentarán dar respuesta a preguntas
 relacionadas con una intrusión, como su origen, la lista de sistemas afectados, los métodos
