@@ -73,19 +73,19 @@ Archivo en edición
 
 Imagen 6.
 
-![Proceso con el que el archivo .odt esta en ejecución o en escritura](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/9268e1f3-3a4c-424c-b731-09d7696dcc73/Untitled.png)
+![Proceso con el que el archivo .odt esta en ejecución o en escritura](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/Untitled%205.png)
 
 Proceso con el que el archivo .odt esta en ejecución o en escritura
 
 Imagen 7.
 
-![Conversación Parte 1](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/a60bdca8-1c42-41ac-b09d-90434c2d9b4d/Untitled.png)
+![Conversación Parte 1](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/Untitled%206.png)
 
 Conversación Parte 1
 
 Imagen 8.
 
-![Conversación Parte 2](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/600e96fd-6a1f-4a71-8dc6-d061dbdb2db3/3.png)
+![Conversación Parte 2](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/Untitled%207.png)
 
 Conversación Parte 2
 
