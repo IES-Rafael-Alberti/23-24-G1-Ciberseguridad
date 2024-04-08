@@ -1,6 +1,6 @@
-# 7. Anexo
+# Anexo
 
-### 7.1 Metodología Utilizada
+### 1. Metodología Utilizada
 
 A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
 las evidencias:
@@ -31,7 +31,16 @@ relacionadas con una intrusión, como su origen, la lista de sistemas afectados,
 usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
 auditable, repetible y defendible.
 
-## 8. Anexo de Imágenes
+# 2. Herramientas usadas
+
+Volatility 
+
+| Nombre | Volatility Foundation Volatility Framework |
+| --- | --- |
+| Versión: | 2.6.1 |
+| Página web | https://volatilityfoundation.org/ |
+
+## 3. Anexo de Imágenes
 
 Imagen 1.
 
@@ -99,7 +108,7 @@ Imagen 11.
 
 Conversación Parte 5
 
-# 9. Cadena de Custodia
+# 4. Cadena de Custodia
 
 | Registro de la cadena de custodia de la imagen forense |  |  |  |  |
 | --- | --- | --- | --- | --- |
