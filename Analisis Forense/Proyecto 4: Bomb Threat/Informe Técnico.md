@@ -1,16 +1,28 @@
 # Informe Técnico proyecto 4
+# Índice
+1. [Resumen Ejecutivo](#resumen)  
+    1.1. [Línea temporal](#tiempo)
+2. [Introducción](#introduccion)  
+    2.1 [Antecedentes](#antecedentes)  
+    2.2 [Objetivos](#objetivos)  
+    2.3 [Alcance](#alcance)  
+3. [Información analizada](#informacion)  
+4. [Análisis](#analisis)    
+    4.1 [Comparación de hashes](#comparacion)     
+    4.2 [Análisis de la memoria](#forense) 
+5. [Conclusión](#conclusion) 
 
-# 1. Resumen Ejecutivo
+# 1. Resumen Ejecutivo<div id='resumen' />
 
 El análisis del volcado de memoria ha desvelado una serie de indicios con respecto a la llamada anónima de una amenaza de bomba. Se encontraron una serie de conversaciones de Discord donde se procedió a hablar sobre dicha amenaza.
 
-## 1.1 Línea Temporal
+## 1.1 Línea Temporal<div id='tiempo' />
 
 ![Línea temporal.png](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20T%C3%A9cnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/Amenaza_de_bomba_falsa.png)
 
-# 2. Introducción
+# 2. Introducción<div id='introduccion' />
 
-## 2.2 Antecedentes
+## 2.2 Antecedentes<div id='antecedentes' />
 
 Una escuela recibió una llamada anónima de amenaza de bomba. Se sospecho de un alumno, Francisco José Jiménez, alias Pacopepe de ser el autor de dicha llamada. 
 
@@ -18,26 +30,26 @@ Este usuario, reafirma su inocencia, pero un compañero suyo, Benji, lo incrimin
 
 Esta incoherencia es la que nos lleva a realizar un análisis forense del equipo de Pacopepe.
 
-## 2.3 Objetivos
+## 2.3 Objetivos<div id='objetivos' />
 
 El objetivo de este informe técnico es realizar una línea temporal con los eventos encontrados en el equipo de Pacopepe y llegar a comprobar si es el autor de la amenaza de bomba o no.
 
-## 2.4 Alcance
+## 2.4 Alcance<div id='alcance' />
 
 El alcance del análisis forense realizado es toda información que se pueda encontrar en el volcado de memoria del equipo del sospechoso.
 
-# 3. Información analizada
+# 3. Información analizada<div id='informacion' />
 
 | Adquisición | DESKTOP-01S7HH9-20220408-171552.dmp |
 | --- | --- |
 | Tamaño (Bytes) | 4294504448 |
 | HASH SHA256 | edcdbcac27263a45d6dfe27f6c8baff55952b2357a70031de20de057730cd359 |
 
-# 4. Análisis
+# 4. Análisis<div id='analisis' />
 
 Antes de comenzar con el análisis se realizará la comprobación de hashes para verificar que la evidencia no ha sido alterada.
 
-### 4.1 Comparación de hashes
+### 4.1 Comparación de hashes<div id='comparacion' />
 
 Verificamos si esta información es correcta o no:
 
@@ -47,7 +59,7 @@ Verificamos si esta información es correcta o no:
 
 Como se puede apreciar, los hashes coinciden perfectamente con los proporcionados en un inicio.
 
-### 4.2 Análisis de la memoria
+### 4.2 Análisis de la memoria<div id='forense' />
 
 Una vez realizada la comprobación de los hashes para verificar que coinciden, comenzaremos con el análisis.
 
@@ -95,7 +107,7 @@ Poco después, podemos ver como ambos hablando sobre que Benji podría chivarse 
 
 [Ver anexo de imágenes, Imagen 11](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Anexos.md)
 
-# 5. Conclusión
+# 5. Conclusión<div id='conclusion' />
 
 Tras analizar exhaustivamente el disco, podemos decir que ha habido una planificación, a través de una conversación de Discord de notificación al colegio de una presunta amenaza de bomba el cual, se hizo, para evitar hacer un examen ese día. El usuario que hizo esa notificación fue el propio PakoPepe88 y MarcosHeredia66 a través de la conversación con el usuario, admitió lo que hizo.
 
