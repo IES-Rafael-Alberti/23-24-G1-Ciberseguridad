@@ -44,7 +44,7 @@ Volatility
 
 Imagen 1.
 
-![Hash SHA-256 volcado de memoria Pacopepe](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/b31cf0e6-1c54-40b0-800e-39c925106385/Untitled.png)
+![Hash SHA-256 volcado de memoria Pacopepe](Analisis Forense/Proyecto 4: Bomb Threat/Informe Técnico proyecto 4 f4cc1c561991422cbb5b7277c5568eb1/Untitled.png)
 
 Hash SHA-256 volcado de memoria Pacopepe
 
