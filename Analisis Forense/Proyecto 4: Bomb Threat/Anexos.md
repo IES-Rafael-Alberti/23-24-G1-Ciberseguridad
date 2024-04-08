@@ -50,25 +50,24 @@ Hash SHA-256 volcado de memoria Pacopepe
 
 Imagen 2.
 
-![Proceso con el que el archivo .dmp se transforma a un archivo raw para poder leerse en volatility.](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/dd4fe3b5-2ff2-42a6-8935-4db64be04a82/Untitled.png)
-
+![Proceso con el que el archivo .dmp se transforma a un archivo raw para poder leerse en volatility.](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/Untitled%201.png)  
 Proceso con el que el archivo .dmp se transforma a un archivo raw para poder leerse en volatility.
 
 Imagen 3.
 
-![Nombre del equipo Pacopepe](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/aa36c787-99ce-4302-b2e2-6b18af7a8f2b/Untitled.png)
+![Nombre del equipo Pacopepe](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/Untitled%202.png)
 
 Nombre del equipo Pacopepe
 
 Imagen 4.
 
-![Proceso de lectura de archivo PDF](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/2d568014-45d8-4af4-be12-0c4c27a9c305/Untitled.png)
+![Proceso de lectura de archivo PDF](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/Untitled%203.png)
 
 Proceso de lectura de archivo PDF
 
 Imagen 5.
 
-![Archivo en edición](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9ae4c88-2fb7-4fba-8f91-189f36219734/ab8d7d7a-26a2-4ac8-8c6f-dc0f9eed3a43/Untitled.png)
+![Archivo en edición](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Informe%20Técnico%20proyecto%204%20f4cc1c561991422cbb5b7277c5568eb1/Untitled%204.png)
 
 Archivo en edición
 
