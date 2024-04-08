@@ -30,7 +30,7 @@ Para hacer este apartado, podemos ver todos los ficheros que hay en la máquina 
     
 Como podemos, ver hay un documento que es odt, y ya si queremos ver el proceso con el cual se esta haciendo, si buscamos el proceso que pone, podemos ver que esta hecho con office, quedando demostrado en el soffice.bin:
     
-![]([Investigacio%CC%81n%20del%20Incidente%2065d490a22b7b4425a97ca654433ee409/Untitled%201.png](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Investigaci%C3%B3n%20del%20Incidente%2065d490a22b7b4425a97ca654433ee409/Untitled%201.png))
+![Proceso con el que el archivo .odt esta en ejecución o en escritura]([Investigacio%CC%81n%20del%20Incidente%2065d490a22b7b4425a97ca654433ee409/Untitled%201.png](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%204%3A%20Bomb%20Threat/Investigaci%C3%B3n%20del%20Incidente%2065d490a22b7b4425a97ca654433ee409/Untitled%201.png))
     
 ## 4. Buscar en el volcado de memoria pruebas que vinculen al usuario del equipo con la realización de la falsa amenaza de bomba. <div id='pregunta4' />
     
