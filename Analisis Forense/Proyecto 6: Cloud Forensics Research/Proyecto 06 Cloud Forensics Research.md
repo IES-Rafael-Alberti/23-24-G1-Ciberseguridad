@@ -1,20 +1,31 @@
 # Proyecto 06: Cloud Forensics Research
 
-# 1. Resumen Ejecutivo
+1. [Resumen Ejecutivo](#resumen)
+2. [Introducción](#intro)
+    1. [Objetivos](#objetivos)
+3. [Investigación](#inves)
+    1. [Investigar estrategias y metodologías de análisis forense en la nube](#estrategias)
+    2. [Identificar las características intrínsecas de la nube que impactan en el análisis forense](#caracteristicas)
+    3. [Evaluar el cumplimiento de los requerimientos legales en entornos de nube](#evaluar)
+4. [Recomendaciones para mejorar la seguridad y la eficacia del análisis forense en la nube](#recomendaciones)
+4. [Referencias](#refe)
+
+
+# 1. Resumen Ejecutivo<div id='resumen' />
 
 El análisis forense en la nube requiere estrategias específicas, como la recopilación de evidencia, la preservación de datos y el uso de herramientas especializadas. Herramientas como Belkasoft Evidence Center, Oxygen Forensics Detective y Cellebrite UFED Cloud Analyzer facilitan la recopilación y análisis de datos en la nube. Se deben considerar las características únicas de la nube, como la dinámica y la virtualización. Es fundamental cumplir con las regulaciones legales y mejorar la seguridad con herramientas, capacitación y auditorías. 
 
-# 2. Introducción
+# 2. Introducción<div id='intro' />
 
-## 2.1 Objetivos
+## 2.1 Objetivos<div id='objetivos' />
 
 El objetivo de este proyecto es conocer las estrategias y metodologías asi como las herramientas que podemos utilizar para poder realizar en caso de ser necesario auditorias forenses con la finalidad de conocer cuales son los sucesos ocurridos en el servicio en la nube.
 
 A su vez, conocer las características intrínsecas de la nube, los requerimientos legales y regulaciones que se tienen que cumplir y recomendaciones para mejorar la seguridad y eficacia del análisis forense en la nube.
 
-# 3. Investigación
+# 3. Investigación<div id='inves' />
 
-## **3.1 Investigar estrategias y metodologías de análisis forense en la nube:**
+## **3.1 Investigar estrategias y metodologías de análisis forense en la nube:** <div id='estrategias' />
 
 El análisis forense en la nube requiere una comprensión profunda de las estrategias y metodologías específicas para abordar los desafíos únicos que presenta este entorno. Entre las estrategias y metodologías de análisis forense en la nube más destacadas se encuentran:
 
@@ -141,7 +152,7 @@ El análisis forense en la nube requiere una comprensión profunda de las estrat
 5. **Colaboración interdisciplinaria. L**a colaboración interdisciplinaria en el análisis forense en la nube reúne a expertos de diversas disciplinas para abordar de manera integral los desafíos técnicos, legales y de seguridad asociados con la recopilación, preservación y análisis de evidencia digital en entornos de computación en la nube. ****
 6. **Adaptabilidad y actualización constante.** La adaptabilidad y la actualización constante son aspectos críticos en el análisis forense en la nube debido a la rápida evolución de la tecnología y las amenazas cibernéticas. Debemos de estar preparados para ajustarnos rápidamente a los nuevos desarrollos y desafíos para mantener la efectividad de las investigaciones. 
 
-## **3.2 Identificar las características intrínsecas de la nube que impactan en el análisis forense:**
+## **3.2 Identificar las características intrínsecas de la nube que impactan en el análisis forense:** <div id='caracteristicas' />
 
 El análisis forense en la nube se ve significativamente influenciado por una serie de características intrínsecas de este entorno, que presentan desafíos únicos y requieren enfoques específicos para abordarlos adecuadamente. Algunas de estas características incluyen:
 
@@ -176,7 +187,7 @@ La orquestación de contenedores en la nube se refiere a la gestión automatizad
 10. **Gestión de Identidad y Acceso**
 La gestión de identidad y acceso en la nube se refiere a la administración centralizada de usuarios, permisos y credenciales de acceso a los recursos en la nube. Esta característica puede influir en el análisis forense al requerir la identificación y seguimiento de las actividades de los usuarios autorizados y la detección de actividades maliciosas o inusuales.
 
-## **3.3 Evaluar el cumplimiento de los requerimientos legales en entornos de nube:**
+## **3.3 Evaluar el cumplimiento de los requerimientos legales en entornos de nube:** <div id='evaluar' />
 
 El cumplimiento de los requerimientos legales en entornos de nube es fundamental para garantizar la integridad, confidencialidad y disponibilidad de los datos, así como para cumplir con las regulaciones de protección de datos y privacidad. Algunos aspectos importantes a considerar incluyen:
 
@@ -240,7 +251,7 @@ La Directiva NIS es una legislación de la UE que establece medidas para garanti
     - Además de las regulaciones legales, existen estándares y marcos de cumplimiento relacionados que pueden ser aplicables a entornos de nube.
     - Ejemplos incluyen ISO 27001 (Seguridad de la Información), SOC 2 (Control de Organización y Seguridad), HIPAA (Portabilidad y Responsabilidad del Seguro Médico), entre otros.
 
-# 4. Recomendaciones para mejorar la seguridad y la eficacia del análisis forense en la nube:
+# 4. Recomendaciones para mejorar la seguridad y la eficacia del análisis forense en la nube <div id='recomendaciones' />
 
 1. **Establecimiento de Políticas de Retención de Datos**: Desarrollar y aplicar políticas claras de retención de datos en la nube para determinar la duración y el alcance de la conservación de información relevante para fines forenses. Esto ayuda a garantizar la disponibilidad de datos históricos necesarios para investigaciones futuras.
     - **Definición de tipos de datos y categorías de retención:**
@@ -311,7 +322,7 @@ La Directiva NIS es una legislación de la UE que establece medidas para garanti
     - **Automatización de Análisis Forense Preliminar**: Desarrollar herramientas que realicen análisis preliminares de evidencia digital en la nube, identificando automáticamente información relevante para agilizar la investigación forense.
     - **Implementar Medidas de Seguridad**: Reforzar la seguridad en la nube con autenticación multifactor, encriptación de datos y controles de acceso, para proteger los recursos y datos de manera efectiva.
 
-## Referencias:
+## 5. Referencias <div id='referencias' />
 
 [https://www.trendmicro.com/es_es/what-is/cloud-security/cloud-compliance.html](https://www.trendmicro.com/es_es/what-is/cloud-security/cloud-compliance.html)
 
