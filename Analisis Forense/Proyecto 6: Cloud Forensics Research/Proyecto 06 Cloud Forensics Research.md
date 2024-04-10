@@ -8,7 +8,7 @@
     2. [Identificar las características intrínsecas de la nube que impactan en el análisis forense](#caracteristicas)
     3. [Evaluar el cumplimiento de los requerimientos legales en entornos de nube](#evaluar)
 4. [Recomendaciones para mejorar la seguridad y la eficacia del análisis forense en la nube](#recomendaciones)
-4. [Referencias](#refe)
+4. [Referencias](#referencias)
 
 
 # 1. Resumen Ejecutivo<div id='resumen' />
