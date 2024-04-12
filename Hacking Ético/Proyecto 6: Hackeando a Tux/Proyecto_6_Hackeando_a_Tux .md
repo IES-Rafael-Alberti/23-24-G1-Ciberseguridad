@@ -3,11 +3,34 @@
 
 ## **Índice**
 
-## **Resumen Ejecutivo**
+1. [Resumen Ejecutivo](#resumen)
+   1.1 [Alcance](#alcance)
+   1.2 [Índices de gravedad de los hallazgos](#indice)
+   1.3 [Factores de riesgo](#factores)
+2. [Resultados técnicos](#resultados)
+   2.1 [Máquina Kioptrix](#kioptrix)
+     2.1.1 [SMB Signing not Required](#smb)
+     2.1.2 [SSL Buffer Overflow](#ssl)
+   2.2 [Máquina Metasploitable3 Ubuntu](#metasploitable)
+     2.2.1 [Ejecución de código remoto en el modulo de Drupal](#drupal)
+     2.2.2 [Robo de credenciales SQLi](#sqli)
+     2.2.3 [UnrealIRCd Backdoor Detection](#backdoor)
+     2.2.4 [Apache Continuum **- Arbitrary Command Execution**](#arbitrary)
+     2.2.5 [ProFTPD Exploit](#proftpd)
+     2.2.6 [Samba Enumuser](#samba)
+     2.2.7 [SSH fuerza bruta](#ssh)
+     2.2.8 [Information desclosure](#information)
+     2.2.9 [Contraseñas en texto plano](#contraseñas)
+     2.2.10 [Inyección puerto 3500](#3500)
+   2.3 [Máquina **W1R3S**](#w1r3s)
+     2.3.1 [Anonymous FTP is enabled](#ftp)
+     2.3.2 [Cuppa CMS Remote/Local File Inclusion Vulnerability](#cuppa)
+
+## **Resumen Ejecutivo** <div id='resumen' />
 
 Durante la auditoría de vulnerabilidades en las máquinas "MS3 Ubuntu", "Kioptrix" y "W1R3S", se identificaron diversas debilidades que abarcan múltiples niveles de riesgo y criticidad. En "MS3 Ubuntu", predominan las vulnerabilidades de información, con algunas de riesgo medio y bajo. Por otro lado, en "Kioptrix", se encontró una concentración significativa de vulnerabilidades críticas y de alto riesgo, lo que indica un nivel potencialmente alto de vulnerabilidad. Mientras tanto, en "W1R3S", la mayoría de las vulnerabilidades se clasificaron como de información, con solo unas pocas de riesgo medio y alto. 
 
-### Alcance
+### Alcance <div id='alcance' />
 
 Según el acuerdo realizado con la empresa “Pata de Palo Crop Boss”, nos han asignado una auditoría de caja negra, sin ninguna restricción a los siguientes equipos:
 
@@ -15,7 +38,7 @@ Según el acuerdo realizado con la empresa “Pata de Palo Crop Boss”, nos han
 - Equipo Kioptrix
 - Equipo W1r3s
 
-### **Índices de gravedad de los hallazgos**
+### **Índices de gravedad de los hallazgos** <div id='indice' />
 
 Los resultados presentados en las tablas son el producto de análisis de vulnerabilidades realizados en los objetivos dados por la empresa. Estos análisis han revelado una diversidad de vulnerabilidades que abarcan diferentes niveles de riesgo y criticidad.
 
@@ -27,7 +50,7 @@ Los resultados presentados en las tablas son el producto de análisis de vulnera
 | Bajo | 3 | 14 | 0 |
 | Información | 74 | 63 | 36 |
 
-### Factores de riesgos
+### Factores de riesgos <div id='factores' />
 
 Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades nos ofrecen una visión detallada de la criticidad de cada vulnerabilidad, desde aquellas con impacto limitado hasta aquellas con consecuencias devastadoras. 
 
@@ -38,11 +61,11 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Alto | 7.0 - 8.9 | Vulnerabilidades con un impacto significativo y que pueden ser fácilmente explotadas. |
 | Crítico | 9.0 - 10.0 | Vulnerabilidades con un impacto devastador y que pueden ser explotadas de manera trivial o sin requerir autenticación. |
 
-# Resultados técnicos
+# Resultados técnicos <div id='resultados' />
 
-## Máquina Kioptrix
+## Máquina Kioptrix <div id='kioptrix' />
 
-### SMB Signing not Required
+### SMB Signing not Required <div id='smb' />
 
 | Descripción: | En el SMB no está puesta la opción de requerir signing, haciendo que cualquier atacante malicioso pueda realizar man in the middle para obtener información del sistema, incluyendo usuarios. |
 | --- | --- |
@@ -59,7 +82,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 
 
-### SSL Buffer Overflow
+### SSL Buffer Overflow <div id='ssl' />
 
 | Descripción: | El código de dbm y shm cache de sesión antes de la versión 2.8.7-1.3.23, y Apache-SSL 1.3.22+1.46, no inicializa correctamente la memoria usando la función i2d_SSL_SESSION, que permite al atacante malicioso usar el overflow del buffer para ejecutar código arbitrario mediante un certificado largo que está firmado por un CA (Autoridad Certificada), que produce una sesión. |
 | --- | --- |
@@ -76,9 +99,9 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 
 
-# Máquina Metasploitable3 Ubuntu
+# Máquina Metasploitable3 Ubuntu <div id='metasploitable' />
 
-## Ejecución de código remoto en el modulo de Drupal
+## Ejecución de código remoto en el modulo de Drupal <div id='drupal' />
 
 | Descripción: | La versión de Drupal que se está ejecutando en el servidor web remoto se ve afectada por una vulnerabilidad de ejecución de código remoto en el módulo Coder, específicamente en el archivo coder_upgrade.run.php, debido a una validación incorrecta de la entrada proporcionada por el usuario a la función unserialize().  |
 | --- | --- |
@@ -93,7 +116,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 
 
-## Robo de credenciales SQLi
+## Robo de credenciales SQLi <div id='sqli' />
 
 | Descripción: | El archivo encontrado cuando nos conectamos al Drupal a través de un navegador web: payroll_app.php, es vulnerable a inyección de código SQL |
 | --- | --- |
@@ -107,7 +130,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Prueba de Concepto | ![Untitled](Proyecto_6_Fotos/Untitled%203.png) ![Untitled](Proyecto_6_Fotos/Untitled%204.png) ![Untitled](Proyecto_6_Fotos/Untitled%205.png) |
 
 
-## **UnrealIRCd Backdoor Detection**
+## **UnrealIRCd Backdoor Detection** <div id='backdoor' />
 
 | Descripción: | The remote IRC server is a version of UnrealIRCd with a backdoor that allows an attacker to execute arbitrary code on the affected host. |
 | --- | --- |
@@ -122,7 +145,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 
 
-## Apache Continuum **- Arbitrary Command Execution**
+## Apache Continuum **- Arbitrary Command Execution** <div id='arbitrary' />
 
 | Descripción: | La aplicación Apache Continuum que se ejecuta en el sistema tiene una vulnerabilidad de ejecución remota de código. |
 | --- | --- |
@@ -137,7 +160,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 
 
-## ProFTPD Exploit
+## ProFTPD Exploit <div id='proftpd' />
 
 | Descripción: | El host remoto usa ProFTPD, un servidor FTP gratuito para Unix y Linux, versión anterior a 1.3.0a, vulnerable a manipulación de cadenas, desbordamiento de búfer en mod_tls y desbordamiento de búfer off-by-two, que podrían permitir a un atacante estrellar el servicio o ejecutar código arbitrario, dependiendo de los privilegios de la aplicación. |
 | --- | --- |
@@ -152,7 +175,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 
 
-## Samba Enumuser
+## Samba Enumuser <div id='samba' />
 
 | Descripción: | Un recurso compartido NETBIOS / SMB crítico para el sistema tiene un control de acceso inadecuado |
 | --- | --- |
@@ -167,7 +190,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 
 
-## SSH fuerza bruta
+## SSH fuerza bruta <div id='ssh' />
 
 | Descripción: | Credenciales robadas de clientes SSH a través del programa ssh-agent, lo que permite a otros usuarios locales acceder a cuentas remotas pertenecientes al usuario ssh-agent |
 | --- | --- |
@@ -182,7 +205,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 
 
-## Information desclosure
+## Information desclosure <div id='information' />
 
 | Descripción: | Exposición de información confidencial no autorizado |
 | --- | --- |
@@ -197,7 +220,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 
 
-## Contraseñas en texto plano
+## Contraseñas en texto plano <div id='contraseñas' />
 
 | Descripción: | Almacenar contraseñas en archivos |
 | --- | --- |
@@ -212,7 +235,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 
 
-## Inyección puerto 3500
+## Inyección puerto 3500 <div id='3500' />
 
 | Descripción: | El puerto 3500 es vulnerable a inyecciones de código SQL |
 | --- | --- |
@@ -228,9 +251,9 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 ---
 
-## Máquina **W1R3S**
+## Máquina **W1R3S** <div id='w1r3s' />
 
-### Anonymous FTP is enabled
+### Anonymous FTP is enabled <div id='ftp' />
 
 | Descripción: | Anonymous FTP is enabled. |
 | --- | --- |
@@ -245,7 +268,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 
 
-### Cuppa CMS Remote/Local File Inclusion Vulnerability
+### Cuppa CMS Remote/Local File Inclusion Vulnerability <div id='cuppa' />
 
 | Descripción: | Este host tiene instalado Cuppa CMS, el cual tiene una vulnerabilidad de inclusión de ficheros. |
 | --- | --- |
