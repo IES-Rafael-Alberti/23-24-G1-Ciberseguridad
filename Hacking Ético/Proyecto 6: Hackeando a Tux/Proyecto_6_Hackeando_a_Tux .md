@@ -132,7 +132,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 ## **UnrealIRCd Backdoor Detection** <div id='backdoor' />
 
-| Descripción: | The remote IRC server is a version of UnrealIRCd with a backdoor that allows an attacker to execute arbitrary code on the affected host. |
+| Descripción: | El servidor IRC remoto es una versión de UnrealIRCd con un backdoor que permite a un atacante ejecutar código arbitrario. |
 | --- | --- |
 | CVSS v3.0 | 7.5 |
 | CVE/CWE | [CVE-2010-2075](https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2010-2075) |
@@ -255,7 +255,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 ### Anonymous FTP is enabled <div id='ftp' />
 
-| Descripción: | Anonymous FTP is enabled. |
+| Descripción: | Usuario anónimo habilitado |
 | --- | --- |
 | CVSS v3.0 | 5.3 |
 | CVE/CWE | [CVE-1999-0497](https://nvd.nist.gov/vuln/detail/CVE-1999-0497) |
