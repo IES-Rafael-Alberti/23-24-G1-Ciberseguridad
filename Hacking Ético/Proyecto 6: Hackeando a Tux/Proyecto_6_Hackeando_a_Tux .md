@@ -22,7 +22,7 @@
      5.2.8 [Information desclosure](#information)  
      5.2.9 [Contraseñas en texto plano](#contraseñas)  
      5.2.10 [Inyección Servicio Rails](#3500)  
-   5.3 [Máquina **W1R3S**](#w1r3s)  
+   5.3 [Máquina W1r3s](#w1r3s)  
      5.3.1 [Anonymous FTP is enabled](#ftp)  
      5.3.2 [Cuppa CMS Remote/Local File Inclusion Vulnerability](#cuppa)  
 
@@ -251,7 +251,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 ---
 
-## Máquina **W1R3S** <div id='w1r3s' />
+## Máquina W1r3s <div id='w1r3s' />
 
 ### Anonymous FTP is enabled <div id='ftp' />
 
