@@ -256,7 +256,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Sistemas | W1R3S |
 | Remediación: | Actualizar a la versión más reciente, deshabilitar las características respectivas, eliminar el programa y remplazarlo por otro… |
 | Referencias: | https://cwe.mitre.org/data/definitions/98.html, https://www.securityspace.com/smysecure/catid.html?id=1.3.6.1.4.1.25623.1.0.803805 |
-| Prueba de Concepto | ![cupacms.PNG](Proyecto_6_Fotos/cupacms.png) ![hack.png](Proyecto_6_Fotos/hack.png) ![mas informacion del perfil.PNG](Proyecto_6_Fotos/mas_informacion_del_perfil.png) |
+| Prueba de Concepto | ![cupacms.PNG](Proyecto_6_Fotos/cupacms.png) ![hack.png](Proyecto_6_Fotos/hack.png) ![mas informacion del perfil.PNG](Proyecto_6_Fotos/mas_informacion_del_perfil1.png) |
 
 
 ## Referencias Formulario de Autorización de Pentesting
