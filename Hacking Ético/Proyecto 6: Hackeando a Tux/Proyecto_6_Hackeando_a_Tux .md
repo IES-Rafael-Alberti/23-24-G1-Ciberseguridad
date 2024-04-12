@@ -53,7 +53,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Sistemas | Kioptrix |
 | Remediación: | Obligar el signing en los equipos. |
 | Referencias: | https://nvd.nist.gov/vuln/detail/CVE-2016-2115, https://www.tenable.com/cve/CVE-2016-2115 |
-| Prueba de Concepto | ![Untitled](Proyecto_6_Fotos/Untitled.png) ![Untitled (1).png](Proyecto_6_Fotos/Untitled_(1).png) |
+| Prueba de Concepto | ![Untitled](Proyecto_6_Fotos/Untitled11.png) ![Untitled (1).png](Proyecto_6_Fotos/Untitled_(1).png) |
 
 
 
