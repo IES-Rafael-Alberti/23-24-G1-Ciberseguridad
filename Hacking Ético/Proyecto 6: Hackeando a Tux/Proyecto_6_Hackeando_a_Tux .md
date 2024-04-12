@@ -96,8 +96,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Sistemas | Kioptrix |
 | Remediación: | Obligar el signing en los equipos. |
 | Referencias: | https://nvd.nist.gov/vuln/detail/CVE-2016-2115, https://www.tenable.com/cve/CVE-2016-2115 |
-| Prueba de Concepto | ![Untitled](Proyecto_6_Fotos/Untitled.png) 
-![Untitled (1).png](Proyecto_6_Fotos/Untitled_(1).png) |
+| Prueba de Concepto | ![Untitled](Proyecto_6_Fotos/Untitled.png) ![Untitled (1).png](Proyecto_6_Fotos/Untitled_(1).png) |
 
 
 
@@ -183,18 +182,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 
 ## ProFTPD Exploit
 
-| Descripción: | The remote host is using ProFTPD, a free FTP server for Unix and Linux.
-
-According to its banner, the version of ProFTPD installed on the remote host is earlier than 1.3.0a. As such, it may be affected by one or more of the following vulnerabilities :
-
-- An off-by-one string manipulation flaw exists in the 'sreplace' function. (CVE-2006-5815)
-
-- A buffer overflow exists in the 'tls_x509_name_oneline' function of the mod_tls module involving the data length argument. (CVE-2006-6170)
-
-- An off-by-two buffer overflow exists due to a failure to properly set the buffer size limit when 'CommandBufferSize' is specified in the configuration file, an issue which is disputed by the developers.
-(CVE-2006-6171)
-
-An attacker may be able to leverage this issue to crash the affected service or execute arbitrary code remotely, subject to the privileges under which the application operates. |
+| Descripción: | El host remoto usa ProFTPD, un servidor FTP gratuito para Unix y Linux, versión anterior a 1.3.0a, vulnerable a manipulación de cadenas, desbordamiento de búfer en mod_tls y desbordamiento de búfer off-by-two, que podrían permitir a un atacante estrellar el servicio o ejecutar código arbitrario, dependiendo de los privilegios de la aplicación. |
 | --- | --- |
 | CVSS v2.0 | 10 |
 | CVE/CWE | https://www.tenable.com/cve/CVE-2006-5815, https://www.tenable.com/cve/CVE-2006-6170, https://www.tenable.com/cve/CVE-2006-6171 |
