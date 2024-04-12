@@ -47,7 +47,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | En el SMB no está puesta la opción de requerir signing, haciendo que cualquier atacante malicioso pueda realizar man in the middle para obtener información del sistema, incluyendo usuarios. |
 | --- | --- |
 | CVSS v3.0 | 5.9 |
-| CVE/CWE | https://nvd.nist.gov/vuln/detail/CVE-2016-2115 |
+| CVE/CWE | [CVE-2016-2115](https://nvd.nist.gov/vuln/detail/CVE-2016-2115) |
 | Riesgos: | Medio |
 | Impacto: | Pueden hacer ataques de Man in the middle para poder acceder a información privilegiada. |
 | Sistemas | Kioptrix |
@@ -64,7 +64,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | El código de dbm y shm cache de sesión antes de la versión 2.8.7-1.3.23, y Apache-SSL 1.3.22+1.46, no inicializa correctamente la memoria usando la función i2d_SSL_SESSION, que permite al atacante malicioso usar el overflow del buffer para ejecutar código arbitrario mediante un certificado largo que está firmado por un CA (Autoridad Certificada), que produce una sesión. |
 | --- | --- |
 | CVSS v3.0 | CVSS v2.0: 7.5 |
-| CVE/CWE | https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0082%2C |
+| CVE/CWE | [CVE-2002-0082](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0082%2C) |
 | Riesgos: | Medio |
 | Impacto: | Insertar código arbitrario dentro del Apache para obtener todos los datos de dentro. |
 | Sistemas | Kioptrix |
@@ -98,7 +98,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | El archivo encontrado cuando nos conectamos al Drupal a través de un navegador web: payroll_app.php, es vulnerable a inyección de código SQL |
 | --- | --- |
 | CVSS v3.0 | 9.8 |
-| CVE/CWE | https://cwe.mitre.org/data/definitions/89.html |
+| CVE/CWE | [CWE-89](https://cwe.mitre.org/data/definitions/89.html) |
 | Riesgo: | Critico |
 | Impacto: | Esto puede ser utilizado por los atacantes para hacerse con la información de la base de datos, como usuarios y contraseñas. |
 | Sistemas | Metaesploitable3 Ubuntu |
@@ -112,7 +112,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | The remote IRC server is a version of UnrealIRCd with a backdoor that allows an attacker to execute arbitrary code on the affected host. |
 | --- | --- |
 | CVSS v3.0 | 7.5 |
-| CVE/CWE | https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2010-2075 |
+| CVE/CWE | [CVE-2010-2075](https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2010-2075) |
 | Riesgos: | Alto |
 | Impacto: | Puede ejecutar comando arbitrarios dentro del equipo |
 | Sistemas | Metaesploitable3 Ubuntu |
@@ -127,7 +127,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | La aplicación Apache Continuum que se ejecuta en el sistema tiene una vulnerabilidad de ejecución remota de código. |
 | --- | --- |
 | CVSS v2.0 | 9.3 |
-| CVE/CWE | https://nvd.nist.gov/vuln/detail/CVE-2013-2251 |
+| CVE/CWE | [CVE-2013-2251](https://nvd.nist.gov/vuln/detail/CVE-2013-2251) |
 | Riesgos: | Crítico |
 | Impacto: | Un atacante puede hacer una inyección remota de código y ganar acceso al sistema. |
 | Sistemas | Metaesploitable3 Ubuntu |
@@ -142,7 +142,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | El host remoto usa ProFTPD, un servidor FTP gratuito para Unix y Linux, versión anterior a 1.3.0a, vulnerable a manipulación de cadenas, desbordamiento de búfer en mod_tls y desbordamiento de búfer off-by-two, que podrían permitir a un atacante estrellar el servicio o ejecutar código arbitrario, dependiendo de los privilegios de la aplicación. |
 | --- | --- |
 | CVSS v2.0 | 10 |
-| CVE/CWE | https://www.tenable.com/cve/CVE-2006-5815, https://www.tenable.com/cve/CVE-2006-6170, https://www.tenable.com/cve/CVE-2006-6171 |
+| CVE/CWE | [CVE-2006-5815](https://www.tenable.com/cve/CVE-2006-5815) |
 | Riesgos: | Crítico |
 | Impacto: | Un atacante puede ejecutar codigo arbitrario para ganar privilegios y afectar el sistema |
 | Sistemas | Metaesploitable3 Ubuntu |
@@ -157,7 +157,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | Un recurso compartido NETBIOS / SMB crítico para el sistema tiene un control de acceso inadecuado |
 | --- | --- |
 | CVSS v3.0 | 9.8 |
-| CVE/CWE | https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-1999-0520 |
+| CVE/CWE | [CVE-1999-0520](https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-1999-0520) |
 | Riesgos: | Crítico |
 | Impacto: | Un atacante puede obtener información importante del sistema |
 | Sistemas | Metaesploitable3 Ubuntu |
@@ -172,7 +172,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | Credenciales robadas de clientes SSH a través del programa ssh-agent, lo que permite a otros usuarios locales acceder a cuentas remotas pertenecientes al usuario ssh-agent |
 | --- | --- |
 | CVSS v2.0 | 7.5 |
-| CVE/CWE | https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-1999-0013 |
+| CVE/CWE | [CVE-1999-0013](https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-1999-0013) |
 | Riesgos: | Alto |
 | Impacto: | Un atacante puede acceder con las otras cuentas, a información importante |
 | Sistemas | Metaesploitable3 Ubuntu |
@@ -187,7 +187,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | Exposición de información confidencial no autorizado |
 | --- | --- |
 | CVSS v2.0 | 7.5 |
-| CVE/CWE | https://cwe.mitre.org/data/definitions/200.html |
+| CVE/CWE | [CWE-200](https://cwe.mitre.org/data/definitions/200.html) |
 | Riesgos: | Alto |
 | Impacto: | Un atacante puede acceder a información importante |
 | Sistemas | Metaesploitable3 Ubuntu |
@@ -202,7 +202,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | Almacenar contraseñas en archivos |
 | --- | --- |
 | CVSS v2.0 | - |
-| CVE/CWE | https://cwe.mitre.org/data/definitions/256.html |
+| CVE/CWE | [CWE-256](https://cwe.mitre.org/data/definitions/256.html) |
 | Riesgos: | Crítico |
 | Impacto: | Un atacante puede mirar los archivos y tener la contraseña para acceder a datos importantes |
 | Sistemas | Metaesploitable3 Ubuntu |
@@ -217,7 +217,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | El puerto 3500 es vulnerable a inyecciones de código SQL |
 | --- | --- |
 | CVSS v3.0 | 9.8 |
-| CVE/CWE | https://cwe.mitre.org/data/definitions/89.html |
+| CVE/CWE | [CWE-89](https://cwe.mitre.org/data/definitions/89.html) |
 | Riesgos: | Crítico |
 | Impacto: | Un atacante puede obtener información importante de los usuarios, el cual, le permitiría acceder al sistema |
 | Sistemas | Metaesploitable3 Ubuntu |
@@ -235,7 +235,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | Anonymous FTP is enabled. |
 | --- | --- |
 | CVSS v3.0 | 5.3 |
-| CVE/CWE | https://nvd.nist.gov/vuln/detail/CVE-1999-0497 |
+| CVE/CWE | [CVE-1999-0497](https://nvd.nist.gov/vuln/detail/CVE-1999-0497) |
 | Riesgos: | Medio |
 | Impacto: | El atacante puede acceder a los archivos que estén disponibles y conectarse, sin necesidad de contraseña |
 | Sistemas | W1R3S |
@@ -250,7 +250,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Descripción: | Este host tiene instalado Cuppa CMS, el cual tiene una vulnerabilidad de inclusión de ficheros. |
 | --- | --- |
 | CVSS v3.0 | 7.6 |
-| CVE/CWE | https://cwe.mitre.org/data/definitions/98.html |
+| CVE/CWE | [CWE-98](https://cwe.mitre.org/data/definitions/98.html) |
 | Riesgos: | Alto |
 | Impacto: | Una explotación exitosa permitiría a los atacantes de leer e incluso, incluir ficheros arbitrarios del sistema local usando secuencias de directorios trasversales en el sistema atacado |
 | Sistemas | W1R3S |
