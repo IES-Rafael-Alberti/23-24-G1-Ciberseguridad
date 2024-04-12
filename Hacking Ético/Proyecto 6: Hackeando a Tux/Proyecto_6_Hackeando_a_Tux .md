@@ -68,6 +68,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 ### SMB Signing not Required <div id='smb' />
 
 | Descripción: | En el SMB no está puesta la opción de requerir signing, haciendo que cualquier atacante malicioso pueda realizar man in the middle para obtener información del sistema, incluyendo usuarios. |
+| --- | --- |
 | CVSS v3.0 | 5.9 |
 | CVE/CWE | [CVE-2016-2115](https://nvd.nist.gov/vuln/detail/CVE-2016-2115) |
 | Riesgos: | Medio |
