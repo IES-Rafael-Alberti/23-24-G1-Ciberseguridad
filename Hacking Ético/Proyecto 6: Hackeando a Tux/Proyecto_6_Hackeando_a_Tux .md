@@ -1,48 +1,5 @@
 # Proyecto 6: Hackeando a Tux
 
-# Formulario de autorización de Pentesting
-
-**Cliente:** Pata de palo Corp
-
-**Fecha de inicio del pentesting:** 10/04/2024
-
-**Fecha de finalización del pentesting:** 13/04/2024
-
-### **Objetivo del Pentesting**
-
-Asegurar la integridad de la información de los sistemas y los clientes con un análisis exhaustivo debido a un aviso de una posible vulnerabilidad en sus servidores.
-
-### **Ámbito del Pentesting**
-
-Se procederá a hacer un análisis exhaustivo en las tres máquinas virtuales proporcionadas por la empresa para buscar todo tipo de pruebas, exploraciones y explotaciones con el fin de realizar un informe exhaustivo que incluya soluciones a los problemas que se encuentren en dicho análisis.
-
-### **Acuerdo de Confidencialidad**
-
-Es considerado como información clasificada o confidencial toda la información que sea proporcionado por la empresa “Pata de palo Corp” y que esté incluida en los sistemas designados en el Ámbito, no pudiendo ser divulgada a terceros bajo ningún concepto exceptuando con permiso previo de la empresa u orden judicial expresa. En esta información está incluída los datos técnicos, financieros, documentos, u otro tipo de información que pueda recopilarse en todas sus formas.
-
-### **Autorización del Pentesting**
-
-- Autorizo al Grupo 1, y a sus empleados o agentes designados, a llevar a cabo pruebas de penetración en los sistemas especificados en el ámbito del pentesting, según lo descrito en el objetivo.
-- Autorizo al Grupo 1 a realizar todas las pruebas que se vean necesarias, siempre y cuando la integridad de los sistemas no se vea afectada.
-- Autorizo al Grupo 1 a usar todas las herramientas que tengan disponibles para las pruebas.
-- Autorizo al Grupo 1 a realizar pruebas que puedan causar interrupciones o perturbaciones en los sistemas, redes, aplicaciones o servicios especificados en el ámbito del pentesting.
-- Autorizo al Grupo 1 a realizar pruebas que puedan generar falsos positivos o alertas de seguridad en los sistemas de detección de intrusiones o sistemas de prevención de intrusiones.
-- Autorizo al Grupo 1 a realizar pruebas que puedan generar tráfico de red adicional o aumentar el uso de recursos en los sistemas, redes, aplicaciones o servicios especificados en el ámbito del pentesting.
-- Autorizo al Grupo 1 a realizar pruebas que puedan generar registros de auditoría o eventos de seguridad adicionales en los sistemas, redes, aplicaciones o servicios especificados en el ámbito del pentesting.
-- Autorizo al Grupo 1 a recopilar y analizar datos de los sistemas, redes, aplicaciones o servicios especificados en el ámbito del pentesting, con el fin de identificar vulnerabilidades o riesgos de seguridad.
-- Autorizo al Grupo 1 a utilizar los datos recopilados durante el pentesting únicamente con fines de evaluación de seguridad y para generar recomendaciones de mejora de seguridad.
-- Solicito al Grupo 1 a proporcionarme un informe detallado de los resultados del pentesting, incluyendo una descripción de las vulnerabilidades o riesgos de seguridad identificados, una evaluación de su gravedad y una recomendación de medidas de mitigación o corrección.
-- Solicito al Grupo 1 a proporcionarme asistencia y asesoramiento en la implementación de las medidas de mitigación o corrección recomendadas.
-
-### **Tarifas y pagos**
-
-El Cliente aceptará desembolsar el pago por el servicio recibido del Proveedor, en un acuerdo financiero donde se especificarán todas las tarifas asociadas que deberá presentarse junto con este documento y firmado al mismo tiempo.
-
-**Firma del cliente:** “Pata de Palo Corp Boss”
-
-**Fecha:** 10/04/2024
-
----
 
 ## **Índice**
 
