@@ -282,9 +282,3 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Prueba de Concepto | ![cupacms.PNG](Proyecto_6_Fotos/cupacms.png) ![hack.png](Proyecto_6_Fotos/hack.png) ![mas informacion del perfil.PNG](Proyecto_6_Fotos/mas_informacion_del_perfil1.png) |
 
 
-## Referencias Formulario de Autorización de Pentesting
-
-- [https://www.getastra.com/blog/security-audit/penetration-testing-cost/](https://www.getastra.com/blog/security-audit/penetration-testing-cost/)
-- [https://fad.es/wp-content/uploads/2019/05/Ibermática_Pen_testing-FAD.pdf](https://fad.es/wp-content/uploads/2019/05/Iberm%C3%A1tica_Pen_testing-FAD.pdf)
-- Apuntes de clase
-- [Perplexity](https://www.perplexity.ai/)
