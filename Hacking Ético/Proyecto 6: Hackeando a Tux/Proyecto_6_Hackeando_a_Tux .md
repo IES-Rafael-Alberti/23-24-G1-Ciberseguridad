@@ -70,7 +70,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Sistemas | Kioptrix |
 | Remediación: | Actualizar a la versión más actual. |
 | Referencias: | https://nvd.nist.gov/vuln/detail/CVE-2002-0082 |
-| Prueba de Concepto | ![Untitled.png](Proyecto_6_Fotos/Untitled%201.png) |
+| Prueba de Concepto | ![Untitled.png](Proyecto_6_Fotos/Untitled33.png) |
 
 ---
 
