@@ -118,7 +118,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Sistemas | Metaesploitable3 Ubuntu |
 | Remediación: | Re-descargarel software, verificar el MD5/SHA1 publicados y re-instalarlo |
 | Referencias: | https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2010-2075 |
-| Prueba de Concepto | ![Untitled](Proyecto_6_Fotos/Untitled%206.png) |
+| Prueba de Concepto | ![Untitled](Proyecto_6_Fotos/unreal.png) |
 
 
 
