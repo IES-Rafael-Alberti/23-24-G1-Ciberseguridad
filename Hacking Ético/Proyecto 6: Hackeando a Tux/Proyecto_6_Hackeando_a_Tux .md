@@ -21,7 +21,7 @@
      5.2.7 [SSH fuerza bruta](#ssh)  
      5.2.8 [Information desclosure](#information)  
      5.2.9 [Contraseñas en texto plano](#contraseñas)  
-     5.2.10 [Inyección puerto 3500](#3500)  
+     5.2.10 [Inyección Servicio Rails](#3500)  
    5.3 [Máquina **W1R3S**](#w1r3s)  
      5.3.1 [Anonymous FTP is enabled](#ftp)  
      5.3.2 [Cuppa CMS Remote/Local File Inclusion Vulnerability](#cuppa)  
@@ -75,7 +75,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | Pueden hacer ataques de Man in the middle para poder acceder a información privilegiada. |
 | Sistemas | Kioptrix |
 | Remediación: | Obligar el signing en los equipos. |
-| Referencias: | https://nvd.nist.gov/vuln/detail/CVE-2016-2115, https://www.tenable.com/cve/CVE-2016-2115 |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/techniques/T1566/001/) |
 | Prueba de Concepto | ![Untitled](Proyecto_6_Fotos/Untitled%2011.png) |
 
 
@@ -92,7 +92,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | Insertar código arbitrario dentro del Apache para obtener todos los datos de dentro. |
 | Sistemas | Kioptrix |
 | Remediación: | Actualizar a la versión más actual. |
-| Referencias: | https://nvd.nist.gov/vuln/detail/CVE-2002-0082 |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/tactics/TA0002/) |
 | Prueba de Concepto | ![Untitled.png](Proyecto_6_Fotos/Untitled33.png) |
 
 ---
@@ -111,7 +111,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | Un atacante remoto no autenticado puede explotar esto, mediante una solicitud especialmente diseñada, para ejecutar código PHP arbitrario. |
 | Sistemas | Metaesploitable3 Ubuntu |
 | Remediación: | Actualiza el módulo Coder a la versión 7.x-1.3 / 7.x-2.6 o posterior. |
-| Referencias: | “Information regarding vulnerability” https://www.cvedetails.com/cve/CVE-2010-2075/ |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/techniques/T1059/), [Ataque Mitre 2](https://attack.mitre.org/tactics/TA0002/) |
 | Prueba de Concepto | ![Untitled](Proyecto_6_Fotos/Untitled%202.png) |
 
 
@@ -126,7 +126,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | Esto puede ser utilizado por los atacantes para hacerse con la información de la base de datos, como usuarios y contraseñas. |
 | Sistemas | Metaesploitable3 Ubuntu |
 | Remediación: | Mejorar la configuración de SQL, validando y filtrando la entrada de la petición y denegando el uso de caracteres especiales. |
-| Referencias: | https://packetstormsecurity.com/files/166580/Payroll-Management-System-1.0-SQL-Injection.html |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/techniques/T1212/) |
 | Prueba de Concepto | ![Untitled](Proyecto_6_Fotos/Untitled%203.png) ![Untitled](Proyecto_6_Fotos/Untitled%204.png) ![Untitled](Proyecto_6_Fotos/Untitled%205.png) |
 
 
@@ -140,7 +140,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | Puede ejecutar comando arbitrarios dentro del equipo |
 | Sistemas | Metaesploitable3 Ubuntu |
 | Remediación: | Re-descargarel software, verificar el MD5/SHA1 publicados y re-instalarlo |
-| Referencias: | https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2010-2075 |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/techniques/T1571/) |
 | Prueba de Concepto | ![Untitled](Proyecto_6_Fotos/unreal.png) |
 
 
@@ -155,7 +155,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | Un atacante puede hacer una inyección remota de código y ganar acceso al sistema. |
 | Sistemas | Metaesploitable3 Ubuntu |
 | Remediación: | Actualizar la versión de Apache |
-| Referencias: | https://nvd.nist.gov/vuln/detail/CVE-2013-2251 |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/techniques/T1059/), [Ataque Mitre 2](https://attack.mitre.org/tactics/TA0002/) |
 | Prueba de Concepto | ![apache continuum.png](Proyecto_6_Fotos/apache_continuum.png) |
 
 
@@ -170,7 +170,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | Un atacante puede ejecutar codigo arbitrario para ganar privilegios y afectar el sistema |
 | Sistemas | Metaesploitable3 Ubuntu |
 | Remediación: | Actualizar la version de ProFTPD a 1.3.0 o una posterior |
-| Referencias: | https://www.tenable.com/cve/CVE-2006-5815, https://www.tenable.com/cve/CVE-2006-6170, https://www.tenable.com/cve/CVE-2006-6171 |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/tactics/TA0006/) |
 | Prueba de Concepto | ![proftpd.png](Proyecto_6_Fotos/proftpd.png) |
 
 
@@ -185,7 +185,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | Un atacante puede obtener información importante del sistema |
 | Sistemas | Metaesploitable3 Ubuntu |
 | Remediación: | Actualizar el sistema, implementar firewalls, monitorear la red… |
-| Referencias: | https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-1999-0520 |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/tactics/TA0007/) |
 | Prueba de Concepto | ![smbenumuser.png](Proyecto_6_Fotos/smbenumuser.png) |
 
 
@@ -200,7 +200,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | Un atacante puede acceder con las otras cuentas, a información importante |
 | Sistemas | Metaesploitable3 Ubuntu |
 | Remediación: | Vigilar tráfico de red y limitar los usuarios que puedan entrar al SSH |
-| Referencias: |  |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/techniques/T1110/) |
 | Prueba de Concepto | ![ssh bruteforce.png](Proyecto_6_Fotos/ssh_bruteforce.png) |
 
 
@@ -215,7 +215,7 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | Un atacante puede acceder a información importante |
 | Sistemas | Metaesploitable3 Ubuntu |
 | Remediación: | Monitorear el software y aplicaciones web para que no ocurra |
-| Referencias: | https://cwe.mitre.org/data/definitions/200.html |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/techniques/T1046/) |
 | Prueba de Concepto | ![puerto80 information.png](Proyecto_6_Fotos/puerto80_information.png) |
 
 
@@ -230,22 +230,22 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | Un atacante puede mirar los archivos y tener la contraseña para acceder a datos importantes |
 | Sistemas | Metaesploitable3 Ubuntu |
 | Remediación: | Cifrar las contraseñas, limitar acceso de los archivos… |
-| Referencias: | https://cwe.mitre.org/data/definitions/256.html |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/tactics/TA0006/) |
 | Prueba de Concepto | ![payroll pass.png](Proyecto_6_Fotos/payroll_pass.png) |
 
 
 
-## Inyección puerto 3500 <div id='3500' />
+## Inyección Servicio Rails <div id='3500' />
 
-| Descripción: | El puerto 3500 es vulnerable a inyecciones de código SQL |
+| Descripción: | Exposición de ficheros a través del comandos arbitrarios |
 | --- | --- |
-| CVSS v3.0 | 9.8 |
-| CVE/CWE | [CWE-89](https://cwe.mitre.org/data/definitions/89.html) |
-| Riesgos: | Crítico |
+| CVSS v3.0 | 7.5 |
+| CVE/CWE | [CVE-2019-5418](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5418) |
+| Riesgos: | Alto |
 | Impacto: | Un atacante puede obtener información importante de los usuarios, el cual, le permitiría acceder al sistema |
 | Sistemas | Metaesploitable3 Ubuntu |
 | Remediación: | Mejorar la configuración de SQL, validando y filtrando la entrada de la petición y denegando el uso de caracteres especiales. |
-| Referencias: | https://cwe.mitre.org/data/definitions/89.html |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/tactics/TA0006/), [Ataque Mitre 2](https://attack.mitre.org/techniques/T1059/) |
 | Prueba de Concepto | ![vulninyeccion3500.png](Proyecto_6_Fotos/vulninyeccion3500.png) ![inyeccion3500.png](Proyecto_6_Fotos/inyeccion3500.png)|
 
 
@@ -263,22 +263,22 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Impacto: | El atacante puede acceder a los archivos que estén disponibles y conectarse, sin necesidad de contraseña |
 | Sistemas | W1R3S |
 | Remediación: | Quitar el FTP anónimo si no es requerido. Revisar de vez en cuando el FTP para que no sea comprometido |
-| Referencias: | https://nvd.nist.gov/vuln/detail/CVE-1999-0497 |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/tactics/TA0007/) |
 | Prueba de Concepto | ![ftp anonimo.PNG](Proyecto_6_Fotos/ftp_anonimo.png) ![Untitled](Proyecto_6_Fotos/Untitled%207.png) |
 
 
 
 ### Cuppa CMS Remote/Local File Inclusion Vulnerability <div id='cuppa' />
 
-| Descripción: | Este host tiene instalado Cuppa CMS, el cual tiene una vulnerabilidad de inclusión de ficheros. |
+| Descripción: | Este host tiene instalado Cuppa CMS, el cual tiene una vulnerabilidad de inclusión de ficheros. EL cúal, a través del comandos arbitrarios, se puede acceder |
 | --- | --- |
-| CVSS v3.0 | 7.6 |
-| CVE/CWE | [CWE-98](https://cwe.mitre.org/data/definitions/98.html) |
+| CVSS v3.0 | 7.5 |
+| CVE/CWE | [CVE-2019-5418](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5418) |
 | Riesgos: | Alto |
 | Impacto: | Una explotación exitosa permitiría a los atacantes de leer e incluso, incluir ficheros arbitrarios del sistema local usando secuencias de directorios trasversales en el sistema atacado |
 | Sistemas | W1R3S |
-| Remediación: | Actualizar a la versión más reciente, deshabilitar las características respectivas, eliminar el programa y remplazarlo por otro… |
-| Referencias: | https://cwe.mitre.org/data/definitions/98.html, https://www.securityspace.com/smysecure/catid.html?id=1.3.6.1.4.1.25623.1.0.803805 |
+| Remediación: | Actualizar a la versión más reciente, mejorar configuración… |
+| Referencias: | [Ataque Mitre](https://attack.mitre.org/tactics/TA0006/), [Ataque Mitre 2](https://attack.mitre.org/techniques/T1059/) |
 | Prueba de Concepto | ![cupacms.PNG](Proyecto_6_Fotos/cupacms.png) ![hack.png](Proyecto_6_Fotos/hack.png) ![mas informacion del perfil.PNG](Proyecto_6_Fotos/mas_informacion_del_perfil1.png) |
 
 
