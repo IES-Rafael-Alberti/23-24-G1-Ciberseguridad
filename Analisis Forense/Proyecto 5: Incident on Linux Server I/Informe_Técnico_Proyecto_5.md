@@ -15,7 +15,7 @@
 6. [Herramientas usadas](#herramientas)   
 7. [Anexo](#anexo)   
     7.1 [Metodología Utilizada](#metodologia) 
-8. [Anexo de hallazgos](#anexoh) 
+8. [Anexo de vestigios](#anexoh) 
 
 # 1. Resumen Ejecutivo <div id='resumen' />
 
@@ -107,21 +107,21 @@ Con esto, podemos ver que con los 5 Hashes, coinciden todos con los dados anteri
 
 Se nos alerta que la aplicación vulnerada es web, por lo cual lo primero que hacemos es irnos a la raíz de la aplicación web /root/var/www en la cual encontramos un archivo, ping.php que parece ser el fichero que aprovecho el intruso para inyectar código en el servidor y conseguir su cometido.
 
-[Véase Anexo de hallazgos. Hallazgo 1](#h1)
+[Véase Anexo de Vestigios. Vestigio 1](#h1)
 
 Sabiendo esto, buscamos los logs de conexión para determinar la identidad de este sujeto.
 
 Dicha información se encuentran en la ruta /root/var/log/apache2/ y en el fichero access.log en el cual podemos encontrar tanto la IP, el sistema operativo y el navegador web que estaba utilizando el atacante.
 
-[Véase Anexo de hallazgos. Hallazgo 2](#h2)
+[Véase Anexo de Vestigios. Vestigio 2](#h2)
 
 Si nos vamos a la ruta /root/var/www/, podemos ver que se encuentra el archivo passwd.txt dentro, podemos ver que es una copia del fichero passwd del sistema. Lo cual nos dice que es el que se ha filtrado, debido a que originalmente, donde debería estar el fichero sería en /root/etc no colgado en la aplicación web.
 
-[Véase Anexo de hallazgos. Hallazgo 3](#h3)
+[Véase Anexo de Vestigios. Vestigio 3](#h3)
 
 # 5. Conclusión <div id='conclusion' />
 
-La presencia del archivo ping.php en la raíz de la aplicación sugiere una posible explotación por parte de un intruso para comprometer el servidor. La identificación del atacante a través de los registros de conexión proporciona información crucial para la investigación. Además, la presencia inadecuada de una copia del archivo passwd del sistema en la aplicación web indica una filtración de información sensible. Estos hallazgos destacan la importancia de implementar medidas de seguridad robustas y de realizar una vigilancia continua para proteger los sistemas contra posibles ataques.
+La presencia del archivo ping.php en la raíz de la aplicación sugiere una posible explotación por parte de un intruso para comprometer el servidor. La identificación del atacante a través de los registros de conexión proporciona información crucial para la investigación. Además, la presencia inadecuada de una copia del archivo passwd del sistema en la aplicación web indica una filtración de información sensible. Estos Vestigios destacan la importancia de implementar medidas de seguridad robustas y de realizar una vigilancia continua para proteger los sistemas contra posibles ataques.
 
 ### 5.1 Soluciones ante la vulnerabilidad explotada <div id='soluciones' />
 
@@ -186,9 +186,9 @@ relacionadas con una intrusión, como su origen, la lista de sistemas afectados,
 usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
 auditable, repetible y defendible.
 
-## 8. Anexo de hallazgos <div id='anexoh' />
+## 8. Anexo de Vestigios <div id='anexoh' />
 
-### Hallazgo 1 <div id='h1' />
+### Vestigio 1 <div id='h1' />
 
 | Ruta | /root/var/www/ping.php |
 | --- | --- |
@@ -200,7 +200,7 @@ auditable, repetible y defendible.
 
 
 
-### Hallazgo 2 <div id='h2' />
+### Vestigio 2 <div id='h2' />
 
 | Ruta | /root/var/log/apache2/access.log |
 | --- | --- |
@@ -212,7 +212,7 @@ auditable, repetible y defendible.
 
 
 
-### Hallazgo 3 <div id='h3' />
+### Vestigio 3 <div id='h3' />
 
 | Ruta | /root/var/www/passwd.txt |
 | --- | --- |
