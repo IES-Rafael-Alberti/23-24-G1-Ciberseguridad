@@ -1,16 +1,33 @@
 # Informe Técnico Proyecto 5
 
-# 1. Resumen Ejecutivo
+# Índice
+1. [Resumen Ejecutivo](#resumen)   
+2. [Introducción](#introduccion)   
+    2.1 [Antecedentes](#antecedentes)   
+    2.2 [Objetivos](#objetivos)   
+    2.3 [Alcance](#alcance)   
+3. [Información analizada](#informacion)   
+4. [Análisis](#analisis)     
+    4.1 [Comparación de hashes](#comparacion)      
+    4.2 [Investigación](#investigacion)  
+5. [Conclusión](#conclusion) 
+   5.1 [Soluciones ante la vulnerabilidad explotada](#soluciones)  
+7. [Herramientas usadas](#herramientas) 
+8. [Anexo](#anexo) 
+    7.1 [Metodología Utilizada](#metodologia) 
+7. [Anexo de hallazgos](#anexoh) 
+
+# 1. Resumen Ejecutivo <div id='resumen' />
 
 Se detectó una vulnerabilidad en una aplicación web tras encontrar el archivo ping.php en la raíz de la aplicación (/root/var/www), utilizado por un intruso para inyectar código en el servidor. Se investigaron los registros de conexión en /root/var/log/apache2/access.log para identificar al atacante, donde se halló su IP, sistema operativo y navegador web. Además, se descubrió una copia del archivo passwd del sistema, llamado passwd.txt, en /root/var/www/, indicando una filtración de información al no estar en la ubicación esperada (/root/etc).
 
-# 2. Introducción
+# 2. Introducción <div id='introduccion' />
 
-## 2.1 Antecedentes
+## 2.1 Antecedentes <div id='antecedentes' />
 
 Un técnico, Vicente, recibió la notificación de un posible incidente de seguridad: la infiltración de datos sensibles desde un servidor a través de una aplicación web aparentemente segura. La aplicación web en cuestión, diseñada para realizar escaneos de red remotos, ocultaba una vulnerabilidad crítica. 
 
-## 2.2 Objetivos
+## 2.2 Objetivos <div id='objetivos' />
 
 Los objetivos de este informe técnico son:
 
@@ -18,11 +35,11 @@ Los objetivos de este informe técnico son:
 - Resolver el incidente
 - Descubrir información del atacante y su intención
 
-## 2.3 Alcance
+## 2.3 Alcance <div id='alcance' />
 
 Análisis completo de la imagen del disco del equipo afectado así como de un volcado de su memoria RAM en busca de el rastro dejado por el intruso.
 
-# 3. Información analizada
+# 3. Información analizada <div id='informacion' />
 
 | Adquisición | captura_ram.lime |
 | --- | --- |
@@ -38,9 +55,9 @@ Análisis completo de la imagen del disco del equipo afectado así como de un vo
 | HASH SHA1 | 9ff3a2604d4c3bc35e2ca245e0952cd4ea80e902 |
 | HASH SHA256 | 9f2b2dace6cfebec1b6f956fc231e199c00f39e05d50286b8f284043537d65d9 |
 
-# 4. Análisis
+# 4. Análisis <div id='analisis' />
 
-### 4.1 Comparación de hashes
+### 4.1 Comparación de hashes <div id='comparacion' />
 
 Comenzaremos con mostrar los hashes SHA-256, que veía con las pruebas:
 
@@ -86,7 +103,7 @@ SHA256:
 
 Con esto, podemos ver que con los 5 Hashes, coinciden todos con los dados anteriormente.
 
-### 4.2 Investigación
+### 4.2 Investigación <div id='investigacion' />
 
 Se nos alerta que la aplicación vulnerada es web, por lo cual lo primero que hacemos es irnos a la raíz de la aplicación web /root/var/www en la cual encontramos un archivo, ping.php que parece ser el fichero que aprovecho el intruso para inyectar código en el servidor y conseguir su cometido.
 
@@ -102,18 +119,18 @@ Si nos vamos a la ruta /root/var/www/, podemos ver que se encuentra el archivo p
 
 (Véase Anexo de hallazgos. Hallazgo 3)
 
-# 5. Conclusión
+# 5. Conclusión <div id='conclusion' />
 
 La presencia del archivo ping.php en la raíz de la aplicación sugiere una posible explotación por parte de un intruso para comprometer el servidor. La identificación del atacante a través de los registros de conexión proporciona información crucial para la investigación. Además, la presencia inadecuada de una copia del archivo passwd del sistema en la aplicación web indica una filtración de información sensible. Estos hallazgos destacan la importancia de implementar medidas de seguridad robustas y de realizar una vigilancia continua para proteger los sistemas contra posibles ataques.
 
-### 5.1 Soluciones ante la vulnerabilidad explotada
+### 5.1 Soluciones ante la vulnerabilidad explotada <div id='soluciones' />
 
 - Configurar Reglas de Firewall → Utilizar un firewall para bloquear accesos a direcciones IP no autorizadas. Podemos configurar reglas de firewall para bloquear solicitudes entrantes hacia ese archivo específico.
 - Utilizar medidas de seguridad a nivel de aplicación: Implementar la autenticación y autorización en tu aplicación web para restringir el acceso a ciertas funciones o archivos solo a usuarios autenticados y autorizados. E incluso validar y filtrar todas las entradas de usuario para evitar ataques de inyección.
 - Actualizar y parchear regularmente: Mantén actualizado tu software y sistema operativo para protegerse contra vulnerabilidades conocidas que podrían ser explotadas.
 - Implementar un WAF (Web Application Firewall): Para poder detectar y bloquear intentos maliciosos mediante inspección de tráfico web y la aplicación de reglas de seguridad.
 
-# 6. Herramientas usadas
+# 6. Herramientas usadas <div id='herramientas' />
 
 FTK Imager:
 
@@ -136,9 +153,9 @@ Volatility:
 | Versión: | 2.7 |
 | Página web | https://volatilityfoundation.org/ |
 
-# 7. Anexo
+# 7. Anexo <div id='anexo' />
 
-### 7.1 Metodología Utilizada
+### 7.1 Metodología Utilizada <div id='metodologia' />
 
 A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
 las evidencias:
@@ -169,7 +186,7 @@ relacionadas con una intrusión, como su origen, la lista de sistemas afectados,
 usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
 auditable, repetible y defendible.
 
-## 8. Anexo de hallazgos
+## 8. Anexo de hallazgos <div id='anexoh' />
 
 Hallazgo 1
 
