@@ -105,17 +105,15 @@ Con esto, podemos ver que con los 5 Hashes, coinciden todos con los dados anteri
 
 ### 4.2 Investigación <div id='investigacion' />
 
-Se nos alerta que la aplicación vulnerada es web, por lo cual lo primero que hacemos es irnos a la raíz de la aplicación web /root/var/www en la cual encontramos un archivo, ping.php que parece ser el fichero que aprovecho el intruso para inyectar código en el servidor y conseguir su cometido.
+Tras una investigación del volcado de disco, se ha encontrado en la raíz de las aplicaciones  web, en la ruta /root/var/www/, hemos encontrado un archivo llamado ping.php, el cuál tras su análisis, se ha podido comprobar que esta aplicación tiene un vulnerabilidad en el código, por el cual el sospechoso ha podido exfiltrar información sobre el servidor.
 
 [Véase Anexo de Vestigios. Vestigio 1](#h1)
 
-Sabiendo esto, buscamos los logs de conexión para determinar la identidad de este sujeto.
-
-Dicha información se encuentran en la ruta /root/var/log/apache2/ y en el fichero access.log en el cual podemos encontrar tanto la IP, el sistema operativo y el navegador web que estaba utilizando el atacante.
+Sabiendo esto, se han analizados los logs de conexión de las mismas aplicaciones webs para determinar la “identidad” del sujeto. Esta información, ubicada en /root/log/apache2/access.log, nos ha permitido visualizar la IP, el sistema operativo y el navegador web desde el que realizó el ataque.
 
 [Véase Anexo de Vestigios. Vestigio 2](#h2)
 
-Si nos vamos a la ruta /root/var/www/, podemos ver que se encuentra el archivo passwd.txt dentro, podemos ver que es una copia del fichero passwd del sistema. Lo cual nos dice que es el que se ha filtrado, debido a que originalmente, donde debería estar el fichero sería en /root/etc no colgado en la aplicación web.
+En la misma raíz donde se ubican las aplicaciones webs y el archivo ping.php, hemos podido encontrar un fichero llamado passwd.txt, este fichero parece contener una copia del fichero original llamado de la misma manera, pero sin extensión, ubicado en la ruta /etc/passwd. Esto nos indica que dicho ataque ha podido exfiltrar los datos de dicho fichero.
 
 [Véase Anexo de Vestigios. Vestigio 3](#h3)
 
