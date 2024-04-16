@@ -12,10 +12,10 @@
     4.2 [Investigación](#investigacion)  
 5. [Conclusión](#conclusion)   
    5.1 [Soluciones ante la vulnerabilidad explotada](#soluciones)  
-7. [Herramientas usadas](#herramientas)   
-8. [Anexo](#anexo) 
+6. [Herramientas usadas](#herramientas)   
+7. [Anexo](#anexo) 
     7.1 [Metodología Utilizada](#metodologia) 
-7. [Anexo de hallazgos](#anexoh) 
+8. [Anexo de hallazgos](#anexoh) 
 
 # 1. Resumen Ejecutivo <div id='resumen' />
 
