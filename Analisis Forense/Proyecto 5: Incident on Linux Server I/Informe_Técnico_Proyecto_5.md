@@ -19,7 +19,7 @@
 
 # 1. Resumen Ejecutivo <div id='resumen' />
 
-Se detectó una vulnerabilidad en una aplicación web tras encontrar el archivo ping.php en la raíz de la aplicación (/root/var/www), utilizado por un intruso para inyectar código en el servidor. Se investigaron los registros de conexión en /root/var/log/apache2/access.log para identificar al atacante, donde se halló su IP, sistema operativo y navegador web. Además, se descubrió una copia del archivo passwd del sistema, llamado passwd.txt, en /root/var/www/, indicando una filtración de información al no estar en la ubicación esperada (/root/etc).
+Se detectó una vulnerabilidad en una aplicación web tras encontrar el archivo ping.php en la raíz de la aplicación (/root/var/www/), utilizado por un intruso para inyectar código en el servidor. Se investigaron los registros de conexión en /root/var/log/apache2/access.log para identificar al atacante, donde se halló su IP, sistema operativo y navegador web. Además, se descubrió una copia del archivo passwd del sistema, llamado passwd.txt, en /root/var/www/, indicando una filtración de información al no estar en la ubicación esperada (/root/etc/).
 
 # 2. Introducción <div id='introduccion' />
 
