@@ -175,34 +175,33 @@ Hallazgo 1
 
 | Ruta | /root/var/www/ping.php |
 | --- | --- |
-| Contenido |  |
+| Contenido | ![Untitled](Informe_Técnico_Proyecto_5/Untitled%205.png)  |
 | MAC | Modify: 2022-05-20 11:09:37.000000000 -0400 |
 | Tamaño | 542 |
 | HASH MD5 | d3f424335dac2d8af26ad3f0a99a1a7d  |
 | HASH SHA1 | 525132ce24328226594b0f97d0ef2d3f8b7a422e |
 
-![Untitled](Informe_Técnico_Proyecto_5/Untitled%205.png)
+
 
 Hallazgo 2
 
 | Ruta | /root/var/log/apache2/access.log |
 | --- | --- |
-| Contenido |  |
+| Contenido | ![Untitled](Informe_Técnico_Proyecto_5/Untitled%206.png) |
 | MAC | Modify: 2022-05-20 11:21:03.000000000 -0400 |
 | Tamaño | 3494 |
 | HASH MD5 | a71e80bd1ad541352d5907628f1bb3ce |
 | HASH SHA1 | 640b5541fb9d263389b923ad786701ab149f84f9 |
 
-![Untitled](Informe_Técnico_Proyecto_5/Untitled%206.png)
+
 
 Hallazgo 3
 
 | Ruta | /root/var/www/passwd.txt |
 | --- | --- |
-| Contenido |  |
+| Contenido | ![Untitled](Informe_Técnico_Proyecto_5/Untitled%207.png) |
 | MAC | Modify: 2022-05-20 11:13:49.000000000 -0400 |
 | Tamaño | 1626 |
 | HASH MD5 | 7cd7b33f99cc526d01473b553e1042d5 |
 | HASH SHA1 | 2d8c72a744c486342f5ec770ac27e8dd7b2f2ee0 |
 
-![Untitled](Informe_Técnico_Proyecto_5/Untitled%207.png)
