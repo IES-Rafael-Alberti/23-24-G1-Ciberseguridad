@@ -188,7 +188,7 @@ auditable, repetible y defendible.
 
 ## 8. Anexo de hallazgos <div id='anexoh' />
 
-Hallazgo 1 <div id='h1' />
+### Hallazgo 1 <div id='h1' />
 
 | Ruta | /root/var/www/ping.php |
 | --- | --- |
@@ -200,7 +200,7 @@ Hallazgo 1 <div id='h1' />
 
 
 
-Hallazgo 2 <div id='h2' />
+### Hallazgo 2 <div id='h2' />
 
 | Ruta | /root/var/log/apache2/access.log |
 | --- | --- |
@@ -212,7 +212,7 @@ Hallazgo 2 <div id='h2' />
 
 
 
-Hallazgo 3 <div id='h3' />
+### Hallazgo 3 <div id='h3' />
 
 | Ruta | /root/var/www/passwd.txt |
 | --- | --- |
