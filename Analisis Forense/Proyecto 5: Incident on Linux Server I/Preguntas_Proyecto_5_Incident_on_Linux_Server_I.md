@@ -32,7 +32,7 @@ Dentro de la carpeta /root/etc, podemos encontrar dos archivos passwd, con una g
     
 ![Untitled](Preguntas_Proyecto_5_Incident_on_Linux_Server_I/Untitled%203.png)
     
- Como lo que ha realizado el atacante ha sido una copia del fichero /etc/passwd, visto en la respuesta de la pregunta anterior, este no se ha visto modificado, simplemente se ha creado la copia de dicho fichero en la ubicación de la explotación /var/www/apache2/
+ Como lo que ha realizado el atacante ha sido una copia del fichero /etc/passwd, visto en la respuesta de la pregunta anterior, este no se ha visto modificado, simplemente se ha creado la copia de dicho fichero en la ubicación de la explotación /var/www/
     
 ## 5. Proponer soluciones para reparar la vulnerabilidad explotada.
 - Configurar Reglas de Firewall → Utilizar un firewall para bloquear accesos a direcciones IP no autorizadas. Podemos configurar reglas de firewall para bloquear solicitudes entrantes hacia ese archivo específico.
