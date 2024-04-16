@@ -107,17 +107,17 @@ Con esto, podemos ver que con los 5 Hashes, coinciden todos con los dados anteri
 
 Se nos alerta que la aplicación vulnerada es web, por lo cual lo primero que hacemos es irnos a la raíz de la aplicación web /root/var/www en la cual encontramos un archivo, ping.php que parece ser el fichero que aprovecho el intruso para inyectar código en el servidor y conseguir su cometido.
 
-(Véase Anexo de hallazgos. Hallazgo 1)
+[Véase Anexo de hallazgos. Hallazgo 1](#h1)
 
 Sabiendo esto, buscamos los logs de conexión para determinar la identidad de este sujeto.
 
 Dicha información se encuentran en la ruta /root/var/log/apache2/ y en el fichero access.log en el cual podemos encontrar tanto la IP, el sistema operativo y el navegador web que estaba utilizando el atacante.
 
-(Véase Anexo de hallazgos. Hallazgo 2)
+[Véase Anexo de hallazgos. Hallazgo 2](#h2)
 
 Si nos vamos a la ruta /root/var/www/, podemos ver que se encuentra el archivo passwd.txt dentro, podemos ver que es una copia del fichero passwd del sistema. Lo cual nos dice que es el que se ha filtrado, debido a que originalmente, donde debería estar el fichero sería en /root/etc no colgado en la aplicación web.
 
-(Véase Anexo de hallazgos. Hallazgo 3)
+[Véase Anexo de hallazgos. Hallazgo 3](#h3)
 
 # 5. Conclusión <div id='conclusion' />
 
@@ -188,7 +188,7 @@ auditable, repetible y defendible.
 
 ## 8. Anexo de hallazgos <div id='anexoh' />
 
-Hallazgo 1
+Hallazgo 1 <div id='h1' />
 
 | Ruta | /root/var/www/ping.php |
 | --- | --- |
@@ -200,7 +200,7 @@ Hallazgo 1
 
 
 
-Hallazgo 2
+Hallazgo 2 <div id='h2' />
 
 | Ruta | /root/var/log/apache2/access.log |
 | --- | --- |
@@ -212,7 +212,7 @@ Hallazgo 2
 
 
 
-Hallazgo 3
+Hallazgo 3 <div id='h3' />
 
 | Ruta | /root/var/www/passwd.txt |
 | --- | --- |
