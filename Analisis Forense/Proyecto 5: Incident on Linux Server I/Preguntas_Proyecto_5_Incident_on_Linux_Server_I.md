@@ -28,11 +28,7 @@ Se utilizo el archivo ping.php para realizar ejecución de código remoto en la 
 ![Untitled](Preguntas_Proyecto_5_Incident_on_Linux_Server_I/Untitled%202.png)
 
 ## 4. Analizar por qué el archivo original no muestra actividad durante el incidente.
-Dentro de la carpeta /root/etc, podemos encontrar dos archivos passwd, con una gran diferencia, en uno de los ficheros esta con un guion. Incluso tienen el mismo contenido . Lo que nos hace sospechas, que probablemente copio el fichero de passwd a ese fichero, para luego ponerlo con passwd.txt en /root/var/www/passwd.txt y luego obtener el fichero.
-    
-![Untitled](Preguntas_Proyecto_5_Incident_on_Linux_Server_I/Untitled%203.png)
-    
- Como lo que ha realizado el atacante ha sido una copia del fichero /etc/passwd, visto en la respuesta de la pregunta anterior, este no se ha visto modificado, simplemente se ha creado la copia de dicho fichero en la ubicación de la explotación /var/www/
+Como lo que ha realizado el atacante ha sido una copia del fichero /etc/passwd, visto en la respuesta de la pregunta anterior, este no se ha visto modificado, simplemente se ha creado la copia de dicho fichero en la ubicación de la explotación /var/www/
     
 ## 5. Proponer soluciones para reparar la vulnerabilidad explotada.
 - Configurar Reglas de Firewall → Utilizar un firewall para bloquear accesos a direcciones IP no autorizadas. Podemos configurar reglas de firewall para bloquear solicitudes entrantes hacia ese archivo específico.
