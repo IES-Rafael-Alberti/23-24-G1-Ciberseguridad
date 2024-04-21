@@ -136,7 +136,7 @@ Comenzamos la investigación con las conversaciones de WhatsApp de la víctima c
 
 [Véase Anexo de Vestigios. Vestigio 1.](Anexos.md) 
 
-En la conversación de WhatsApp de Atalus podemos encontrar esta misma conversación y otra más con el presunto cómplice Camillo, en esta conversación, encontramos la frustración de Atalus ante el rechazo de Lassandra y su bloqueo de esta red social, haciendo indicios de que utilizará un Rubber Ducky para robarle las contraseñas a la víctima y Camilo incita a Atalus que lo haga. 
+En el registro de conversaciones de WhatsApp de Atalus podemos encontrar esta misma conversación y otra más con el presunto cómplice Camillo, en esta conversación, encontramos la frustración de Atalus ante el rechazo de Lassandra y su bloqueo de esta red social, haciendo indicios de que utilizará un Rubber Ducky para robarle las contraseñas a la víctima y Camilo incita a Atalus que lo haga. 
 
 [Véase Anexo de Imágenes. Imagen 3.](Anexos.md)
 
