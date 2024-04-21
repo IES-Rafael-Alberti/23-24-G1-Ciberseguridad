@@ -1,46 +1,37 @@
 # Informe Móvil
 
-Índice
+## Índice
 
-1. Resumen Ejecutivo
-    
-    1.1 Línea Temporal
-    
-2. Introducción
-    
-    2.1 Antecedentes
-    
-    2.2 Objetivos
-    
-    2.3 Alcance
-    
-3. Información Analizada
-4. Análisis
-    
-    4.1 Comprobación de Hashes
-    
-    4.2 Investigación
-    
-5. Conclusión
-6. Recomendaciones
+1. [Resumen Ejecutivo](#resumen)
+    1.1 [Línea Temporal](#linea)
+2. [Introducción](#introduccion)
+    2.1 [Antecedentes](#antecedentes)
+    2.2 [Objetivos](#objetivos)
+    2.3 [Alcance](#alcance)
+3. [Información Analizada](#informacion)
+4. [Análisis](#analisis)  
+    4.1 [Comprobación de Hashes](#comprobacion) 
+    4.2 [Investigación](#investigacion)
+5. [Conclusión](#conclusion)
+6. [Recomendaciones](#recomendaciones)
 
-# 1. Resumen Ejecutivo
+# 1. Resumen Ejecutivo<div id='resumen' />
 
 La investigación revela un caso de acoso cibernético y robo de identidad, donde el presunto sospechoso Atalus intenta obtener contraseñas de la víctima Lassandra a través de un dispositivo Rubber Ducky, con la posible complicidad de Camillo. Se encontraron pruebas de manipulación de perfiles en redes sociales y acceso no autorizado a dispositivos informáticos, junto con amenazas hacia la víctima. La evidencia incluye conversaciones en WhatsApp y Telegram, búsquedas en internet relacionadas y registros de actividad en cuentas sociales, destacando un patrón de comportamiento delictivo en línea.
 
-## 1.1 Línea Temporal
+## 1.1 Línea Temporal<div id='linea' />
 
-![Ciberbullying.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Ciberbullying.png)
+![Ciberbullying.png](img/Ciberbullying.png)
 
-# 2. Introducción
+# 2. Introducción<div id='introduccion' />
 
-## 2.1 Antecedentes
+## 2.1 Antecedentes<div id='antecedentes' />
 
 La estudiante Lassandra Cordalis se ha enfrentado a un problema serio de acoso digital. Se ha reportado comportamiento inapropiado en aplicaciones de chat, y su cuenta de Instagram ha sido comprometida. Lassandra sospecha de dos de sus compañeros, Atalus Grasstem y Camillo Richbald, como posibles responsables.
 
 La situación se agrava aún más cuando Lassandra descubre que su cuenta de Instagram ha sido alterada, posiblemente como resultado del acoso digital que ha estado experimentando.
 
-## 2.2 Objetivos
+## 2.2 Objetivos<div id='objetivos' />
 
 Los objetivos de este informe técnico son:
 
@@ -48,11 +39,11 @@ Los objetivos de este informe técnico son:
 - Obtener evidencia de que el sospechoso ha estado acosando a la estudiante en aplicaciones de chat
 - Identificar si el sospechoso está involucrado en el defacament de la cuenta de Instagram de la estudiante
 
-## 2.3 Alcance
+## 2.3 Alcance<div id='alcance' />
 
 Análisis completo de los dispositivos móviles, WhatsApp y servidor Google de los involucrados. Análisis de el Telegram, Instagram y ordenador en el instituto de la víctima. Y analizar la la cámara IP Imou.
 
-# 3. Información analizada
+# 3. Información analizada<div id='informacion' />
 
 | Adquisición | Tamaño (Bytes) | HASH SHA-256 | HASH MD5 | HASH SHA1 |
 | --- | --- | --- | --- | --- |
@@ -71,71 +62,71 @@ Análisis completo de los dispositivos móviles, WhatsApp y servidor Google de l
 | WhatsApp-Database-Camillo-Richbald.zip | 185.621 | c701ae767b8800ab15b201522611c23c23a5655d6d98b348e3b045076f5b8cef | 3478B015C867DFBCEECFCC49BC09C76E | B9BABDD79B25642826ECF3854842EBCDF915F222 |
 | WhatsApp-Database-Lassandra-Cordalis.zip | 167.088 | 83b83a02e748e322933bbe29d98bdf8c21af8fd5457185a9d5ee903f9079e3c5 | 1477180EFC30A310B09166274D509C77 | 934014579462B514AA5D4A897558B17A6E63DFD0 |
 
-# 4. Análisis
+# 4. Análisis <div id='analisis' />
 
-### 4.1 Comparación de hashes
+### 4.1 Comparación de hashes<div id='comparacion' />
 
 Comenzaremos con realizar la comparación de hashes con los que nos han sido otorgados:
 
 - **adb-backup-Atalus-Grasstem.ab**
 
-![adb-Atalus.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/adb-Atalus.png)
+![adb-Atalus.png](img/adb-Atalus.png)
 
 - **adb-backup-Camillo-Richbald.ab**
 
-![adb-Camillo.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/adb-Camillo.png)
+![adb-Camillo.png](img/adb-Camillo.png)
 
 - **adb-backup-Lassandra-Cordalis.ab**
 
-![adb-Lassandra.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/adb-Lassandra.png)
+![adb-Lassandra.png](img/adb-Lassandra.png)
 
 - **Disco-pc-infectado-ducky.img.zip**
 
-![disco infectadozip.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/disco_infectadozip.png)
+![disco infectadozip.png](img/disco_infectadozip.png)
 
 - **disco-pc-infectado-ducky.img**
 
-![disco infectado.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/disco_infectado.png)
+![disco infectado.png](img/disco_infectado.png)
 
 - **Google-Data-Atalus-Grasstem.zip**
 
-![google-atlalus.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/google-atlalus.png)
+![google-atlalus.png](img/google-atlalus.png)
 
 - **Google-Data-Camillo-Richbald.zip**
 
-![google-camillo.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/google-camillo.png)
+![google-camillo.png](img/google-camillo.png)
 
 - **Google-Data-Lassandra-Cordalis.zip**
 
-![google-Lassandra.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/google-Lassandra.png)
+![google-Lassandra.png](img/google-Lassandra.png)
 
 - **imagen-sd.ad1**
 
-![imagen-sd.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/imagen-sd.png)
+![imagen-sd.png](img/imagen-sd.png)
 
 - **Instagram-lassandracordalis-20230504.zip**
 
-![isntagram-lassandra.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/isntagram-lassandra.png)
+![isntagram-lassandra.png](img/isntagram-lassandra.png)
 
 - **Telegram-Data-Lassandra-Cordalis.zip**
 
-![telegram-lassandraç.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/telegram-lassandra.png)
+![telegram-lassandraç.png](img/telegram-lassandra.png)
 
 - **WhatsApp-Database-Atalus-Grasstem.zip**
 
-![whats-Atalus.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/whats-Atalus.png)
+![whats-Atalus.png](img/whats-Atalus.png)
 
 - **WhatsApp-Database-Camillo-Richbald.zip**
 
-![whats-Camillo.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/whats-Camillo.png)
+![whats-Camillo.png](img/whats-Camillo.png)
 
 - **WhatsApp-Database-Lassandra-Cordalis.zip**
 
-![whats-Lassandra.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/whats-Lassandra.png)
+![whats-Lassandra.png](img/whats-Lassandra.png)
 
 Con esto, podemos ver, que todos los Hashes coinciden con los que nos han proporcionado.
 
-### 4.2 Investigación
+### 4.2 Investigación<div id='investigacion' />
 
 Comenzamos la investigación con las conversaciones de WhatsApp de la víctima con el presunto sospechoso Atalus, en la cual se puede observar como Atalus intenta invitar a salir a la víctima a cenar, el cuál es rechazado por esta.
 
@@ -231,13 +222,13 @@ Lassandra entra a su cuenta de Instagram y observa los cambios hechos en su cuen
 
 Véase Anexo de Imágenes. Imagen 23.
 
-# 5. Conclusión
+# 5. Conclusión<div id='conclusion' />
 
 Tras analizar todo, podemos ver claro que hay indicios de “cyberbullying” y se debe a un rechazo que hizo Lassandra a Atalus por WhatssApp. Atalus le dio una “segunda oportunidad” a Lassandra, el cual se lo hizo saber por Telegram, pero ella de nuevo lo rechazó. Entonces, Atalus como “venganza”, juntó a la coacción de Camilo, robó las credenciales de Lassandra, gracias a un USB de Rubber Ducky que conectó en el ordenador del colegió de la víctima y entró a la cuenta de instagram de la víctima y le cambió la foto de perfil.
 
 Hay que añadir, que en la conversación entre Camilo y Atalus, se habla de otro caso de cyberbullying que provocó el usuario Atalus, que llegó a la víctima a irse del colegio.
 
-# 6. Recomendaciones
+# 6. Recomendaciones<div id='recomendaciones' />
 
 Tras ver que este caso, y lo que ha generado en las cuentas de usuario, recomendamos:
 
