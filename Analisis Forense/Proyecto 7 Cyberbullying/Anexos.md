@@ -78,29 +78,29 @@ SysTools MBOX Viewer
 
 Índice de imágenes
 
-[Imagen 1](#1)
-[Imagen 2](#2)
-[Imagen 3](#3)
-[Imagen 4](#4)
-[Imagen 5](#5)
-[Imagen 6](#6)
-[Imagen 7](#7)
-[Imagen 8](#8)
-[Imagen 9](#9)
-[Imagen 10](#10)
-[Imagen 11](#11)
-[Imagen 12](#12)
-[Imagen 13](#13)
-[Imagen 14](#14)
-[Imagen 15](#15)
-[Imagen 16](#16)
-[Imagen 17](#17)
-[Imagen 18](#18)
-[Imagen 19](#19)
-[Imagen 20](#20)
-[Imagen 21](#21)
-[Imagen 22](#22)
-[Imagen 23](#23)
+[Imagen 1](#1)  
+[Imagen 2](#2)  
+[Imagen 3](#3)  
+[Imagen 4](#4)  
+[Imagen 5](#5)  
+[Imagen 6](#6)  
+[Imagen 7](#7)  
+[Imagen 8](#8)  
+[Imagen 9](#9)  
+[Imagen 10](#10)  
+[Imagen 11](#11)  
+[Imagen 12](#12)  
+[Imagen 13](#13)  
+[Imagen 14](#14)  
+[Imagen 15](#15)  
+[Imagen 16](#16)  
+[Imagen 17](#17)  
+[Imagen 18](#18)  
+[Imagen 19](#19)  
+[Imagen 20](#20)  
+[Imagen 21](#21)  
+[Imagen 22](#22)  
+[Imagen 23](#23)  
 
 Imagen 1<div id='1' />
 
@@ -110,95 +110,95 @@ Imagen 2<div id='2' />
 
 ![Untitled](img/Untitled%201.png)
 
-Imagen 3
+Imagen 3<div id='3' />
 
 ![Untitled](img/Untitled%202.png)
 
-Imagen 4
+Imagen 4<div id='4' />
 
 ![Untitled](img/Untitled%203.png)
 
-Imagen 5
+Imagen 5<div id='5' />
 
 ![busquedasgoogle.png](img/busquedasgoogle.png)
 
-Imagen 6
+Imagen 6<div id='6' />
 
 ![busquedasgoogle2.png](img/busquedasgoogle2.png)
 
-Imagen 7
+Imagen 7<div id='7' />
 
 ![Untitled](img/Untitled%204.png)
 
-Imagen 8
+Imagen 8<div id='8' />
 
 ![Untitled](img/Untitled%205.png)
 
 ![Untitled](img/Untitled%206.png)
 
-Imagen 9
+Imagen 9<div id='9' />
 
 ![Untitled](img/Untitled%207.png)
 
 ![Untitled](img/Untitled%208.png)
 
-Imagen 10
+Imagen 10<div id='10' />
 
 ![Untitled](img/Untitled%209.png)
 
 ![Untitled](img/Untitled%2010.png)
 
-Imagen 11
+Imagen 11<div id='11' />
 
 ![Untitled](img/Untitled%2011.png)
 
 ![Untitled](img/Untitled%2012.png)
 
-Imagen 12
+Imagen 12<div id='12' />
 
 ![Untitled](img/Untitled%2013.png)
 
-Imagen 13
+Imagen 13<div id='13' />
 
 ![Untitled](img/Untitled%2014.png)
 
-Imagen 14
+Imagen 14<div id='14' />
 
 ![Untitled](img/Untitled%2015.png)
 
-Imagen 15
+Imagen 15<div id='15' />
 
 ![Untitled](img/Untitled%2016.png)
 
-Imagen 16
+Imagen 16<div id='16' />
 
 ![Untitled](img/Untitled%2017.png)
 
-Imagen 17
+Imagen 17<div id='17' />
 
 ![Untitled](img/Untitled%2018.png)
 
-Imagen 18 
+Imagen 18 <div id='18' />
 
 ![Untitled](img/Untitled%2019.png)
 
-Imagen 19
+Imagen 19<div id='19' />
 
 ![Untitled](img/Untitled%2020.png)
 
-Imagen 20
+Imagen 20<div id='20' />
 
 ![Untitled](img/Untitled%2021.png)
 
-Imagen 21
+Imagen 21<div id='21' />
 
 ![Untitled](img/Untitled%2022.png)
 
-Imagen 22
+Imagen 22<div id='22' />
 
 ![Untitled](img/Untitled%2023.png)
 
-Imagen 23
+Imagen 23<div id='23' />
 
 ![Untitled](img/Untitled%2024.png)
 
