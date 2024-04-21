@@ -2,18 +2,18 @@
 
 ## Índice
 
-1. [Resumen Ejecutivo](#resumen) 
-    1.1 [Línea Temporal](#linea) 
-2. [Introducción](#introduccion) 
-    2.1 [Antecedentes](#antecedentes) 
-    2.2 [Objetivos](#objetivos) 
-    2.3 [Alcance](#alcance) 
-3. [Información Analizada](#informacion) 
-4. [Análisis](#analisis)   
-    4.1 [Comprobación de Hashes](#comprobacion)  
-    4.2 [Investigación](#investigacion) 
-5. [Conclusión](#conclusion) 
-6. [Recomendaciones](#recomendaciones) 
+1. [Resumen Ejecutivo](#resumen)   
+    1.1 [Línea Temporal](#linea)  
+2. [Introducción](#introduccion)   
+    2.1 [Antecedentes](#antecedentes)  
+    2.2 [Objetivos](#objetivos)   
+    2.3 [Alcance](#alcance)  
+3. [Información Analizada](#informacion)  
+4. [Análisis](#analisis)    
+    4.1 [Comprobación de Hashes](#comprobacion)   
+    4.2 [Investigación](#investigacion)  
+5. [Conclusión](#conclusion)  
+6. [Recomendaciones](#recomendaciones)  
 
 # 1. Resumen Ejecutivo<div id='resumen' />
 
