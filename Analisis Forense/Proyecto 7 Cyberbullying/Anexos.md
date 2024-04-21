@@ -224,7 +224,7 @@ Vestigio 1 <div id='v1' />
 | Tamaño |  |
 | HASH MD5 | 4f7e0758d093ce4cf33e1c851dc62c9f |
 | HASH SHA256 | dcc837420c7d72b7b3ea09483ff0586daa7a50ca9c8c78b790db95866dcae0f5 |
-| Contenido |  |
+| Contenido | ![Untitled](img/Untitled.png) |
 
 Vestigio 2 <div id='v2' />
 
@@ -258,7 +258,7 @@ Vestigio 4  <div id='v4' />
 | Tamaño | 1388544 |
 | HASH MD5 | 48fd1091cab6792ec9f4f79184fc4a8e |
 | HASH SHA256 | 7c0cbac0764d013f7a25b5fddabdc2e74706cd17c04d7c30c4d51c58b254b5eb |
-| Contenido |  |
+| Contenido | ![Untitled](img/telegrammessages.png) |
 
 Vestigio 5 <div id='v5' />
 
