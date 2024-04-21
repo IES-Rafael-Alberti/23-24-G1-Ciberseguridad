@@ -272,7 +272,7 @@ Vestigio 6<div id='v6' />
 | Tamaño | 3254 |
 | HASH MD5 | 12ECF537472C82E6BF0E468943DDB3AF |
 | HASH SHA256 | C1AC93D989B1001AE5B86BEA7CDAD34144A52A39E91B381D2CCC4518578209C7 |
-| Contenido | ![Untitled](img/Untitled%2015.png) |
+| Contenido | ![Untitled](img/Untitled%2014.png) |
 
 Vestigio 7 <div id='v7' />
 
