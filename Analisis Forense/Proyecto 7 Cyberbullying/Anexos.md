@@ -301,7 +301,7 @@ Vestigio 9 <div id='v9' />
 | Tamaño | 1093632 |
 | HASH MD5 | d454901677e278c43884799496ba7a9f |
 | HASH SHA256 | a2be3a1c3bf4f32bcea3cff31dde9de2363a5fca2792835543b15c9654d4d1b8 |
-| Contenido |  |
+| Contenido | ![Untitled](img/Untitled%2019.png) |
 
 Vestigio 10 <div id='v10' />
 
@@ -310,4 +310,4 @@ Vestigio 10 <div id='v10' />
 | Tamaño | 178038 |
 | HASH MD5 | 6e723fa81c3a0377d9f01ab4e4f9181a |
 | HASH SHA256 | 783807d627db0248bb0aff40544bc5078fcd8d882dd88d223819e10456f6b3af |
-| Contenido |  |
+| Contenido | ![Untitled](img/Untitled%2023.png) |
