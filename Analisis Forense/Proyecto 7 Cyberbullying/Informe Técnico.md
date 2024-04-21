@@ -130,7 +130,7 @@ Con esto, podemos ver, que todos los Hashes coinciden con los que nos han propor
 
 Comenzamos la investigación con las conversaciones de WhatsApp de la víctima con el presunto sospechoso Atalus, en la cual se puede observar como Atalus intenta invitar a salir a la víctima a cenar, el cuál es rechazado por esta.
 
-Véase Anexo de Imágenes. Imagen 1.
+[Véase Anexo de Imágenes. Imagen 1.](#https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%207%20Cyberbullying/Anexos.md#1)
 
 Véase Anexo de Imágenes. Imagen 2.
 
