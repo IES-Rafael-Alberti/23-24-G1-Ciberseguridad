@@ -126,7 +126,7 @@ Imagen 23
 
 Imagen 1
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled.png)
+![Untitled](img/Untitled.png)
 
 Imagen 2
 
