@@ -234,9 +234,9 @@ Vestigio 2 <div id='v2' />
 | Tamaño | 1273856 |
 | HASH MD5 | abfacf6b7a029fe358d0a13c3ce7e2a8 |
 | HASH SHA256 | 4a053239cfacab3f674a875c84cc0d80d873a418e608e1be249a26f93870f3cc |
-| Contenido |  |
+| Contenido | ![Untitled](img/Untitled%2025.png) |
 
-![Untitled](img/Untitled%2025.png)
+
 
 Vestigio 3 <div id='v3' />
 
@@ -246,9 +246,9 @@ Vestigio 3 <div id='v3' />
 | Tamaño | 168832 |
 | HASH MD5 | 107aa75dd60145151336cccaab37f21e |
 | HASH SHA256 | dcbd51ba2f77917998623ae88b82ff10697bd8b53c78a46bbc9d6a8e28bcf1fe |
-| Contenido |  |
+| Contenido | ![Untitled](img/Untitled%2026.png) |
 
-![Untitled](img/Untitled%2026.png)
+
 
 Vestigio 4  <div id='v4' />
 
@@ -290,7 +290,6 @@ Vestigio 7 <div id='v7' />
 | HASH SHA256 | 2b31a8db5035b22315eefa09182188d15d575c31164642eca09400c340dd1cdb |
 | Contenido | ![Untitled](img/Untitled%2027.png) |
 
-![Untitled](img/Untitled%2027.png)
 
 Vestigio 8 <div id='v8' />
 
@@ -300,9 +299,8 @@ Vestigio 8 <div id='v8' />
 | Tamaño | 2986 |
 | HASH MD5 | 71548337338d0d7c2aecb330cc04be68 |
 | HASH SHA256 | 49069e702aebb747b41c2e9ecb50064c85e237b2cda207f5974b718599fe57a8 |
-| Contenido |  |
+| Contenido | ![Untitled](img/Untitled%2028.png) |
 
-![Untitled](img/Untitled%2028.png)
 
 Vestigio 9 <div id='v9' />
 
