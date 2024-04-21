@@ -288,7 +288,7 @@ Vestigio 7 <div id='v7' />
 | Tamaño | 17298 |
 | HASH MD5 | edcaf70f90176acab4af7821e53792cc |
 | HASH SHA256 | 2b31a8db5035b22315eefa09182188d15d575c31164642eca09400c340dd1cdb |
-| Contenido |  |
+| Contenido | ![Untitled](img/Untitled%2027.png) |
 
 ![Untitled](img/Untitled%2027.png)
 
