@@ -136,7 +136,7 @@ Comenzamos la investigación con las conversaciones de WhatsApp de la víctima c
 
 [Véase Anexo de Vestigios. Vestigio 1.](Anexos.md) 
 
-En el registro de conversaciones de WhatsApp de Atalus podemos encontrar esta misma conversación y otra más con el presunto cómplice Camillo, en esta conversación, encontramos la frustración de Atalus ante el rechazo de Lassandra y su bloqueo de esta red social, haciendo indicios de que utilizará un Rubber Ducky para robarle las contraseñas a la víctima y Camilo incita a Atalus que lo haga. 
+En el registro de conversaciones de WhatsApp de Atalus podemos encontrar esta misma conversación y otra más con el presunto cómplice Camillo, en esta conversación, encontramos la frustración de Atalus ante el rechazo de Lassandra y su bloqueo de esta red social, haciendo indicios de que utilizará un dispositivo Rubber Ducky para robarle las contraseñas a la víctima y Camilo incita a Atalus a hacerlo. 
 
 [Véase Anexo de Imágenes. Imagen 3.](Anexos.md)
 
@@ -152,7 +152,7 @@ Realizando un análisis del dispositivo móvil de Atalus, hemos encontrado en el
 
 [Véase Anexo de Vestigios. Vestigio 3.](Anexos.md)
 
-Ante el bloqueo de Lassandra a Atalus, este pasa a iniciar una conversación a través de Telegram, en el cuál observamos que este está enfadado por el bloqueo y empieza una serie de amenazas contra Lassandra al no “aceptar su segundo oportunidad”.
+Ante el bloqueo de Lassandra a Atalus en WhatsApp, este pasa a iniciar una conversación a través de Telegram, en el cuál observamos que este está enfadado por el bloqueo y empieza una serie de amenazas contra Lassandra al no “aceptar su segunda oportunidad” con él.
 
 [Véase Anexo de Imágenes. Imagen 7.](Anexos.md)
 
@@ -178,7 +178,8 @@ Al cabo del tiempo, se puede ver a la víctima trabajar en el mismo pc manipulad
 
 [Véase Anexo de Vestigios. Vestigio 6.](Anexos.md)
 
-Observamos que en los inicios de sesión en la cuenta de Instagram de Lassandra, han habido tres inicios de sesión desde dispositivos distintos, el primer inicio de sesión podemos ver que ha sido desde un agente de navegador de un equipo de sobremesa, y la hora concuerda con la visualizada en el video número 2 (foto número 14). El segundo inicio de sesión se realiza desde el dispositivo móvil de Atalus, ya que podemos ver que el agente de inicios de sesión coincide con su agente de usuario (foto número 15). Para todos los datos relacionados con Instagram, hemos tomado como referencia la hora dada por los inicio de sesión, dado que en nuestro horario ería +2, debemos sumarle dos hora a las horas dadas en estos y 10 a las dadas por Instagram.
+Observamos que en los inicios de sesión en la cuenta de Instagram de Lassandra, han habido tres inicios de sesión desde dispositivos distintos, el primer inicio de sesión podemos ver que ha sido desde un agente de navegador de un equipo de sobremesa, y la hora concuerda con la visualizada en el video número 2 (foto número 14). El segundo inicio de sesión se realiza desde el dispositivo móvil de Atalus, ya que podemos ver que el agente de inicios de sesión coincide con su agente de usuario (foto número 15 y 17).  
+Para todos los datos relacionados con Instagram, hemos tomado como referencia la hora dada por los inicio de sesión, dado que en nuestro horario sería +2, debemos sumarle dos horas a las horas dadas en estos y diez horas a las dadas por Instagram.
 
 [Véase Anexo de Imágenes. Imagen 14.](Anexos.md)
 
@@ -192,13 +193,13 @@ Observamos que en los inicios de sesión en la cuenta de Instagram de Lassandra,
 
 [Véase Anexo de Vestigios. Vestigio 8.](Anexos.md)
 
-Se puede ver en el historial de su navegador móvil, que el presunto sospechoso ha iniciado sesión en Instagram y edita el perfil de la víctima. 
+Se puede ver en el historial de su navegador móvil, que el presunto sospechoso ha iniciado sesión en Instagram y editado el perfil de la víctima. 
 
 [Véase Anexo de Imágenes. Imagen 18.](Anexos.md)
 
 [Véase Anexo de Vestigios. Vestigio 9.](Anexos.md)
 
-En la conversación de WhatssApp entre Camillo y Atalus vista anteriormente, Camilo incita a Atalus a colocar una foto de perfil en el Instagram de Lassandra, podemos ver en las registros de búsqueda de Google de Atalus una imagen idéntica con la que se encontró la víctima como foto de perfil. 
+En la conversación de WhatssApp entre Camillo y Atalus, Camilo incita a Atalus a colocar una foto de perfil en el Instagram de Lassandra, podemos ver en las registros de búsqueda de Google de Atalus una imagen idéntica con la que se encontró la víctima como foto de perfil. 
 
 [Véase Anexo de Imágenes. Imagen 19.](Anexos.md)
 
@@ -208,11 +209,9 @@ En la conversación de WhatssApp entre Camillo y Atalus vista anteriormente, Cam
 
 En el correo de la víctima podemos observar los diferentes inicios de sesión de Instagram.
 
-1- Inicio de sesión en el navegador web en el equipo del centro.
-
-2- Inicio de sesión desde un nuevo dispositivo móvil presuntamente el de Atalus.
-
-3- Inicio de sesión en el cual descubre la alteración.
+1- Inicio de sesión en el navegador web en el equipo del centro.  
+2- Inicio de sesión desde un nuevo dispositivo móvil presuntamente el de Atalus.  
+3- Inicio de sesión en el cual descubre la alteración.  
 
 [Véase Anexo de Imágenes. Imagen 22.](Anexos.md)
 
