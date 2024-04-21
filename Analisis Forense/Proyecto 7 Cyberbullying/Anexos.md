@@ -7,7 +7,7 @@
 3. [Anexo Imágenes](#Imagenes)
 4. [Anexo Vestigios](#Vestigios)
 
-## 1 Metodología Utilizada <div id='Metodologia' />
+## 1 Metodología Utilizada <div id='Metodologia'/>
 
 A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
 las evidencias:
@@ -38,7 +38,7 @@ relacionadas con una intrusión, como su origen, la lista de sistemas afectados,
 usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
 auditable, repetible y defendible.
 
-## 2 Herramientas <div id='Herramientas' />
+## 2 Herramientas <div id='Herramientas'/>
 
 DB Browser for SQLite
 
