@@ -2,12 +2,12 @@
 
 ## Índice
 
-1. [Metodología Utilizada](#Metodologia)
-2. [Herramientas](#Herramientas)
-3. [Anexo Imágenes](#Imagenes)
-4. [Anexo Vestigios](#Vestigios)
+1. [Metodología Utilizada](#metodologia)
+2. [Herramientas](#herramientas)
+3. [Anexo Imágenes](#imagenes)
+4. [Anexo Vestigios](#vestigios)
 
-## 1 Metodología Utilizada <div id='Metodologia'/>
+## 1. Metodología Utilizada <div id='metodologia '/>
 
 A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
 las evidencias:
@@ -38,7 +38,7 @@ relacionadas con una intrusión, como su origen, la lista de sistemas afectados,
 usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
 auditable, repetible y defendible.
 
-## 2 Herramientas <div id='Herramientas'/>
+## 2. Herramientas <div id='herramientas' />
 
 DB Browser for SQLite
 
@@ -74,7 +74,7 @@ SysTools MBOX Viewer
 | Versión: | 1.2 |
 | Página web | https://usbdetective.com/ |
 
-## 3 Anexo de Imágenes <div id='Imagenes' />
+## 3. Anexo de Imágenes <div id='imagenes' />
 
 Índice de imágenes
 
@@ -224,7 +224,7 @@ Imagen 23
 
 ![Untitled](img/Untitled%2024.png)
 
-## 4 Anexo de Vestigios
+## 4. Anexo de Vestigios <div id='vestigios' />
 
 Vestigio 1
 
@@ -260,7 +260,7 @@ Vestigio 3
 
 ![Untitled](img/Untitled%2026.png)
 
-Vestigio 4 <div id='Vestigios' />
+Vestigio 4 
 
 | Ruta | Telegram-Data-Lassandra-Cordalis/telegram/apps/org.telegram.messenger/f/cache4.db |
 | --- | --- |
