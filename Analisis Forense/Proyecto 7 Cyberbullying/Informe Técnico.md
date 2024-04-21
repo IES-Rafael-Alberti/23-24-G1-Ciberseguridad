@@ -130,81 +130,81 @@ Con esto, podemos ver, que todos los Hashes coinciden con los que nos han propor
 
 Comenzamos la investigación con las conversaciones de WhatsApp de la víctima con el presunto sospechoso Atalus, en la cual se puede observar como Atalus intenta invitar a salir a la víctima a cenar, el cuál es rechazado por esta.
 
-# [Véase Anexo de Imágenes. Imagen 1.](#https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%207%20Cyberbullying/Anexos.md#1)
+[Véase Anexo de Imágenes. Imagen 1.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 2.
+[Véase Anexo de Imágenes. Imagen 2.](Anexos.md)
 
-Véase Anexo de Vestigios. Vestigio 1. 
+[Véase Anexo de Vestigios. Vestigio 1.](Anexos.md) 
 
 En la conversación de WhatsApp de Atalus podemos encontrar esta misma conversación y otra más con el presunto cómplice Camillo, en esta conversación, encontramos la frustración de Atalus ante el rechazo de Lassandra y su bloqueo de esta red social, haciendo indicios de que utilizará un Rubber Ducky para robarle las contraseñas a la víctima y Camilo incita a Atalus que lo haga. 
 
-Véase Anexo de Imágenes. Imagen 3.
+[Véase Anexo de Imágenes. Imagen 3.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 4.
+[Véase Anexo de Imágenes. Imagen 4.](Anexos.md)
 
-Véase Anexo de Vestigios. Vestigio 2.
+[Véase Anexo de Vestigios. Vestigio 2.](Anexos.md)
 
 Realizando un análisis del dispositivo móvil de Atalus, hemos encontrado en el historial de búsquedas del navegador una serie de búsquedas de información sobre como funciona este tipo de dispositivo, así como búsquedas de información sobre como robar contraseñas o hackear a alguien.
 
-Véase Anexo de Imágenes. Imagen 5.
+[Véase Anexo de Imágenes. Imagen 5.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 6.
+[Véase Anexo de Imágenes. Imagen 6.](Anexos.md)
 
-Véase Anexo de Vestigios. Vestigio 3. 
+[Véase Anexo de Vestigios. Vestigio 3.](Anexos.md)
 
 Ante el bloqueo de Lassandra a Atalus, este pasa a iniciar una conversación a través de Telegram, en el cuál observamos que este está enfadado por el bloqueo y empieza una serie de amenazas contra Lassandra al no “aceptar su segundo oportunidad”.
 
-Véase Anexo de Imágenes. Imagen 7.
+[Véase Anexo de Imágenes. Imagen 7.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 8.
+[Véase Anexo de Imágenes. Imagen 8.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 9.
+[Véase Anexo de Imágenes. Imagen 9.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 10.
+[Véase Anexo de Imágenes. Imagen 10.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 11.
+[Véase Anexo de Imágenes. Imagen 11.](Anexos.md)
 
-Véase Anexo de Vestigios. Vestigio 4.
+[Véase Anexo de Vestigios. Vestigio 4.](Anexos.md)
 
 En las grabaciones de una cámara IP del centro, se puede observar a un señor encapuchado introducir un dispositivo en un ordenador y luego marcharse.
 
-Véase Anexo de Imágenes. Imagen 12.
+[Véase Anexo de Imágenes. Imagen 12.](Anexos.md)
 
-Véase Anexo de Vestigios. Vestigio 5.
+[Véase Anexo de Vestigios. Vestigio 5.](Anexos.md)
 
 Al cabo del tiempo, se puede ver a la víctima trabajar en el mismo pc manipulado anteriormente.
 
-Véase Anexo de Imágenes. Imagen 13.
+[Véase Anexo de Imágenes. Imagen 13.](Anexos.md)
 
-Véase Anexo de Vestigios. Vestigio 6.
+[Véase Anexo de Vestigios. Vestigio 6.](Anexos.md)
 
 Observamos que en los inicios de sesión en la cuenta de Instagram de Lassandra, han habido tres inicios de sesión desde dispositivos distintos, el primer inicio de sesión podemos ver que ha sido desde un agente de navegador de un equipo de sobremesa, y la hora concuerda con la visualizada en el video número 2 (foto número 14). El segundo inicio de sesión se realiza desde el dispositivo móvil de Atalus, ya que podemos ver que el agente de inicios de sesión coincide con su agente de usuario (foto número 15). Para todos los datos relacionados con Instagram, hemos tomado como referencia la hora dada por los inicio de sesión, dado que en nuestro horario ería +2, debemos sumarle dos hora a las horas dadas en estos y 10 a las dadas por Instagram.
 
-Véase Anexo de Imágenes. Imagen 14.
+[Véase Anexo de Imágenes. Imagen 14.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 15.
+[Véase Anexo de Imágenes. Imagen 15.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 16.
+[Véase Anexo de Imágenes. Imagen 16.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 17.
+[Véase Anexo de Imágenes. Imagen 17.](Anexos.md)
 
-Véase Anexo de Vestigios. Vestigio 7.
+[Véase Anexo de Vestigios. Vestigio 7.](Anexos.md)
 
-Véase Anexo de Vestigios. Vestigio 8.
+[Véase Anexo de Vestigios. Vestigio 8.](Anexos.md)
 
 Se puede ver en el historial de su navegador móvil, que el presunto sospechoso ha iniciado sesión en Instagram y edita el perfil de la víctima. 
 
-Véase Anexo de Imágenes. Imagen 18.
+[Véase Anexo de Imágenes. Imagen 18.](Anexos.md)
 
-Véase Anexo de Vestigios. Vestigio 9.
+[Véase Anexo de Vestigios. Vestigio 9.](Anexos.md)
 
 En la conversación de WhatssApp entre Camillo y Atalus vista anteriormente, Camilo incita a Atalus a colocar una foto de perfil en el Instagram de Lassandra, podemos ver en las registros de búsqueda de Google de Atalus una imagen idéntica con la que se encontró la víctima como foto de perfil. 
 
-Véase Anexo de Imágenes. Imagen 19.
+[Véase Anexo de Imágenes. Imagen 19.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 20.
+[Véase Anexo de Imágenes. Imagen 20.](Anexos.md)
 
-Véase Anexo de Imágenes. Imagen 21.
+[Véase Anexo de Imágenes. Imagen 21.](Anexos.md)
 
 En el correo de la víctima podemos observar los diferentes inicios de sesión de Instagram.
 
@@ -214,13 +214,13 @@ En el correo de la víctima podemos observar los diferentes inicios de sesión d
 
 3- Inicio de sesión en el cual descubre la alteración.
 
-Véase Anexo de Imágenes. Imagen 22.
+[Véase Anexo de Imágenes. Imagen 22.](Anexos.md)
 
-Véase Anexo de Vestigios. Vestigio 10.
+[Véase Anexo de Vestigios. Vestigio 10.](Anexos.md)
 
 Lassandra entra a su cuenta de Instagram y observa los cambios hechos en su cuenta y busca una forma de descargarse el informe de la cuenta para ver si ha sido comprometida.
 
-Véase Anexo de Imágenes. Imagen 23.
+[Véase Anexo de Imágenes. Imagen 23.](Anexos.md)
 
 # 5. Conclusión<div id='conclusion' />
 
