@@ -9,8 +9,7 @@
 
 ## 1. Metodología Utilizada <div id='metodologia '/>
 
-A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
-las evidencias:
+A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar las evidencias:
 
 - Adquisición de evidencia digital
 1. La captura de la adquisición debe ser lo más precisa posible.
