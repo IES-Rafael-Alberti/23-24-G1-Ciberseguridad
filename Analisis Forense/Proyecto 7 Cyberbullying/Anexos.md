@@ -76,7 +76,7 @@ SysTools MBOX Viewer
 
 ## 3. Anexo de Imágenes <div id='imagenes' />
 
-Índice de imágenes
+### Índice de imágenes
 
 [Imagen 1](#1)  
 [Imagen 2](#2)  
@@ -203,6 +203,18 @@ Imagen 23<div id='23' />
 ![Untitled](img/Untitled%2024.png)
 
 ## 4. Anexo de Vestigios <div id='vestigios' />
+
+### Índice de Vestigios
+[Vestigio 1](#v1)  
+[Vestigio 2](#v2)  
+[Vestigio 3](#v3)  
+[Vestigio 4](#v4)  
+[Vestigio 5](#v5)  
+[Vestigio 6](#v6)  
+[Vestigio 7](#v7)  
+[Vestigio 8](#v8)  
+[Vestigio 9](#v9)  
+[Vestigio 10](#v10)  
 
 Vestigio 1
 
