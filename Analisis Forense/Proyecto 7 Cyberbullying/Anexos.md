@@ -78,57 +78,35 @@ SysTools MBOX Viewer
 
 Índice de imágenes
 
-Imagen 1
+[Imagen 1](#1)
+[Imagen 2](#2)
+[Imagen 3](#3)
+[Imagen 4](#4)
+[Imagen 5](#5)
+[Imagen 6](#6)
+[Imagen 7](#7)
+[Imagen 8](#8)
+[Imagen 9](#9)
+[Imagen 10](#10)
+[Imagen 11](#11)
+[Imagen 12](#12)
+[Imagen 13](#13)
+[Imagen 14](#14)
+[Imagen 15](#15)
+[Imagen 16](#16)
+[Imagen 17](#17)
+[Imagen 18](#18)
+[Imagen 19](#19)
+[Imagen 20](#20)
+[Imagen 21](#21)
+[Imagen 22](#22)
+[Imagen 23](#23)
 
-Imagen 2
-
-Imagen 3
-
-Imagen 4
-
-Imagen 5
-
-Imagen 6
-
-Imagen 7
-
-Imagen 8
-
-Imagen 9
-
-Imagen 10
-
-Imagen 11
-
-Imagen 12
-
-Imagen 13
-
-Imagen 14
-
-Imagen 15
-
-Imagen 16
-
-Imagen 17
-
-Imagen 18
-
-Imagen 19
-
-Imagen 20
-
-Imagen 21
-
-Imagen 22
-
-Imagen 23
-
-Imagen 1
+Imagen 1<div id='1' />
 
 ![Untitled](img/Untitled.png)
 
-Imagen 2
+Imagen 2<div id='2' />
 
 ![Untitled](img/Untitled%201.png)
 
