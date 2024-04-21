@@ -130,99 +130,99 @@ Imagen 1
 
 Imagen 2
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%201.png)
+![Untitled](img/Untitled%201.png)
 
 Imagen 3
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%202.png)
+![Untitled](img/Untitled%202.png)
 
 Imagen 4
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%203.png)
+![Untitled](img/Untitled%203.png)
 
 Imagen 5
 
-![busquedasgoogle.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/busquedasgoogle.png)
+![busquedasgoogle.png](img/busquedasgoogle.png)
 
 Imagen 6
 
-![busquedasgoogle2.png](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/busquedasgoogle2.png)
+![busquedasgoogle2.png](img/busquedasgoogle2.png)
 
 Imagen 7
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%204.png)
+![Untitled](img/Untitled%204.png)
 
 Imagen 8
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%205.png)
+![Untitled](img/Untitled%205.png)
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%206.png)
+![Untitled](img/Untitled%206.png)
 
 Imagen 9
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%207.png)
+![Untitled](img/Untitled%207.png)
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%208.png)
+![Untitled](img/Untitled%208.png)
 
 Imagen 10
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%209.png)
+![Untitled](img/Untitled%209.png)
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2010.png)
+![Untitled](img/Untitled%2010.png)
 
 Imagen 11
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2011.png)
+![Untitled](img/Untitled%2011.png)
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2012.png)
+![Untitled](img/Untitled%2012.png)
 
 Imagen 12
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2013.png)
+![Untitled](img/Untitled%2013.png)
 
 Imagen 13
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2014.png)
+![Untitled](img/Untitled%2014.png)
 
 Imagen 14
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2015.png)
+![Untitled](img/Untitled%2015.png)
 
 Imagen 15
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2016.png)
+![Untitled](img/Untitled%2016.png)
 
 Imagen 16
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2017.png)
+![Untitled](img/Untitled%2017.png)
 
 Imagen 17
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2018.png)
+![Untitled](img/Untitled%2018.png)
 
 Imagen 18 
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2019.png)
+![Untitled](img/Untitled%2019.png)
 
 Imagen 19
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2020.png)
+![Untitled](img/Untitled%2020.png)
 
 Imagen 20
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2021.png)
+![Untitled](img/Untitled%2021.png)
 
 Imagen 21
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2022.png)
+![Untitled](img/Untitled%2022.png)
 
 Imagen 22
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2023.png)
+![Untitled](img/Untitled%2023.png)
 
 Imagen 23
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2024.png)
+![Untitled](img/Untitled%2024.png)
 
 ## 4 Anexo de Vestigios
 
@@ -246,7 +246,7 @@ Vestigio 2
 | HASH SHA256 | 4a053239cfacab3f674a875c84cc0d80d873a418e608e1be249a26f93870f3cc |
 | Contenido |  |
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2025.png)
+![Untitled](img/Untitled%2025.png)
 
 Vestigio 3
 
@@ -258,7 +258,7 @@ Vestigio 3
 | HASH SHA256 | dcbd51ba2f77917998623ae88b82ff10697bd8b53c78a46bbc9d6a8e28bcf1fe |
 | Contenido |  |
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2026.png)
+![Untitled](img/Untitled%2026.png)
 
 Vestigio 4
 
@@ -300,7 +300,7 @@ Vestigio 7
 | HASH SHA256 | 2b31a8db5035b22315eefa09182188d15d575c31164642eca09400c340dd1cdb |
 | Contenido |  |
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2027.png)
+![Untitled](img/Untitled%2027.png)
 
 Vestigio 8
 
@@ -312,7 +312,7 @@ Vestigio 8
 | HASH SHA256 | 49069e702aebb747b41c2e9ecb50064c85e237b2cda207f5974b718599fe57a8 |
 | Contenido |  |
 
-![Untitled](Informe%20Mo%CC%81vil%208ba2176e07be4207a60752ff245463ce/Untitled%2028.png)
+![Untitled](img/Untitled%2028.png)
 
 Vestigio 9
 
