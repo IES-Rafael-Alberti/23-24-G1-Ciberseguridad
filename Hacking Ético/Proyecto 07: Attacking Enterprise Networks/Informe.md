@@ -180,4 +180,6 @@ Firma SMB no se requiere
 | Prueba de Concepto | ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img-informe/Untitled%204.png) ![Untilted](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img-informe/2024-04-25_01_55_32-Kali_Linux_Nessus__OpenVAS_(Instantnea_7)_Corriendo_-_Oracle_VM_VirtualBox.png) |
 
 
+#### Registro de modificaciones.
 
+* Se ha añadido con netcat un PHP Web Shell hacer comandos a través de las rutas.
