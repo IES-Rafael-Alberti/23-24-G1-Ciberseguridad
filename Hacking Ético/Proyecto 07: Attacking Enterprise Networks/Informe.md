@@ -120,7 +120,12 @@ Remote Desktop Services Remote Code Execution Vulnerability
 | Referencias: | https://packetstormsecurity.com/files/162960/Microsoft-RDP-Remote-Code-Execution.html |
 | Prueba de Concepto | ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img-informe/Untitled.png) ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img-informe/Untitled%201.png) |
 
+#### Registro de modificaciones.
 
+* Se ha creado una rev_shell en el proceso spoolsv.exe con PID:1040.
+* Se ha dejado un  archivo residual, llámado "chisel.exe" con ubicación "C:/PerfLogs/".
+* Se ha modificado una regla de firewall que deja salir el puerto 4466 hacia el exterior.
+* Se ha creado una redirección de puertos desde el PC2 a la máquina atacante del puerto 80 y el puerto 22.
 
 ### PC2 <div id='pc2' />
 
@@ -137,6 +142,11 @@ Site Editor Local File Inclusion
 | Referencias: | https://www.exploit-db.com/exploits/44340/ |
 | Prueba de Concepto | ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img-informe/Untitled%202.png) |
 
+
+#### Registro de modificaciones.
+
+* Se ha modificado el archivo "Authorized_keys" ubicado en "/etc/.ssh/" y se ha incresado una clave pública remota.
+* Se ha falseado el binario "/opt/statuscheck" para que realice una petición curl mediante su path.
 
 
 ### PC4 <div id='pc4' />
