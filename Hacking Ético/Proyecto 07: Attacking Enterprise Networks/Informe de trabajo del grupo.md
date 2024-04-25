@@ -10,6 +10,6 @@
 ## División de responsabilidades
 - Pedro Luis Borrego Vargas ---> Realización de informe y write up, explotación PC01 y PC02
 - Adrian Campo Merlo ---> Realización de informe y write up, explotación PC01 y PC02
-- Eduardo Demotrico ---> Realización de informe y write up, explotación PC01 y PC04
+- Eduardo de Motrico Fedriani---> Realización de informe y write up, explotación PC01 y PC04
 - Rafael Valverde Cros ---> Realización de informe y write up, explotación PC01 y PC04
 
