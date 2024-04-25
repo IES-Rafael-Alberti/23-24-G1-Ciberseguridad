@@ -4,7 +4,7 @@
 ## Integrantes del grupo
 - Pedro Luis Borrego Vargas
 - Adrian Campo Merlo
-- Eduardo Demotrico 
+- Eduardo de Motrico Fedriani
 - Rafael Valverde Cros
 
 ## División de responsabilidades
