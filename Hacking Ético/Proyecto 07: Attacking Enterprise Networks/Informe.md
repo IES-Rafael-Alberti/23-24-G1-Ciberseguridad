@@ -1,8 +1,5 @@
 # Proyecto 7: Attacking Enterprise Networks
 
-### Índice
-
-
 # Formulario de autorización de Pentesting
 
 **Cliente:** CyberSecPro S.A.
@@ -102,19 +99,11 @@ Remote Desktop Services Remote Code Execution Vulnerability
 | Riesgos: | CRÍTICA |
 | Impacto: | Puede acceder a todo el sistema, adquiriendo toda la información del equipo y provocando que la información confidencial pueda ser adquirida, modificada o destruida. |
 | Sistemas | PC01 |
-| Remediación: | 1. Parches y Actualizaciones: Verifica que todos los sistemas afectados estén actualizados con los últimos parches de seguridad proporcionados por el proveedor, ya sea Microsoft u otro proveedor de servicios RDS.
-
-2. Auditoría de Seguridad: Realiza una auditoría de seguridad en tus sistemas RDS para identificar cualquier actividad sospechosa o compromiso potencial.
-
-3. Restricción de Acceso: Limita el acceso a los servicios RDS solo a usuarios autorizados y a través de conexiones seguras como VPN.
-
-4. Firewalls y Reglas de Seguridad: Configura firewalls y reglas de seguridad para restringir el tráfico no autorizado hacia y desde los servidores RDS |
+| Remediación: | Parches y Actualizaciones: Verifica que todos los sistemas afectados estén actualizados con los últimos parches de seguridad proporcionados por el proveedor, ya sea Microsoft u otro proveedor de servicios RDS.Auditoría de Seguridad: Realiza una auditoría de seguridad en tus sistemas RDS para identificar cualquier actividad sospechosa o compromiso potencial. Restricción de Acceso: Limita el acceso a los servicios RDS solo a usuarios autorizados y a través de conexiones seguras como VPN. Firewalls y Reglas de Seguridad: Configura firewalls y reglas de seguridad para restringir el tráfico no autorizado hacia y desde los servidores RDS |
 | Referencias: | https://packetstormsecurity.com/files/162960/Microsoft-RDP-Remote-Code-Execution.html |
-| Prueba de Concepto |  |
+| Prueba de Concepto | ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img-informe/Untitled.png) ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img-informe/Untitled%201.png) |
 
-![Untitled](img-informe/Untitled.png)
 
-![Untitled](img-informe/Untitled%201.png)
 
 ### PC2
 
@@ -127,12 +116,11 @@ Site Editor Local File Inclusion
 | Riesgos: | Alto |
 | Impacto: | Permite al atacante acceder a archivos posiblemente confidenciales del servidor, haciendo una violación de la confidencialidad y posible integridad de los archivos. |
 | Sistemas | PC02 |
-| Remediación: | Desinstalar el plugin, actualizar a su versión mas reciente o utilizar plugin similar.
- |
+| Remediación: | Desinstalar el plugin, actualizar a su versión mas reciente o utilizar plugin similar. |
 | Referencias: | https://www.exploit-db.com/exploits/44340/ |
-| Prueba de Concepto |  |
+| Prueba de Concepto | ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img-informe/Untitled%202.png) |
 
-![Untitled](img-informe/Untitled%202.png)
+
 
 ### PC4
 
@@ -147,9 +135,9 @@ Acceso a archivos locales
 | Sistemas | PC04 |
 | Remediación: | Actualizar la versión de PHP  |
 | Referencias: | https://www.tenable.com/plugins/was/113061 |
-| Prueba de Concepto |  |
+| Prueba de Concepto | ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img-informe/Untitled%203.png) |
 
-![Untitled](img-informe/Untitled%203.png)
+
 
 Firma SMB no se requiere
 
@@ -162,8 +150,7 @@ Firma SMB no se requiere
 | Sistemas | PC04 |
 | Remediación: | Aplicar la firma de mensajes en la configuración del host. En Windows, esto se encuentra en el ajuste de política ‘Servidor de red de Microsoft: Firmar comunicaciones(siempre)’. En Samba, el ajuste se llama ‘firmar servidor’. |
 | Referencias: | https://www.tenable.com/plugins/nessus/57608 |
-| Prueba de Concepto | ![Untitled](img-informe/Untitled%204.png) ![2024-04-25 01_55_32-Kali Linux Nessus & OpenVAS (Instantánea 7) [Corriendo] - Oracle VM VirtualBox.png](img-informe/2024-04-25_01_55_32-Kali_Linux_Nessus__OpenVAS_(Instantnea_7)_Corriendo_-_Oracle_VM_VirtualBox.png) |
-
+| Prueba de Concepto | ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img-informe/Untitled%204.png) ![Untilted](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img-informe/2024-04-25_01_55_32-Kali_Linux_Nessus__OpenVAS_(Instantnea_7)_Corriendo_-_Oracle_VM_VirtualBox.png) |
 
 
 
