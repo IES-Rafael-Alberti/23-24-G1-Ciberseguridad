@@ -1,5 +1,5 @@
 # Informe de Trabajo del Grupo
-- [GITHUB REPOSITORIO]()
+- [Informe Proyecto](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/Informe.md)
 
 ## Integrantes del grupo
 - Pedro Luis Borrego Vargas
