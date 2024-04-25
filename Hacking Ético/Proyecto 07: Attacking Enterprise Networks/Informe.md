@@ -112,9 +112,9 @@ Remote Desktop Services Remote Code Execution Vulnerability
 | Referencias: | https://packetstormsecurity.com/files/162960/Microsoft-RDP-Remote-Code-Execution.html |
 | Prueba de Concepto |  |
 
-![Untitled](Proyecto%207%20Attacking%20Enterprise%20Networks%20e58784ef03384d448422f3792ef3f8a3/Untitled.png)
+![Untitled](img-informe/Untitled.png)
 
-![Untitled](Proyecto%207%20Attacking%20Enterprise%20Networks%20e58784ef03384d448422f3792ef3f8a3/Untitled%201.png)
+![Untitled](img-informe/Untitled%201.png)
 
 ### PC2
 
@@ -132,7 +132,7 @@ Site Editor Local File Inclusion
 | Referencias: | https://www.exploit-db.com/exploits/44340/ |
 | Prueba de Concepto |  |
 
-![Untitled](Proyecto%207%20Attacking%20Enterprise%20Networks%20e58784ef03384d448422f3792ef3f8a3/Untitled%202.png)
+![Untitled](img-informe/Untitled%202.png)
 
 ### PC4
 
@@ -149,7 +149,7 @@ Acceso a archivos locales
 | Referencias: | https://www.tenable.com/plugins/was/113061 |
 | Prueba de Concepto |  |
 
-![Untitled](Proyecto%207%20Attacking%20Enterprise%20Networks%20e58784ef03384d448422f3792ef3f8a3/Untitled%203.png)
+![Untitled](img-informe/Untitled%203.png)
 
 Firma SMB no se requiere
 
@@ -164,6 +164,6 @@ Firma SMB no se requiere
 | Referencias: | https://www.tenable.com/plugins/nessus/57608 |
 | Prueba de Concepto |  |
 
-![Untitled](Proyecto%207%20Attacking%20Enterprise%20Networks%20e58784ef03384d448422f3792ef3f8a3/Untitled%204.png)
+![Untitled](img-informe/Untitled%204.png)
 
-![2024-04-25 01_55_32-Kali Linux Nessus & OpenVAS (Instantánea 7) [Corriendo] - Oracle VM VirtualBox.png](Proyecto%207%20Attacking%20Enterprise%20Networks%20e58784ef03384d448422f3792ef3f8a3/2024-04-25_01_55_32-Kali_Linux_Nessus__OpenVAS_(Instantnea_7)_Corriendo_-_Oracle_VM_VirtualBox.png)
+![2024-04-25 01_55_32-Kali Linux Nessus & OpenVAS (Instantánea 7) [Corriendo] - Oracle VM VirtualBox.png](img-informe/2024-04-25_01_55_32-Kali_Linux_Nessus__OpenVAS_(Instantnea_7)_Corriendo_-_Oracle_VM_VirtualBox.png)
