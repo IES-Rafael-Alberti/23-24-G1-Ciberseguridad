@@ -28,6 +28,9 @@ Además, al usar el comando run post/windows/gather/hashdump, podemos obtener ta
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img/Untitled%204.png)
 
+## Vector de ataque MITRE
+![MITRE](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img/mitrepc1.png)
+
 ### PC02 <div id='pc02' />
 
 Una vez obtenido toda la información que deseamos a través del meterpreter, lo que debemos realizar es la preparación para poder acceder al siguiente sistema, en este caso PC02. Para ello, usaremos socks_proxy para poder realizar esta labor, dejando en el background el meterpreter funcionando:
@@ -187,6 +190,9 @@ Simplemente deberemos reiniciar el servicio con “service ssh restart” y si q
 Ahora tenemos conexión con la máquina victima simplemente redireccionando el puerto 22 a nuestra máquina atacante.
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img/Untitled%2041.png)
+
+## Vector de ataque MITRE
+![MITRE](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img/mitrepc2.png)
 
 ### PC04 <div id='pc04' />
 
