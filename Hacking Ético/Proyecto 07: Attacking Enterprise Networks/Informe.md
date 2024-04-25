@@ -1,6 +1,6 @@
 # Proyecto 7: Attacking Enterprise Networks
 
-##m **Índice**
+## **Índice**
 
 1. [Formulario de autorización de Pentesting](#formulario)  
   1.1 [Objetivo del Pentesting](#objetivo)  
