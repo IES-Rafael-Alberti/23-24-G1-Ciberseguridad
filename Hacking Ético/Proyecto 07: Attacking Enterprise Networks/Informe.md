@@ -1,6 +1,23 @@
 # Proyecto 7: Attacking Enterprise Networks
 
-# Formulario de autorización de Pentesting
+##m **Índice**
+
+1. [Formulario de autorización de Pentesting](#formulario)  
+  1.1 [Objetivo del Pentesting](#objetivo)  
+  1.2 [Alcance](#alcance)  
+  1.3 [Duración](#duracion)  
+  1.4 [Acuerdo de Confidencialidad](#acuerdo)  
+  1.5 [Autorización del Pentesting](#autorizacion)  
+  1.6 [Permisos solicitados por los pentesters](#permisos)  
+  1.7 [Tarifas y pagos](#tarifas)  
+  1.8 [Índices de gravedad de los hallazgos](#indices)  
+  1.9 [Factores de riesgos](#factores)    
+2. [Resultados técnicos](#resultados)  
+  2.1 [PC1](#pc1)  
+  2.3 [PC2](#pc2)  
+  2.3 [PC4](#pc4)  
+
+# Formulario de autorización de Pentesting <div id='formulario' />
 
 **Cliente:** CyberSecPro S.A.
 
@@ -8,11 +25,11 @@
 
 **Fecha de finalización del pentesting: 25**/04/2024
 
-### **Objetivo del Pentesting**
+### **Objetivo del Pentesting** <div id='objetivo' />
 
 Asegurar la integridad de la información de los sistemas y los clientes con un análisis exhaustivo debido a un aviso de posibles vulnerabilidades en sus servidores  y emplear técnicas avanzadas de post-explotación para simular la escalada de privilegios, la persistencia y el pivoting dentro de la red.
 
-### Alcance
+### Alcance <div id='alcance' />
 
 La prueba debe realizarse en los siguientes dominios y rangos de red:
 
@@ -27,15 +44,15 @@ Se permiten técnicas de prueba automatizadas, como la enumeración y el escaneo
 - Acciones destructivas o pruebas de Denegación de Servicio (DoS).
 - Modificaciones en el entorno sin el consentimiento escrito del personal de TI autorizado.
 
-## Duración
+### Duración <div id='duracion' />
 
 La prueba debe ser realizada en un plazo de 72 horas. La prueba se puede realizar las 24 horas del día, pero se solicita que cualquier escaneo de vulnerabilidades pesadas se realice fuera del horario laboral regular (después de las 19:00 hora de Cádiz).
 
-### **Acuerdo de Confidencialidad**
+### **Acuerdo de Confidencialidad** <div id='acuerdo' />
 
 Es considerado como información clasificada o confidencial toda la información que sea proporcionado por la empresa “CyberSecPro S.A.” y que esté incluida en los sistemas designados en el Ámbito, no pudiendo ser divulgada a terceros bajo ningún concepto exceptuando con permiso previo de la empresa u orden judicial expresa. En esta información está incluída los datos técnicos, financieros, documentos, u otro tipo de información que pueda recopilarse en todas sus formas.
 
-### **Autorización del Pentesting**
+### **Autorización del Pentesting** <div id='autorizacion' />
 
 - Autorizo al Grupo 1, y a sus empleados o agentes designados, a llevar a cabo pruebas de penetración en los sistemas especificados en el ámbito del pentesting, según lo descrito en el objetivo.
 - Autorizo al Grupo 1 a realizar todas las pruebas que se vean necesarias, siempre y cuando la integridad de los sistemas no se vea afectada.
@@ -49,11 +66,11 @@ Es considerado como información clasificada o confidencial toda la información
 - Solicito al Grupo 1 a proporcionarme un informe detallado de los resultados del pentesting, incluyendo una descripción de las vulnerabilidades o riesgos de seguridad identificados, una evaluación de su gravedad y una recomendación de medidas de mitigación o corrección.
 - Solicito al Grupo 1 a proporcionarme asistencia y asesoramiento en la implementación de las medidas de mitigación o corrección recomendadas.
 
-### Permisos solicitados por los pentesters
+### Permisos solicitados por los pentesters <div id='permisos' />
 
 Se solicita permiso de la empresa cliente para realizar un cambio en el firewall una vez ya vulnerado el primer equipo para poder realizar el pivoting correctamente.
 
-### **Tarifas y pagos**
+### **Tarifas y pagos** <div id='tarifas' />
 
 El Cliente aceptará desembolsar el pago por el servicio recibido del Proveedor, en un acuerdo financiero donde se especificarán todas las tarifas asociadas que deberá presentarse junto con este documento y firmado al mismo tiempo.
 
@@ -63,7 +80,7 @@ El Cliente aceptará desembolsar el pago por el servicio recibido del Proveedor,
 
 ---
 
-### **Índices de gravedad de los hallazgos**
+### **Índices de gravedad de los hallazgos** <div id='indices' />
 
 Los resultados presentados en las tablas son el producto de análisis de vulnerabilidades realizados en los objetivos dados por la empresa. Estos análisis han revelado una diversidad de vulnerabilidades que abarcan diferentes niveles de riesgo y criticidad.
 
@@ -75,7 +92,7 @@ Los resultados presentados en las tablas son el producto de análisis de vulnera
 | Bajo |  |  |  |  |  |
 | Información |  |  |  |  |  |
 
-### Factores de riesgos
+### Factores de riesgos <div id='factores' />
 
 Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades nos ofrecen una visión detallada de la criticidad de cada vulnerabilidad, desde aquellas con impacto limitado hasta aquellas con consecuencias devastadoras. 
 
@@ -86,9 +103,9 @@ Los factores de riesgo de CVSS, aplicados a los hallazgos de vulnerabilidades no
 | Alto | 7.0 - 8.9 | Vulnerabilidades con un impacto significativo y que pueden ser fácilmente explotadas. |
 | Crítico | 9.0 - 10.0 | Vulnerabilidades con un impacto devastador y que pueden ser explotadas de manera trivial o sin requerir autenticación. |
 
-# Resultados técnicos
+# Resultados técnicos <div id='resultados' />
 
-### PC1
+### PC1 <div id='pc1' />
 
 Remote Desktop Services Remote Code Execution Vulnerability
 
@@ -105,7 +122,7 @@ Remote Desktop Services Remote Code Execution Vulnerability
 
 
 
-### PC2
+### PC2 <div id='pc2' />
 
 Site Editor Local File Inclusion
 
@@ -122,7 +139,7 @@ Site Editor Local File Inclusion
 
 
 
-### PC4
+### PC4 <div id='pc4' />
 
 Acceso a archivos locales
 
