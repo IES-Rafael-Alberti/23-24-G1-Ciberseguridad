@@ -1,6 +1,12 @@
 # Write UP Proyecto 07
 
-## PC01
+## **Índice**
+
+1. [PC01](#pc01)  
+2. [PC02](#pc02)  
+3. [PC04](#pc04)  
+
+### PC01 <div id='pc01' />
 
 Este PC es el inicial que podemos atacar y que nos servirá como enlace para el resto de la red corporativa. Por ello, empezaremos con un listado de todos los puertos abiertos para saber sus servicios, empleando el comando nmap para realizar la investigación:
 
@@ -22,7 +28,7 @@ Además, al usar el comando run post/windows/gather/hashdump, podemos obtener ta
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img/Untitled%204.png)
 
-## PC02
+### PC02 <div id='pc02' />
 
 Una vez obtenido toda la información que deseamos a través del meterpreter, lo que debemos realizar es la preparación para poder acceder al siguiente sistema, en este caso PC02. Para ello, usaremos socks_proxy para poder realizar esta labor, dejando en el background el meterpreter funcionando:
 
@@ -182,7 +188,7 @@ Ahora tenemos conexión con la máquina victima simplemente redireccionando el p
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Hacking%20%C3%89tico/Proyecto%2007%3A%20Attacking%20Enterprise%20Networks/img/Untitled%2041.png)
 
-## PC04
+### PC04 <div id='pc04' />
 
 Después de enlazar el PC 1 con el PC04 a través de socks_proxy siguiendo la misma preparación que en el PC02, procedemos a escanear los puertos del PC04 para comprobar que servicios están abiertos. 
 
