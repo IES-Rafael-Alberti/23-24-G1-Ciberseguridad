@@ -162,8 +162,8 @@ Firma SMB no se requiere
 | Sistemas | PC04 |
 | Remediación: | Aplicar la firma de mensajes en la configuración del host. En Windows, esto se encuentra en el ajuste de política ‘Servidor de red de Microsoft: Firmar comunicaciones(siempre)’. En Samba, el ajuste se llama ‘firmar servidor’. |
 | Referencias: | https://www.tenable.com/plugins/nessus/57608 |
-| Prueba de Concepto |  |
+| Prueba de Concepto | ![Untitled](img-informe/Untitled%204.png) ![2024-04-25 01_55_32-Kali Linux Nessus & OpenVAS (Instantánea 7) [Corriendo] - Oracle VM VirtualBox.png](img-informe/2024-04-25_01_55_32-Kali_Linux_Nessus__OpenVAS_(Instantnea_7)_Corriendo_-_Oracle_VM_VirtualBox.png) |
 
-![Untitled](img-informe/Untitled%204.png)
 
-![2024-04-25 01_55_32-Kali Linux Nessus & OpenVAS (Instantánea 7) [Corriendo] - Oracle VM VirtualBox.png](img-informe/2024-04-25_01_55_32-Kali_Linux_Nessus__OpenVAS_(Instantnea_7)_Corriendo_-_Oracle_VM_VirtualBox.png)
+
+
