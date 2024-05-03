@@ -16,7 +16,7 @@ Lo primero que deberemos realizar es activar el modo “depuración USB” en nu
 
 Una vez dentro, deberemos dar repetidos toques sobre la versión de MIUI. Nos aparecerá una cuenta atrás de toques que deberemos dar para habilitar el modo desarrollador en el dispositivo.
 
-![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/1.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/11.png)
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/2.png)
 
