@@ -8,7 +8,7 @@
 
 - **Extracción Física:** Es el método más usado, consistiendo en extraer directamente los datos del dispositivo móvil conectándose físicamente a un ordenador o utilizando hardware especializado. En est proceso se crea una réplica idéntica del dispositivo, preservando todas las evidencias potenciales, sin embargo, puede depender del estado del teléfono.
 - **Extracción lógica:** Se basa en obtener datos mediante el acceso a la interfaz del Sistema Operativo o aplicaciones instaladas en el dispositivo, sin acceder físicamente en la memoria del dispositivo, realizándose a través de la API (Interfaz de Programación de Aplicaciones) disponible en el dispositivo desde su fabricación, el cual permite extraer datos como registros de llamadas, mensajes, contactos y aplicaciones instaladas.
-- **Adquisición en la nube:** Se obtienen los datos almacenados en servicios en la nube asociados con el dispositivo móvil, como copias de seguridad en Icloud para dispositivo iOS o en Google Drive para dispositivo Android
+- **Adquisición en la nube:** Se obtienen los datos almacenados en servicios en la nube asociados con el dispositivo móvil, como copias de seguridad en Icloud para dispositivo iOS o en Google Drive para dispositivo Android.
 - **Extracción del Sistema de Fichero:** Se centra en adquirir datos del sistema de archivos del dispositivo. Puede ser útil para recuperar archivos eliminados o datos almacenados en la memoria interna o tarjeta SD.
 
 ### IoT (Internet de las Cosas)
@@ -22,6 +22,8 @@
 
 ## Desafíos
 
+Son aquellas difcultades que nos va a suponer a la hora de analizar un dipsositivo móvil o IoT
+
 ### Dispositivos Móviles
 
 - **Seguridad:** Los dispositivos móviles suelen tener medidas de seguridad como cifrado de datos y protección mediante PIN o contraseña.
@@ -33,7 +35,7 @@
 - **Heterogeneidad:** Los dispositivos IoT pueden variar en términos de hardware, protocolos de comunicación y sistemas operativos, lo que requiere adaptabilidad en las metodologías de adquisición.
 - **Privacidad y Seguridad:** Al igual que en dispositivos móviles, la seguridad y la privacidad son preocupaciones importantes, especialmente, considerando que en los dispositivos IoT a menudo recopilan datos personales o sensibles.
 - **Escalabilidad:** Con la proliferación de dispositivos IoT en entornos domésticos y empresariales, la capacidad de escalar las metodologías de adquisición es crucial.
-
+  
 ## Similitudes
 
 - **Seguridad y Privacidad:** Tanto en dispositivos móviles como en IoT, la seguridad y la privacidad son preocupantes importantes que deben abordarse durante la adquisición de datos. Cada uno deben cumplir con los estándares de seguridad para proteger la integridad y confidencialidad de la información.
@@ -70,13 +72,11 @@
     - **Dispositivos Móviles:** La interacción con los usuarios es una parte integral de la experiencia del dispositivo móvil, lo que puede influir en las estrategias de adquisición de datos para garantizar una experiencia de usuario fluida y receptiva.
     - **IoT:** Pueden admitir interacciones directas con el usuarios algunos dispositivos, pero otros operan principalmente en segundo plano sin interacción directa, lo que puede influir en las estrategias de adquisición de datos para optimizar la eficiencia y la utilidad de los datos recopilados.
 
----
-
 ## Herramientas
 
 ### Herramientas para la adquisición en dispositivos móviles
 
-### Herramientas de Código Abierto
+#### Herramientas de Código Abierto
 
 - **Autopsy:** Una plataforma de análisis forense digital de código abierto que puede utilizarse para la adquisición y análisis de datos en dispositivos móviles. Proporciona funciones para extraer datos de imágenes de dispositivos móviles y analizarlos en busca de videncias digitales.
 - **Amanda:** Una herramienta de adquisición de datos forense para dispositivos iOS. Permite la extracción de datos de dispositivos iOS mediante la conexión USB y es compatible con una variedad de versiones de iOS.
@@ -85,7 +85,7 @@
 - **OpenPuff:** Una herramienta de esteganografía de código abierto que se puede utilizar para ocultar datos dentro de archivos multimedia, lo que puede ser útil en casos de adquisición de datos donde se sospechas que se han ocultado datos importantes.
 - **MobSF(Mobile Security Framework):** Un marco de seguridad móvil de código abierto que incluye capacidades para realizar pruebas de penetración en aplicaciones móviles y dispositivos Android e iOS. Si bien no es específicamente una herramienta de adquisición de datos, puede ser útil para evaluar la seguridad de aplicaciones móviles y dispositivos antes de realizar una adquisición de datos.
 
-### **Herramientas gratuitas genéricas**
+#### **Herramientas gratuitas genéricas**
 
 - **[AFLogical OSE - Open source Android Forensics app and framework](https://github.com/viaforensics/android-forensics)** es una aplicación que sirve para extraer una variedad de información, como registro de llamadas, lista de contactos… Posteriormente, los datos pueden recuperarse conectando la tarjeta a un dispositivo externo o mediante ADB.
 - **[Open Source Android Forensics](http://osaf-community.org/)** es un framework que proporciona una imagen de máquina virtual que incluye varias herramientas para analizar aplicaciones en dispositivos móviles. Permite análisis estátivos y dinámicos, así como análisis forenses.
@@ -94,7 +94,7 @@
 - **[NowSecure Forensics Community Edition](https://github.com/nowsecure/android-forensics)** se distribuye como una imagen virtual que contiene varias herramientas para análisis forense en dispositivos móviles. Ofrece diferentes tipos de extracción de evidencias y soporta el file carving en su versión comercial.
 - **[LIME- Linux Memory Extractor](https://github.com/504ensicslabs/lime)** es un software que permite la obtención de volcados de memoria volátil de dispositivos basados en Linux, como teléfonos móviles Android. Además, puede ser ejecutado de forma remota a través de la red.
 
-### **Herramientas gratuitas específicas**
+#### **Herramientas gratuitas específicas**
 
 - **[Android Data Extractor Lite (ADEL)](http://forensics.spreitzenbarth.de/adel/)** es una herramienta desarrollada en Python que permite obtener un flujograma forense a partir de las bases de datos del dispositivo móvil. Para poder realizar el proceso, es necesario que el dispositivo móvil esté rooteado o tener instalado un recovery personalizado.
 - **[WhatsApp Xtract](https://code.google.com/p/hotoloti/downloads/detail?name=Whatsapp_Xtract_V2.1_2012-05-10-2.zip&)** permite visualizar las conversaciones de WhatsApp en el ordenador de una manera sencilla y amigable. Para ello, se deben obtener previamente las diferentes bases de datos que almacenan la información correspondiente a los mensajes.
