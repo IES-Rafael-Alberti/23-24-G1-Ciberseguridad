@@ -16,19 +16,19 @@ Lo primero que deberemos realizar es activar el modo “depuración USB” en nu
 
 Una vez dentro, deberemos dar repetidos toques sobre la versión de MIUI. Nos aparecerá una cuenta atrás de toques que deberemos dar para habilitar el modo desarrollador en el dispositivo.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled.png)
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%201.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%201.png)
 
 Una vez activo el modo desarrollador, deberemos dirigirnos desde el menú “Ajustes” al apartado “Ajustes adicionales”. Dentro de estos, deberemos dirigirnos a “Opciones de desarrollador”.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%202.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%202.png)
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%203.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%203.png)
 
 Ahora dentro de este menú, activaremos el modo “Depuración USB”. Este modo nos permite pasar información directamente desde el ordenador al teléfono y viceversa y nos permitirá hacer la adquisición del dispositivo. Se recomienda tener el móvil “rooteado” para poder acceder a toda la información del móvil.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%204.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%204.png)
 
 ### Uso de la herramienta Andriller.
 
@@ -48,33 +48,33 @@ Ahora lanzaremos nuestro programa desde la consola de comandos con el siguiente 
 
 Esto nos abrirá la interfaz gráfica de la aplicación, en ella podemos seleccionar entre diversas funcionalidades, entre la extracción de datos a través de USB, parsear carpetas, archivos .tar, ficheros con extensión .ab, entre muchas otras cosas.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%205.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%205.png)
 
 En el menú principal de “extracción USB” podemos hacer la comprobación de que el dispositivo USB conectado es al que queremos hacer la adquisición mediante el botón “check” (2). También deberemos elegir la carpeta en la cual vamos a guardar el resultado, mediante el botón “Output” (1). Ahora deberemos elegir lo que vamos a extraer, si vamos a usar el método AB ignorando el root, ya que el dispositivo no está rooteado, al igual que si queremos extraer la carpeta de almacenamiento compartida (4). Una vez tengamos todo listo, pulsaremos el botón “Extract” (3) para comenzar la adquisición.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%206.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%206.png)
 
 Cuando comencemos la adquisición, nos dará un aviso de que debemos confirmar la copia de seguridad del sistema desde nuestro móvil.
 
-![warning.png](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/warning.png)
+![warning.png](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/warning.png)
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%207.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%207.png)
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%208.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%208.png)
 
 Una vez acabada la adquisición, nos abrirá una página en nuestro navegador con los detalles de la adquisición. Podemos navegar a los dos hipervínculos de abajo para inspeccionar dichos elementos.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%209.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%209.png)
 
 Yéndonos a la carpeta resultante de la adquisición, podemos ver los archivos que nos genera de la adquisición.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2010.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2010.png)
 
 Dentro de la carpeta “data”, tenemos toda la información del teléfono, tanto la carpeta compartida, donde está toda la información de las aplicaciones de terceros, como la carpeta “data/apps” que contiene la información de Android.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2011.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2011.png)
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2012.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2012.png)
 
 ### Uso de la herramienta Android Debug Bridge
 
@@ -86,33 +86,33 @@ Una vez tenemos las herramientas en nuestro equipo, nos dirigimos a la carpeta e
 
 Esta herramienta consta de un archivo ejecutable (.exe) y de dos bibliotecas (.dll) para su utilización.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2013.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2013.png)
 
 Con el comando adb devices, podemos ver los dispositivos conectados en nuestro equipo, estos serán mostrados por el ID del mismo. Es posible que la primera vez que conectemos el dispositivo desde este método al equipo, nos pida una autorización desde el mismo para poder entrar desde el modo depuración USB.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2014.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2014.png)
 
 Con el siguiente comando realizaremos una copia de seguridad de nuestro sistema Android, esto debería de resultarnos en un archivo .ab, con la información pertinente, en este caso, hemos añadido que nos incluya los archivos apk de las aplicaciones (-apk), los archivos de configuración del sistema (-system) y todos los datos de las aplicaciones, no solo las que tienen activado el permiso de copia de seguridad (-all).
 
 Como en el caso de la herramienta anterior, también se nos pide desde el dispositivo una confirmación del inicio de la copia de seguridad.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2015.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2015.png)
 
 Podemos ver el archivo resultante de la adquisición, si parseamos este archivo, podemos ver el backup creado y los archivos resultante de este mismo son los siguientes:
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2016.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2016.png)
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2017.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2017.png)
 
 Tenemos otro método de extracción de datos con la herramienta ADB, este caso es con el uso del comando “pull”, la función de este comando es realizar una copia de los archivos a directorios a nuestro equipo. 
 
 Respecto a este comando, no podremos traernos carpetas del sistema si no disponemos de un móvil rooteado, en este caso vamos a extraer la carpeta “sdcard”, la cual contiene los archivos compartidos del dispositivo.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2018.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2018.png)
 
 El error encontrado en este tipo de adquisición, es que cuando encuentra una carpeta con un carácter especial (siempre da fallo en la misma carpeta, puesto tiene en la ruta el carácter “:”) 
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2019.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2019.png)
 
 Puesto que la carpeta Andriod, es la carpeta realizada con la adquisición del backup, se ha creado un script para lanzarlo por la powershell de windows en el cual haremos un pull de todas las carpetas exceptuando esta que nos da el fallo:
 
@@ -120,13 +120,13 @@ En este solo debemos modificar la ruta en la cual tenemos guardada nuestro ejecu
 
 Este método ignora los fallos y continua haciendo la adquisición de todos los directorios del dispositivo.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2020.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2020.png)
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2021.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2021.png)
 
 En la carpeta resultante, podemos observar que se nos genera todas las carpetas adquiridas desde el dispositivo.
 
-![Untitled](Investigacio%CC%81n%20Pra%CC%81ctica%20Proyecto%208%20AFI%20381d71f0bfa74178b05ec6f803ef8265/Untitled%2022.png)
+![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2022.png)
 
 # 3. Evaluación de las herramientas
 
