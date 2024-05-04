@@ -2,7 +2,7 @@
 
 # 1. Resumen Ejecutivo
 
-Se llevó a cabo un proceso de análisis forense utilizando un dispositivo móvil antiguo, específicamente un Xiaomi RedNote 7. Para habilitar este análisis, se activaron el modo desarrollador y la depuración USB en el dispositivo. Posteriormente, se utilizó una combinación de herramientas como Andriller y ADB para realizar una copia de seguridad del móvil en un ordenador. Este procedimiento permitió obtener información detallada sobre las aplicaciones previamente instaladas en el dispositivo, brindando así un panorama completo de los datos asociados a estas aplicaciones.
+Se llevó a cabo un proceso de análisis forense utilizando un dispositivo móvil antiguo, específicamente un Xiaomi RedNote 7. Para habilitar este análisis, se activó el modo desarrollador y la depuración USB en el dispositivo. Además, se utilizó una combinación de herramientas como Andriller y ADB para realizar una copia de seguridad del móvil en un ordenador. Este procedimiento permitió obtener información detallada sobre las aplicaciones previamente instaladas en el dispositivo, otorgando así un panorama completo de los datos asociados a estas aplicaciones que se investigaron.
 
 # 2. Investigación Teórica
 
