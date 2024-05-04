@@ -1,6 +1,16 @@
 # Investigación Práctica Proyecto 8 AFI
 
-## 1. Selección de Dispositivos
+## Indice
+1. [Selección de Dispositivos](#seleccion)
+2. [Técnicas](#tecnicas)
+  2.1 [Preparación del dispositivo](#preparacion)
+  2.2 [Uso de la herramienta Andriller.](#andriller)
+  2.3 [Uso de la herramienta Android Debug Bridge](#android) 
+3. [Evaluación de las herramientas](#evaluacion)
+  3.1 [Herramientas utilizadas](#herramientas)
+  3.2 [Comparación de las herramientas:](#comparacion)
+ 
+## 1. Selección de Dispositivos<div id='seleccion' />
 
 Para el análisis del dispositivo móvil, vamos a usar un móvil con las siguientes características:
 
@@ -8,9 +18,9 @@ Para el análisis del dispositivo móvil, vamos a usar un móvil con las siguien
 - Versión Android: Android 10 QKQ1.190910.002.
 - Versión MIUI: MUIU GLobal 12.5.1 | Estable 12.5.1.0(QFGEUXM)
 
-## 2. Técnicas
+## 2. Técnicas<div id='tecnicas' />
 
-### Preparación del dispositivo
+### Preparación del dispositivo<div id='preparacion' />
 
 Lo primero que deberemos realizar es activar el modo “depuración USB” en nuestro dispositivo móvil. Para ello nos dirigimos a apartado “Sobre el teléfono” en el menú “Ajustes” del dispositivo.
 
@@ -30,7 +40,7 @@ Ahora dentro de este menú, activaremos el modo “Depuración USB”. Este modo
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/5.png)
 
-### Uso de la herramienta Andriller.
+### Uso de la herramienta Andriller.<div id='andriller' />
 
 El primer paso será descargarnos la herramienta, esta es opensource y podemos encontrarla en el siguiente repositorio de github:
 
@@ -76,7 +86,7 @@ Dentro de la carpeta “data”, tenemos toda la información del teléfono, tan
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2012.png)
 
-### Uso de la herramienta Android Debug Bridge
+### Uso de la herramienta Android Debug Bridge<div id='android' />
 
 El uso de esta herramienta es mediante la interfaz de comando del equipo. Lo primero que deberemos hacer es descargarnos la herramienta desde la web oficial de android, podemos encontrarla entre las herramientas  del paquete SDK:
 
@@ -128,9 +138,9 @@ En la carpeta resultante, podemos observar que se nos genera todas las carpetas 
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2022.png)
 
-# 3. Evaluación de las herramientas
+# 3. Evaluación de las herramientas<div id='evaluacion' />
 
-## Herramientas utilizadas:
+## Herramientas utilizadas:<div id='herramientas' />
 
 Android Debug Bridge (ADB):
 
@@ -146,7 +156,7 @@ Andriller
 | Versión: | 3.6.3 |
 | Página web | https://github.com/den4uk/andriller |
 
-## Comparación de las herramientas:
+## Comparación de las herramientas:<div id='comparacion' />
 
 Respecto al uso de la herramienta Andriller, es una herramienta muy fácil e intuitiva de usar, su interfaz gráfica simplifica mucho su uso, además, dar la opción de poder extraer el AB ignorando el root nos ayuda mucho a hacer una adquisición sin necesidad de tener el teléfono rooteado.
 
