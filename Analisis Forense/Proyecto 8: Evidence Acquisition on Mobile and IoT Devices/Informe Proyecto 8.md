@@ -206,6 +206,6 @@ Además, se debe considerar algunos temas éticos relacionados, siendo crucial o
 
 # 6. Conclusiones<div id='conclusiones' />
 
-En conclusiva, esta metodología de adquisición y análisis de datos de dispositivos IoT es indispensable para poder realizar nuestra labor, dado que nos permite adquirir y revisar todo el contenido del dispositivo, además de una comprensión bastante útil acerca de las diversas herramientas disponibles para realizar dicha adquisición, dado que cada una posee sus propias ventajas y desafíos a la hora de su uso adecuado para realizar la labor.
+Para concluir el informe, esta metodología de adquisición y análisis de datos de dispositivos IoT y de móviles, es indispensable para poder realizar nuestra labor, dado que nos permite adquirir y revisar todo el contenido del dispositivo, además de una comprensión bastante útil acerca de las diversas herramientas disponibles para realizar dicha adquisición, dado que cada una posee sus propias ventajas y desafíos a la hora de su uso adecuado para realizar el trabajo.
 
 También resulta importante el tener en cuenta todas las consideraciones posibles, tanto legales como éticas, para su realización correcta y dentro del marco de la ley, haciendo que en su conjunto, sea necesario para poder tomar toda acción sin vulnerar ningún derecho del usuario y su privacidad, además de poder realizar nuestro trabajo sin impedimentos.
