@@ -20,7 +20,7 @@
   1.6. [Procedimientos Manuales](#procedimientos)  
   1.7. [Aspectos Legales](#legales)  
   1.8. [Aspectos Éticos](#eticos)  
-  1.9. [REFERENCIAS](#referencias)       
+  1.9. [Referencias](#referencias)       
 
 # Metodologías de Adquisición<div id='metodologias' />
 
