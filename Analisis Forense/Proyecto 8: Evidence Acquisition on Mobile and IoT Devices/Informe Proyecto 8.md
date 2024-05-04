@@ -1,17 +1,17 @@
 # Informe Proyecto 8
 
 ## Índice
-1. [Resumen Ejecutivo](#resumen)
-2. [Investigación Teórica](#investigacion)
-  2.1 [Metodología.](#metodologia)
-3. [Práctica de Adquisición](#adquisicion)
-  3.1 [Dispositivo Móvil](#movil)
-  3.2 [Uso de la herramienta Andriller.](#andriller)
-  3.3 [Uso de la herramienta Android Debug Bridge](#debugbridge)
-4. [Evaluación de Herramientas y Métodos](#herramientas)
-   4.1 [Herramientas utilizadas:](#utilizadas)
-   4.2 [Comparación de las herramientas:](#comparacion)
-4. [Consideraciones Legales](#legales) 
+1. [Resumen Ejecutivo](#resumen)  
+2. [Investigación Teórica](#investigacion)  
+  2.1 [Metodología.](#metodologia)  
+3. [Práctica de Adquisición](#adquisicion)  
+  3.1 [Dispositivo Móvil](#movil)  
+  3.2 [Uso de la herramienta Andriller.](#andriller)  
+  3.3 [Uso de la herramienta Android Debug Bridge](#debugbridge)  
+4. [Evaluación de Herramientas y Métodos](#herramientas)  
+   4.1 [Herramientas utilizadas:](#utilizadas)  
+   4.2 [Comparación de las herramientas:](#comparacion)  
+4. [Consideraciones Legales](#legales)    
 
 # 1. Resumen Ejecutivo<div id='resumen' />
 
