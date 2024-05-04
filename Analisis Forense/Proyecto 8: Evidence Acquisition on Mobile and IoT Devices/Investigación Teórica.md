@@ -109,18 +109,18 @@ Son aquellas difcultades que nos va a suponer a la hora de analizar un dipsositi
 
 #### **Herramientas gratuitas genéricas**<div id='genericas' />
 
-- **[AFLogical OSE - Open source Android Forensics app and framework](https://github.com/viaforensics/android-forensics)** es una aplicación que sirve para extraer una variedad de información, como registro de llamadas, lista de contactos… Posteriormente, los datos pueden recuperarse conectando la tarjeta a un dispositivo externo o mediante ADB.
-- **[Open Source Android Forensics](http://osaf-community.org/)** es un framework que proporciona una imagen de máquina virtual que incluye varias herramientas para analizar aplicaciones en dispositivos móviles. Permite análisis estátivos y dinámicos, así como análisis forenses.
-- **[Andriller](http://andriller.com/)** es una aplicación para sistemas operativos Windows que ofrece diversas utilidades forenses. Permite obtener información relevante de redes sociales y programas de mensajería.
-- **[FTK Imager Lite](https://marketing.accessdata.com/ftkimagerlite3.1.1):** Esta herramienta es útil para trabajar con volcados de memoria de dispositivos móviles, lo que facilita el análisis y la obtención de evidencias.
-- **[NowSecure Forensics Community Edition](https://github.com/nowsecure/android-forensics)** se distribuye como una imagen virtual que contiene varias herramientas para análisis forense en dispositivos móviles. Ofrece diferentes tipos de extracción de evidencias y soporta el file carving en su versión comercial.
-- **[LIME- Linux Memory Extractor](https://github.com/504ensicslabs/lime)** es un software que permite la obtención de volcados de memoria volátil de dispositivos basados en Linux, como teléfonos móviles Android. Además, puede ser ejecutado de forma remota a través de la red.
+- **AFLogical OSE - Open source Android Forensics app and framework:** Es una aplicación que sirve para extraer una variedad de información, como registro de llamadas, lista de contactos… Posteriormente, los datos pueden recuperarse conectando la tarjeta a un dispositivo externo o mediante ADB.
+- **Open Source Android Forensics:** Es un framework que proporciona una imagen de máquina virtual que incluye varias herramientas para analizar aplicaciones en dispositivos móviles. Permite análisis estátivos y dinámicos, así como análisis forenses.
+- **Andriller**: Es una aplicación para sistemas operativos Windows que ofrece diversas utilidades forenses. Permite obtener información relevante de redes sociales y programas de mensajería.
+- **FTK Imager Lite:** Esta herramienta es útil para trabajar con volcados de memoria de dispositivos móviles, lo que facilita el análisis y la obtención de evidencias.
+- **NowSecure Forensics Community Edition:** Se distribuye como una imagen virtual que contiene varias herramientas para análisis forense en dispositivos móviles. Ofrece diferentes tipos de extracción de evidencias y soporta el file carving en su versión comercial.
+- **LIME- Linux Memory Extractor:** Es un software que permite la obtención de volcados de memoria volátil de dispositivos basados en Linux, como teléfonos móviles Android. Además, puede ser ejecutado de forma remota a través de la red.
 
 #### **Herramientas gratuitas específicas**<div id='especificas' />
 
-- **[Android Data Extractor Lite (ADEL)](http://forensics.spreitzenbarth.de/adel/)** es una herramienta desarrollada en Python que permite obtener un flujograma forense a partir de las bases de datos del dispositivo móvil. Para poder realizar el proceso, es necesario que el dispositivo móvil esté rooteado o tener instalado un recovery personalizado.
-- **[WhatsApp Xtract](https://code.google.com/p/hotoloti/downloads/detail?name=Whatsapp_Xtract_V2.1_2012-05-10-2.zip&)** permite visualizar las conversaciones de WhatsApp en el ordenador de una manera sencilla y amigable. Para ello, se deben obtener previamente las diferentes bases de datos que almacenan la información correspondiente a los mensajes.
-- **[Skype Xtractor](https://sourceforge.net/projects/skypextractor/)** es una aplicación, soportada tanto en Windows como Linux, que permite visualizar la información del fichero main.db de Skype, el cuál almacena información referente a los contactos, chats, llamadas, ficheros transferidos y mensajes eliminados, etc.
+- **Android Data Extractor Lite (ADEL):** Es una herramienta desarrollada en Python que permite obtener un flujograma forense a partir de las bases de datos del dispositivo móvil. Para poder realizar el proceso, es necesario que el dispositivo móvil esté rooteado o tener instalado un recovery personalizado.
+- **WhatsApp Xtract:** Permite visualizar las conversaciones de WhatsApp en el ordenador de una manera sencilla y amigable. Para ello, se deben obtener previamente las diferentes bases de datos que almacenan la información correspondiente a los mensajes.
+- **Skype Xtractor:** Es una aplicación, soportada tanto en Windows como Linux, que permite visualizar la información del fichero main.db de Skype, el cuál almacena información referente a los contactos, chats, llamadas, ficheros transferidos y mensajes eliminados, etc.
 
 ### Herramientas para la adquisición en dispositivos IoT<div id='iotherramientas' />
 
