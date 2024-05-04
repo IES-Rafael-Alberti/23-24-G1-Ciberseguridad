@@ -163,4 +163,4 @@ Son aquellas difcultades que nos va a suponer a la hora de analizar un dipsositi
 ### REFERENCIAS:<div id='referencias' />
 
 [https://www.incibe.es/incibe-cert/blog/herramientas-para-realizar-analisis-forenses-dispositivos-moviles](https://www.incibe.es/incibe-cert/blog/herramientas-para-realizar-analisis-forenses-dispositivos-moviles)  
-[https://aws.amazon.com/es/what-is/interoperability/#:~:text=La interoperabilidad se refiere a,compartan información en tiempo real](https://aws.amazon.com/es/what-is/interoperability/#:~:text=La%20interoperabilidad%20se%20refiere%20a,compartan%20informaci%C3%B3n%20en%20tiempo%20real)
+[https://aws.amazon.com/es/what-is/interoperability/](https://aws.amazon.com/es/what-is/interoperability/)
