@@ -11,7 +11,8 @@
 4. [Evaluación de Herramientas y Métodos](#herramientas)  
    4.1 [Herramientas utilizadas:](#utilizadas)  
    4.2 [Comparación de las herramientas:](#comparacion)  
-4. [Consideraciones Legales](#legales)    
+4. [Consideraciones Legales](#legales)
+5. [Conclusiones](#conclusiones)
 
 # 1. Resumen Ejecutivo<div id='resumen' />
 
@@ -205,3 +206,7 @@ Respecto a la herramienta ADB, no es tan fácil e intuitiva como la otra probada
 En el marco legal, la adquisición de datos de dispositivos móviles e IoT debe cumplir con las leyes de privacidad y protección de datos, como el Reglamento General de Protección de Datos (GDPR) en la Unión Europea o la Ley de Privacidad del Consumidor de California (CCPA) en los EEUU. Además, en situaciones de investigación criminal, la adquisición de datos requiere órdenes judiciales o autorizaciones legales. Para garantizar la integridad y autenticidad de las evidencias, es fundamental mantener una cadena de custodia detallada, desde la recopilación hasta el análisis, para demostrar que los datos no han sido alterados o manipulados. Aparte, hacer la adquisición puede involucrar dispositivos y datos ubicados en diferentes jurisdicciones, lo que plantea desafíos legales adicionales en términos de jurisdicción relevante y cómo se aplican a la adquisición y uso de evidencias. Finalmente, los datos almacenados en dispositivos móviles e IoT pueden estar sujetos a derechos de propiedad intelectual y otros derechos de propiedad, lo que requiere un enfoque cuidadoso en la adquisición y uso de datos para evitar violaciones de derechos.
 
 Además, se debe considerar algunos temas éticos relacionados, siendo crucial obtener el consentimiento informado de los usuarios antes de recopilar datos necesarios, emplear la minimización de datos para proteger la privacidad del usuario, ser transparente y responsable en el uso de los datos adquiridos, garantizar la equidad y evitar la discriminación de cualquier tipo, abordar sesgos y asegurar la imparcialidad en los análisis, respetar la autonomía y dignidad de las personas, proteger a grupos vulnerables y promover un uso responsable de la tecnología para maximizar beneficios sociales y minimizar riesgos relacionados.
+
+# 6. Conclusiones<div id='conclusiones' />
+
+
