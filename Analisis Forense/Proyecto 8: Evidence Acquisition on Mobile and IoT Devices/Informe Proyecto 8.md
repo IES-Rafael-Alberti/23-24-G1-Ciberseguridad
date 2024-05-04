@@ -1,12 +1,25 @@
 # Informe Proyecto 8
 
-# 1. Resumen Ejecutivo
+## Índice
+1. [Resumen Ejecutivo](#resumen)
+2. [Investigación Teórica](#investigacion)
+  2.1 [Metodología.](#metodologia)
+3. [Práctica de Adquisición](#adquisicion)
+  3.1 [Dispositivo Móvil](#movil)
+  3.2 [Uso de la herramienta Andriller.](#andriller)
+  3.3 [Uso de la herramienta Android Debug Bridge](#debugbridge)
+4. [Evaluación de Herramientas y Métodos](#herramientas)
+   4.1 [Herramientas utilizadas:](#utilizadas)
+   4.2 [Comparación de las herramientas:](#comparacion)
+4. [Consideraciones Legales](#legales) 
+
+# 1. Resumen Ejecutivo<div id='resumen' />
 
 Se llevó a cabo un proceso de análisis forense utilizando un dispositivo móvil antiguo, específicamente un Xiaomi RedNote 7. Para habilitar este análisis, se activó el modo desarrollador y la depuración USB en el dispositivo. Además, se utilizó una combinación de herramientas como Andriller y ADB para realizar una copia de seguridad del móvil en un ordenador. Este procedimiento permitió obtener información detallada sobre las aplicaciones previamente instaladas en el dispositivo, otorgando así un panorama completo de los datos asociados a estas aplicaciones que se investigaron.
 
-# 2. Investigación Teórica
+# 2. Investigación Teórica<div id='investigacion' />
 
-## Metodología.
+## Metodología.<div id='metodologia' />
 
 A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
 las evidencias:
@@ -41,9 +54,9 @@ relacionadas con una intrusión, como su origen, la lista de sistemas afectados,
 usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
 auditable, repetible y defendible.
 
-# 3. Práctica de Adquisición
+# 3. Práctica de Adquisición<div id='adquisicion' />
 
-## Dispositivo Móvil
+## Dispositivo Móvil<div id='movil' />
 
 Lo primero que deberemos realizar es activar el modo “depuración USB” en nuestro dispositivo móvil. Para ello nos dirigimos a apartado “Sobre el teléfono” en el menú “Ajustes” del dispositivo.
 
@@ -63,7 +76,7 @@ Ahora dentro de este menú, activaremos el modo “Depuración USB”. Este modo
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/5.png)
 
-### Uso de la herramienta Andriller.
+### Uso de la herramienta Andriller.<div id='andriller' />
 
 El primer paso será descargarnos la herramienta, esta es opensource y podemos encontrarla en el siguiente repositorio de github:
 
@@ -109,7 +122,7 @@ Dentro de la carpeta “data”, tenemos toda la información del teléfono, tan
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2012.png)
 
-### Uso de la herramienta Android Debug Bridge
+### Uso de la herramienta Android Debug Bridge<div id='debugbridge' />
 
 El uso de esta herramienta es mediante la interfaz de comando del equipo. Lo primero que deberemos hacer es descargarnos la herramienta desde la web oficial de android, podemos encontrarla entre las herramientas  del paquete SDK:
 
@@ -160,9 +173,10 @@ Este método ignora los fallos y continua haciendo la adquisición de todos los 
 En la carpeta resultante, podemos observar que se nos genera todas las carpetas adquiridas desde el dispositivo.
 
 ![Untitled](https://github.com/IES-Rafael-Alberti/23-24-G1-Ciberseguridad/blob/main/Analisis%20Forense/Proyecto%208%3A%20Evidence%20Acquisition%20on%20Mobile%20and%20IoT%20Devices/img/Untitled%2022.png)
-# 4. Evaluación de Herramientas y Métodos
 
-## Herramientas utilizadas:
+# 4. Evaluación de Herramientas y Métodos<div id='herramientas' />
+
+## Herramientas utilizadas:<div id='utilizadas' />
 
 Android Debug Bridge (ADB):
 
@@ -178,7 +192,7 @@ Andriller
 | Versión: | 3.6.3 |
 | Página web | https://github.com/den4uk/andriller |
 
-## Comparación de las herramientas:
+## Comparación de las herramientas:<div id='comparacion' />
 
 Respecto al uso de la herramienta Andriller, es una herramienta muy fácil e intuitiva de usar, su interfaz gráfica simplifica mucho su uso, además, dar la opción de poder extraer el AB ignorando el root nos ayuda mucho a hacer una adquisición sin necesidad de tener el teléfono rooteado.
 
@@ -186,7 +200,7 @@ Otro aspecto a tener en cuenta es su compatibilidad con una amplia variedad de d
 
 Respecto a la herramienta ADB, no es tan fácil e intuitiva como la otra probada anteriormente. También nos ha dado muchos más problemas a la hora de hacer la adquisición, ya que al no tener el móvil rooteado no nos ha dejado hacer una copia limpia del dispositivo, además de los inconvenientes puestos a la hora de hacer el pull hacia nuestro equipo. Para la realización del backup del Android si que es útil, ya que lo ha realizado sin ningún tipo de inconveniente. 
 
-# 5. Consideraciones Legales
+# 5. Consideraciones Legales<div id='legales' />
 
 En el marco legal, la adquisición de datos de dispositivos móviles e IoT debe cumplir con las leyes de privacidad y protección de datos, como el Reglamento General de Protección de Datos (GDPR) en la Unión Europea o la Ley de Privacidad del Consumidor de California (CCPA) en los EEUU. Además, en situaciones de investigación criminal, la adquisición de datos requiere órdenes judiciales o autorizaciones legales. Para garantizar la integridad y autenticidad de las evidencias, es fundamental mantener una cadena de custodia detallada, desde la recopilación hasta el análisis, para demostrar que los datos no han sido alterados o manipulados. Aparte, hacer la adquisición puede involucrar dispositivos y datos ubicados en diferentes jurisdicciones, lo que plantea desafíos legales adicionales en términos de jurisdicción relevante y cómo se aplican a la adquisición y uso de evidencias. Finalmente, los datos almacenados en dispositivos móviles e IoT pueden estar sujetos a derechos de propiedad intelectual y otros derechos de propiedad, lo que requiere un enfoque cuidadoso en la adquisición y uso de datos para evitar violaciones de derechos.
 
