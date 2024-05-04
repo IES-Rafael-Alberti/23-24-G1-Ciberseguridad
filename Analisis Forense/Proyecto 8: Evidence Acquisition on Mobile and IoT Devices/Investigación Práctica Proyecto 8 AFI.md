@@ -1,14 +1,14 @@
 # Investigación Práctica Proyecto 8 AFI
 
 ## Indice
-1. [Selección de Dispositivos](#seleccion)
-2. [Técnicas](#tecnicas)
-  2.1 [Preparación del dispositivo](#preparacion)
-  2.2 [Uso de la herramienta Andriller.](#andriller)
-  2.3 [Uso de la herramienta Android Debug Bridge](#android) 
-3. [Evaluación de las herramientas](#evaluacion)
-  3.1 [Herramientas utilizadas](#herramientas)
-  3.2 [Comparación de las herramientas:](#comparacion)
+1. [Selección de Dispositivos](#seleccion)  
+2. [Técnicas](#tecnicas)  
+  2.1 [Preparación del dispositivo](#preparacion)  
+  2.2 [Uso de la herramienta Andriller.](#andriller)  
+  2.3 [Uso de la herramienta Android Debug Bridge](#android)   
+3. [Evaluación de las herramientas](#evaluacion)  
+  3.1 [Herramientas utilizadas](#herramientas)  
+  3.2 [Comparación de las herramientas:](#comparacion)  
  
 ## 1. Selección de Dispositivos<div id='seleccion' />
 
