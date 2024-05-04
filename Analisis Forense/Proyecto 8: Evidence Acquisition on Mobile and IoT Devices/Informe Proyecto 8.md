@@ -50,10 +50,7 @@ una bolsa de Faraday para que no pueda ser comprometido por las redes móviles.
 
 ### Análisis de evidencias
 
-Se llevarán a cabo una serie de procesos y tareas que intentarán dar respuesta a preguntas
-relacionadas con una intrusión, como su origen, la lista de sistemas afectados, los métodos
-usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica,
-auditable, repetible y defendible.
+Se llevarán a cabo una serie de procesos y tareas que intentarán dar respuesta a preguntas relacionadas con una intrusión, como su origen, la lista de sistemas afectados, los métodos usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica, auditable, repetible y defendible.
 
 # 3. Práctica de Adquisición<div id='adquisicion' />
 
@@ -209,4 +206,6 @@ Además, se debe considerar algunos temas éticos relacionados, siendo crucial o
 
 # 6. Conclusiones<div id='conclusiones' />
 
+En conclusiva, esta metodología de adquisición y análisis de datos de dispositivos IoT es indispensable para poder realizar nuestra labor, dado que nos permite adquirir y revisar todo el contenido del dispositivo, además de una comprensión bastante útil acerca de las diversas herramientas disponibles para realizar dicha adquisición, dado que cada una posee sus propias ventajas y desafíos a la hora de su uso adecuado para realizar la labor.
 
+También resulta importante el tener en cuenta todas las consideraciones posibles, tanto legales como éticas, para su realización correcta y dentro del marco de la ley, haciendo que en su conjunto, sea necesario para poder tomar toda acción sin vulnerar ningún derecho del usuario y su privacidad, además de poder realizar nuestro trabajo sin impedimentos.
