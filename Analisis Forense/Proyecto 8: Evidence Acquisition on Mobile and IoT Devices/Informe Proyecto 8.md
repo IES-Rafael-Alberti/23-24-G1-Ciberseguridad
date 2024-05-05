@@ -23,7 +23,7 @@ Se llevó a cabo un proceso de análisis forense utilizando un dispositivo móvi
 
 ## Metodología.<div id='metodologia' />
 
-Esta metodología es desarrollada y utilizada por la empresa Cellebrite, a continución, se le presentará los pasos que la componen.
+Esta metodología es desarrollada y utilizada por la empresa Cellebrite, a continuación, se le presentará los pasos que la componen.
 
 ### Planificación y Preparación
 
