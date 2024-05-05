@@ -25,6 +25,10 @@ Se llevó a cabo un proceso de análisis forense utilizando un dispositivo móvi
 A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
 las evidencias:
 
+### Planificación y Preparación
+
+Antes de iniciar la investigación, es fundamental identificar los dispositivos móviles involucrados, preparar la documentación necesaria, como la cadena de custodia y los permisos legales, y seleccionar las herramientas forenses adecuadas.
+
 ### Adquisición de evidencia digital
 
 1. La captura de la adquisición debe ser lo más precisa posible.
@@ -51,6 +55,10 @@ una bolsa de Faraday para que no pueda ser comprometido por las redes móviles.
 ### Análisis de evidencias
 
 Se llevarán a cabo una serie de procesos y tareas que intentarán dar respuesta a preguntas relacionadas con una intrusión, como su origen, la lista de sistemas afectados, los métodos usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica, auditable, repetible y defendible.
+
+### Presentación de resultados
+
+La presentación de los hallazgos se realiza a través de un informe forense completo que incluye evidencia digital y capturas de pantalla. Es esencial comunicar los resultados de manera profesional a las partes interesadas, participando en procesos legales según sea necesario.
 
 # 3. Práctica de Adquisición<div id='adquisicion' />
 
