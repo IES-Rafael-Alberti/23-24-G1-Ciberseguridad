@@ -30,3 +30,26 @@ El WiFi Pineapple Mark VII es una herramienta en el ámbito del pentesting de re
 - **Modo de Análisis de Canal (Channel Analyzer):** En este modo: puede analizar los canales WiFi cercanos para identificar interferencias y seleccionar automáticamente el canal menos congestionado para su funcionamiento.
 - **Modo de Monitoreo de Tráfico (Packet Capture):** Este modo permite capturar y analizar el tráfico de red inalámbrica en tiempo real. Es útil para la detección de amenazas, el análisis forense y al depuración de problemas de red.
 - **Modo de Pruebas de Seguridad (Security Testing):** Este modo se configura para realizar automáticamente una serie de pruebas de seguridad predefinidas en redes WiFi cercanas, identificando posibles vulnerabilidades y puntos débiles.
+
+## Pruebas de Concepto
+
+- **Rogue access point:**
+
+![Untitled](img/Captura.PNG)
+
+- **Captura de handshakes de WPA/WPA2:**
+
+![Untitled](img/Captura5.PNG)
+
+- **Evil Twin:**
+
+![Untitled](img/Captura2.PNG)
+
+- **Ataque de descubrimiento de redes e impersonar**
+
+![Untitled](img/Captura4.PNG)
+
+- **Modo Cliente**
+
+![Untitled](img/Captura6.PNG)
+
