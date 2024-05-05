@@ -44,7 +44,7 @@
 
 ## Desafíos<div id='desafios' />
 
-Son aquellas difcultades que nos va a suponer a la hora de analizar un dipsositivo móvil o IoT
+Son aquellas difcultades que nos va a suponer a la hora de analizar un dipsositivo móvil o IoT.
 
 ### Dispositivos Móviles<div id='movilesdesafios' />
 
@@ -69,14 +69,14 @@ Son aquellas difcultades que nos va a suponer a la hora de analizar un dipsositi
 
 ## Diferencias<div id='diferencias' />
 
-- **Propósito y Funcionalidad**
+- **Propósito y Funcionalidad:**
     - **Dispositivos Móviles:** Están diseñados principalmente para la comunicación personal, el acceso a internet y la ejecución de aplicaciones.
     - **IoT:** Tiene una variedad de aplicaciones, desde la automatización del hogar hasta la monitorización industrial, con un enfoque en la interconexión y control remoto de dispositivo.
 - **Escalabilidad y Complejidad:**
     - **Dispositivos Móviles:** Generalmente se gestionan a nivel individual o en pequeñas redes, lo que simplifica la adquisición de datos.
     - **IoT:** Puede involucrar miles o millones de dispositivos conectados, lo que requiere enfoques de adquisición de datos escalables y complejos.
 - **Entorno de desarrollo:**
-    - **Dispositivos Móviles:** Se desarrollan principalmente con kits de desarrollo de software (SDK) proporcionados por los fabricantes de sistemas de operativos móviles
+    - **Dispositivos Móviles:** Se desarrollan principalmente con kits de desarrollo de software (SDK) proporcionados por los fabricantes de sistemas de operativos móviles.
     - **IoT:** Implica una variedad de tecnologías de desarrollo, incluidos microcontroladores, protocolos de comunicación y plataformas de servicios en la nube.
 - **Diversidad de Protocolos de Comunicación:**
     - **Dispositivos Móviles:** Suelen usar protocolos estándar como HTTP, TCP/IP y Bluetooth para comunicación.
