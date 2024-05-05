@@ -3,7 +3,7 @@
 ## Índice
 1. [Resumen Ejecutivo](#resumen)  
 2. [Investigación Teórica](#investigacion)  
-  2.1 [Metodología.](#metodologia)
+  2.1 [Metodología.](#metodologia)  
   2.2 [Tipos de adquisición en dispositivos móviles e IoT](#tiposde)
 4. [Práctica de Adquisición](#adquisicion)  
   3.1 [Dispositivo Móvil](#movil)  
