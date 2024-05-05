@@ -59,6 +59,8 @@ Se llevarán a cabo una serie de procesos y tareas que intentarán dar respuesta
 
 La presentación de los hallazgos se realiza a través de un informe forense completo que incluye evidencia digital y capturas de pantalla. Es esencial comunicar los resultados de manera profesional a las partes interesadas, participando en procesos legales según sea necesario.
 
+## Tipos de adquisición en dispositivos móviles e IoT
+
 ### Dispositivos Móviles
 
 - **Extracción Física:** Es el método más usado, consistiendo en extraer directamente los datos del dispositivo móvil conectándose físicamente a un ordenador o utilizando hardware especializado. En est proceso se crea una réplica idéntica del dispositivo, preservando todas las evidencias potenciales, sin embargo, puede depender del estado del teléfono.
@@ -75,17 +77,17 @@ La presentación de los hallazgos se realiza a través de un informe forense com
 - **Diferencias de Hardware y Protocolos:** Los dispositivos IoT varían ampliamente en términos de hardware, sistemas operativos y protocolos de comunicación. Por lo tanto, las metodologías deben adaptarse a estas diferencias.
 - **Análisis de Tráfico:** El análisis del tráfico de red puede revelar datos transmitidos por dispositivos IoT hacia servidores en la nube o entre dispositivos dentro de una red local.
 
-## Desafíos
+### Desafíos
 
 Son aquellas difcultades que nos va a suponer a la hora de analizar un dipsositivo móvil o IoT.
 
-### Dispositivos Móviles
+**Dispositivos Móviles**
 
 - **Seguridad:** Los dispositivos móviles suelen tener medidas de seguridad como cifrado de datos y protección mediante PIN o contraseña.
 - **Variedad de Plataformas:** Diferentes Sistemas operativos como Android o iOS, los cuales requieren enfoques específicos para la adquisición de datos.
 - **Integridad de datos:** Es importante preservar la integridad de los datos durante el proceso de adquisición para garantizar su validez legal y forense.
 
-### IoT (Internet de las Cosas)
+**IoT (Internet de las Cosas)**
 
 - **Heterogeneidad:** Los dispositivos IoT pueden variar en términos de hardware, protocolos de comunicación y sistemas operativos, lo que requiere adaptabilidad en las metodologías de adquisición.
 - **Privacidad y Seguridad:** Al igual que en dispositivos móviles, la seguridad y la privacidad son preocupaciones importantes, especialmente, considerando que en los dispositivos IoT a menudo recopilan datos personales o sensibles.
