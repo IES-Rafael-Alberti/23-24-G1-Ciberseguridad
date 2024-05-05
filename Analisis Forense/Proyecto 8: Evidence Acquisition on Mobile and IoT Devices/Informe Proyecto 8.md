@@ -22,8 +22,7 @@ Se llevó a cabo un proceso de análisis forense utilizando un dispositivo móvi
 
 ## Metodología.<div id='metodologia' />
 
-A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar
-las evidencias:
+A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar. Esta metodología esta basada en la metodología de Cellebrite:
 
 ### Planificación y Preparación
 
@@ -59,6 +58,38 @@ Se llevarán a cabo una serie de procesos y tareas que intentarán dar respuesta
 ### Presentación de resultados
 
 La presentación de los hallazgos se realiza a través de un informe forense completo que incluye evidencia digital y capturas de pantalla. Es esencial comunicar los resultados de manera profesional a las partes interesadas, participando en procesos legales según sea necesario.
+
+### Dispositivos Móviles
+
+- **Extracción Física:** Es el método más usado, consistiendo en extraer directamente los datos del dispositivo móvil conectándose físicamente a un ordenador o utilizando hardware especializado. En est proceso se crea una réplica idéntica del dispositivo, preservando todas las evidencias potenciales, sin embargo, puede depender del estado del teléfono.
+- **Extracción lógica:** Se basa en obtener datos mediante el acceso a la interfaz del Sistema Operativo o aplicaciones instaladas en el dispositivo, sin acceder físicamente en la memoria del dispositivo, realizándose a través de la API (Interfaz de Programación de Aplicaciones) disponible en el dispositivo desde su fabricación, el cual permite extraer datos como registros de llamadas, mensajes, contactos y aplicaciones instaladas.
+- **Adquisición en la nube:** Se obtienen los datos almacenados en servicios en la nube asociados con el dispositivo móvil, como copias de seguridad en Icloud para dispositivo iOS o en Google Drive para dispositivo Android.
+- **Extracción del Sistema de Fichero:** Se centra en adquirir datos del sistema de archivos del dispositivo. Puede ser útil para recuperar archivos eliminados o datos almacenados en la memoria interna o tarjeta SD.
+
+### IoT (Internet de las Cosas)
+
+- **Interceptación de Comunicaciones:** Algunos dispositivos IoT transmiten datos a través de redes inalámbricas como Wi-Fi, BlueTooth o Zigbee. La interceptación de estas comunicaciones pueden ser una forma de adquirir datos.
+- **Adquisición de Datos en Aplicaciones IoT:** Dados que las aplicaciones suelen proceder de interacción de usuarios, se utilizan técnicas y herramientas de forense digital para analizar estos dispositivos. Esto incluye la extracción de datos de aplicaciones específicas relacionadas con IoT.
+- **Acceso a la API:** Algunos dispositivos IoT ofrecen interfaces de programación de aplicaciones (API) que permiten acceder a los datos almacenados o en tiempo real.
+- **Enfoque en la Privacidad:** La privacidad es un factor crítico en la adquisición de datos de los dispositivos IoT. Las herramientas deben garantizar la integridad de la evidencia sin vulnerar la privacidad del usuario.
+- **Diferencias de Hardware y Protocolos:** Los dispositivos IoT varían ampliamente en términos de hardware, sistemas operativos y protocolos de comunicación. Por lo tanto, las metodologías deben adaptarse a estas diferencias.
+- **Análisis de Tráfico:** El análisis del tráfico de red puede revelar datos transmitidos por dispositivos IoT hacia servidores en la nube o entre dispositivos dentro de una red local.
+
+## Desafíos
+
+Son aquellas difcultades que nos va a suponer a la hora de analizar un dipsositivo móvil o IoT.
+
+### Dispositivos Móviles
+
+- **Seguridad:** Los dispositivos móviles suelen tener medidas de seguridad como cifrado de datos y protección mediante PIN o contraseña.
+- **Variedad de Plataformas:** Diferentes Sistemas operativos como Android o iOS, los cuales requieren enfoques específicos para la adquisición de datos.
+- **Integridad de datos:** Es importante preservar la integridad de los datos durante el proceso de adquisición para garantizar su validez legal y forense.
+
+### IoT (Internet de las Cosas)
+
+- **Heterogeneidad:** Los dispositivos IoT pueden variar en términos de hardware, protocolos de comunicación y sistemas operativos, lo que requiere adaptabilidad en las metodologías de adquisición.
+- **Privacidad y Seguridad:** Al igual que en dispositivos móviles, la seguridad y la privacidad son preocupaciones importantes, especialmente, considerando que en los dispositivos IoT a menudo recopilan datos personales o sensibles.
+- **Escalabilidad:** Con la proliferación de dispositivos IoT en entornos domésticos y empresariales, la capacidad de escalar las metodologías de adquisición es crucial.
 
 # 3. Práctica de Adquisición<div id='adquisicion' />
 
