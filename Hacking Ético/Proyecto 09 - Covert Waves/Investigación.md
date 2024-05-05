@@ -35,21 +35,39 @@ El WiFi Pineapple Mark VII es una herramienta en el ámbito del pentesting de re
 
 - **Rogue access point:**
 
+Para establecer un Rogue Access Point, basta con acceder la interfaz web del dispositivo, ir a PineAp Suite, y seleccionar la opción de Open AP. Allí, se podrá configurar el punto de acceso de manera que puedan conectarse otros usuarios directamente al dispositivo.
+
 ![Untitled](img/Captura.PNG)
 
 - **Captura de handshakes de WPA/WPA2:**
+
+Para poder llegar a hacer la captura de handshakes, se debe realizar un escaneo para poder descubrirlos. Para ello, se realiza una Campaña (Campaign), para establecer una serie de escaneos automáticos. 
+
+![Untitled](img/Captura7.PNG)
+
+Existen tres tipos de escaneos, uno de reconocimiento, uno pasivo y otro activo. El modo de reconocimiento hace que solo revise la actividad del dispositivo cliente y su punto de acceso, mientras que en el modo pasivo procede a verificar que dispositivos pueden ser vulnerables a ataques de Evil Twin o Rogue Access Point attacks de manera pasiva, sólo cuando piden una solicitud directa. El modo activo procede a hacer un SSID pool con todos los puntos de acceso escaneados, imitándolos para ejecutar las pruebas.
+
+![Untitled](img/Captura8.PNG)
+
+Aqui podemos ver los tipos de opciones que podemos escoger para nuestro escaneo, junto con el tiempo que durará el escaneo. Después, se establecerán los filtros de Cliente y SSID, para determinar cuales pueden ser escaneados y cuales evitan el escaneo en primer lugar, y finalmente se podrá establecer que la campaña esté activa y la frecuencia en la que se ejecute. Una vez ejecutada la campaña, se registrarán los handshakes en el proceso. Finalmente, podremos ver los handshakes recogidos en el apartado de Recon -> Handshakes
 
 ![Untitled](img/Captura5.PNG)
 
 - **Evil Twin:**
 
+Para establecer un Evil Twin, basta con acceder la interfaz web del dispositivo, ir a PineAp Suite, y seleccionar la opción de Evil WPA. Allí, se puede establecer el nombre, SSID, contraseña y el modo de encriptación que va a ejecutar el Evil Twin, además de poder capturar handshakes que ocurran dentro del Evil Twin.
+
 ![Untitled](img/Captura2.PNG)
 
 - **Ataque de descubrimiento de redes e impersonar**
 
+Para poder hacer el ataque de descubrimiento e impersonación, es una mezcla de lo explicado anteriormente en la captura de Handshakes de WPA/WPA2. Primero, se dirige a PineAp Suite, y se selecciona Impersonation. Allí, se marca la opción de Automatically add SSIDs from Recon and client probes to pool. Eso hará que cuando se ejecute la campaña programada anteriormente, pasará a recopilar todos los SSID para poder ejecutar la impersonación, pudiendo empezar a hacerlo a través de Advertise Impersonation pool. 
+
 ![Untitled](img/Captura4.PNG)
 
 - **Modo Cliente**
+
+El Pineapple Wifi no tiene por su cuenta internet, por lo que es necesario otorgárselo. Una de las maneras es el Modo Cliente, que se procede a hacer mediante la conexión directa a una red inalámbrica existente, que se puede realizar yendo a Settings -> Networking. En Wireless Client Mode, se selecciona la red inalámbrica con su contraseña si la tiene, y se procede a conectar, dando pie a que se pueda realizar la conexión a internet.
 
 ![Untitled](img/Captura6.PNG)
 
