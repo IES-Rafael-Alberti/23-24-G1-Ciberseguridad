@@ -3,12 +3,13 @@
 ## Índice
 1. [Resumen Ejecutivo](#resumen)  
 2. [Investigación Teórica](#investigacion)  
-  2.1 [Metodología.](#metodologia)  
-3. [Práctica de Adquisición](#adquisicion)  
+  2.1 [Metodología.](#metodologia)
+  2.2 [Tipos de adquisición en dispositivos móviles e IoT](#tiposde)
+4. [Práctica de Adquisición](#adquisicion)  
   3.1 [Dispositivo Móvil](#movil)  
   3.2 [Uso de la herramienta Andriller.](#andriller)  
   3.3 [Uso de la herramienta Android Debug Bridge](#debugbridge)  
-4. [Evaluación de Herramientas y Métodos](#herramientas)  
+5. [Evaluación de Herramientas y Métodos](#herramientas)  
    4.1 [Herramientas utilizadas:](#utilizadas)  
    4.2 [Comparación de las herramientas:](#comparacion)  
 4. [Consideraciones Legales](#legales)
@@ -59,7 +60,7 @@ Se llevarán a cabo una serie de procesos y tareas que intentarán dar respuesta
 
 La presentación de los hallazgos se realiza a través de un informe forense completo que incluye evidencia digital y capturas de pantalla. Es esencial comunicar los resultados de manera profesional a las partes interesadas, participando en procesos legales según sea necesario.
 
-## Tipos de adquisición en dispositivos móviles e IoT
+## Tipos de adquisición en dispositivos móviles e IoT <div id='tiposde' />
 
 ### Dispositivos Móviles
 
