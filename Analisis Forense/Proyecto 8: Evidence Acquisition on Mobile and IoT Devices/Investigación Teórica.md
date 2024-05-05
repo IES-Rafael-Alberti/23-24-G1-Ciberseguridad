@@ -24,6 +24,43 @@
 
 # Metodologías de Adquisición<div id='metodologias' />
 
+A continuación, se explica la metodología que ha seguido el perito para adquirir y analizar. Esta metodología esta basada en la metodología de Cellebrite:
+
+### Planificación y Preparación
+
+Antes de iniciar la investigación, es fundamental identificar los dispositivos móviles involucrados, preparar la documentación necesaria, como la cadena de custodia y los permisos legales, y seleccionar las herramientas forenses adecuadas.
+
+### Adquisición de evidencia digital
+
+1. La captura de la adquisición debe ser lo más precisa posible.
+2. Detallar las fechas y horas a la que se realizó la extracción.
+3. Intentar no sobrescribir las pruebas instalando software, si no es estrictamente
+necesario.
+4. Recoger las evidencias en orden de volatilidad:
+5. Transparencia: A la hora de realizar la adquisición tendremos que explicar
+detalladamente el proceso que hemos seguido para que pueda ser totalmente
+reproducible.
+
+### Preservación y almacenamiento de evidencia
+
+A la hora de almacenamiento, se documentará:
+- Dónde, cuándo y quién descubrió y recolectó la evidencia.
+-  Dónde, cuándo y quién manejó la evidencia.
+-  Quién ha custodiado la evidencia, cuánto tiempo y cómo la ha almacenado
+-  Si se ha cambiado de custodia indicar a quien, que fecha y hora y comprobar que los
+hashes coinciden
+-  Dónde almacenarlo. Dependiendo del dispositivo tendremos que almacenarlo de una
+u otra forma, por ejemplo, si es un dispositivo portátil tendremos que custodiarlo en
+una bolsa de Faraday para que no pueda ser comprometido por las redes móviles.
+
+### Análisis de evidencias
+
+Se llevarán a cabo una serie de procesos y tareas que intentarán dar respuesta a preguntas relacionadas con una intrusión, como su origen, la lista de sistemas afectados, los métodos usados, etc. Todos estos procesos y tareas deberán realizarse de forma metódica, auditable, repetible y defendible.
+
+### Presentación de resultados
+
+La presentación de los hallazgos se realiza a través de un informe forense completo que incluye evidencia digital y capturas de pantalla. Es esencial comunicar los resultados de manera profesional a las partes interesadas, participando en procesos legales según sea necesario.
+
 ## Tipos de adquisición<div id='tipos' />
 
 ### Dispositivos Móviles<div id='movilestipos' />
