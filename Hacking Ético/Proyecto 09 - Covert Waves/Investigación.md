@@ -30,6 +30,20 @@ El WiFi Pineapple Mark VII es una herramienta en el ámbito del pentesting de re
 - **Modo de Análisis de Canal (Channel Analyzer):** En este modo: puede analizar los canales WiFi cercanos para identificar interferencias y seleccionar automáticamente el canal menos congestionado para su funcionamiento.
 - **Modo de Monitoreo de Tráfico (Packet Capture):** Este modo permite capturar y analizar el tráfico de red inalámbrica en tiempo real. Es útil para la detección de amenazas, el análisis forense y al depuración de problemas de red.
 - **Modo de Pruebas de Seguridad (Security Testing):** Este modo se configura para realizar automáticamente una serie de pruebas de seguridad predefinidas en redes WiFi cercanas, identificando posibles vulnerabilidades y puntos débiles.
+ 
+## Vulnerabilidades que se pueden explotar
+
+**1. Vulnerabilidades de configuración:** Las redes Wi-Fi a menudo están mal configuradas, lo que puede permitir a un atacante acceder a la red y robar información confidencial. Por ejemplo, muchas redes utilizan contraseñas débiles o predeterminadas que pueden ser fácilmente adivinadas por un atacante. Además, algunas redes pueden no utilizar ningún tipo de cifrado, lo que significa que todo el tráfico de red puede ser interceptado y leído por un atacante. El Wi-fi Pineapple Mark VII puede ser utilizado para identificar estas vulnerabilidades de configuración y explotarlas.
+
+**2. Vulnerabilidades de protocolo:** Los protocolos de red Wi-Fi tienen varias vulnerabilidades conocidas que un atacante puede explotar. Por ejemplo, el protocolo WEP es conocido por ser inseguro y puede ser fácilmente roto por un atacante. Además, el protocolo WPA2, que es más seguro que WEP, también tiene algunas vulnerabilidades conocidas. El Wi-fi Pineapple Mark VII puede ser utilizado para explotar estas vulnerabilidades de protocolo y obtener acceso a la red.
+
+**3. Vulnerabilidades de dispositivo:** Los dispositivos que se conectan a una red Wi-Fi pueden tener sus propias vulnerabilidades que un atacante puede explotar. Por ejemplo, un atacante puede utilizar un ataque de desautenticación para forzar a un dispositivo a desconectarse de la red. Una vez que el dispositivo ha sido desconectado, el atacante puede intentar robar su información de inicio de sesión cuando intenta volver a conectarse a la red. El Wi-fi Pineapple Mark VII puede ser utilizado para llevar a cabo este tipo de ataques.
+
+**4. Ataques de gemelo malvado (Evil Twin):** El Wi-fi Pineapple Mark VII puede ser utilizado para crear un punto de acceso falso que imita a una red Wi-Fi legítima. Cuando un dispositivo se conecta a este punto de acceso falso, el atacante puede interceptar el tráfico de red, capturar las credenciales del usuario y lanzar ataques más sofisticados. Este tipo de ataque es especialmente efectivo en lugares públicos donde hay muchas redes Wi-Fi abiertas, como cafeterías o aeropuertos.
+
+**5. Captura de handshakes:** El Wi-fi Pineapple Mark VII puede ser utilizado para capturar handshakes entre un dispositivo y un punto de acceso. Estos handshakes contienen información que puede ser utilizada para romper la contraseña de la red Wi-Fi. Una vez que el atacante ha capturado un handshake, puede utilizar una herramienta de cracking de contraseñas para intentar romper la contraseña.
+
+**6. Ataques de portal cautivo:** Un portal cautivo es una página web que se muestra a los usuarios antes de que puedan acceder a la red Wi-Fi. Los atacantes pueden utilizar el Wi-fi Pineapple Mark VII para crear un portal cautivo falso que imita al portal cautivo legítimo. Cuando un usuario intenta conectarse a la red Wi-Fi, se le muestra el portal cautivo falso y se le pide que introduzca sus credenciales. El atacante puede entonces capturar estas credenciales y utilizarlas para acceder a la red.
 
 ## Pruebas de Concepto
 
