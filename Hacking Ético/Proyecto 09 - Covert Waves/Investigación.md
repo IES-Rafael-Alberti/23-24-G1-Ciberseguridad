@@ -89,3 +89,7 @@ El Pineapple Wifi no tiene por su cuenta internet, por lo que es necesario otorg
 
 ![Untitled](img/Captura6.PNG)
 
+- **Evil Portal**
+
+Para poder ejecutar este ataque de portal cautivo, se debe pasar a instalar un modulo llamado Evil Portal, en Modules & Packages, y se accede dentro del módulo.
+
