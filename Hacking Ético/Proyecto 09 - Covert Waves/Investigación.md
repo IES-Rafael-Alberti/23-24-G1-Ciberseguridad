@@ -67,6 +67,10 @@ Aqui podemos ver los tipos de opciones que podemos escoger para nuestro escaneo,
 
 ![Untitled](img/Captura5.PNG)
 
+Acto seguido, podemos descargar el handshake y hacerle el comando hashcat, para obtener tanto el punto de acceso, como la contraseña del dicho punto de acceso.
+
+![Untitled](img/Captura9.png)
+
 - **Evil Twin:**
 
 Para establecer un Evil Twin, basta con acceder la interfaz web del dispositivo, ir a PineAp Suite, y seleccionar la opción de Evil WPA. Allí, se puede establecer el nombre, SSID, contraseña y el modo de encriptación que va a ejecutar el Evil Twin, además de poder capturar handshakes que ocurran dentro del Evil Twin.
