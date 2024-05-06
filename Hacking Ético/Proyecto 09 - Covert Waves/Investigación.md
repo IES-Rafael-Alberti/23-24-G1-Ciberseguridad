@@ -93,3 +93,8 @@ El Pineapple Wifi no tiene por su cuenta internet, por lo que es necesario otorg
 
 Para poder ejecutar este ataque de portal cautivo, se debe pasar a instalar un modulo llamado Evil Portal, en Modules & Packages, y se accede dentro del módulo.
 
+![Untitled](img/Captura10.PNG)
+
+Una vez hecho, se puede proceder a crear un portal, que está categorizado entre Básico y Avanzado. En este caso, seleccionaremos el Básico, aunque el Avanzado permitiría elaborar uno bastante más elaborado. Una vez creado, activamos el Evil Portal y el portal, y conectándonos al Rogue Access Point, ponemos la dirección del router, pudiendo ver el Evil Portal.
+
+![Untitled](img/Captura11.jpeg)
