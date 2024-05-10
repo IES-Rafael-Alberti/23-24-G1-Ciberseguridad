@@ -57,7 +57,7 @@ Al examinar los archivos de caché de los dispositivos conectados por Bluetooth 
 
 Los registros de audio de Alexa capturaron voces femeninas y masculinas durante el período en que el esposo afirmó estar viendo la película. Este descubrimiento sugiere discrepancias significativas en la coartada proporcionada por el esposo de la víctima.
 
-## Línea temporal <div id="linea />
+## Línea temporal <div id="linea" />
 
 ![Untitled](img/Asesinato_en_casa.png)
 
