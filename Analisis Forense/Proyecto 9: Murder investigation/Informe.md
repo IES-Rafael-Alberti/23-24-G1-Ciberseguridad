@@ -119,7 +119,7 @@ Esta base de datos se encuentra en la ruta:
 
  `“\E001SmartTVMMC\home\osmc\.kodi\userdata\Database\MyVideos107.db”`
 
-![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled.png)
+![Untitled](img/Untitled.png)
 
 *Imagen: Captura videos emitidos TV Inteligente*
 
@@ -145,13 +145,13 @@ Continuando la investigación de este dispositivo, encontramos en la cache los d
 
 `“/var/lib/bluetooth/B8:27:EB:E6:8D:79/cache/74:C2:46:88:5D:09”`
 
-![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%201.png)
+![Untitled](img/Untitled%201.png)
 
 *Imagen: Dispositivo Alexa conectado a TV Inteligente*
 
 Este primero, si buscamos el nombre del dispositivo en Google encontramos que corresponde al dispositivo Alexa.
 
-![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%202.png)
+![Untitled](img/Untitled%202.png)
 
 *Imagen: Modelo de Alexa conectado a TV Inteligente*
 
@@ -159,24 +159,56 @@ El otro dispositivo conectado en la televisión sería:
 
 `“/var/lib/bluetooth/B8:27:EB:E6:8D:79/cache/88:0F:10:F6:C8:B7"`
 
-![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%203.png)
+![Untitled](img/Untitled%203.png)
 
 *Imagen: Dispositivo Pulsera Xiaomi conectado a TV Inteligente*
 
 Este correspondería al siguiente dispositivo Mi1A Band.
 
-![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%204.png)
+![Untitled](img/Untitled%204.png)
 
 *Imagen: Modelo Pulsera inteligente conectada a TV Inteligente*
 
 Analizando la información del dispositivo móvil del marido, se han encontrado los dispositivos bluetooth que han sido conectados a este. Hemos podido confirmar que estos no se han encontrado conectados a la televisión inteligente.
 
-![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%205.png)
+![Untitled](img/Untitled%205.png)
 
 *Imagen: Auriculares Bluetooth móvil del marido*
 
 El nombre de este dispositivo, si lo buscamos en google nos confirma que son los auriculares bluetooth.
 
-![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%206.png)
+![Untitled](img/Untitled%206.png)
 
 *Imagen: Modelo Auriculares Bluetooth móvil del marido*
+
+### Análisis de Alexa
+
+Haciendo una investigación sobre las adquisiciones proporcionadas por las autoridades, podemos observar que se ha hecho uso del dispositivo el día 17/07/2017, mientras que el testimonio del marido indica que llegaron con exactitud al domicilio sobre las 15:00.
+
+Este vestigio podemos encontrarla en la ruta:
+
+`“Alexa\history second page.png”`
+
+![Untitled](img/Untitled%207.png)
+
+*Imagen: History second page de Alexa*
+
+Viendo el historial de comandos de Alexa, encontramos que la televisión se encendió a las 15:01 del día 17/07/2017.
+
+Esto podemos encontrarlo en la ruta:
+
+`“Alexa\history first page.png”`
+
+![Untitled](img/Untitled%208.png)
+
+Mientras que el testimonio del marido nos indica que el está viendo una película (desde las 15:01 hasta que el conserje lo ve saliendo de casa gritando 15:21) se escucha en los registros de audio de Alexa la voz de la mujer y la voz de un varón. 
+
+Este registro de audio podemos encontrarlo en la ruta:
+
+`“\Alexa\8.wav”`
+
+Este audio escuchado en Alexa, corresponde con este comando de voz encontrado en el historial del mismo dispositivo.
+
+![Untitled](img/Untitled%209.png)
+
+*Imagen: History first page de Alexa*
