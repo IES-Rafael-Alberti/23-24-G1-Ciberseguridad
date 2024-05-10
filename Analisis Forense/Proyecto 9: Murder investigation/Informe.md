@@ -221,7 +221,7 @@ Este audio escuchado en Alexa, corresponde con este comando de voz encontrado en
 
 *Imagen: Audio de Alexa* <div id="audAlexa" />
 
-
+[Véase Anexo de hallazgos.(Anexos.md)
 
 # Limitaciones <div id="limits" />
 
