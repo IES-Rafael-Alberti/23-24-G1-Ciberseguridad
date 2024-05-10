@@ -75,7 +75,7 @@ Los objetivos de este informe pericial son:
 - Realizar un timeline con el fin de aclarar los hechos.
 - Investigar los datos de los dispositivos proporcionados.
 
-## Fuentes de información <div id="fuente" />
+## Fuentes de información <div id="fuente" /> 
 
 [Véase Anexo de fuentes de información](Anexos.md)
 
@@ -121,8 +121,8 @@ Haciendo una investigación sobre los ficheros de la adquisición de la televisi
 
 Esta base de datos se encuentra en la ruta:
 
- `“\E001SmartTVMMC\home\osmc\.kodi\userdata\Database\MyVideos107.db”`
- [Véase Anexo de hallazgos. Hallazgo 1](Anexos.md)
+ `“\E001SmartTVMMC\home\osmc\.kodi\userdata\Database\MyVideos107.db”`  
+ [Véase Anexo de hallazgos. Hallazgo 1](Anexos.md)  
 
 ![Untitled](img/Untitled.png)
 
@@ -148,8 +148,8 @@ El marido de la victima, aseguraba también estar haciendo uso de unos auricular
 
 Continuando la investigación de este dispositivo, encontramos en la cache los distintos dispositivos bluetooth que están vinculados a este, podemos observar que no se encuentra ningún dispositivo de auriculares bluetooth, esto podemos hallarlo en la siguiente ruta:
 
-`“/var/lib/bluetooth/B8:27:EB:E6:8D:79/cache/74:C2:46:88:5D:09”`
-[Véase Anexo de hallazgos. Hallazgo 2](Anexos.md)
+`“/var/lib/bluetooth/B8:27:EB:E6:8D:79/cache/74:C2:46:88:5D:09”`  
+[Véase Anexo de hallazgos. Hallazgo 2](Anexos.md)  
 
 ![Untitled](img/Untitled%201.png)
 
@@ -163,8 +163,8 @@ Este primero, si buscamos el nombre del dispositivo en Google encontramos que co
 
 El otro dispositivo conectado en la televisión sería:
 
-`“/var/lib/bluetooth/B8:27:EB:E6:8D:79/cache/88:0F:10:F6:C8:B7"`
-[Véase Anexo de hallazgos. Hallazgo 3](Anexos.md)
+`“/var/lib/bluetooth/B8:27:EB:E6:8D:79/cache/88:0F:10:F6:C8:B7"`  
+[Véase Anexo de hallazgos. Hallazgo 3](Anexos.md)  
 
 ![Untitled](img/Untitled%203.png)
 
@@ -194,8 +194,8 @@ Haciendo una investigación sobre las adquisiciones proporcionadas por las autor
 
 Este vestigio podemos encontrarla en la ruta:
 
-`“Alexa\history second page.png”`
-[Véase Anexo de hallazgos. Hallazgo 4](Anexos.md)
+`“Alexa\history second page.png”`  
+[Véase Anexo de hallazgos. Hallazgo 4](Anexos.md)  
 
 ![Untitled](img/Untitled%207.png)
 
@@ -215,8 +215,8 @@ Mientras que el testimonio del marido nos indica que el está viendo una pelícu
 
 Este registro de audio podemos encontrarlo en la ruta:
 
-`“\Alexa\8.wav”`
-[Véase Anexo de hallazgos. Hallazgo 5](Anexos.md)
+`“\Alexa\8.wav”`  
+[Véase Anexo de hallazgos. Hallazgo 5](Anexos.md)  
 
 Este audio escuchado en Alexa, corresponde con este comando de voz encontrado en el historial del mismo dispositivo.
 
