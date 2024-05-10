@@ -194,7 +194,7 @@ Haciendo una investigación sobre las adquisiciones proporcionadas por las autor
 
 Este vestigio podemos encontrarla en la ruta:
 
-`“Alexa\history second page.png”`  
+`“\Alexa\history second page.png”`  
 [Véase Anexo de hallazgos. Hallazgo 4](Anexos.md)  
 
 ![Untitled](img/Untitled%207.png)
@@ -205,7 +205,7 @@ Viendo el historial de comandos de Alexa, encontramos que la televisión se ence
 
 Esto podemos encontrarlo en la ruta:
 
-`“Alexa\history first page.png”`
+`“\Alexa\history first page.png”`
 
 ![Untitled](img/Untitled%208.png)
 
