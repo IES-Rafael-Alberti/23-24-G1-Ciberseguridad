@@ -187,17 +187,18 @@ Hallazgo 3.
 
 Hallazgo 4.
 
+| Ruta | history second page.png |
+| --- | --- |
+| Tamaño (Bytes) |  |
+| HASH SHA-256 | db61c918114ee0bbe816b414868822aebacf82f789b1ccc9ee195cf05b2371f7 |
+
+Hallazgo 5.
+
 | Ruta | 8.wav |
 | --- | --- |
 | Tamaño (Bytes) | 186.284 bytes |
 | HASH SHA-256 | 7d66d7102cfdae7b6f792fd71f1fbd152620360bd241698ba50ac21b61ac4d80 |
 
-Hallazgo 5.
-
-| Ruta | history second page.png |
-| --- | --- |
-| Tamaño (Bytes) |  |
-| HASH SHA-256 | db61c918114ee0bbe816b414868822aebacf82f789b1ccc9ee195cf05b2371f7 |
 
 # Referencias
 
