@@ -227,3 +227,26 @@ Se ha demostrado que el testimonio proporcionado por el esposo de la víctima, q
 4. **Audios capturados por Alexa**: Durante el tiempo en que el esposo supuestamente estaba viendo la película, se registraron voces masculinas y femeninas en los archivos de audio de Alexa, lo que sugiere la presencia de otras personas en la casa en ese momento.
 
 Estas discrepancias plantean serias dudas sobre la veracidad del testimonio del esposo debido a los datos presentados anteriormente.
+
+# Anexo I. Sobre el perito
+
+El equipo de peritos forenses que ha colaborado en la elaboración de este informe se compone de cuatro profesionales altamente capacitados y especializados en distintas áreas de la ciencia forense. Cada uno de ellos aporta una perspectiva única y una experiencia invaluable en su campo de especialización, lo que ha permitido un análisis exhaustivo y multidisciplinario de la evidencia presentada en este caso.
+
+El primer perito, Eduardo de Motrico Fedriani, es especialista en ASIR, con una trayectoria destacada en la aplicación de técnicas y metodologías avanzadas para la recolección, análisis e interpretación de evidencia física.
+
+El segundo perito, Adrián Campó Merlo, es un especialista destacado en análisis forense informático, con experiencia en la identificación de evidencias digitales en casos de delitos cibernéticos. Reconocido por su habilidad en la recuperación de datos y el análisis de dispositivos móviles.
+
+El tercer perito, Rafael Valverde Cros, es un especialista en DAM, ASIR y Ciberseguridad, con una sólida formación en el análisis de la administración y gestión de sistemas informáticos en red, amplia experiencia análisis forense y análisis de la administración y gestión de aplicaciones móviles.
+
+Por último, el cuarto perito, Pedro Luis Borrego Vargas, aporta su experiencia en el análisis forense, con un enfoque en la reconstrucción de escenas del crimen y la elaboración de informes técnicos detallados.
+
+Juntos, este equipo de peritos ha trabajado de manera colaborativa y coordinada para ofrecer un análisis integral y objetivo de la evidencia presentada en este caso, garantizando la fiabilidad y la solidez de las conclusiones alcanzadas. Su labor profesional y su compromiso con la excelencia han sido fundamentales para el desarrollo de este informe pericial.
+
+Los peritos que se han participado en la investigación:
+
+| Nombre y Apellido | DNI | Dirección | Código Postal | Provincia | Móvil | Firma |
+| --- | --- | --- | --- | --- | --- | --- |
+| Adrián Campó Merlo | 16762107Y | c/ XXXX | 11011 | Cádiz | XXXXXXXXX | Adrián Campó Merlo |
+| Rafael Valverde Cros | 50038156T | c/ XXXX | 11100 | Cádiz | XXXXXXXXX | Rafael Valverde Cros |
+| Pedro Luis Borrego Vargas | 53234808C | c/ XXXX | 11100 | Cádiz | XXXXXXXXX | Pedro Luis Borrego Vargas |
+| Eduardo de Motrico Fedriani | 76650130P | c/ XXXX | 11100 | Cádiz | XXXXXXXXX | Eduardo de Motrico Fedriani |
