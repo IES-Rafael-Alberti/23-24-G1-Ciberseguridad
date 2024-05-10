@@ -63,7 +63,7 @@ Los registros de audio de Alexa capturaron voces femeninas y masculinas durante 
 
 # Introducción <div id="intro" />
 
-[Véase Anexo de hallazgos. Hallazgo 1.](Anexos.md)
+[Véase Anexo Sobre el Perito.](Anexos.md)
 
 ## Antecedentes <div id="ante" />
 
@@ -79,7 +79,7 @@ Los objetivos de este informe pericial son:
 
 ## Fuentes de información <div id="fuente" />
 
-Véase en el Anexo II. Fuentes de Información.
+[Véase Anexo de fuentes de información](Anexos.md)
 
 ### Adquisición de evidencias <div id="adqui" />
 
