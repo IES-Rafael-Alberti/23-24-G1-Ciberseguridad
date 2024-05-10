@@ -5,19 +5,20 @@
 1. [Juramento de Decir la verdad](#jura) 
 2. [Glosario de palabras clave](#clave)
 3. [Índice de figuras](#figu)
-4. [Resumen ejecutivo](#resumen)
-5. [Introducción](#intro)  
+4. [Resumen ejecutivo](#resumen)  
+   4.1 [Linea temporal](#linea)
+6. [Introducción](#intro)  
 5.1 [Antecedentes](#ante)  
 5.2 [Objetivos](#obj)  
 5.3 [Fuentes de información](#fuente)  
 5.4 [Adquisición de evidencias](#adqui)
-6. [Análisis](#analisis)  
+7. [Análisis](#analisis)  
 6.1 [Herramientas usadas](#herramienta)  
 6.2 [Investigación](#invest)  
  6.2.1 [Análisis de Raspberry Pi TV](#rasp)    
  6.2.2 [Análisis de Alexa](#Alexa)
-7. [Limitaciones](#limits)
-8. [Conclusiones](#conclu)
+8. [Limitaciones](#limits)
+9. [Conclusiones](#conclu)
 
 # Juramento de Decir la verdad <div id="jura" />
 
@@ -55,6 +56,10 @@ El análisis de estos videos reveló que uno de ellos no había sido reproducido
 Al examinar los archivos de caché de los dispositivos conectados por Bluetooth a la televisión, se identificaron dos dispositivos: uno correspondiente a Alexa y otro a una pulsera inteligente Xiaomi MI1A. Investigaciones adicionales revelaron que la televisión fue encendida a las 15:01 del día del crimen, contradiciendo el testimonio del esposo, quien afirmó haber estado viendo la película desde antes de la hora del crimen hasta el momento en que fue visto saliendo de la casa.
 
 Los registros de audio de Alexa capturaron voces femeninas y masculinas durante el período en que el esposo afirmó estar viendo la película. Este descubrimiento sugiere discrepancias significativas en la coartada proporcionada por el esposo de la víctima.
+
+## Línea temporal <div id="linea />
+
+![Untitled](img/Asesinato_en_casa.png)
 
 # Introducción <div id="intro" />
 
