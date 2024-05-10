@@ -109,3 +109,74 @@ Realizamos una comprobación de veracidad sobre las fuentes de evidencias propor
 
 Tras el análisis de todos los hashes de todos los ficheros, podemos decir, que coinciden con los hashes proporcionados.
 
+### Análisis de Raspberry Pi TV
+
+Como el marido de la victima aseguraba estar viendo una película en la televisión de su habitación en los momentos de los hechos, decidimos comenzar la investigación con esta y comprobar que es cierto.
+
+Haciendo una investigación sobre los ficheros de la adquisición de la televisión inteligente, encontramos que esta tiene un plugin de Youtube instalado, este nos genera una base de datos, en la cual podemos observar los vídeos que han sido vistos desde ella. Observando los videos, hemos podido encontrar los vistos el día del suceso.
+
+Esta base de datos se encuentra en la ruta:
+
+ `“\E001SmartTVMMC\home\osmc\.kodi\userdata\Database\MyVideos107.db”`
+
+![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled.png)
+
+*Imagen: Captura videos emitidos TV Inteligente*
+
+Podemos comprobar la zona horaria de la televisión en su información del sistema, una vez comprobada esta podemos afirmar que la ubicación es “América/New York“. Esta información podemos encontrarla en la ruta:
+
+`“/etc/timezone”`
+
+Una vez que conocemos la zona horaria en la que se encuentra la televisión, debemos realizar la conversión de estas horas, como aún no se encuentran en horario de verano, tendremos que sumar trece horas a las horas dadas, quedando como las mostradas en la siguiente tabla:
+
+| plugin://plugin.video.youtube/play/?video_id=pF_rqav38Z4 | 2017-07-13 21:43:46 |
+| --- | --- |
+| plugin://plugin.video.youtube/play/?video_id=7WX0-O_ENlk | 2017-07-16 17:54:54 |
+| plugin://plugin.video.youtube/play/?video_id=ibOskbTPZYE | 2017-07-17 15:07:30 |
+| plugin://plugin.video.youtube/play/?video_id=VKfbVLmkQUs | 2017-07-17 15:19:37 |
+
+*Tabla: Videos y hora emitidos en TV Inteligente*
+
+Podemos comprobar que el video terminado en “VKfbVLmkQUs” no dispone playCount, lo cual nos indica que el video no se llegó a terminar de reproducir. 
+
+El marido de la victima, aseguraba también estar haciendo uso de unos auriculares bluetooth para ver una película, ya que su esposa estaba escuchando música en la otra habitación.
+
+Continuando la investigación de este dispositivo, encontramos en la cache los distintos dispositivos bluetooth que están vinculados a este, podemos observar que no se encuentra ningún dispositivo de auriculares bluetooth, esto podemos hallarlo en la siguiente ruta:
+
+`“/var/lib/bluetooth/B8:27:EB:E6:8D:79/cache/74:C2:46:88:5D:09”`
+
+![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%201.png)
+
+*Imagen: Dispositivo Alexa conectado a TV Inteligente*
+
+Este primero, si buscamos el nombre del dispositivo en Google encontramos que corresponde al dispositivo Alexa.
+
+![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%202.png)
+
+*Imagen: Modelo de Alexa conectado a TV Inteligente*
+
+El otro dispositivo conectado en la televisión sería:
+
+`“/var/lib/bluetooth/B8:27:EB:E6:8D:79/cache/88:0F:10:F6:C8:B7"`
+
+![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%203.png)
+
+*Imagen: Dispositivo Pulsera Xiaomi conectado a TV Inteligente*
+
+Este correspondería al siguiente dispositivo Mi1A Band.
+
+![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%204.png)
+
+*Imagen: Modelo Pulsera inteligente conectada a TV Inteligente*
+
+Analizando la información del dispositivo móvil del marido, se han encontrado los dispositivos bluetooth que han sido conectados a este. Hemos podido confirmar que estos no se han encontrado conectados a la televisión inteligente.
+
+![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%205.png)
+
+*Imagen: Auriculares Bluetooth móvil del marido*
+
+El nombre de este dispositivo, si lo buscamos en google nos confirma que son los auriculares bluetooth.
+
+![Untitled](Informe%20Pericial%20Proyecto%209%20c56e9f72b30348218d275ba441d86be8/Untitled%206.png)
+
+*Imagen: Modelo Auriculares Bluetooth móvil del marido*
