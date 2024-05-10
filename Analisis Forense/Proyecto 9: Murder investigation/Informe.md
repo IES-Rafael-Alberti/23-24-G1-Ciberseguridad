@@ -63,6 +63,8 @@ Los registros de audio de Alexa capturaron voces femeninas y masculinas durante 
 
 # Introducción <div id="intro" />
 
+[Véase Anexo de hallazgos. Hallazgo 1.](Anexos.md)
+
 ## Antecedentes <div id="ante" />
 
 El caso involucra el asesinato de una mujer en su residencia, reportado por su esposo y el conserje del edificio. A las 15:31 del 17 de julio de 2017, el conserje llamó al número de emergencia 112 para informar sobre el incidente. La policía llegó a la escena a las 15:40, encontrando a la víctima sin vida en el salón, aparentemente fallecida por múltiples puñaladas. El esposo declaró haber llegado a casa alrededor de las 15:00 y descubierto el cuerpo después de ver una película en el dormitorio, durante la cual llevaba auriculares. Colaboró con la investigación, pero no pudo proporcionar las contraseñas de los dispositivos electrónicos de la víctima.
@@ -218,6 +220,8 @@ Este audio escuchado en Alexa, corresponde con este comando de voz encontrado en
 ![Untitled](img/Untitled%209.png)
 
 *Imagen: Audio de Alexa* <div id="audAlexa" />
+
+
 
 # Limitaciones <div id="limits" />
 
