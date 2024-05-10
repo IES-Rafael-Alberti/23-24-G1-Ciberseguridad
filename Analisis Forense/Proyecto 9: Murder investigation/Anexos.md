@@ -166,7 +166,7 @@ Los peritos que se han participado en la investigación:
 
 Hallazgo 1. 
 
-| Ruta | Myvideos107.db |
+| Ruta | \E001SmartTVMMC\home\osmc\.kodi\userdata\Database\Myvideos107.db |
 | --- | --- |
 | Tamaño (Bytes) | 376.832 |
 | HASH SHA-256 | c9d82770546819b1020077c2064797fbb9e9c16ff7dffba60c03888713666ded |
@@ -187,14 +187,14 @@ Hallazgo 3.
 
 Hallazgo 4.
 
-| Ruta | history second page.png |
+| Ruta | \Alexa\history second page.png |
 | --- | --- |
 | Tamaño (Bytes) |  |
 | HASH SHA-256 | db61c918114ee0bbe816b414868822aebacf82f789b1ccc9ee195cf05b2371f7 |
 
 Hallazgo 5.
 
-| Ruta | 8.wav |
+| Ruta | \Alexa\8.wav |
 | --- | --- |
 | Tamaño (Bytes) | 186.284 bytes |
 | HASH SHA-256 | 7d66d7102cfdae7b6f792fd71f1fbd152620360bd241698ba50ac21b61ac4d80 |
