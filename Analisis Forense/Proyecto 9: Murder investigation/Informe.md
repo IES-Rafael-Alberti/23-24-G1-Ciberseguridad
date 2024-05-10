@@ -212,3 +212,18 @@ Este audio escuchado en Alexa, corresponde con este comando de voz encontrado en
 ![Untitled](img/Untitled%209.png)
 
 *Imagen: History first page de Alexa*
+
+# Limitaciones
+
+Se hace constar que a lo largo del proceso de análisis de cada adquisición proporcionada por la policía, no se han encontrado alguna limitación de relevancia que hayan dificultado la misma o la interpretación de los datos. Se han empleado los recursos y metodologías adecuados para examinar de manera meticulosa cada adquisición, asegurando así la integridad y exhaustividad de la investigación.
+
+# Conclusiones
+
+Se ha demostrado que el testimonio proporcionado por el esposo de la víctima, que afirmaba estar viendo una película en el momento del crimen, no parece ser sólida. Varias discrepancias surgieron durante la investigación:
+
+1. **La reproducción incompleta del video**: Uno de los videos en la base de datos de la televisión no había sido reproducido por completo, lo que sugiere que la película no fue vista en su totalidad como afirmaba el esposo.
+2. **Utilización de auriculares.** Según el esposo estaba usando auriculares bluetooth a la hora de ver la película, ya que la victima estaba reproduciendo música desde el dispositivo Alexa. No se hallaron indicios del uso de los mismos, por lo cual es otra discrepancia en su testimonio.
+3. **Hora de entrada a la casa**: La discrepancia en los registros de Alexa, donde se muestra un comando de encendido a las 14:45, contradice directamente el testimonio del esposo, quien afirma que llegó a casa a las 15:00.
+4. **Audios capturados por Alexa**: Durante el tiempo en que el esposo supuestamente estaba viendo la película, se registraron voces masculinas y femeninas en los archivos de audio de Alexa, lo que sugiere la presencia de otras personas en la casa en ese momento.
+
+Estas discrepancias plantean serias dudas sobre la veracidad del testimonio del esposo debido a los datos presentados anteriormente.
