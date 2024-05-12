@@ -6,7 +6,7 @@
 - Revision de Riesgos
 - Revision de Madurez
 - Creación de Informe
-- Revision de Informes TExtuales
+- Revision de Informes Textuales
 
 # 12/05/2024
 - Revisión del documento
